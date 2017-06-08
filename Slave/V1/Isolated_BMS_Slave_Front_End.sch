@@ -39,17 +39,17 @@ $EndDescr
 $Comp
 L CPH6347-TL-W Q?
 U 1 1 591B47DF
-P 2100 1300
-F 0 "Q?" V 2500 1300 60  0000 C CNN
-F 1 "CPH6347-TL-W" V 2400 1200 60  0000 C CNN
-F 2 "IC:TSOT-23-6" H 2200 400 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF" H 2200 300 60  0001 C CNN
-F 4 "Digikey" H 2200 900 60  0001 C CNN "Supplier"
-F 5 "CPH6347-TL-WOSCT-ND" H 2200 800 60  0001 C CNN "Supplier Part Number"
-F 6 "ON Semiconductor" H 2200 700 60  0001 C CNN "Manufacturer"
-F 7 "MOSFET P-CH 20V 6A CPH6" H 2200 600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "P-Channel 20V 6A (Ta) 1.6W (Ta) Surface Mount 6-CPH" H 2200 500 60  0001 C CNN "Description"
-	1    2100 1300
+P 2900 1300
+F 0 "Q?" V 3300 1300 60  0000 C CNN
+F 1 "CPH6347-TL-W" V 3200 1200 60  0000 C CNN
+F 2 "IC:TSOT-23-6" H 3000 400 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF" H 3000 300 60  0001 C CNN
+F 4 "Digikey" H 3000 900 60  0001 C CNN "Supplier"
+F 5 "CPH6347-TL-WOSCT-ND" H 3000 800 60  0001 C CNN "Supplier Part Number"
+F 6 "ON Semiconductor" H 3000 700 60  0001 C CNN "Manufacturer"
+F 7 "MOSFET P-CH 20V 6A CPH6" H 3000 600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "P-Channel 20V 6A (Ta) 1.6W (Ta) Surface Mount 6-CPH" H 3000 500 60  0001 C CNN "Description"
+	1    2900 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -68,7 +68,7 @@ F 8 "TERM BLOCK PCB 2POS 5.0MM GREEN" H 900 490 60  0001 C CNN "Description"
 	1    900  1300
 	1    0    0    -1  
 $EndComp
-Text Label 4000 1200 0    60   ~ 0
+Text Label 4800 1200 0    60   ~ 0
 CELL_Voltage
 Text Label 1100 1200 0    60   ~ 0
 CELL+
@@ -77,14 +77,14 @@ CELL-
 Text Notes 700  900  0    100  ~ 0
 Cell Input
 $Sheet
-S 4700 1000 1500 400 
+S 5500 1000 1500 400 
 U 591CDE38
 F0 "Power Supply Front End" 60
 F1 "power_supply_front_end.sch" 60
-F2 "Vin" I L 4700 1200 60 
-F3 "5V" O R 6200 1100 60 
-F4 "+VREF" O R 6200 1200 60 
-F5 "GND" O R 6200 1300 60 
+F2 "Vin" I L 5500 1200 60 
+F3 "5V" O R 7000 1100 60 
+F4 "+VREF" O R 7000 1200 60 
+F5 "GND" O R 7000 1300 60 
 $EndSheet
 Text Notes 1600 700  0    60   ~ 0
 Reverse polarity protection
@@ -226,21 +226,21 @@ BALANCE_PWM_MCU
 Text Label 1100 3500 0    60   ~ 0
 CELL_Voltage
 Wire Wire Line
-	1000 1200 1800 1200
+	1000 1200 2600 1200
 Wire Wire Line
 	1000 1300 1500 1300
 Wire Wire Line
-	1500 1300 1500 1800
+	1500 1300 1500 1900
 Wire Wire Line
-	1700 1100 1800 1100
-Connection ~ 1700 1200
+	2500 1100 2600 1100
+Connection ~ 2500 1200
 Wire Wire Line
-	1700 1300 1800 1300
+	2500 1300 2600 1300
 Wire Wire Line
-	1700 1400 1800 1400
-Connection ~ 1700 1300
+	2500 1400 2600 1400
+Connection ~ 2500 1300
 Wire Wire Line
-	3600 1200 4700 1200
+	4400 1200 5500 1200
 Wire Wire Line
 	6700 5300 6800 5300
 Wire Wire Line
@@ -312,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 3500 1900 3500
 Wire Wire Line
-	2100 1500 2100 1800
+	2900 1500 2900 1800
 Wire Wire Line
 	9100 2600 9600 2600
 Text Label 8700 2400 0    60   ~ 0
@@ -331,60 +331,46 @@ Text Label 8700 2100 0    60   ~ 0
 SDATA_MCU
 Wire Wire Line
 	8700 2100 9600 2100
-$Comp
-L PWR_FLAG #FLG?
-U 1 1 5922363D
-P 1300 1700
-F 0 "#FLG?" H 1300 1600 60  0001 C CNN
-F 1 "PWR_FLAG" H 1300 1900 30  0000 C CNN
-F 2 "" H 1300 1700 60  0000 C CNN
-F 3 "" H 1300 1700 60  0000 C CNN
-	1    1300 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1300 1700 1500 1700
-Connection ~ 1500 1700
-Wire Wire Line
-	1700 1100 1700 1400
+	2500 1100 2500 1400
 $Comp
 L CPH6347-TL-W Q?
 U 1 1 5938F00C
-P 3300 1300
-F 0 "Q?" V 3700 1300 60  0000 C CNN
-F 1 "CPH6347-TL-W" V 3600 1200 60  0000 C CNN
-F 2 "IC:TSOT-23-6" H 3400 400 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF" H 3400 300 60  0001 C CNN
-F 4 "Digikey" H 3400 900 60  0001 C CNN "Supplier"
-F 5 "CPH6347-TL-WOSCT-ND" H 3400 800 60  0001 C CNN "Supplier Part Number"
-F 6 "ON Semiconductor" H 3400 700 60  0001 C CNN "Manufacturer"
-F 7 "MOSFET P-CH 20V 6A CPH6" H 3400 600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "P-Channel 20V 6A (Ta) 1.6W (Ta) Surface Mount 6-CPH" H 3400 500 60  0001 C CNN "Description"
-	1    3300 1300
+P 4100 1300
+F 0 "Q?" V 4500 1300 60  0000 C CNN
+F 1 "CPH6347-TL-W" V 4400 1200 60  0000 C CNN
+F 2 "IC:TSOT-23-6" H 4200 400 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF" H 4200 300 60  0001 C CNN
+F 4 "Digikey" H 4200 900 60  0001 C CNN "Supplier"
+F 5 "CPH6347-TL-WOSCT-ND" H 4200 800 60  0001 C CNN "Supplier Part Number"
+F 6 "ON Semiconductor" H 4200 700 60  0001 C CNN "Manufacturer"
+F 7 "MOSFET P-CH 20V 6A CPH6" H 4200 600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "P-Channel 20V 6A (Ta) 1.6W (Ta) Surface Mount 6-CPH" H 4200 500 60  0001 C CNN "Description"
+	1    4100 1300
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	2400 1200 3000 1200
+	3200 1200 3800 1200
 Wire Wire Line
-	3600 1100 3700 1100
+	4400 1100 4500 1100
 Wire Wire Line
-	3700 1100 3700 1400
+	4500 1100 4500 1400
 Wire Wire Line
-	3700 1400 3600 1400
+	4500 1400 4400 1400
 Wire Wire Line
-	3600 1300 3700 1300
-Connection ~ 3700 1300
-Connection ~ 3700 1200
+	4400 1300 4500 1300
+Connection ~ 4500 1300
+Connection ~ 4500 1200
 Wire Wire Line
-	2700 1300 2700 1200
-Connection ~ 2700 1200
+	3500 1300 3500 1200
+Connection ~ 3500 1200
 Wire Wire Line
-	2100 1800 3300 1800
+	2900 1800 4100 1800
 Wire Wire Line
-	3300 1800 3300 1500
+	4100 1800 4100 1500
 Wire Wire Line
-	2700 1700 2700 1800
-Connection ~ 2700 1800
+	3500 1700 3500 1800
+Connection ~ 3500 1800
 Text HLabel 9600 2000 2    60   Input ~ 0
 PWR_ENABLE
 Text HLabel 9600 2200 2    60   Input ~ 0
@@ -577,76 +563,76 @@ AVDD
 $Comp
 L LTV-816S U?
 U 1 1 59395C7C
-P 3300 2200
-F 0 "U?" H 3300 2500 60  0000 C CNN
-F 1 "LTV-816S" H 3300 2000 60  0000 C CNN
-F 2 "IC:4-SMD" H 3300 1300 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf" H 3300 1200 60  0001 C CNN
-F 4 "Digikey" H 3300 1800 60  0001 C CNN "Supplier"
-F 5 "160-1361-5-ND" H 3300 1700 60  0001 C CNN "Supplier Part Number"
-F 6 "Lite-On Inc." H 3300 1600 60  0001 C CNN "Manufacturer"
-F 7 "LTV-816S" H 3300 1500 60  0001 C CNN "Manufacturer Part Number"
-F 8 "OPTOISOLATR 5KV TRANSISTOR 4-SMD" H 3300 1400 60  0001 C CNN "Description"
-	1    3300 2200
+P 4100 2200
+F 0 "U?" H 4100 2500 60  0000 C CNN
+F 1 "LTV-816S" H 4100 2000 60  0000 C CNN
+F 2 "IC:4-SMD" H 4100 1300 60  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf" H 4100 1200 60  0001 C CNN
+F 4 "Digikey" H 4100 1800 60  0001 C CNN "Supplier"
+F 5 "160-1361-5-ND" H 4100 1700 60  0001 C CNN "Supplier Part Number"
+F 6 "Lite-On Inc." H 4100 1600 60  0001 C CNN "Manufacturer"
+F 7 "LTV-816S" H 4100 1500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "OPTOISOLATR 5KV TRANSISTOR 4-SMD" H 4100 1400 60  0001 C CNN "Description"
+	1    4100 2200
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 2300 2900 2300
+	3800 2300 3700 2300
 Wire Wire Line
-	2900 2300 2900 2800
+	3700 2300 3700 2800
 Wire Wire Line
-	3000 2000 2900 2000
+	3800 2000 3700 2000
 Wire Wire Line
-	2900 2000 2900 1800
-Connection ~ 2900 1800
+	3700 2000 3700 1800
+Connection ~ 3700 1800
 $Comp
 L RC0805JR-07330RL R?
 U 1 1 59396188
-P 3900 2000
-F 0 "R?" H 3900 2080 60  0000 C CNN
-F 1 "RC0805JR-07330RL" H 3900 1700 50  0001 C CNN
-F 2 "Resistors:R0805" H 3900 1100 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3900 1050 30  0001 C CNN
-F 4 "Digikey" H 3900 1600 60  0001 C CNN "Supplier"
-F 5 "311-330ARCT-ND" H 3900 1500 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 3900 1400 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07330RL" H 3900 1300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 330 OHM 5% 1/8W 0805" H 3900 1200 60  0001 C CNN "Description"
-F 9 "330" H 3900 1930 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 4310 1920 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 3900 1860 50  0001 C CNN "Puissance (Watts)"
-	1    3900 2000
+P 4700 2000
+F 0 "R?" H 4700 2080 60  0000 C CNN
+F 1 "RC0805JR-07330RL" H 4700 1700 50  0001 C CNN
+F 2 "Resistors:R0805" H 4700 1100 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4700 1050 30  0001 C CNN
+F 4 "Digikey" H 4700 1600 60  0001 C CNN "Supplier"
+F 5 "311-330ARCT-ND" H 4700 1500 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4700 1400 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07330RL" H 4700 1300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 330 OHM 5% 1/8W 0805" H 4700 1200 60  0001 C CNN "Description"
+F 9 "330" H 4700 1930 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5110 1920 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4700 1860 50  0001 C CNN "Puissance (Watts)"
+	1    4700 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2300 4300 2300
+	4300 2300 5100 2300
 Wire Wire Line
-	3500 2000 3700 2000
-Text Label 4300 2000 0    60   ~ 0
+	4300 2000 4500 2000
+Text Label 5100 2000 0    60   ~ 0
 PWR_ENABLE
 Wire Wire Line
-	4300 2000 4100 2000
+	5100 2000 4900 2000
 $Comp
 L NSR0530HT1G D?
 U 1 1 5939743F
-P 2400 2200
-F 0 "D?" H 2350 2350 60  0000 C CNN
-F 1 "NSR0530HT1G" H 2400 2050 60  0000 C CNN
-F 2 "Diodes:SOD-323" H 2380 1200 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF" H 2380 1100 60  0001 C CNN
-F 4 "Digikey" H 2380 1700 60  0001 C CNN "Supplier"
-F 5 "NSR0530HT1GOSCT-ND" H 2380 1600 60  0001 C CNN "Supplier Part Number"
-F 6 "ON Semiconductor" H 2380 1500 60  0001 C CNN "Manufacturer"
-F 7 "NSR0530HT1G" H 2380 1400 60  0001 C CNN "Manufacturer Part Number"
-F 8 "DIODE SCHOTTKY 30V 500MA SOD323" H 2380 1300 60  0001 C CNN "Description"
-	1    2400 2200
+P 3200 2200
+F 0 "D?" H 3150 2350 60  0000 C CNN
+F 1 "NSR0530HT1G" H 3200 2050 60  0000 C CNN
+F 2 "Diodes:SOD-323" H 3180 1200 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF" H 3180 1100 60  0001 C CNN
+F 4 "Digikey" H 3180 1700 60  0001 C CNN "Supplier"
+F 5 "NSR0530HT1GOSCT-ND" H 3180 1600 60  0001 C CNN "Supplier Part Number"
+F 6 "ON Semiconductor" H 3180 1500 60  0001 C CNN "Manufacturer"
+F 7 "NSR0530HT1G" H 3180 1400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "DIODE SCHOTTKY 30V 500MA SOD323" H 3180 1300 60  0001 C CNN "Description"
+	1    3200 2200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2400 2400 2400 2600
+	3200 2400 3200 2600
 Wire Wire Line
-	2400 2100 2400 1800
-Connection ~ 2400 1800
+	3200 2100 3200 1800
+Connection ~ 3200 1800
 Text HLabel 9600 2500 2    60   Input ~ 0
 DATA_ENABLE
 Text Label 8700 2500 0    60   ~ 0
@@ -718,23 +704,21 @@ Wire Wire Line
 Wire Wire Line
 	4300 5300 4500 5300
 Wire Wire Line
-	6200 1100 6500 1100
-Text Label 6500 1100 0    60   ~ 0
+	7000 1100 7300 1100
+Text Label 7300 1100 0    60   ~ 0
 5V
-Text Label 6500 1200 0    60   ~ 0
+Text Label 7300 1200 0    60   ~ 0
 +VREF
 Wire Wire Line
-	6200 1200 6500 1200
+	7000 1200 7300 1200
 Text Label 5600 3600 0    60   ~ 0
 5V
-Text Label 1600 1800 0    60   ~ 0
+Text Label 1200 1900 0    60   ~ 0
+BGND
+Text Label 3400 2800 0    60   ~ 0
 BGND
 Wire Wire Line
-	1500 1800 1600 1800
-Text Label 2600 2800 0    60   ~ 0
-BGND
-Wire Wire Line
-	2900 2800 2600 2800
+	3700 2800 3400 2800
 Text Label 3500 5500 0    60   ~ 0
 BGND
 Wire Wire Line
@@ -746,8 +730,8 @@ Wire Wire Line
 Text Label 5400 5300 0    60   ~ 0
 BGND
 Wire Wire Line
-	6200 1300 6500 1300
-Text Label 6500 1300 0    60   ~ 0
+	7000 1300 7300 1300
+Text Label 7300 1300 0    60   ~ 0
 BGND
 Text Label 9100 2600 0    60   ~ 0
 AVDD
@@ -759,7 +743,7 @@ Text Label 7900 5700 0    60   ~ 0
 AGND
 Text Label 4500 3900 0    60   ~ 0
 BGND
-Text Label 4300 2300 0    60   ~ 0
+Text Label 5100 2300 0    60   ~ 0
 AGND
 Text Label 4300 5300 0    60   ~ 0
 5V
@@ -780,8 +764,8 @@ DATA_ENABLE
 Wire Wire Line
 	8200 5100 8300 5100
 Wire Wire Line
-	2400 2600 2900 2600
-Connection ~ 2900 2600
+	3200 2600 3700 2600
+Connection ~ 3700 2600
 $Sheet
 S 1900 3400 1100 300 
 U 591D23A3
@@ -802,22 +786,70 @@ AGND
 $Comp
 L RC0805JR-07470KL R?
 U 1 1 59397104
-P 2700 1500
-F 0 "R?" H 2700 1580 60  0000 C CNN
-F 1 "RC0805JR-07470KL" H 2700 1200 50  0001 C CNN
-F 2 "Resistors:R0805" H 2700 600 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2700 550 30  0001 C CNN
-F 4 "Digikey" H 2700 1100 60  0001 C CNN "Supplier"
-F 5 "311-470KARCT-ND" H 2700 1000 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 2700 900 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470KL" H 2700 800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470K OHM 5% 1/8W 0805" H 2700 700 60  0001 C CNN "Description"
-F 9 "470k" H 2700 1430 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 3110 1420 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 2700 1360 50  0001 C CNN "Puissance (Watts)"
-	1    2700 1500
+P 3500 1500
+F 0 "R?" H 3500 1580 60  0000 C CNN
+F 1 "RC0805JR-07470KL" H 3500 1200 50  0001 C CNN
+F 2 "Resistors:R0805" H 3500 600 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3500 550 30  0001 C CNN
+F 4 "Digikey" H 3500 1100 60  0001 C CNN "Supplier"
+F 5 "311-470KARCT-ND" H 3500 1000 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3500 900 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07470KL" H 3500 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470K OHM 5% 1/8W 0805" H 3500 700 60  0001 C CNN "Description"
+F 9 "470k" H 3500 1430 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3910 1420 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3500 1360 50  0001 C CNN "Puissance (Watts)"
+	1    3500 1500
 	0    -1   -1   0   
 $EndComp
-Text Notes 600  2100 0    60   ~ 0
-Mettre LED ROUGE \nqui allume si la cellule est inversé
+$Comp
+L 150080RS75000 D?
+U 1 1 593A1551
+P 2000 1900
+F 0 "D?" H 1950 2050 60  0000 C CNN
+F 1 "150080RS75000" H 2000 1700 60  0001 C CNN
+F 2 "Diodes:LED_0805_RED" H 2010 820 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 2010 720 60  0001 C CNN
+F 4 "Digikey" H 2010 1320 60  0001 C CNN "Supplier"
+F 5 "732-4984-1-ND" H 2010 1220 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 2010 1120 60  0001 C CNN "Manufacturer"
+F 7 "150080RS75000" H 2010 1020 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED RED CLEAR 0805 SMD" H 2010 920 60  0001 C CNN "Description"
+F 9 "RED" H 1900 1700 60  0000 C CNN "Color"
+F 10 "2V" H 2000 1500 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    2000 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1500 1900 1200 1900
+Wire Wire Line
+	2000 2200 2000 2100
+$Comp
+L RC0805JR-071KL R?
+U 1 1 593A2339
+P 2000 1500
+F 0 "R?" H 2000 1580 60  0000 C CNN
+F 1 "RC0805JR-071KL" H 2000 1200 50  0001 C CNN
+F 2 "Resistors:R0805" H 2000 600 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2000 550 30  0001 C CNN
+F 4 "Digikey" H 2000 1100 60  0001 C CNN "Supplier"
+F 5 "311-1.0KARCT-ND" H 2000 1000 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 2000 900 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-071KL" H 2000 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 1K OHM 5% 1/8W 0805" H 2000 700 60  0001 C CNN "Description"
+F 9 "1k" H 2000 1430 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 2410 1420 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 2000 1360 50  0001 C CNN "Puissance (Watts)"
+	1    2000 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 1300 2000 1200
+Connection ~ 2000 1200
+Wire Wire Line
+	2000 1700 2000 1800
+Text Label 1700 2200 0    60   ~ 0
+BGND
+Wire Wire Line
+	2000 2200 1700 2200
 $EndSCHEMATC

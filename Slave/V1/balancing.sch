@@ -41,21 +41,23 @@ Vin
 $Comp
 L BSS806NH6327XTSA1 Q?
 U 1 1 591DDB89
-P 4200 4200
-F 0 "Q?" H 3800 4400 60  0000 C CNN
-F 1 "BSS806NH6327XTSA1" H 3700 4300 60  0000 C CNN
-F 2 "IC:SOT-23-3" H 4350 3300 60  0001 C CNN
-F 3 "D" H 4350 3200 60  0001 C CNN
-F 4 "Digikey" H 4350 3800 60  0001 C CNN "Supplier"
-F 5 "BSS806NH6327XTSA1CT-ND" H 4350 3700 60  0001 C CNN "Supplier Part Number"
-F 6 "Infineon Technologies" H 4350 3600 60  0001 C CNN "Manufacturer"
-F 7 "BSS806NH6327XTSA1" H 4300 3500 60  0001 C CNN "Manufacturer Part Number"
-F 8 "MOSFET N-CH 20V 2.3A SOT23" H 4350 3400 60  0001 C CNN "Description"
-	1    4200 4200
+P 4200 4300
+F 0 "Q?" H 3800 4500 60  0000 C CNN
+F 1 "BSS806NH6327XTSA1" H 3700 4400 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 4350 3400 60  0001 C CNN
+F 3 "D" H 4350 3300 60  0001 C CNN
+F 4 "Digikey" H 4350 3900 60  0001 C CNN "Supplier"
+F 5 "BSS806NH6327XTSA1CT-ND" H 4350 3800 60  0001 C CNN "Supplier Part Number"
+F 6 "Infineon Technologies" H 4350 3700 60  0001 C CNN "Manufacturer"
+F 7 "BSS806NH6327XTSA1" H 4300 3600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "MOSFET N-CH 20V 2.3A SOT23" H 4350 3500 60  0001 C CNN "Description"
+	1    4200 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 5400 4300 4500
+	4300 4600 4300 5300
+Wire Wire Line
+	4300 5300 4300 5500
 $Comp
 L CPH6347-TL-W Q?
 U 1 1 591DE34E
@@ -121,7 +123,9 @@ F 11 "50V" H 6050 2710 50  0001 C CNN "Voltage Rated (Volt)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 2900 5900 2900
+	5600 2900 5800 2900
+Wire Wire Line
+	5800 2900 5900 2900
 Wire Wire Line
 	6200 2900 6400 2900
 Wire Wire Line
@@ -134,7 +138,9 @@ Connection ~ 5800 2900
 Wire Wire Line
 	6700 3800 7100 3800
 Wire Wire Line
-	7100 3800 7100 4400
+	7100 3800 7100 4200
+Wire Wire Line
+	7100 4200 7100 4400
 $Comp
 L RC0805JR-07470KL R?
 U 1 1 591DEB54
@@ -157,13 +163,17 @@ $EndComp
 Wire Wire Line
 	4400 2500 4400 2200
 Wire Wire Line
-	4200 2200 5200 2200
+	4200 2200 4400 2200
+Wire Wire Line
+	4400 2200 5200 2200
 Wire Wire Line
 	5200 2200 5200 2300
 Wire Wire Line
 	4700 2800 5200 2800
 Wire Wire Line
-	5200 2700 5200 3800
+	5200 2700 5200 2800
+Wire Wire Line
+	5200 2800 5200 3800
 Connection ~ 5200 2800
 Connection ~ 4400 2200
 Wire Wire Line
@@ -190,11 +200,19 @@ F 11 "3W" H 4300 3460 50  0000 C CNN "Puissance (Watts)"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4300 3100 4300 3400
+	4300 3100 4300 3200
+Wire Wire Line
+	4300 3200 4300 3300
+Wire Wire Line
+	4300 3300 4300 3400
 Wire Wire Line
 	4400 3100 4400 3200
 Wire Wire Line
-	4300 3200 4600 3200
+	4300 3200 4400 3200
+Wire Wire Line
+	4400 3200 4500 3200
+Wire Wire Line
+	4500 3200 4600 3200
 Connection ~ 4300 3200
 Wire Wire Line
 	4500 3200 4500 3100
@@ -205,74 +223,78 @@ Connection ~ 4500 3200
 Wire Wire Line
 	4300 3800 4300 3900
 Wire Wire Line
-	3200 4200 4000 4200
+	4300 3900 4300 4000
+Wire Wire Line
+	3200 4300 3700 4300
+Wire Wire Line
+	3700 4300 4000 4300
 $Comp
 L RC0805JR-076K8L R?
 U 1 1 591DF8F9
-P 3000 4200
-F 0 "R?" H 3000 4280 60  0000 C CNN
-F 1 "RC0805JR-076K8L" H 3000 3900 50  0001 C CNN
-F 2 "Resistors:R0805" H 3000 3300 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3000 3250 30  0001 C CNN
-F 4 "Digikey" H 3000 3800 60  0001 C CNN "Supplier"
-F 5 "311-6.8KARCT-ND" H 3000 3700 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 3000 3600 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-076K8L" H 3000 3500 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 6.8K OHM 5% 1/8W 0805" H 3000 3400 60  0001 C CNN "Description"
-F 9 "6.8k" H 3000 4130 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 3410 4120 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 3000 4060 50  0001 C CNN "Puissance (Watts)"
-	1    3000 4200
+P 3000 4300
+F 0 "R?" H 3000 4380 60  0000 C CNN
+F 1 "RC0805JR-076K8L" H 3000 4000 50  0001 C CNN
+F 2 "Resistors:R0805" H 3000 3400 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3000 3350 30  0001 C CNN
+F 4 "Digikey" H 3000 3900 60  0001 C CNN "Supplier"
+F 5 "311-6.8KARCT-ND" H 3000 3800 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3000 3700 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-076K8L" H 3000 3600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 6.8K OHM 5% 1/8W 0805" H 3000 3500 60  0001 C CNN "Description"
+F 9 "6.8k" H 3000 4230 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3410 4220 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3000 4160 50  0001 C CNN "Puissance (Watts)"
+	1    3000 4300
 	1    0    0    -1  
 $EndComp
-Text HLabel 2600 4200 0    60   Input ~ 0
+Text HLabel 2600 4300 0    60   Input ~ 0
 BALANCE_PWM
 Wire Wire Line
-	2600 4200 2800 4200
+	2600 4300 2800 4300
 $Comp
 L MMBZ12VALT1G D?
 U 1 1 591DFFE8
-P 3700 4500
-F 0 "D?" H 3700 4700 60  0000 C CNN
-F 1 "MMBZ12VALT1G" H 3400 4300 60  0000 C CNN
-F 2 "IC:SOT-23-3" H 3710 3310 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF" H 3710 3210 60  0001 C CNN
-F 4 "Digikey" H 3710 3810 60  0001 C CNN "Supplier"
-F 5 "MMBZ12VALT1GOSCT-ND" H 3710 3710 60  0001 C CNN "Supplier Part Number"
-F 6 "ON Semiconductor" H 3710 3610 60  0001 C CNN "Manufacturer"
-F 7 "MMBZ12VALT1G" H 3710 3510 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TVS DIODE 8.5VWM 17VC SOT23" H 3710 3410 60  0001 C CNN "Description"
-F 9 "11.4V" H 3700 4250 60  0001 C CNN "Voltage - Breakdown (Min)"
-	1    3700 4500
+P 3700 4600
+F 0 "D?" H 3700 4800 60  0000 C CNN
+F 1 "MMBZ12VALT1G" H 3400 4400 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 3710 3410 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF" H 3710 3310 60  0001 C CNN
+F 4 "Digikey" H 3710 3910 60  0001 C CNN "Supplier"
+F 5 "MMBZ12VALT1GOSCT-ND" H 3710 3810 60  0001 C CNN "Supplier Part Number"
+F 6 "ON Semiconductor" H 3710 3710 60  0001 C CNN "Manufacturer"
+F 7 "MMBZ12VALT1G" H 3710 3610 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TVS DIODE 8.5VWM 17VC SOT23" H 3710 3510 60  0001 C CNN "Description"
+F 9 "11.4V" H 3700 4350 60  0001 C CNN "Voltage - Breakdown (Min)"
+	1    3700 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L MMBZ12VALT1G D?
 U 1 1 591E0165
-P 3700 5000
-F 0 "D?" H 3600 4800 60  0000 C CNN
-F 1 "MMBZ12VALT1G" H 3700 4850 60  0001 C CNN
-F 2 "IC:SOT-23-3" H 3710 3810 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF" H 3710 3710 60  0001 C CNN
-F 4 "Digikey" H 3710 4310 60  0001 C CNN "Supplier"
-F 5 "MMBZ12VALT1GOSCT-ND" H 3710 4210 60  0001 C CNN "Supplier Part Number"
-F 6 "ON Semiconductor" H 3710 4110 60  0001 C CNN "Manufacturer"
-F 7 "MMBZ12VALT1G" H 3710 4010 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TVS DIODE 8.5VWM 17VC SOT23" H 3710 3910 60  0001 C CNN "Description"
-F 9 "11.4V" H 3700 4750 60  0001 C CNN "Voltage - Breakdown (Min)"
-	1    3700 5000
+P 3700 5100
+F 0 "D?" H 3600 4900 60  0000 C CNN
+F 1 "MMBZ12VALT1G" H 3700 4950 60  0001 C CNN
+F 2 "IC:SOT-23-3" H 3710 3910 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF" H 3710 3810 60  0001 C CNN
+F 4 "Digikey" H 3710 4410 60  0001 C CNN "Supplier"
+F 5 "MMBZ12VALT1GOSCT-ND" H 3710 4310 60  0001 C CNN "Supplier Part Number"
+F 6 "ON Semiconductor" H 3710 4210 60  0001 C CNN "Manufacturer"
+F 7 "MMBZ12VALT1G" H 3710 4110 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TVS DIODE 8.5VWM 17VC SOT23" H 3710 4010 60  0001 C CNN "Description"
+F 9 "11.4V" H 3700 4850 60  0001 C CNN "Voltage - Breakdown (Min)"
+	1    3700 5100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 4700 3700 4800
+	3700 4800 3700 4900
 Wire Wire Line
-	3700 4400 3700 4200
-Connection ~ 3700 4200
+	3700 4500 3700 4300
+Connection ~ 3700 4300
 Wire Wire Line
-	3700 5100 3700 5200
+	3700 5200 3700 5300
 Wire Wire Line
-	3700 5200 4300 5200
-Connection ~ 4300 5200
+	3700 5300 4300 5300
+Connection ~ 4300 5300
 $Comp
 L Resistor_Generic R?
 U 1 1 591E091E
@@ -317,7 +339,9 @@ Wire Wire Line
 	7600 4200 7100 4200
 Connection ~ 7100 4200
 Wire Wire Line
-	7600 3500 7600 3700
+	7600 3500 7600 3600
+Wire Wire Line
+	7600 3600 7600 3700
 Connection ~ 7600 3600
 Text HLabel 7400 3000 0    60   Input ~ 0
 Vin
@@ -326,21 +350,68 @@ Wire Wire Line
 Wire Wire Line
 	7600 3000 7600 3100
 Text Notes 6300 2700 0    60   ~ 0
-Circuit de protection pour\nque le P-MOSFET soit OFF \nlorsque Vin < 3.6V \n(Resistance a calculer)\n
+Circuit de protection pour\nque le P-MOSFET soit OFF \nlorsque Vin < 3.8V \n
 Text Label 6900 4400 0    60   ~ 0
 GND
 Wire Wire Line
 	7100 4400 6900 4400
-Text Label 4000 5400 0    60   ~ 0
+Text Label 4000 5500 0    60   ~ 0
 GND
 Wire Wire Line
-	4000 5400 4300 5400
+	4300 5500 4000 5500
 Text Label 7400 4700 0    60   ~ 0
 GND
 Wire Wire Line
 	7600 4700 7400 4700
 Text HLabel 7600 4700 2    60   Input ~ 0
 GND
-Text Notes 2700 3500 0    60   ~ 0
-Mettre LED en || avec la load
+$Comp
+L RC0805JR-071KL R?
+U 1 1 593A32C1
+P 3800 3300
+F 0 "R?" H 3800 3380 60  0000 C CNN
+F 1 "RC0805JR-071KL" H 3800 3000 50  0001 C CNN
+F 2 "Resistors:R0805" H 3800 2400 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3800 2350 30  0001 C CNN
+F 4 "Digikey" H 3800 2900 60  0001 C CNN "Supplier"
+F 5 "311-1.0KARCT-ND" H 3800 2800 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3800 2700 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-071KL" H 3800 2600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 1K OHM 5% 1/8W 0805" H 3800 2500 60  0001 C CNN "Description"
+F 9 "1k" H 3800 3230 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 4210 3220 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3800 3160 50  0001 C CNN "Puissance (Watts)"
+	1    3800 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 150080RS75000 D?
+U 1 1 593A3338
+P 3400 3700
+F 0 "D?" H 3350 3850 60  0000 C CNN
+F 1 "150080RS75000" H 3400 3500 60  0001 C CNN
+F 2 "Diodes:LED_0805_RED" H 3410 2620 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 3410 2520 60  0001 C CNN
+F 4 "Digikey" H 3410 3120 60  0001 C CNN "Supplier"
+F 5 "732-4984-1-ND" H 3410 3020 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 3410 2920 60  0001 C CNN "Manufacturer"
+F 7 "150080RS75000" H 3410 2820 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED RED CLEAR 0805 SMD" H 3410 2720 60  0001 C CNN "Description"
+F 9 "RED" H 3300 3500 60  0000 C CNN "Color"
+F 10 "2V" H 3400 3300 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    3400 3700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3400 3500 3400 3300
+Wire Wire Line
+	3400 3300 3600 3300
+Wire Wire Line
+	4000 3300 4300 3300
+Connection ~ 4300 3300
+Wire Wire Line
+	3400 3800 3400 3900
+Wire Wire Line
+	3400 3900 4300 3900
+Connection ~ 4300 3900
 $EndSCHEMATC
