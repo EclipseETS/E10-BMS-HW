@@ -1,0 +1,288 @@
+EESchema Schematic File Version 2
+LIBS:ADC
+LIBS:Amplifiers
+LIBS:Battery
+LIBS:Capacitors
+LIBS:Comparators
+LIBS:Connectors
+LIBS:Crystals
+LIBS:DAC
+LIBS:Diodes
+LIBS:Fuses
+LIBS:Inductors
+LIBS:Interface
+LIBS:Isolators
+LIBS:STMicroelectronics
+LIBS:PMIC
+LIBS:Power_Port
+LIBS:Relays
+LIBS:Resistors
+LIBS:Sensors
+LIBS:Switches
+LIBS:Transformers
+LIBS:Transistors
+LIBS:Slave-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp "Eclipse Solar Car"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 9000 1300 1300 5200
+U 58F25814
+F0 "STM32F446" 60
+F1 "STM32F446.sch" 60
+F2 "PA4" I L 9000 1800 60 
+F3 "PA0" I L 9000 1400 60 
+F4 "PA1" I L 9000 1500 60 
+F5 "VBat" I L 9000 6400 60 
+F6 "PC0" I L 9000 6000 60 
+F7 "PC1" I L 9000 5900 60 
+F8 "PC2" I L 9000 5800 60 
+F9 "PC3" I L 9000 5700 60 
+F10 "PC4" I L 9000 5600 60 
+F11 "PC5" I L 9000 5500 60 
+F12 "PB0" I L 9000 4500 60 
+F13 "PB1" I L 9000 4400 60 
+F14 "PB2" I L 9000 4300 60 
+F15 "PB10" I L 9000 3500 60 
+F16 "PB12" I L 9000 3400 60 
+F17 "PB13" I L 9000 3300 60 
+F18 "PB14" I L 9000 3200 60 
+F19 "PB15" I L 9000 3100 60 
+F20 "PC6" I L 9000 5400 60 
+F21 "PC7" I L 9000 5300 60 
+F22 "PC8" I L 9000 5200 60 
+F23 "PC9" I L 9000 5100 60 
+F24 "PA8" I L 9000 2200 60 
+F25 "PA9" I L 9000 2300 60 
+F26 "PA10" I L 9000 2400 60 
+F27 "PA11" I L 9000 2500 60 
+F28 "PA12" O L 9000 2600 60 
+F29 "PA15" I L 9000 2900 60 
+F30 "PC10" I L 9000 5000 60 
+F31 "PC11" I L 9000 4900 60 
+F32 "PC12" I L 9000 4800 60 
+F33 "PD2" I L 9000 6200 60 
+F34 "PB4" I L 9000 4100 60 
+F35 "PB5" I L 9000 4000 60 
+F36 "PB6" I L 9000 3900 60 
+F37 "PB7" I L 9000 3800 60 
+F38 "BOOT0" I L 9000 6300 60 
+F39 "PB8" I L 9000 3700 60 
+F40 "PB9" I L 9000 3600 60 
+F41 "PA5" O L 9000 1900 60 
+F42 "PA6" O L 9000 2000 60 
+F43 "PA7" O L 9000 2100 60 
+F44 "NRST" I L 9000 6100 60 
+$EndSheet
+$Sheet
+S 9100 700  1000 200 
+U 58F590C0
+F0 "Power Supply" 60
+F1 "Power Supply.sch" 60
+$EndSheet
+$Sheet
+S 6900 2400 600  300 
+U 58F7D3A7
+F0 "CAN1" 60
+F1 "CAN.sch" 60
+F2 "TXD" I R 7500 2600 60 
+F3 "RXD" O R 7500 2500 60 
+$EndSheet
+Wire Wire Line
+	9000 2600 7500 2600
+Wire Wire Line
+	7500 2500 9000 2500
+Text Label 8700 1400 0    60   ~ 0
+PA0
+Text Label 8700 1500 0    60   ~ 0
+PA1
+Text Label 8700 1800 0    60   ~ 0
+PA4
+Text Label 8700 1900 0    60   ~ 0
+PA5
+Text Label 8700 2000 0    60   ~ 0
+PA6
+Text Label 8700 2100 0    60   ~ 0
+PA7
+Text Label 8700 2200 0    60   ~ 0
+PA8
+Text Label 8700 2300 0    60   ~ 0
+PA9
+Text Label 8700 2400 0    60   ~ 0
+PA10
+Text Label 8700 2500 0    60   ~ 0
+PA11
+Text Label 8700 2600 0    60   ~ 0
+PA12
+Text Label 8700 2900 0    60   ~ 0
+PA15
+Text Label 8700 3100 0    60   ~ 0
+PB15
+Text Label 8700 3200 0    60   ~ 0
+PB14
+Text Label 8700 3300 0    60   ~ 0
+PB13
+Text Label 8700 3400 0    60   ~ 0
+PB12
+Text Label 8700 3500 0    60   ~ 0
+PB10
+Text Label 8700 3600 0    60   ~ 0
+PB9
+Text Label 8700 3700 0    60   ~ 0
+PB8
+Text Label 8700 3800 0    60   ~ 0
+PB7
+Text Label 8700 3900 0    60   ~ 0
+PB6
+Text Label 8700 4000 0    60   ~ 0
+PB5
+Text Label 8700 4100 0    60   ~ 0
+PB4
+Text Label 8700 4300 0    60   ~ 0
+PB2
+Text Label 8700 4400 0    60   ~ 0
+PB1
+Text Label 8700 4500 0    60   ~ 0
+PB0
+Text Label 8700 4800 0    60   ~ 0
+PC12
+Text Label 8700 4900 0    60   ~ 0
+PC11
+Text Label 8700 5000 0    60   ~ 0
+PC10
+Text Label 8700 5100 0    60   ~ 0
+PC9
+Text Label 8700 5200 0    60   ~ 0
+PC8
+Text Label 8700 5300 0    60   ~ 0
+PC7
+Text Label 8700 5400 0    60   ~ 0
+PC6
+Text Label 8700 5500 0    60   ~ 0
+PC5
+Text Label 8700 5600 0    60   ~ 0
+PC4
+Text Label 8700 5700 0    60   ~ 0
+PC3
+Text Label 8700 5800 0    60   ~ 0
+PC2
+Text Label 8700 5900 0    60   ~ 0
+PC1
+Text Label 8700 6000 0    60   ~ 0
+PC0
+Text Label 8700 6200 0    60   ~ 0
+PD2
+Text Label 8700 6300 0    60   ~ 0
+BOOT0
+Text Label 8700 6400 0    60   ~ 0
+VBat
+Text Label 8700 6100 0    60   ~ 0
+NRST
+Wire Wire Line
+	8700 1400 9000 1400
+Wire Wire Line
+	8700 1500 9000 1500
+Wire Wire Line
+	8700 1800 9000 1800
+Wire Wire Line
+	8700 1900 9000 1900
+Wire Wire Line
+	8700 2000 9000 2000
+Wire Wire Line
+	8700 2100 9000 2100
+Wire Wire Line
+	8700 2200 9000 2200
+Wire Wire Line
+	8700 2300 9000 2300
+Wire Wire Line
+	8700 2400 9000 2400
+Wire Wire Line
+	8700 2900 9000 2900
+Wire Wire Line
+	8700 3100 9000 3100
+Wire Wire Line
+	8700 3200 9000 3200
+Wire Wire Line
+	8700 3300 9000 3300
+Wire Wire Line
+	9000 3400 8700 3400
+Wire Wire Line
+	8700 3500 9000 3500
+Wire Wire Line
+	8700 3600 9000 3600
+Wire Wire Line
+	8700 3700 9000 3700
+Wire Wire Line
+	8700 3800 9000 3800
+Wire Wire Line
+	8700 3900 9000 3900
+Wire Wire Line
+	8700 4000 9000 4000
+Wire Wire Line
+	9000 4100 8700 4100
+Wire Wire Line
+	8700 4300 9000 4300
+Wire Wire Line
+	8700 4400 9000 4400
+Wire Wire Line
+	8700 4500 9000 4500
+Wire Wire Line
+	8700 4800 9000 4800
+Wire Wire Line
+	8700 4900 9000 4900
+Wire Wire Line
+	8700 5000 9000 5000
+Wire Wire Line
+	8700 5100 9000 5100
+Wire Wire Line
+	9000 5200 8700 5200
+Wire Wire Line
+	8700 5300 9000 5300
+Wire Wire Line
+	8700 5400 9000 5400
+Wire Wire Line
+	8700 5500 9000 5500
+Wire Wire Line
+	8700 5600 9000 5600
+Wire Wire Line
+	8700 5700 9000 5700
+Wire Wire Line
+	8700 5800 9000 5800
+Wire Wire Line
+	8700 5900 9000 5900
+Wire Wire Line
+	8700 6000 9000 6000
+Wire Wire Line
+	8700 6100 9000 6100
+Wire Wire Line
+	8700 6200 9000 6200
+Wire Wire Line
+	8700 6300 9000 6300
+Wire Wire Line
+	8700 6400 9000 6400
+$Sheet
+S 800  900  1800 900 
+U 5938E2BF
+F0 "Module 1" 60
+F1 "Isolated_BMS_Slave_Front_End.sch" 60
+F2 "PWR_ENABLE" I R 2600 1100 60 
+F3 "SCLK_MCU" I R 2600 1200 60 
+F4 "CS_MCU" I R 2600 1400 60 
+F5 "BALANCE_PWM" I R 2600 1600 60 
+F6 "SDATA_MCU" O R 2600 1300 60 
+F7 "MCU_GND" I R 2600 1700 60 
+F8 "DATA_ENABLE" I R 2600 1500 60 
+F9 "AVDD" I R 2600 1000 60 
+$EndSheet
+$EndSCHEMATC
