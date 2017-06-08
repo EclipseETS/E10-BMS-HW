@@ -341,4 +341,6 @@ Wire Wire Line
 	7600 4700 7400 4700
 Text HLabel 7600 4700 2    60   Input ~ 0
 GND
+Text Notes 2700 3500 0    60   ~ 0
+Mettre LED en || avec la load
 $EndSCHEMATC

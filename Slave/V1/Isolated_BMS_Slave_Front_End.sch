@@ -818,4 +818,6 @@ F 11 "1/8W" H 2700 1360 50  0001 C CNN "Puissance (Watts)"
 	1    2700 1500
 	0    -1   -1   0   
 $EndComp
+Text Notes 600  2100 0    60   ~ 0
+Mettre LED ROUGE \nqui allume si la cellule est inversé
 $EndSCHEMATC
