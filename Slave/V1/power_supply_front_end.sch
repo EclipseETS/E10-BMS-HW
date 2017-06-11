@@ -107,17 +107,6 @@ F 11 "16V" H 3850 1910 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BGND #PWR060
-U 1 1 591BCD04
-P 3900 2500
-F 0 "#PWR060" H 3900 2330 50  0001 C CNN
-F 1 "BGND" H 3900 2400 50  0000 C CNN
-F 2 "" H 3900 2600 60  0000 C CNN
-F 3 "" H 3880 2410 60  0000 C CNN
-	1    3900 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L NSR0530HT1G D601
 U 1 1 591BD4B8
 P 5700 1800
@@ -151,17 +140,6 @@ F 10 "±20%" H 6510 2280 50  0001 C CNN "Tolerance (%)"
 F 11 "16V" H 6250 2210 50  0001 C CNN "Voltage Rated (Volt)"
 	1    6300 2400
 	0    -1   -1   0   
-$EndComp
-$Comp
-L BGND #PWR061
-U 1 1 591BE78A
-P 6300 2800
-F 0 "#PWR061" H 6300 2630 50  0001 C CNN
-F 1 "BGND" H 6300 2700 50  0000 C CNN
-F 2 "" H 6300 2900 60  0000 C CNN
-F 3 "" H 6280 2710 60  0000 C CNN
-	1    6300 2800
-	1    0    0    -1  
 $EndComp
 $Comp
 L 885012107014 C605
@@ -221,17 +199,6 @@ F 11 "16V" H 6750 2210 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BGND #PWR062
-U 1 1 591C023A
-P 6800 2800
-F 0 "#PWR062" H 6800 2630 50  0001 C CNN
-F 1 "BGND" H 6800 2700 50  0000 C CNN
-F 2 "" H 6800 2900 60  0000 C CNN
-F 3 "" H 6780 2710 60  0000 C CNN
-	1    6800 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L RC0805JR-071ML R601
 U 1 1 591C2F0F
 P 5900 2600
@@ -283,7 +250,7 @@ Wire Wire Line
 	5400 2700 5200 2700
 Connection ~ 4400 1800
 Wire Wire Line
-	3900 2300 3900 2400
+	3900 2300 3900 2500
 Wire Wire Line
 	3900 2000 3900 1800
 Connection ~ 3900 1800
@@ -297,7 +264,7 @@ Wire Wire Line
 	6300 2300 6300 1800
 Connection ~ 6300 1800
 Wire Wire Line
-	6300 2600 6300 2700
+	6300 2600 6300 2800
 Wire Wire Line
 	3200 4800 4200 4800
 Wire Wire Line
@@ -328,7 +295,7 @@ Wire Wire Line
 	6800 2300 6800 1800
 Connection ~ 6800 1800
 Wire Wire Line
-	6800 2600 6800 2700
+	6800 2800 6800 2600
 Wire Wire Line
 	5900 2400 5900 1800
 Connection ~ 5900 1800
@@ -382,14 +349,14 @@ F 11 "1/8W" H 5200 4960 50  0001 C CNN "Puissance (Watts)"
 	1    5200 5100
 	0    -1   -1   0   
 $EndComp
-Text Label 7000 1800 0    60   ~ 0
-5V
+Text Label 6900 1800 0    60   ~ 0
+5V_OUT
 Text Label 6400 4800 0    60   ~ 0
 +VREF
 Text Label 3200 4800 0    60   ~ 0
-5V
+5V_OUT
 Text HLabel 7300 1800 2    60   Output ~ 0
-5V
+VOUT
 Text HLabel 6800 4800 2    60   Output ~ 0
 +VREF
 Text Label 5600 3500 0    60   ~ 0
@@ -455,4 +422,13 @@ F 10 "140mA" H 4890 1680 50  0000 C CNN "Current Rating (Ampere)"
 	1    4900 1800
 	1    0    0    -1  
 $EndComp
+Text Label 6000 2800 0    60   ~ 0
+GND
+Wire Wire Line
+	6000 2800 6800 2800
+Connection ~ 6300 2800
+Wire Wire Line
+	3900 2500 3700 2500
+Text Label 3700 2500 0    60   ~ 0
+GND
 $EndSCHEMATC

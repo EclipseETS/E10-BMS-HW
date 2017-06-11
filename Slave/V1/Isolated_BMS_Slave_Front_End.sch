@@ -66,9 +66,9 @@ U 591CDE38
 F0 "Power Supply Front End" 60
 F1 "power_supply_front_end.sch" 60
 F2 "Vin" I L 5500 1200 60 
-F3 "5V" O R 7000 1100 60 
-F4 "+VREF" O R 7000 1200 60 
-F5 "GND" O R 7000 1300 60 
+F3 "+VREF" O R 7000 1200 60 
+F4 "GND" O R 7000 1300 60 
+F5 "VOUT" O R 7000 1100 60 
 $EndSheet
 Text Notes 3100 800  0    60   ~ 0
 Reverse polarity protection\n+\nSwitch
@@ -231,8 +231,6 @@ Wire Wire Line
 	7300 4100 7300 3900
 Connection ~ 7300 3900
 Wire Wire Line
-	5600 3600 5600 3900
-Wire Wire Line
 	5500 3900 5700 3900
 Connection ~ 5600 3900
 Wire Wire Line
@@ -351,7 +349,7 @@ SCLK_MCU
 Text HLabel 9600 2300 2    60   Input ~ 0
 CS_MCU
 Text HLabel 9600 2400 2    60   Input ~ 0
-BALANCE_PWM
+BALANCING_PWM
 Text HLabel 9600 2100 2    60   Output ~ 0
 SDATA_MCU
 $Comp
@@ -622,13 +620,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 1100 7300 1100
 Text Label 7300 1100 0    60   ~ 0
-5V
+BVDD
 Text Label 7300 1200 0    60   ~ 0
 +VREF
 Wire Wire Line
 	7000 1200 7300 1200
 Text Label 5600 3600 0    60   ~ 0
-5V
+BVDD
 Text Label 1200 1900 0    60   ~ 0
 BGND
 Text Label 3400 2800 0    60   ~ 0
@@ -662,7 +660,7 @@ BGND
 Text Label 5100 2300 0    60   ~ 0
 AGND
 Text Label 4300 5300 0    60   ~ 0
-5V
+BVDD
 Text Label 3100 4400 0    60   ~ 0
 +VREF
 Wire Wire Line
@@ -843,4 +841,6 @@ F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 800 500 60  0001 C CNN "Description"
 	1    800  1300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5600 3600 5600 3900
 $EndSCHEMATC
