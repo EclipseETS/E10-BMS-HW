@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 16
+Sheet 4 36
 Title "Can Bus Template"
 Date ""
 Rev ""

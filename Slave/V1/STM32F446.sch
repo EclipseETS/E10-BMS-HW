@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 16
+Sheet 2 36
 Title "STM32F446RE"
 Date ""
 Rev ""
