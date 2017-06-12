@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 33 36
+Sheet 5 36
 Title "Isolated BMS Slave Front End"
 Date ""
 Rev "0"

@@ -36,7 +36,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3200 3250 0    60   ~ 0
+Text Notes 2600 3250 0    60   ~ 0
 12V CAN
 Text Notes 5175 3225 0    60   ~ 0
 5V (SMPS)
@@ -67,117 +67,116 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG030
 U 1 1 58F88B3E
-P 5100 3600
-F 0 "#FLG030" H 5100 3500 60  0001 C CNN
-F 1 "PWR_FLAG" H 5100 3800 30  0000 C CNN
-F 2 "" H 5100 3600 60  0000 C CNN
-F 3 "" H 5100 3600 60  0000 C CNN
-	1    5100 3600
+P 5000 3600
+F 0 "#FLG030" H 5000 3500 60  0001 C CNN
+F 1 "PWR_FLAG" H 5000 3800 30  0000 C CNN
+F 2 "" H 5000 3600 60  0000 C CNN
+F 3 "" H 5000 3600 60  0000 C CNN
+	1    5000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 5V #PWR031
 U 1 1 58F88B47
-P 4900 3600
-F 0 "#PWR031" H 4900 3450 50  0001 C CNN
-F 1 "5V" H 4890 3740 50  0000 C CNN
-F 2 "" H 4900 3600 60  0000 C CNN
-F 3 "" H 4900 3600 60  0000 C CNN
-	1    4900 3600
+P 4800 3600
+F 0 "#PWR031" H 4800 3450 50  0001 C CNN
+F 1 "5V" H 4790 3740 50  0000 C CNN
+F 2 "" H 4800 3600 60  0000 C CNN
+F 3 "" H 4800 3600 60  0000 C CNN
+	1    4800 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L OKI-78SR-5/1.5-W36-C U301
 U 1 1 58F88E7E
-P 4200 3700
-F 0 "U301" H 4200 3850 50  0000 C CNN
-F 1 "OKI-78SR-5/1.5-W36-C" H 4200 2900 60  0001 C CNN
-F 2 "Assembly:OKI-78SR_Vertical" H 4200 1575 60  0001 C CNN
-F 3 "http://power.murata.com/data/power/oki-78sr.pdf" H 4200 1475 60  0001 C CNN
-F 4 "Digikey" H 4200 2075 60  0001 C CNN "Supplier"
-F 5 "811-2196-5-ND" H 4200 1975 60  0001 C CNN "Supplier Part Number"
-F 6 "Murata Power Solutions Inc." H 4200 1875 60  0001 C CNN "Manufacturer"
-F 7 "OKI-78SR-5/1.5-W36H-C" H 4200 1775 60  0001 C CNN "Manufacturer Part Number"
-F 8 "DC/DC CONVERTER 5V 8W" H 4200 1675 60  0001 C CNN "Description"
-F 9 "7V" H 4190 2785 50  0001 C CNN "Voltage - Input (Min)"
-F 10 "36V" H 4190 2705 50  0001 C CNN "Voltage - Input (Max)"
-F 11 "5V" H 4190 2615 50  0001 C CNN "Voltage - Output (Min/Fixed)"
-F 12 "1.5A" H 4205 2400 50  0001 C CNN "Current - Output"
-	1    4200 3700
+P 3600 3700
+F 0 "U301" H 3600 3850 50  0000 C CNN
+F 1 "OKI-78SR-5/1.5-W36-C" H 3600 2900 60  0001 C CNN
+F 2 "Assembly:OKI-78SR_Vertical" H 3600 1575 60  0001 C CNN
+F 3 "http://power.murata.com/data/power/oki-78sr.pdf" H 3600 1475 60  0001 C CNN
+F 4 "Digikey" H 3600 2075 60  0001 C CNN "Supplier"
+F 5 "811-2196-5-ND" H 3600 1975 60  0001 C CNN "Supplier Part Number"
+F 6 "Murata Power Solutions Inc." H 3600 1875 60  0001 C CNN "Manufacturer"
+F 7 "OKI-78SR-5/1.5-W36H-C" H 3600 1775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "DC/DC CONVERTER 5V 8W" H 3600 1675 60  0001 C CNN "Description"
+F 9 "7V" H 3590 2785 50  0001 C CNN "Voltage - Input (Min)"
+F 10 "36V" H 3590 2705 50  0001 C CNN "Voltage - Input (Max)"
+F 11 "5V" H 3590 2615 50  0001 C CNN "Voltage - Output (Min/Fixed)"
+F 12 "1.5A" H 3605 2400 50  0001 C CNN "Current - Output"
+	1    3600 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L DGND #PWR032
 U 1 1 58F88F61
-P 4200 4400
-F 0 "#PWR032" H 4200 4230 50  0001 C CNN
-F 1 "DGND" H 4200 4300 50  0000 C CNN
-F 2 "" H 4200 4500 60  0000 C CNN
-F 3 "" H 4180 4310 60  0000 C CNN
-	1    4200 4400
+P 3600 4400
+F 0 "#PWR032" H 3600 4230 50  0001 C CNN
+F 1 "DGND" H 3600 4300 50  0000 C CNN
+F 2 "" H 3600 4500 60  0000 C CNN
+F 3 "" H 3580 4310 60  0000 C CNN
+	1    3600 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 4000 4200 4300
+	3600 4000 3600 4300
 Wire Wire Line
-	4500 3700 5900 3700
+	3900 3700 4500 3700
 Wire Wire Line
-	4900 3700 4900 3600
+	4800 3700 4800 3600
 Wire Wire Line
-	5100 3700 5100 3600
-Connection ~ 4900 3700
+	5000 3700 5000 3600
 $Comp
 L 885012107018 C302
 U 1 1 58F8900A
-P 3600 3900
-F 0 "C302" V 3600 4125 60  0000 C CNN
-F 1 "885012107018" H 3550 3550 60  0001 C CNN
-F 2 "Capacitors:C0805" H 3550 2950 60  0001 C CNN
-F 3 "D" H 3550 2850 60  0001 C CNN
-F 4 "Digikey" H 3550 3450 60  0001 C CNN "Supplier"
-F 5 "732-7628-1-ND" H 3550 3350 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 3550 3250 60  0001 C CNN "Manufacturer"
-F 7 "885012107018" H 3550 3150 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 4.7UF 25V X5R 0805" H 3550 3050 60  0001 C CNN "Description"
-F 9 "4.7µF" V 3500 4125 50  0000 C CNN "Capacitance (Farad)"
-F 10 "±20%" H 3810 3780 50  0001 C CNN "Tolerance (%)"
-F 11 "25V" H 3550 3710 50  0001 C CNN "Voltage Rated (Volt)"
-	1    3600 3900
+P 3000 3900
+F 0 "C302" V 3000 4125 60  0000 C CNN
+F 1 "885012107018" H 2950 3550 60  0001 C CNN
+F 2 "Capacitors:C0805" H 2950 2950 60  0001 C CNN
+F 3 "D" H 2950 2850 60  0001 C CNN
+F 4 "Digikey" H 2950 3450 60  0001 C CNN "Supplier"
+F 5 "732-7628-1-ND" H 2950 3350 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 2950 3250 60  0001 C CNN "Manufacturer"
+F 7 "885012107018" H 2950 3150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 4.7UF 25V X5R 0805" H 2950 3050 60  0001 C CNN "Description"
+F 9 "4.7µF" V 2900 4125 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±20%" H 3210 3780 50  0001 C CNN "Tolerance (%)"
+F 11 "25V" H 2950 3710 50  0001 C CNN "Voltage Rated (Volt)"
+	1    3000 3900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L 885012107018 C303
 U 1 1 58F89140
-P 4800 3900
-F 0 "C303" V 4800 4125 60  0000 C CNN
-F 1 "885012107018" H 4750 3550 60  0001 C CNN
-F 2 "Capacitors:C0805" H 4750 2950 60  0001 C CNN
-F 3 "D" H 4750 2850 60  0001 C CNN
-F 4 "Digikey" H 4750 3450 60  0001 C CNN "Supplier"
-F 5 "732-7628-1-ND" H 4750 3350 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 4750 3250 60  0001 C CNN "Manufacturer"
-F 7 "885012107018" H 4750 3150 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 4.7UF 25V X5R 0805" H 4750 3050 60  0001 C CNN "Description"
-F 9 "4.7µF" V 4700 4125 50  0000 C CNN "Capacitance (Farad)"
-F 10 "±20%" H 5010 3780 50  0001 C CNN "Tolerance (%)"
-F 11 "25V" H 4750 3710 50  0001 C CNN "Voltage Rated (Volt)"
-	1    4800 3900
+P 4200 3900
+F 0 "C303" V 4200 4125 60  0000 C CNN
+F 1 "885012107018" H 4150 3550 60  0001 C CNN
+F 2 "Capacitors:C0805" H 4150 2950 60  0001 C CNN
+F 3 "D" H 4150 2850 60  0001 C CNN
+F 4 "Digikey" H 4150 3450 60  0001 C CNN "Supplier"
+F 5 "732-7628-1-ND" H 4150 3350 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4150 3250 60  0001 C CNN "Manufacturer"
+F 7 "885012107018" H 4150 3150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 4.7UF 25V X5R 0805" H 4150 3050 60  0001 C CNN "Description"
+F 9 "4.7µF" V 4100 4125 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±20%" H 4410 3780 50  0001 C CNN "Tolerance (%)"
+F 11 "25V" H 4150 3710 50  0001 C CNN "Voltage Rated (Volt)"
+	1    4200 3900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3600 4100 3600 4300
+	3000 4100 3000 4300
 Wire Wire Line
-	3600 4200 4200 4200
-Connection ~ 4200 4200
+	3000 4200 3600 4200
+Connection ~ 3600 4200
 Wire Wire Line
-	4200 4100 4800 4100
-Connection ~ 4200 4100
+	3600 4100 4200 4100
+Connection ~ 3600 4100
 Wire Wire Line
-	4800 3800 4800 3700
-Connection ~ 4800 3700
+	4200 3800 4200 3700
+Connection ~ 4200 3700
 Wire Wire Line
-	3600 3700 3600 3800
-Connection ~ 3600 3700
+	3000 3700 3000 3800
+Connection ~ 3000 3700
 $Comp
 L AZ1117IH-3.3TRG1 U302
 U 1 1 58F89C4D
@@ -200,7 +199,6 @@ F 14 "800mA" H 6190 2505 50  0001 C CNN "Current - Limit (Min)"
 	1    6200 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 3700
 $Comp
 L 885012107014 C304
 U 1 1 58F8A222
@@ -221,7 +219,7 @@ F 11 "16V" H 5650 3710 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5700 3800 5700 3700
+	5700 3700 5700 3800
 Connection ~ 5700 3700
 Wire Wire Line
 	5700 4100 5700 4200
@@ -295,69 +293,69 @@ Connection ~ 7000 3600
 $Comp
 L PWR_FLAG #FLG036
 U 1 1 58F8B845
-P 1900 3600
-F 0 "#FLG036" H 1900 3500 60  0001 C CNN
-F 1 "PWR_FLAG" H 1900 3800 30  0000 C CNN
-F 2 "" H 1900 3600 60  0000 C CNN
-F 3 "" H 1900 3600 60  0000 C CNN
-	1    1900 3600
+P 1300 3600
+F 0 "#FLG036" H 1300 3500 60  0001 C CNN
+F 1 "PWR_FLAG" H 1300 3800 30  0000 C CNN
+F 2 "" H 1300 3600 60  0000 C CNN
+F 3 "" H 1300 3600 60  0000 C CNN
+	1    1300 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 3600 1900 3700
-Connection ~ 1900 3700
+	1300 3600 1300 3700
+Connection ~ 1300 3700
 $Comp
 L PWR_FLAG #FLG037
 U 1 1 58F8B88C
-P 3900 4300
-F 0 "#FLG037" H 3900 4200 60  0001 C CNN
-F 1 "PWR_FLAG" H 3900 4500 30  0000 C CNN
-F 2 "" H 3900 4300 60  0000 C CNN
-F 3 "" H 3900 4300 60  0000 C CNN
-	1    3900 4300
+P 3300 4300
+F 0 "#FLG037" H 3300 4200 60  0001 C CNN
+F 1 "PWR_FLAG" H 3300 4500 30  0000 C CNN
+F 2 "" H 3300 4300 60  0000 C CNN
+F 3 "" H 3300 4300 60  0000 C CNN
+	1    3300 4300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3900 4300 3900 4200
-Connection ~ 3900 4200
+	3300 4300 3300 4200
+Connection ~ 3300 4200
 $Comp
 L 150080VS75000 D302
 U 1 1 58F8E86A
-P 5000 4800
-F 0 "D302" V 4900 5000 60  0000 C CNN
-F 1 "150080VS75000" H 5000 4600 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 5010 3720 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 5010 3620 60  0001 C CNN
-F 4 "Digikey" H 5010 4220 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 5010 4120 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 5010 4020 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 5010 3920 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 5010 3820 60  0001 C CNN "Description"
-F 9 "GREEN" V 5000 5025 60  0000 C CNN "Color"
-F 10 "2V" H 5000 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    5000 4800
+P 4400 4800
+F 0 "D302" V 4300 5000 60  0000 C CNN
+F 1 "150080VS75000" H 4400 4600 60  0001 C CNN
+F 2 "Diodes:LED_0805_GREEN" H 4410 3720 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 4410 3620 60  0001 C CNN
+F 4 "Digikey" H 4410 4220 60  0001 C CNN "Supplier"
+F 5 "732-4986-1-ND" H 4410 4120 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4410 4020 60  0001 C CNN "Manufacturer"
+F 7 "150080VS75000" H 4410 3920 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED GREEN CLEAR 0805 SMD" H 4410 3820 60  0001 C CNN "Description"
+F 9 "GREEN" V 4400 5025 60  0000 C CNN "Color"
+F 10 "2V" H 4400 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    4400 4800
 	0    -1   1    0   
 $EndComp
 $Comp
 L DGND #PWR038
 U 1 1 58F8E9CC
-P 5000 5100
-F 0 "#PWR038" H 5000 4930 50  0001 C CNN
-F 1 "DGND" H 5000 5000 50  0000 C CNN
-F 2 "" H 5000 5200 60  0000 C CNN
-F 3 "" H 4980 5010 60  0000 C CNN
-	1    5000 5100
+P 4400 5100
+F 0 "#PWR038" H 4400 4930 50  0001 C CNN
+F 1 "DGND" H 4400 5000 50  0000 C CNN
+F 2 "" H 4400 5200 60  0000 C CNN
+F 3 "" H 4380 5010 60  0000 C CNN
+	1    4400 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 4900 5000 5000
+	4400 4900 4400 5000
 Wire Wire Line
-	5000 4500 5000 4600
+	4400 4500 4400 4600
 Wire Wire Line
-	5000 4100 5000 3700
-Connection ~ 5000 3700
+	4400 4100 4400 3700
+Connection ~ 4400 3700
 Wire Wire Line
-	1600 3700 2000 3700
+	1000 3700 1400 3700
 $Comp
 L RC0805JR-07470RL R303
 U 1 1 58F8EBE0
@@ -416,58 +414,58 @@ Connection ~ 7500 3600
 $Comp
 L 150080VS75000 D301
 U 1 1 58F8E204
-P 3200 4800
-F 0 "D301" V 3100 5000 60  0000 C CNN
-F 1 "150080VS75000" H 3200 4600 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 3210 3720 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 3210 3620 60  0001 C CNN
-F 4 "Digikey" H 3210 4220 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 3210 4120 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 3210 4020 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 3210 3920 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 3210 3820 60  0001 C CNN "Description"
-F 9 "GREEN" V 3200 5025 60  0000 C CNN "Color"
-F 10 "2V" H 3200 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    3200 4800
+P 2600 4800
+F 0 "D301" V 2500 5000 60  0000 C CNN
+F 1 "150080VS75000" H 2600 4600 60  0001 C CNN
+F 2 "Diodes:LED_0805_GREEN" H 2610 3720 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 2610 3620 60  0001 C CNN
+F 4 "Digikey" H 2610 4220 60  0001 C CNN "Supplier"
+F 5 "732-4986-1-ND" H 2610 4120 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 2610 4020 60  0001 C CNN "Manufacturer"
+F 7 "150080VS75000" H 2610 3920 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED GREEN CLEAR 0805 SMD" H 2610 3820 60  0001 C CNN "Description"
+F 9 "GREEN" V 2600 5025 60  0000 C CNN "Color"
+F 10 "2V" H 2600 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    2600 4800
 	0    -1   1    0   
 $EndComp
 $Comp
 L DGND #PWR040
 U 1 1 58F8E20A
-P 3200 5100
-F 0 "#PWR040" H 3200 4930 50  0001 C CNN
-F 1 "DGND" H 3200 5000 50  0000 C CNN
-F 2 "" H 3200 5200 60  0000 C CNN
-F 3 "" H 3180 5010 60  0000 C CNN
-	1    3200 5100
+P 2600 5100
+F 0 "#PWR040" H 2600 4930 50  0001 C CNN
+F 1 "DGND" H 2600 5000 50  0000 C CNN
+F 2 "" H 2600 5200 60  0000 C CNN
+F 3 "" H 2580 5010 60  0000 C CNN
+	1    2600 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 4900 3200 5000
+	2600 4900 2600 5000
 Wire Wire Line
-	3200 4500 3200 4600
+	2600 4500 2600 4600
 Wire Wire Line
-	3200 4100 3200 3700
-Connection ~ 3200 3700
+	2600 3700 2600 4100
+Connection ~ 2600 3700
 $Comp
 L Test_Point_THM TP303
 U 1 1 58F8E348
-P 3400 3400
-F 0 "TP303" V 3300 3400 60  0000 C CNN
-F 1 "Test_Point_THM" H 3400 3100 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3400 2500 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3400 2400 60  0001 C CNN
-F 4 "Digikey" H 3400 3000 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3400 2900 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3400 2800 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3400 2700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3400 2600 60  0001 C CNN "Description"
-	1    3400 3400
+P 2800 3400
+F 0 "TP303" V 2700 3400 60  0000 C CNN
+F 1 "Test_Point_THM" H 2800 3100 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 2800 2500 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 2800 2400 60  0001 C CNN
+F 4 "Digikey" H 2800 3000 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 2800 2900 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 2800 2800 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 2800 2700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 2800 2600 60  0001 C CNN "Description"
+	1    2800 3400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3400 3700 3400 3600
-Connection ~ 3400 3700
+	2800 3700 2800 3600
+Connection ~ 2800 3700
 $Comp
 L Test_Point_THM TP304
 U 1 1 58F8E842
@@ -485,7 +483,7 @@ F 8 "TEST POINT PC MINI .040\"D BLACK" H 5400 2600 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5400 3600 5400 3700
+	5400 3700 5400 3600
 Connection ~ 5400 3700
 $Comp
 L Test_Point_THM TP301
@@ -509,87 +507,87 @@ Connection ~ 7300 3600
 $Comp
 L Test_Point_THM TP305
 U 1 1 58F8EB6B
-P 3600 4500
-F 0 "TP305" V 3475 4500 60  0000 C CNN
-F 1 "Test_Point_THM" H 3600 4200 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3600 3600 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3600 3500 60  0001 C CNN
-F 4 "Digikey" H 3600 4100 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3600 4000 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3600 3900 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3600 3800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3600 3700 60  0001 C CNN "Description"
-	1    3600 4500
+P 3000 4500
+F 0 "TP305" V 2875 4500 60  0000 C CNN
+F 1 "Test_Point_THM" H 3000 4200 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 3000 3600 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3000 3500 60  0001 C CNN
+F 4 "Digikey" H 3000 4100 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 3000 4000 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 3000 3900 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 3000 3800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 3000 3700 60  0001 C CNN "Description"
+	1    3000 4500
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3600 4200
-Text Notes 3475 4750 0    60   ~ 0
+Connection ~ 3000 4200
+Text Notes 2875 4750 0    60   ~ 0
 DGND
 $Comp
 L 39511000440 F301
 U 1 1 58FAFE80
-P 2300 3700
-F 0 "F301" H 2300 3810 50  0000 C CNN
-F 1 "39511000440" H 2300 3400 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 2300 2800 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 2300 2750 30  0001 C CNN
-F 4 "Digikey" H 2300 2500 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 2300 2400 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 2300 2250 60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 2300 2100 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 2300 1950 60  0001 C CNN "Description"
-F 9 "1A" H 2300 3600 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 2200 3500 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 2400 3500 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 2300 2600 60  0001 C CNN "Fuse Holder"
-	1    2300 3700
+P 1700 3700
+F 0 "F301" H 1700 3810 50  0000 C CNN
+F 1 "39511000440" H 1700 3400 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 1700 2800 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1700 2750 30  0001 C CNN
+F 4 "Digikey" H 1700 2500 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 1700 2400 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 1700 2250 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 1700 2100 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 1700 1950 60  0001 C CNN "Description"
+F 9 "1A" H 1700 3600 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 1600 3500 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 1800 3500 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 1700 2600 60  0001 C CNN "Fuse Holder"
+	1    1700 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 3700 3900 3700
+	1900 3700 3300 3700
 Wire Wire Line
-	1900 3700 2100 3700
+	1300 3700 1500 3700
 Wire Wire Line
 	6500 3600 7700 3600
 $Comp
 L 12V #PWR041
 U 1 1 58FEC80D
-P 2600 3600
-F 0 "#PWR041" H 2600 3450 50  0001 C CNN
-F 1 "12V" H 2590 3740 50  0000 C CNN
-F 2 "" H 2600 3600 60  0000 C CNN
-F 3 "" H 2600 3600 60  0000 C CNN
-	1    2600 3600
+P 2000 3600
+F 0 "#PWR041" H 2000 3450 50  0001 C CNN
+F 1 "12V" H 1990 3740 50  0000 C CNN
+F 2 "" H 2000 3600 60  0000 C CNN
+F 3 "" H 2000 3600 60  0000 C CNN
+	1    2000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG042
 U 1 1 58FEC813
-P 2900 3600
-F 0 "#FLG042" H 2900 3500 60  0001 C CNN
-F 1 "PWR_FLAG" H 2900 3800 30  0000 C CNN
-F 2 "" H 2900 3600 60  0000 C CNN
-F 3 "" H 2900 3600 60  0000 C CNN
-	1    2900 3600
+P 2300 3600
+F 0 "#FLG042" H 2300 3500 60  0001 C CNN
+F 1 "PWR_FLAG" H 2300 3800 30  0000 C CNN
+F 2 "" H 2300 3600 60  0000 C CNN
+F 3 "" H 2300 3600 60  0000 C CNN
+	1    2300 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 3600 2900 3700
+	2300 3600 2300 3700
 Wire Wire Line
-	2600 3600 2600 3700
-Connection ~ 2600 3700
-Connection ~ 2900 3700
+	2000 3600 2000 3700
+Connection ~ 2000 3700
+Connection ~ 2300 3700
 Wire Wire Line
-	1600 3600 1600 3700
+	1000 3600 1000 3700
 $Comp
 L CAN_PWR #PWR043
 U 1 1 58FEC94F
-P 1600 3600
-F 0 "#PWR043" H 1600 3450 50  0001 C CNN
-F 1 "CAN_PWR" H 1590 3740 50  0000 C CNN
-F 2 "" H 1600 3600 60  0000 C CNN
-F 3 "" H 1600 3600 60  0000 C CNN
-	1    1600 3600
+P 1000 3600
+F 0 "#PWR043" H 1000 3450 50  0001 C CNN
+F 1 "CAN_PWR" H 990 3740 50  0000 C CNN
+F 2 "" H 1000 3600 60  0000 C CNN
+F 3 "" H 1000 3600 60  0000 C CNN
+	1    1000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -666,39 +664,63 @@ Connection ~ 8300 3600
 $Comp
 L RC0805JR-071KL R302
 U 1 1 59347B67
-P 5000 4300
-F 0 "R302" H 5000 4380 60  0000 C CNN
-F 1 "RC0805JR-071KL" H 5000 4000 50  0001 C CNN
-F 2 "Resistors:R0805" H 5000 3400 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5000 3350 30  0001 C CNN
-F 4 "Digikey" H 5000 3900 60  0001 C CNN "Supplier"
-F 5 "311-1.0KARCT-ND" H 5000 3800 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 5000 3700 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-071KL" H 5000 3600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 1K OHM 5% 1/8W 0805" H 5000 3500 60  0001 C CNN "Description"
-F 9 "1k" H 5000 4230 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 5410 4220 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 5000 4160 50  0001 C CNN "Puissance (Watts)"
-	1    5000 4300
+P 4400 4300
+F 0 "R302" H 4400 4380 60  0000 C CNN
+F 1 "RC0805JR-071KL" H 4400 4000 50  0001 C CNN
+F 2 "Resistors:R0805" H 4400 3400 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4400 3350 30  0001 C CNN
+F 4 "Digikey" H 4400 3900 60  0001 C CNN "Supplier"
+F 5 "311-1.0KARCT-ND" H 4400 3800 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4400 3700 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-071KL" H 4400 3600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 1K OHM 5% 1/8W 0805" H 4400 3500 60  0001 C CNN "Description"
+F 9 "1k" H 4400 4230 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 4810 4220 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4400 4160 50  0001 C CNN "Puissance (Watts)"
+	1    4400 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L RC0805JR-074K7L R301
 U 1 1 59347DB4
-P 3200 4300
-F 0 "R301" H 3200 4380 60  0000 C CNN
-F 1 "RC0805JR-074K7L" H 3200 4000 50  0001 C CNN
-F 2 "Resistors:R0805" H 3200 3400 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3200 3350 30  0001 C CNN
-F 4 "Digikey" H 3200 3900 60  0001 C CNN "Supplier"
-F 5 "311-4.7KARCT-ND" H 3200 3800 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 3200 3700 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-074K7L" H 3200 3600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 4.7K OHM 5% 1/8W 0805" H 3200 3500 60  0001 C CNN "Description"
-F 9 "4.7k" H 3200 4230 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 3400 4200 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 3200 4160 50  0001 C CNN "Puissance (Watts)"
-	1    3200 4300
+P 2600 4300
+F 0 "R301" H 2600 4380 60  0000 C CNN
+F 1 "RC0805JR-074K7L" H 2600 4000 50  0001 C CNN
+F 2 "Resistors:R0805" H 2600 3400 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2600 3350 30  0001 C CNN
+F 4 "Digikey" H 2600 3900 60  0001 C CNN "Supplier"
+F 5 "311-4.7KARCT-ND" H 2600 3800 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 2600 3700 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-074K7L" H 2600 3600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 4.7K OHM 5% 1/8W 0805" H 2600 3500 60  0001 C CNN "Description"
+F 9 "4.7k" H 2600 4230 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 2800 4200 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 2600 4160 50  0001 C CNN "Puissance (Watts)"
+	1    2600 4300
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Header_Male_Pin_2.54mm_1X2_,_Unshrouded J300
+U 1 1 593E7E2C
+P 4500 3500
+F 0 "J300" V 4300 3500 60  0000 C CNN
+F 1 "Header_Male_Pin_2.54mm_1X2_,_Unshrouded" H 4500 3180 50  0001 C CNN
+F 2 "Connectors:Headers_2.54mm_1X2" H 4500 2590 30  0001 C CNN
+F 3 "D" H 4500 2540 30  0001 C CNN
+F 4 "Ebay" H 4500 2990 60  0001 C CNN "Supplier"
+F 5 "Pin Male Single Row Pin Header Strip" H 4500 3090 60  0001 C CNN "Supplier Part Number"
+F 6 "Manufacturer" H 4500 2890 60  0001 C CNN "Manufacturer"
+F 7 "Manufacturer Part Number" H 4500 2790 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Pin Male Single Row Pin Header Strip" H 4500 2690 60  0001 C CNN "Description"
+	1    4500 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3700 5900 3700
+Connection ~ 4800 3700
+Connection ~ 5000 3700
+Wire Wire Line
+	4500 3700 4500 3600
+Wire Wire Line
+	4600 3600 4600 3700
 $EndSCHEMATC
