@@ -115,74 +115,22 @@ Text Label 8700 2000 0    60   ~ 0
 PA6
 Text Label 8700 2100 0    60   ~ 0
 PA7
-Text Label 8700 2200 0    60   ~ 0
-PA8
-Text Label 8700 2300 0    60   ~ 0
-PA9
-Text Label 8700 2400 0    60   ~ 0
-PA10
 Text Label 8700 2500 0    60   ~ 0
 PA11
 Text Label 8700 2600 0    60   ~ 0
 PA12
-Text Label 8700 2900 0    60   ~ 0
-PA15
-Text Label 8700 3100 0    60   ~ 0
-PB15
-Text Label 8700 3200 0    60   ~ 0
-PB14
-Text Label 8700 3300 0    60   ~ 0
-PB13
-Text Label 8700 3400 0    60   ~ 0
-PB12
-Text Label 8700 3500 0    60   ~ 0
-PB10
-Text Label 8700 3600 0    60   ~ 0
-PB9
-Text Label 8700 3700 0    60   ~ 0
-PB8
-Text Label 8700 3800 0    60   ~ 0
-PB7
-Text Label 8700 3900 0    60   ~ 0
-PB6
-Text Label 8700 4000 0    60   ~ 0
-PB5
-Text Label 8700 4100 0    60   ~ 0
-PB4
-Text Label 8700 4300 0    60   ~ 0
-PB2
 Text Label 8700 4400 0    60   ~ 0
 PB1
 Text Label 8700 4500 0    60   ~ 0
 PB0
-Text Label 8700 4800 0    60   ~ 0
-PC12
-Text Label 8700 4900 0    60   ~ 0
-PC11
-Text Label 8700 5000 0    60   ~ 0
-PC10
-Text Label 8700 5100 0    60   ~ 0
-PC9
-Text Label 8700 5200 0    60   ~ 0
-PC8
-Text Label 8700 5300 0    60   ~ 0
-PC7
-Text Label 8700 5400 0    60   ~ 0
-PC6
+Text Label 8400 4900 0    60   ~ 0
+MISO
+Text Label 8400 5000 0    60   ~ 0
+SCLK
 Text Label 8700 5500 0    60   ~ 0
 PC5
 Text Label 8700 5600 0    60   ~ 0
 PC4
-Text Label 8700 5700 0    60   ~ 0
-PC3
-Text Label 8700 5800 0    60   ~ 0
-PC2
-Text Label 8700 5900 0    60   ~ 0
-PC1
-Text Label 8700 6000 0    60   ~ 0
-PC0
-Text Label 8700 6200 0    60   ~ 0
-PD2
 Text Label 8700 6300 0    60   ~ 0
 BOOT0
 Text Label 8700 6400 0    60   ~ 0
@@ -204,69 +152,53 @@ Wire Wire Line
 Wire Wire Line
 	8700 2200 9000 2200
 Wire Wire Line
-	8700 2300 9000 2300
+	7800 2300 9000 2300
 Wire Wire Line
-	8700 2400 9000 2400
+	7800 2400 9000 2400
 Wire Wire Line
-	8700 2900 9000 2900
+	7800 2900 9000 2900
 Wire Wire Line
-	8700 3100 9000 3100
+	7800 3100 9000 3100
 Wire Wire Line
-	8700 3200 9000 3200
+	7800 3200 9000 3200
 Wire Wire Line
-	8700 3300 9000 3300
+	7800 3300 9000 3300
 Wire Wire Line
-	9000 3400 8700 3400
+	9000 3400 7800 3400
 Wire Wire Line
-	8700 3500 9000 3500
+	7800 3500 9000 3500
 Wire Wire Line
-	8700 3600 9000 3600
+	7800 3600 9000 3600
 Wire Wire Line
-	8700 3700 9000 3700
+	9000 4100 7800 4100
 Wire Wire Line
-	8700 3800 9000 3800
-Wire Wire Line
-	8700 3900 9000 3900
-Wire Wire Line
-	8700 4000 9000 4000
-Wire Wire Line
-	9000 4100 8700 4100
-Wire Wire Line
-	8700 4300 9000 4300
+	7800 4300 9000 4300
 Wire Wire Line
 	8700 4400 9000 4400
 Wire Wire Line
 	8700 4500 9000 4500
 Wire Wire Line
-	8700 4800 9000 4800
+	7800 4800 9000 4800
 Wire Wire Line
-	8700 4900 9000 4900
+	7800 4900 9000 4900
 Wire Wire Line
-	8700 5000 9000 5000
-Wire Wire Line
-	8700 5100 9000 5100
-Wire Wire Line
-	9000 5200 8700 5200
-Wire Wire Line
-	8700 5300 9000 5300
-Wire Wire Line
-	8700 5400 9000 5400
+	8400 5000 9000 5000
 Wire Wire Line
 	8700 5500 9000 5500
 Wire Wire Line
 	8700 5600 9000 5600
 Wire Wire Line
-	8700 5700 9000 5700
+	7800 5700 9000 5700
 Wire Wire Line
-	8700 5800 9000 5800
+	7800 5800 9000 5800
 Wire Wire Line
-	8700 5900 9000 5900
+	7800 5900 9000 5900
 Wire Wire Line
-	8700 6000 9000 6000
+	7800 6000 9000 6000
 Wire Wire Line
 	8700 6100 9000 6100
 Wire Wire Line
-	8700 6200 9000 6200
+	7800 6200 9000 6200
 Wire Wire Line
 	8700 6300 9000 6300
 Wire Wire Line
@@ -383,4 +315,562 @@ F7 "DATA_ENABLE" I R 3100 7400 60
 F8 "AVDD" I L 1300 7000 60 
 F9 "AGND" I L 1300 7500 60 
 $EndSheet
+$Comp
+L DGND #PWR01
+U 1 1 5943E85A
+P 1100 1300
+F 0 "#PWR01" H 1100 1130 50  0001 C CNN
+F 1 "DGND" H 1100 1200 50  0000 C CNN
+F 2 "" H 1100 1400 60  0000 C CNN
+F 3 "" H 1080 1210 60  0000 C CNN
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1200 1300 1200
+$Comp
+L VDD #PWR02
+U 1 1 5944042F
+P 1100 700
+F 0 "#PWR02" H 1100 550 50  0001 C CNN
+F 1 "VDD" H 1090 840 50  0000 C CNN
+F 2 "" H 1100 700 60  0000 C CNN
+F 3 "" H 1100 550 60  0000 C CNN
+	1    1100 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 700  1300 700 
+$Comp
+L DGND #PWR03
+U 1 1 59442D70
+P 800 2200
+F 0 "#PWR03" H 800 2030 50  0001 C CNN
+F 1 "DGND" H 800 2100 50  0000 C CNN
+F 2 "" H 800 2300 60  0000 C CNN
+F 3 "" H 780 2110 60  0000 C CNN
+	1    800  2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  2100 1300 2100
+$Comp
+L VDD #PWR04
+U 1 1 59442D77
+P 800 1600
+F 0 "#PWR04" H 800 1450 50  0001 C CNN
+F 1 "VDD" H 790 1740 50  0000 C CNN
+F 2 "" H 800 1600 60  0000 C CNN
+F 3 "" H 800 1450 60  0000 C CNN
+	1    800  1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1600 1300 1600
+$Comp
+L DGND #PWR05
+U 1 1 594452A6
+P 1100 3100
+F 0 "#PWR05" H 1100 2930 50  0001 C CNN
+F 1 "DGND" H 1100 3000 50  0000 C CNN
+F 2 "" H 1100 3200 60  0000 C CNN
+F 3 "" H 1080 3010 60  0000 C CNN
+	1    1100 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3000 1300 3000
+$Comp
+L VDD #PWR06
+U 1 1 594452AD
+P 1100 2500
+F 0 "#PWR06" H 1100 2350 50  0001 C CNN
+F 1 "VDD" H 1090 2640 50  0000 C CNN
+F 2 "" H 1100 2500 60  0000 C CNN
+F 3 "" H 1100 2350 60  0000 C CNN
+	1    1100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2500 1300 2500
+$Comp
+L DGND #PWR07
+U 1 1 594469C4
+P 800 4000
+F 0 "#PWR07" H 800 3830 50  0001 C CNN
+F 1 "DGND" H 800 3900 50  0000 C CNN
+F 2 "" H 800 4100 60  0000 C CNN
+F 3 "" H 780 3910 60  0000 C CNN
+	1    800  4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3900 1300 3900
+$Comp
+L VDD #PWR08
+U 1 1 594469CB
+P 800 3400
+F 0 "#PWR08" H 800 3250 50  0001 C CNN
+F 1 "VDD" H 790 3540 50  0000 C CNN
+F 2 "" H 800 3400 60  0000 C CNN
+F 3 "" H 800 3250 60  0000 C CNN
+	1    800  3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3400 1300 3400
+$Comp
+L DGND #PWR09
+U 1 1 59446B1A
+P 1100 4900
+F 0 "#PWR09" H 1100 4730 50  0001 C CNN
+F 1 "DGND" H 1100 4800 50  0000 C CNN
+F 2 "" H 1100 5000 60  0000 C CNN
+F 3 "" H 1080 4810 60  0000 C CNN
+	1    1100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4800 1300 4800
+$Comp
+L VDD #PWR010
+U 1 1 59446B21
+P 1100 4300
+F 0 "#PWR010" H 1100 4150 50  0001 C CNN
+F 1 "VDD" H 1090 4440 50  0000 C CNN
+F 2 "" H 1100 4300 60  0000 C CNN
+F 3 "" H 1100 4150 60  0000 C CNN
+	1    1100 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4300 1300 4300
+$Comp
+L DGND #PWR011
+U 1 1 594477F8
+P 800 5800
+F 0 "#PWR011" H 800 5630 50  0001 C CNN
+F 1 "DGND" H 800 5700 50  0000 C CNN
+F 2 "" H 800 5900 60  0000 C CNN
+F 3 "" H 780 5710 60  0000 C CNN
+	1    800  5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5700 1300 5700
+$Comp
+L VDD #PWR012
+U 1 1 594477FF
+P 800 5200
+F 0 "#PWR012" H 800 5050 50  0001 C CNN
+F 1 "VDD" H 790 5340 50  0000 C CNN
+F 2 "" H 800 5200 60  0000 C CNN
+F 3 "" H 800 5050 60  0000 C CNN
+	1    800  5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5200 1300 5200
+$Comp
+L DGND #PWR013
+U 1 1 59447E6E
+P 1100 6700
+F 0 "#PWR013" H 1100 6530 50  0001 C CNN
+F 1 "DGND" H 1100 6600 50  0000 C CNN
+F 2 "" H 1100 6800 60  0000 C CNN
+F 3 "" H 1080 6610 60  0000 C CNN
+	1    1100 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 6600 1300 6600
+$Comp
+L VDD #PWR014
+U 1 1 59447E75
+P 1100 6100
+F 0 "#PWR014" H 1100 5950 50  0001 C CNN
+F 1 "VDD" H 1090 6240 50  0000 C CNN
+F 2 "" H 1100 6100 60  0000 C CNN
+F 3 "" H 1100 5950 60  0000 C CNN
+	1    1100 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 6100 1300 6100
+$Comp
+L DGND #PWR015
+U 1 1 59447FC4
+P 800 7600
+F 0 "#PWR015" H 800 7430 50  0001 C CNN
+F 1 "DGND" H 800 7500 50  0000 C CNN
+F 2 "" H 800 7700 60  0000 C CNN
+F 3 "" H 780 7510 60  0000 C CNN
+	1    800  7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  7500 1300 7500
+$Comp
+L VDD #PWR016
+U 1 1 59447FCB
+P 800 7000
+F 0 "#PWR016" H 800 6850 50  0001 C CNN
+F 1 "VDD" H 790 7140 50  0000 C CNN
+F 2 "" H 800 7000 60  0000 C CNN
+F 3 "" H 800 6850 60  0000 C CNN
+	1    800  7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  7000 1300 7000
+Text Label 3300 700  0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 700  3300 700 
+Wire Wire Line
+	3100 800  3300 800 
+Wire Wire Line
+	3100 900  3300 900 
+Wire Wire Line
+	3100 1000 3300 1000
+Wire Wire Line
+	3100 1100 3300 1100
+Wire Wire Line
+	3100 1200 3300 1200
+Text Label 3300 1200 0    60   ~ 0
+BALANCING_PWM_1
+Text Label 3300 800  0    60   ~ 0
+SCLK
+Text Label 3300 900  0    60   ~ 0
+SDATA
+Text Label 3300 1000 0    60   ~ 0
+CS_1
+Text Label 3300 1100 0    60   ~ 0
+DATA_ENABLE_1
+Text Label 3300 1600 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 1600 3300 1600
+Wire Wire Line
+	3100 1700 3300 1700
+Wire Wire Line
+	3100 1800 3300 1800
+Wire Wire Line
+	3100 1900 3300 1900
+Wire Wire Line
+	3100 2000 3300 2000
+Wire Wire Line
+	3100 2100 3300 2100
+Text Label 3300 2100 0    60   ~ 0
+BALANCING_PWM_2
+Text Label 3300 1700 0    60   ~ 0
+SCLK
+Text Label 3300 1800 0    60   ~ 0
+SDATA
+Text Label 3300 1900 0    60   ~ 0
+CS_2
+Text Label 3300 2000 0    60   ~ 0
+DATA_ENABLE_2
+Text Label 3300 2500 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 2500 3300 2500
+Wire Wire Line
+	3100 2600 3300 2600
+Wire Wire Line
+	3100 2700 3300 2700
+Wire Wire Line
+	3100 2800 3300 2800
+Wire Wire Line
+	3100 2900 3300 2900
+Wire Wire Line
+	3100 3000 3300 3000
+Text Label 3300 3000 0    60   ~ 0
+BALANCING_PWM_3
+Text Label 3300 2600 0    60   ~ 0
+SCLK
+Text Label 3300 2700 0    60   ~ 0
+SDATA
+Text Label 3300 2800 0    60   ~ 0
+CS_3
+Text Label 3300 2900 0    60   ~ 0
+DATA_ENABLE_3
+Text Label 3300 3400 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 3400 3300 3400
+Wire Wire Line
+	3100 3500 3300 3500
+Wire Wire Line
+	3100 3600 3300 3600
+Wire Wire Line
+	3100 3700 3300 3700
+Wire Wire Line
+	3100 3800 3300 3800
+Wire Wire Line
+	3100 3900 3300 3900
+Text Label 3300 3900 0    60   ~ 0
+BALANCING_PWM_4
+Text Label 3300 3500 0    60   ~ 0
+SCLK
+Text Label 3300 3600 0    60   ~ 0
+SDATA
+Text Label 3300 3700 0    60   ~ 0
+CS_4
+Text Label 3300 3800 0    60   ~ 0
+DATA_ENABLE_4
+Text Label 3300 4300 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 4300 3300 4300
+Wire Wire Line
+	3100 4400 3300 4400
+Wire Wire Line
+	3100 4500 3300 4500
+Wire Wire Line
+	3100 4600 3300 4600
+Wire Wire Line
+	3100 4700 3300 4700
+Wire Wire Line
+	3100 4800 3300 4800
+Text Label 3300 4800 0    60   ~ 0
+BALANCING_PWM_5
+Text Label 3300 4400 0    60   ~ 0
+SCLK
+Text Label 3300 4500 0    60   ~ 0
+SDATA
+Text Label 3300 4600 0    60   ~ 0
+CS_5
+Text Label 3300 4700 0    60   ~ 0
+DATA_ENABLE_5
+Text Label 3300 5200 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 5200 3300 5200
+Wire Wire Line
+	3100 5300 3300 5300
+Wire Wire Line
+	3100 5400 3300 5400
+Wire Wire Line
+	3100 5500 3300 5500
+Wire Wire Line
+	3100 5600 3300 5600
+Wire Wire Line
+	3100 5700 3300 5700
+Text Label 3300 5700 0    60   ~ 0
+BALANCING_PWM_6
+Text Label 3300 5300 0    60   ~ 0
+SCLK
+Text Label 3300 5400 0    60   ~ 0
+SDATA
+Text Label 3300 5500 0    60   ~ 0
+CS_6
+Text Label 3300 5600 0    60   ~ 0
+DATA_ENABLE_6
+Text Label 3300 6100 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 6100 3300 6100
+Wire Wire Line
+	3100 6200 3300 6200
+Wire Wire Line
+	3100 6300 3300 6300
+Wire Wire Line
+	3100 6400 3300 6400
+Wire Wire Line
+	3100 6500 3300 6500
+Wire Wire Line
+	3100 6600 3300 6600
+Text Label 3300 6600 0    60   ~ 0
+BALANCING_PWM_7
+Text Label 3300 6200 0    60   ~ 0
+SCLK
+Text Label 3300 6300 0    60   ~ 0
+SDATA
+Text Label 3300 6400 0    60   ~ 0
+CS_7
+Text Label 3300 6500 0    60   ~ 0
+DATA_ENABLE_7
+Text Label 3300 7000 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	3100 7000 3300 7000
+Wire Wire Line
+	3100 7100 3300 7100
+Wire Wire Line
+	3100 7200 3300 7200
+Wire Wire Line
+	3100 7300 3300 7300
+Wire Wire Line
+	3100 7400 3300 7400
+Wire Wire Line
+	3100 7500 3300 7500
+Text Label 3300 7500 0    60   ~ 0
+BALANCING_PWM_8
+Text Label 3300 7100 0    60   ~ 0
+SCLK
+Text Label 3300 7200 0    60   ~ 0
+SDATA
+Text Label 3300 7300 0    60   ~ 0
+CS_8
+Text Label 3300 7400 0    60   ~ 0
+DATA_ENABLE_8
+$Comp
+L 2N7002P,215 Q101
+U 1 1 59465033
+P 6000 4000
+F 0 "Q101" H 5800 4200 60  0000 C CNN
+F 1 "2N7002P,215" H 5700 3800 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 6150 3100 60  0001 C CNN
+F 3 "http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf" H 6150 3000 60  0001 C CNN
+F 4 "Digikey" H 6150 3600 60  0001 C CNN "Supplier"
+F 5 "1727-4692-1-ND" H 6150 3500 60  0001 C CNN "Supplier Part Number"
+F 6 "Nexperia USA Inc." H 6150 3400 60  0001 C CNN "Manufacturer"
+F 7 "2N7002P,215" H 6100 3300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "MOSFET N-CH 60V 0.36A SOT-23" H 6150 3200 60  0001 C CNN "Description"
+	1    6000 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR017
+U 1 1 59465039
+P 5900 4500
+F 0 "#PWR017" H 5900 4330 50  0001 C CNN
+F 1 "DGND" H 5900 4400 50  0000 C CNN
+F 2 "" H 5900 4600 60  0000 C CNN
+F 3 "" H 5880 4410 60  0000 C CNN
+	1    5900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4300 5900 4400
+Text Label 5300 3600 0    60   ~ 0
+PWR_ENABLE
+Wire Wire Line
+	5300 3600 5900 3600
+Wire Wire Line
+	5900 3600 5900 3700
+$Comp
+L RC0805JR-07470RL R101
+U 1 1 59465190
+P 6500 4000
+F 0 "R101" H 6500 4080 60  0000 C CNN
+F 1 "RC0805JR-07470RL" H 6500 3700 50  0001 C CNN
+F 2 "Resistors:R0805" H 6500 3100 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 6500 3050 30  0001 C CNN
+F 4 "Digikey" H 6500 3600 60  0001 C CNN "Supplier"
+F 5 "311-470ARCT-ND" H 6500 3500 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 6500 3400 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07470RL" H 6500 3300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 6500 3200 60  0001 C CNN "Description"
+F 9 "470" H 6500 3930 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 6910 3920 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 6500 3860 50  0001 C CNN "Puissance (Watts)"
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4000 6300 4000
+Text Label 7800 4900 0    60   ~ 0
+SDATA
+Text Label 7800 3600 0    60   ~ 0
+BALANCING_PWM_4
+Wire Wire Line
+	7800 3700 9000 3700
+Text Label 7800 3700 0    60   ~ 0
+BALANCING_PWM_3
+Wire Wire Line
+	7800 3900 9000 3900
+Text Label 7800 3900 0    60   ~ 0
+BALANCING_PWM_1
+Wire Wire Line
+	7800 3800 9000 3800
+Text Label 7800 3800 0    60   ~ 0
+BALANCING_PWM_2
+Wire Wire Line
+	7800 5200 9000 5200
+Text Label 7800 5200 0    60   ~ 0
+BALANCING_PWM_7
+Wire Wire Line
+	7800 5100 9000 5100
+Text Label 7800 5100 0    60   ~ 0
+BALANCING_PWM_8
+Wire Wire Line
+	7800 5400 9000 5400
+Text Label 7800 5400 0    60   ~ 0
+BALANCING_PWM_5
+Wire Wire Line
+	7800 5300 9000 5300
+Text Label 7800 5300 0    60   ~ 0
+BALANCING_PWM_6
+Text Label 6800 4000 0    60   ~ 0
+PWR_ENABLE_GPIO
+Wire Wire Line
+	6700 4000 9000 4000
+Text Label 7800 4800 0    60   ~ 0
+CS_1
+Text Label 7800 2900 0    60   ~ 0
+DATA_ENABLE_1
+Text Label 7800 4100 0    60   ~ 0
+CS_2
+Text Label 7800 6200 0    60   ~ 0
+DATA_ENABLE_2
+Text Label 7800 5900 0    60   ~ 0
+CS_3
+Text Label 7800 6000 0    60   ~ 0
+DATA_ENABLE_3
+Text Label 7800 5700 0    60   ~ 0
+CS_4
+Text Label 7800 5800 0    60   ~ 0
+DATA_ENABLE_4
+Text Label 7800 3500 0    60   ~ 0
+CS_5
+Text Label 7800 4300 0    60   ~ 0
+DATA_ENABLE_5
+Text Label 7800 3300 0    60   ~ 0
+CS_6
+Text Label 7800 3400 0    60   ~ 0
+DATA_ENABLE_6
+Text Label 7800 3100 0    60   ~ 0
+CS_7
+Text Label 7800 3200 0    60   ~ 0
+DATA_ENABLE_7
+Text Label 7800 2300 0    60   ~ 0
+DATA_ENABLE_8
+Text Label 7800 2400 0    60   ~ 0
+CS_8
+Text Label 8700 2200 0    60   ~ 0
+PA8
+$Comp
+L 649002227222 J101
+U 1 1 594D3552
+P 5300 5400
+F 0 "J101" H 5300 5600 60  0000 C CNN
+F 1 "649002227222" H 5300 5250 60  0000 C CNN
+F 2 "Connectors:649002227222" H 5300 4500 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 5300 4400 60  0001 C CNN
+F 4 "Digikey" H 5300 5000 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 5300 4900 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 5300 4800 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 5300 4700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 5300 4600 60  0001 C CNN "Description"
+	1    5300 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 649002227222 J102
+U 1 1 594D39EB
+P 5300 6000
+F 0 "J102" H 5300 6200 60  0000 C CNN
+F 1 "649002227222" H 5300 5850 60  0000 C CNN
+F 2 "Connectors:649002227222" H 5300 5100 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 5300 5000 60  0001 C CNN
+F 4 "Digikey" H 5300 5600 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 5300 5500 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 5300 5400 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 5300 5300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 5300 5200 60  0001 C CNN "Description"
+	1    5300 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

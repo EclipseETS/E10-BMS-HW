@@ -36,7 +36,7 @@ P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
-X Anode 2 -200 0 100 R 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -60,7 +60,7 @@ P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
-X Anode 2 -200 0 100 R 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -84,7 +84,40 @@ P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
-X Anode 2 -200 0 100 R 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2N7002P,215
+#
+DEF 2N7002P,215 Q 0 0 N N 1 F N
+F0 "Q" -150 200 60 H V C CNN
+F1 "2N7002P,215" -350 100 60 H V C CNN
+F2 "IC:SOT-23-3" 150 -900 60 H I C CNN
+F3 "http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf" 150 -1000 60 H I C CNN
+F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
+F5 "1727-4692-1-ND" 150 -500 60 H I C CNN "Supplier Part Number"
+F6 "Nexperia USA Inc." 150 -600 60 H I C CNN "Manufacturer"
+F7 "2N7002P,215" 100 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "MOSFET N-CH 60V 0.36A SOT-23" 150 -800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 0 0 0 -100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 20 -50 20 -100 N
+P 2 0 1 0 20 -25 20 25 N
+P 2 0 1 0 20 50 20 100 N
+P 2 0 1 0 100 -100 100 -75 N
+P 2 0 1 0 150 -25 145 -25 N
+P 3 0 1 0 20 75 100 75 100 100 N
+P 3 0 1 0 170 -25 170 -95 100 -95 N
+P 3 0 1 0 170 25 170 90 100 90 N
+P 4 0 1 0 20 -75 100 -75 100 0 70 0 N
+P 4 0 1 0 25 0 70 25 70 -25 25 0 F
+P 4 0 1 0 140 10 150 25 190 25 200 40 N
+P 4 0 1 0 145 -25 170 20 195 -25 150 -25 F
+X G 1 -200 0 200 R 50 50 1 1 I
+X S 2 100 -300 200 U 50 50 1 1 I
+X D 3 100 300 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -776,39 +809,6 @@ X D 6 200 300 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Capacitor_Generic
-#
-DEF ~Capacitor_Generic C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "Capacitor_Generic" -50 -350 60 H I C CNN
-F2 "F" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Supplier" -50 -450 60 H I C CNN "Supplier"
-F5 "Supplier Part Number" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Manufacturer" -50 -650 60 H I C CNN "Manufacturer"
-F7 "Manufacturer Part Number" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "Description" -50 -850 60 H I C CNN "Description"
-F9 "Capacitance" -210 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "Tolerance" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "Voltage Rated" -50 -190 50 H V C CNN "Voltage Rated (Volt)"
-$FPLIST
- C0805
- C1206
- C1218
- C2010
- C2512
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # D1213A-02SOL-7
 #
 DEF D1213A-02SOL-7 D 0 0 Y N 1 F N
@@ -958,8 +958,8 @@ P 4 0 1 10 -150 100 -50 100 -100 0 -150 100 f
 P 4 0 1 0 55 45 62 24 82 43 54 47 F
 P 4 0 1 0 56 94 63 73 83 92 55 96 F
 P 4 0 1 0 200 -37 179 1 157 -35 200 -37 F
-X Anode 1 -200 200 100 R 50 50 1 1 I
-X Cathode 2 -200 -100 100 R 50 50 1 1 I
+X Anode 1 -200 200 100 R 50 50 1 1 P
+X Cathode 2 -200 -100 100 R 50 50 1 1 P
 X E 3 300 -100 100 L 50 50 1 1 I
 X C 4 300 200 100 L 50 50 1 1 I
 ENDDRAW
@@ -1436,37 +1436,6 @@ DRAW
 S -120 0 -150 0 0 1 0 N
 S 150 0 120 0 0 1 0 N
 P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistor_Generic
-#
-DEF ~Resistor_Generic R 0 0 N N 1 F N
-F0 "R" 0 100 60 H V C CNN
-F1 "Resistor_Generic" 50 -300 50 H I C CNN
-F2 "F" 50 -900 30 H I C CNN
-F3 "D" 50 -950 30 H I C CNN
-F4 "Supplier" 50 -400 60 H I C CNN "Supplier"
-F5 "Supplier Part Number" 50 -500 60 H I C CNN "Supplier Part Number"
-F6 "Manufacturer" 50 -600 60 H I C CNN "Manufacturer"
-F7 "Manufacturer Part Number" 50 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "Description" 50 -800 60 H I C CNN "Description"
-F9 "Resistance" 0 -80 50 H V C CNN "Resistance (Ohms)"
-F10 "Puissance" 0 -200 50 H I C CNN "Puissance (Watts)"
-F11 "Tolerance" 0 -140 50 H V C CNN "Tolerance (%)"
-$FPLIST
- R1206
- R0805
- R1218
- R2010
- R2512
-$ENDFPLIST
-DRAW
-S -150 0 -120 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
 X 1 1 -200 0 50 R 50 50 1 1 P
 X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
