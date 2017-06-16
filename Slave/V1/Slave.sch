@@ -150,8 +150,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 2100 9000 2100
 Wire Wire Line
-	8700 2200 9000 2200
-Wire Wire Line
 	7800 2300 9000 2300
 Wire Wire Line
 	7800 2400 9000 2400
@@ -718,59 +716,59 @@ DATA_ENABLE_8
 $Comp
 L 2N7002P,215 Q101
 U 1 1 59465033
-P 6000 4000
-F 0 "Q101" H 5800 4200 60  0000 C CNN
-F 1 "2N7002P,215" H 5700 3800 60  0000 C CNN
-F 2 "IC:SOT-23-3" H 6150 3100 60  0001 C CNN
-F 3 "http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf" H 6150 3000 60  0001 C CNN
-F 4 "Digikey" H 6150 3600 60  0001 C CNN "Supplier"
-F 5 "1727-4692-1-ND" H 6150 3500 60  0001 C CNN "Supplier Part Number"
-F 6 "Nexperia USA Inc." H 6150 3400 60  0001 C CNN "Manufacturer"
-F 7 "2N7002P,215" H 6100 3300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "MOSFET N-CH 60V 0.36A SOT-23" H 6150 3200 60  0001 C CNN "Description"
-	1    6000 4000
+P 6000 2200
+F 0 "Q101" H 5800 2400 60  0000 C CNN
+F 1 "2N7002P,215" H 5700 2000 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 6150 1300 60  0001 C CNN
+F 3 "http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf" H 6150 1200 60  0001 C CNN
+F 4 "Digikey" H 6150 1800 60  0001 C CNN "Supplier"
+F 5 "1727-4692-1-ND" H 6150 1700 60  0001 C CNN "Supplier Part Number"
+F 6 "Nexperia USA Inc." H 6150 1600 60  0001 C CNN "Manufacturer"
+F 7 "2N7002P,215" H 6100 1500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "MOSFET N-CH 60V 0.36A SOT-23" H 6150 1400 60  0001 C CNN "Description"
+	1    6000 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L DGND #PWR017
 U 1 1 59465039
-P 5900 4500
-F 0 "#PWR017" H 5900 4330 50  0001 C CNN
-F 1 "DGND" H 5900 4400 50  0000 C CNN
-F 2 "" H 5900 4600 60  0000 C CNN
-F 3 "" H 5880 4410 60  0000 C CNN
-	1    5900 4500
+P 5900 2700
+F 0 "#PWR017" H 5900 2530 50  0001 C CNN
+F 1 "DGND" H 5900 2600 50  0000 C CNN
+F 2 "" H 5900 2800 60  0000 C CNN
+F 3 "" H 5880 2610 60  0000 C CNN
+	1    5900 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 4300 5900 4400
-Text Label 5300 3600 0    60   ~ 0
+	5900 2500 5900 2600
+Text Label 5300 1800 0    60   ~ 0
 PWR_ENABLE
 Wire Wire Line
-	5300 3600 5900 3600
+	5300 1800 5900 1800
 Wire Wire Line
-	5900 3600 5900 3700
+	5900 1800 5900 1900
 $Comp
 L RC0805JR-07470RL R101
 U 1 1 59465190
-P 6500 4000
-F 0 "R101" H 6500 4080 60  0000 C CNN
-F 1 "RC0805JR-07470RL" H 6500 3700 50  0001 C CNN
-F 2 "Resistors:R0805" H 6500 3100 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 6500 3050 30  0001 C CNN
-F 4 "Digikey" H 6500 3600 60  0001 C CNN "Supplier"
-F 5 "311-470ARCT-ND" H 6500 3500 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 6500 3400 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470RL" H 6500 3300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 6500 3200 60  0001 C CNN "Description"
-F 9 "470" H 6500 3930 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 6910 3920 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 6500 3860 50  0001 C CNN "Puissance (Watts)"
-	1    6500 4000
+P 6500 2200
+F 0 "R101" H 6500 2280 60  0000 C CNN
+F 1 "RC0805JR-07470RL" H 6500 1900 50  0001 C CNN
+F 2 "Resistors:R0805" H 6500 1300 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 6500 1250 30  0001 C CNN
+F 4 "Digikey" H 6500 1800 60  0001 C CNN "Supplier"
+F 5 "311-470ARCT-ND" H 6500 1700 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 6500 1600 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07470RL" H 6500 1500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 6500 1400 60  0001 C CNN "Description"
+F 9 "470" H 6500 2130 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 6910 2120 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 6500 2060 50  0001 C CNN "Puissance (Watts)"
+	1    6500 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 4000 6300 4000
+	6200 2200 6300 2200
 Text Label 7800 4900 0    60   ~ 0
 SDATA
 Text Label 7800 3600 0    60   ~ 0
@@ -803,10 +801,10 @@ Wire Wire Line
 	7800 5300 9000 5300
 Text Label 7800 5300 0    60   ~ 0
 BALANCING_PWM_6
-Text Label 6800 4000 0    60   ~ 0
+Text Label 6800 2200 0    60   ~ 0
 PWR_ENABLE_GPIO
 Wire Wire Line
-	6700 4000 9000 4000
+	6700 2200 9000 2200
 Text Label 7800 4800 0    60   ~ 0
 CS_1
 Text Label 7800 2900 0    60   ~ 0
@@ -839,8 +837,6 @@ Text Label 7800 2300 0    60   ~ 0
 DATA_ENABLE_8
 Text Label 7800 2400 0    60   ~ 0
 CS_8
-Text Label 8700 2200 0    60   ~ 0
-PA8
 $Comp
 L 649002227222 J101
 U 1 1 594D3552
@@ -873,4 +869,8 @@ F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 5300 5200 60  0001 C CNN "Description"
 	1    5300 6000
 	1    0    0    -1  
 $EndComp
+Text Label 8700 4000 0    60   ~ 0
+PB5
+Wire Wire Line
+	8700 4000 9000 4000
 $EndSCHEMATC
