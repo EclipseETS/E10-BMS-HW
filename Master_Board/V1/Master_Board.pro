@@ -1,4 +1,4 @@
-update=Wed 07 Jun 2017 09:56:17 PM EDT
+update=17/06/2017 12:18:34 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,7 +37,7 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../../../KiCad_Library/Schematic
+LibDir=../../../KiCad_Library/Schematic;../../../KiCad_Library/Footprint
 [eeschema/libraries]
 LibName1=ADC/ADC
 LibName2=Amplifiers/Amplifiers
