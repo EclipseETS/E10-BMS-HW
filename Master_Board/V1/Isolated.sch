@@ -37,15 +37,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4700 2600 500  550 
+S 4050 2450 3050 1250
+U 5941231F
+F0 "Precharge" 60
+F1 "Precharge.sch" 60
+F2 "PC_MAIN" I L 4050 2800 60 
+F3 "PC_MPPT" I L 4050 3300 60 
+$EndSheet
+Text HLabel 3350 2800 0    60   Input ~ 0
+PC_MAIN_EN
+$Sheet
+S 4050 4450 3000 1150
 U 5941231C
 F0 "VoltageSense" 60
 F1 "VoltageSense.sch" 60
 $EndSheet
-$Sheet
-S 4700 4050 500  600 
-U 5941231F
-F0 "Precharge" 60
-F1 "Precharge.sch" 60
-$EndSheet
+Text HLabel 3350 3300 0    60   Input ~ 0
+PC_MPPT_EN
+Wire Wire Line
+	3350 2800 4050 2800
+Wire Wire Line
+	3350 3300 4050 3300
 $EndSCHEMATC
