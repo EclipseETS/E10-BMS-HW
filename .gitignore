@@ -32,3 +32,5 @@ _autosave-*
 .~lock.*#
 
 # End of https://www.gitignore.io/api/libreoffice
+
+*.gvp
