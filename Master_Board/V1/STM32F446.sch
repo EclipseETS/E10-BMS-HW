@@ -636,7 +636,7 @@ NoConn ~ 900  5400
 NoConn ~ 900  5000
 Text Label 1300 7500 0    60   ~ 0
 USART2_TX
-Text Label 3700 4900 0    60   ~ 0
+Text Label 3750 5150 0    60   ~ 0
 PA3
 $Comp
 L RC0805JR-074K7L R211
@@ -670,7 +670,7 @@ F 3 "" H 2380 7110 60  0000 C CNN
 	1    2400 7200
 	1    0    0    -1  
 $EndComp
-Text Label 3700 4400 0    60   ~ 0
+Text Label 3750 4700 0    60   ~ 0
 PA2
 Text Label 2500 7500 0    60   ~ 0
 PA2
@@ -990,33 +990,33 @@ NoConn ~ 10000 5500
 $Comp
 L Test_Point_THM TP201
 U 1 1 58FAE11E
-P 3500 4400
-F 0 "TP201" H 3500 4525 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 4100 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 3500 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3400 60  0001 C CNN
-F 4 "Digikey" H 3500 4000 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 3900 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 3800 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 3700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 3600 60  0001 C CNN "Description"
-	1    3500 4400
+P 3500 4700
+F 0 "TP201" H 3500 4825 60  0000 C CNN
+F 1 "Test_Point_THM" H 3500 4400 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 3500 3800 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3700 60  0001 C CNN
+F 4 "Digikey" H 3500 4300 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 3500 4200 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 3500 4100 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 3500 4000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 3900 60  0001 C CNN "Description"
+	1    3500 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Test_Point_THM TP202
 U 1 1 58FAE1BD
-P 3500 4900
-F 0 "TP202" H 3500 5025 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 4600 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 4000 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3900 60  0001 C CNN
-F 4 "Digikey" H 3500 4500 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 4400 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 4300 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 4200 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4100 60  0001 C CNN "Description"
-	1    3500 4900
+P 3500 5150
+F 0 "TP202" H 3500 5275 60  0000 C CNN
+F 1 "Test_Point_THM" H 3500 4850 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 3500 4250 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 4150 60  0001 C CNN
+F 4 "Digikey" H 3500 4750 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 3500 4650 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 3500 4550 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 3500 4450 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4350 60  0001 C CNN "Description"
+	1    3500 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1107,28 +1107,28 @@ $EndComp
 $Comp
 L Test_Point_THM TP203
 U 1 1 58FBE32C
-P 3500 5300
-F 0 "TP203" H 3500 5425 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 5000 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 4400 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 4300 60  0001 C CNN
-F 4 "Digikey" H 3500 4900 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 4800 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 4700 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 4600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4500 60  0001 C CNN "Description"
-	1    3500 5300
+P 3500 5400
+F 0 "TP203" H 3500 5525 60  0000 C CNN
+F 1 "Test_Point_THM" H 3500 5100 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 3500 4500 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 4400 60  0001 C CNN
+F 4 "Digikey" H 3500 5000 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 3500 4900 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 3500 4800 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 3500 4700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4600 60  0001 C CNN "Description"
+	1    3500 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L DGND #PWR032
 U 1 1 58FBE35A
-P 3700 5500
-F 0 "#PWR032" H 3700 5330 50  0001 C CNN
-F 1 "DGND" H 3700 5400 50  0000 C CNN
-F 2 "" H 3700 5600 60  0000 C CNN
-F 3 "" H 3680 5410 60  0000 C CNN
-	1    3700 5500
+P 3700 5600
+F 0 "#PWR032" H 3700 5430 50  0001 C CNN
+F 1 "DGND" H 3700 5500 50  0000 C CNN
+F 2 "" H 3700 5700 60  0000 C CNN
+F 3 "" H 3680 5510 60  0000 C CNN
+	1    3700 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1196,13 +1196,13 @@ Text Label 7100 4300 0    60   ~ 0
 CAN2_TX
 Text Label 7100 4400 0    60   ~ 0
 CAN2_RX
-Text HLabel 5000 5650 3    60   Input ~ 0
+Text HLabel 5000 4900 3    60   BiDi ~ 0
 PA4
-Text HLabel 5100 5650 3    60   Input ~ 0
+Text HLabel 5100 4900 3    60   BiDi ~ 0
 PA5
-Text HLabel 5200 5650 3    60   Input ~ 0
+Text HLabel 5200 4900 3    60   BiDi ~ 0
 PA6
-Text HLabel 5300 5650 3    60   Output ~ 0
+Text HLabel 5300 4900 3    60   BiDi ~ 0
 PA7
 Wire Wire Line
 	6000 5200 6000 4800
@@ -1452,7 +1452,7 @@ Wire Notes Line
 Wire Notes Line
 	3900 1400 1900 1400
 Wire Wire Line
-	4700 4900 3700 4900
+	3700 4900 4700 4900
 Wire Wire Line
 	2300 6600 2500 6600
 Wire Wire Line
@@ -1574,7 +1574,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 6800 1200 6600
 Wire Wire Line
-	3700 5300 3700 5400
+	3700 5400 3700 5500
 Wire Wire Line
 	3600 2600 3800 2600
 Wire Wire Line
@@ -1586,25 +1586,31 @@ Wire Wire Line
 	2400 6700 2400 6600
 Connection ~ 2400 6600
 Wire Wire Line
-	5000 4800 5000 5650
+	5000 4800 5000 4900
 Wire Wire Line
-	5300 5650 5300 4800
+	5300 4900 5300 4800
 Wire Wire Line
-	5200 4800 5200 5650
+	5200 4800 5200 4900
 Wire Wire Line
-	5100 5650 5100 4800
-Text Label 5300 5100 3    60   ~ 0
-SPI1-MOSI
-Text Label 5200 5100 3    60   ~ 0
-SPI1-MISO
-Text Label 5100 5100 3    60   ~ 0
-SPI1-SCK
+	5100 4900 5100 4800
 Wire Wire Line
 	5400 4900 5400 4800
 Wire Wire Line
 	5500 4900 5500 4800
 Wire Wire Line
 	5600 4800 5600 4900
-Text Label 5000 5600 1    60   ~ 0
-CE_TempSensor
+Text HLabel 3700 4400 0    60   BiDi ~ 0
+PA2
+Text HLabel 3700 4900 0    60   BiDi ~ 0
+PA3
+Wire Wire Line
+	4000 4400 4000 4700
+Wire Wire Line
+	4000 4700 3700 4700
+Connection ~ 4000 4400
+Wire Wire Line
+	4000 4900 4000 5150
+Wire Wire Line
+	4000 5150 3700 5150
+Connection ~ 4000 4900
 $EndSCHEMATC

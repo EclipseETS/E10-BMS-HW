@@ -51,6 +51,9 @@ S 4050 4450 3000 1150
 U 5941231C
 F0 "VoltageSense" 60
 F1 "VoltageSense.sch" 60
+F2 "BP_VSense" I L 4050 4700 60 
+F3 "VSense_EN" I L 4050 5000 60 
+F4 "MPPT_VSense" I L 4050 5300 60 
 $EndSheet
 Text HLabel 3350 3300 0    60   Input ~ 0
 PC_MPPT_EN
@@ -58,4 +61,16 @@ Wire Wire Line
 	3350 2800 4050 2800
 Wire Wire Line
 	3350 3300 4050 3300
+Wire Wire Line
+	4050 4700 3350 4700
+Wire Wire Line
+	4050 5000 3350 5000
+Wire Wire Line
+	4050 5300 3350 5300
+Text HLabel 3350 4700 0    60   Input ~ 0
+BP_VSense
+Text HLabel 3350 5000 0    60   Input ~ 0
+VSense_EN
+Text HLabel 3350 5300 0    60   Input ~ 0
+MPPT_VSense
 $EndSCHEMATC

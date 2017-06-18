@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -601,15 +601,7 @@ Connection ~ 7250 2000
 Wire Wire Line
 	8050 2100 7850 2100
 Wire Wire Line
-	5500 2000 5600 2000
-Wire Wire Line
-	5600 2000 6600 2000
-Wire Wire Line
-	6600 2000 6900 2000
-Wire Wire Line
-	6900 2000 7250 2000
-Wire Wire Line
-	7250 2000 7450 2000
+	5500 2000 7450 2000
 Wire Wire Line
 	8450 2100 8450 2200
 Wire Wire Line
@@ -634,9 +626,7 @@ Connection ~ 7300 4000
 Wire Wire Line
 	8100 4100 7900 4100
 Wire Wire Line
-	6900 4000 7300 4000
-Wire Wire Line
-	7300 4000 7500 4000
+	6900 4000 7500 4000
 Wire Wire Line
 	8500 4100 8500 4200
 Wire Wire Line
@@ -653,17 +643,13 @@ Connection ~ 7300 5550
 Wire Wire Line
 	8100 5650 7900 5650
 Wire Wire Line
-	6600 5550 7300 5550
-Wire Wire Line
-	7300 5550 7500 5550
+	6600 5550 7500 5550
 Wire Wire Line
 	8500 5650 8500 5750
 Wire Wire Line
 	8500 6150 8500 6050
 Wire Wire Line
-	5600 1450 5600 1600
-Wire Wire Line
-	5600 1600 5600 1700
+	5600 1450 5600 1700
 Wire Wire Line
 	5600 1600 5500 1600
 Wire Wire Line
@@ -683,15 +669,11 @@ Wire Wire Line
 	6600 2000 6600 5550
 Connection ~ 6600 2000
 Wire Wire Line
-	5500 4100 5600 4100
-Wire Wire Line
-	5600 4100 7500 4100
+	5500 4100 7500 4100
 Wire Wire Line
 	7250 2100 7250 2900
 Wire Wire Line
-	7250 2900 5600 2900
-Wire Wire Line
-	5600 2900 5500 2900
+	7250 2900 5500 2900
 Wire Wire Line
 	5600 2900 5600 3000
 Wire Wire Line
@@ -700,9 +682,7 @@ Connection ~ 5600 2900
 Wire Wire Line
 	5500 3200 5600 3200
 Wire Wire Line
-	5600 3200 5600 3300
-Wire Wire Line
-	5600 3300 5600 3400
+	5600 3200 5600 3400
 Wire Wire Line
 	5600 3300 5500 3300
 Connection ~ 5600 3300
@@ -714,25 +694,19 @@ Connection ~ 5600 4100
 Wire Wire Line
 	5500 4400 5600 4400
 Wire Wire Line
-	5600 4400 5600 4500
-Wire Wire Line
-	5600 4500 5600 4600
+	5600 4400 5600 4600
 Wire Wire Line
 	5600 4500 5500 4500
 Connection ~ 5600 4500
 Wire Wire Line
-	5500 5650 5600 5650
-Wire Wire Line
-	5600 5650 7500 5650
+	5500 5650 7500 5650
 Wire Wire Line
 	5500 5750 5600 5750
 Wire Wire Line
 	5600 5750 5600 5650
 Connection ~ 5600 5650
 Wire Wire Line
-	5600 5950 5600 6050
-Wire Wire Line
-	5600 6050 5600 6150
+	5600 5950 5600 6150
 Wire Wire Line
 	5600 5950 5500 5950
 Wire Wire Line

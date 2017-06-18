@@ -288,14 +288,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 4700 6200 4800
 Wire Wire Line
-	5300 4200 6400 4200
+	3800 4200 6400 4200
 Wire Wire Line
-	5400 4000 6400 4000
+	3800 4000 6400 4000
 Connection ~ 6300 4000
-Wire Wire Line
-	3800 4000 5400 4000
-Wire Wire Line
-	3800 4200 5300 4200
 Wire Wire Line
 	4400 4000 4400 5100
 Connection ~ 4400 4000
