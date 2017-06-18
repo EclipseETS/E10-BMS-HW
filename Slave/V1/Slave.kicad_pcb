@@ -2,10 +2,10 @@
 
   (general
     (links 1122)
-    (no_connects 3)
+    (no_connects 0)
     (area 88.087999 39.827999 218.744001 178.104001)
     (thickness 1.6)
-    (drawings 108)
+    (drawings 109)
     (tracks 4363)
     (zones 0)
     (modules 534)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.2032)
     (user_trace_width 0.127)
     (user_trace_width 0.18)
     (user_trace_width 0.2032)
@@ -13676,6 +13676,9 @@
     )
   )
 
+  (gr_text SWD (at 167.64 170.942) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
+  )
   (dimension 130.556 (width 0.2032) (layer Eco1.User)
     (gr_text "130.556 mm" (at 153.416 34.2646) (layer Eco1.User)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
