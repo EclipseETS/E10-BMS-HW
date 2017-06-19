@@ -384,6 +384,39 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 885012207075
+#
+DEF ~885012207075 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "885012207075" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "http://katalog.we-online.com/pbs/datasheet/885012207075.pdf" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7669-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012207075" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.33UF 25V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "330nF" -210 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "25V" -50 -190 50 H V C CNN "Voltage Rated (Volt)"
+$FPLIST
+ C0805
+ C1206
+ C1218
+ C2010
+ C2512
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 885012207080
 #
 DEF ~885012207080 C 0 0 N N 1 F N
@@ -1269,6 +1302,29 @@ S 150 0 120 0 0 1 0 N
 P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
 X 1 1 -200 0 50 R 50 50 1 1 P
 X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RLB0608-471KL
+#
+DEF ~RLB0608-471KL L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "RLB0608-471KL" 0 -350 60 H I C CNN
+F2 "Inductors:RLB0608" 0 -950 60 H I C CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "RLB0608-471KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "RLB0608-471KL" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 470UH 140MA 6.5 OHM TH" 0 -850 60 H I C CNN "Description"
+F9 "470µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "140mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

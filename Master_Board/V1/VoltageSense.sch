@@ -353,12 +353,12 @@ $EndComp
 $Comp
 L DGND #PWR?
 U 1 1 594A0EB3
-P 6700 6800
-F 0 "#PWR?" H 6700 6630 50  0001 C CNN
-F 1 "DGND" H 6700 6700 50  0000 C CNN
-F 2 "" H 6700 6900 60  0000 C CNN
-F 3 "" H 6680 6710 60  0000 C CNN
-	1    6700 6800
+P 6700 6700
+F 0 "#PWR?" H 6700 6530 50  0001 C CNN
+F 1 "DGND" H 6700 6600 50  0000 C CNN
+F 2 "" H 6700 6800 60  0000 C CNN
+F 3 "" H 6680 6610 60  0000 C CNN
+	1    6700 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -387,8 +387,8 @@ $Comp
 L NCS1S2405SC U?
 U 1 1 594A7534
 P 4900 3650
-F 0 "U?" H 4650 4050 60  0000 C CNN
-F 1 "NCS1S2405SC" H 4900 3250 60  0000 C CNN
+F 0 "U?" H 5150 3300 60  0000 C CNN
+F 1 "NCS1S2405SC" H 4900 4050 60  0000 C CNN
 F 2 "IC:MSOP-8-EP" H 4950 2600 60  0001 C CNN
 F 3 "http://power.murata.com/data/power/ncl/kdc_ncs1.pdf" H 4950 2500 60  0001 C CNN
 F 4 "Digikey" H 4900 3100 60  0001 C CNN "Supplier"
@@ -424,12 +424,12 @@ $EndComp
 $Comp
 L 12V #PWR?
 U 1 1 594A78A1
-P 6350 3650
-F 0 "#PWR?" H 6350 3500 50  0001 C CNN
-F 1 "12V" H 6340 3790 50  0000 C CNN
-F 2 "" H 6350 3650 60  0000 C CNN
-F 3 "" H 6350 3650 60  0000 C CNN
-	1    6350 3650
+P 6750 3650
+F 0 "#PWR?" H 6750 3500 50  0001 C CNN
+F 1 "12V" H 6740 3790 50  0000 C CNN
+F 2 "" H 6750 3650 60  0000 C CNN
+F 3 "" H 6750 3650 60  0000 C CNN
+	1    6750 3650
 	1    0    0    -1  
 $EndComp
 Text HLabel 8150 3450 2    60   Input ~ 0
@@ -751,12 +751,12 @@ $EndComp
 $Comp
 L DGND #PWR?
 U 1 1 594A8A81
-P 6700 3200
-F 0 "#PWR?" H 6700 3030 50  0001 C CNN
-F 1 "DGND" H 6700 3100 50  0000 C CNN
-F 2 "" H 6700 3300 60  0000 C CNN
-F 3 "" H 6680 3110 60  0000 C CNN
-	1    6700 3200
+P 6700 3050
+F 0 "#PWR?" H 6700 2880 50  0001 C CNN
+F 1 "DGND" H 6700 2950 50  0000 C CNN
+F 2 "" H 6700 3150 60  0000 C CNN
+F 3 "" H 6680 2960 60  0000 C CNN
+	1    6700 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -785,22 +785,65 @@ Text Label 3800 3450 0    60   ~ 0
 5V_ISO
 Text Label 4300 1200 0    60   ~ 0
 5V_ISO
+Text Label 4300 4750 0    60   ~ 0
+5V_ISO
+$Comp
+L Diode D?
+U 1 1 594AB9D9
+P 5800 3450
+F 0 "D?" H 5750 3600 60  0000 C CNN
+F 1 "Diode" H 5750 3300 60  0000 C CNN
+F 2 "F" H 5800 2430 60  0001 C CNN
+F 3 "D" H 5800 2330 60  0001 C CNN
+F 4 "Supplier" H 5800 2930 60  0001 C CNN "Supplier"
+F 5 "Supplier Part Number" H 5800 2830 60  0001 C CNN "Supplier Part Number"
+F 6 "Manufacturer" H 5800 2730 60  0001 C CNN "Manufacturer"
+F 7 "Manufacturer Part Number" H 5800 2630 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Description" H 5800 2530 60  0001 C CNN "Description"
+	1    5800 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L RC0805JR-07470RL R?
+U 1 1 594841DD
+P 7100 3450
+F 0 "R?" H 7100 3530 60  0000 C CNN
+F 1 "RC0805JR-07470RL" H 7100 3150 50  0001 C CNN
+F 2 "Resistors:R0805" H 7100 2550 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7100 2500 30  0001 C CNN
+F 4 "Digikey" H 7100 3050 60  0001 C CNN "Supplier"
+F 5 "311-470ARCT-ND" H 7100 2950 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 7100 2850 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07470RL" H 7100 2750 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 7100 2650 60  0001 C CNN "Description"
+F 9 "470" H 7100 3380 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 7510 3370 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 7100 3310 50  0001 C CNN "Puissance (Watts)"
+	1    7100 3450
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2100 4350 2650 4350
 Wire Wire Line
 	2650 6050 2100 6050
 Wire Wire Line
-	5400 5450 5800 5450
+	5400 5450 5500 5450
+Wire Wire Line
+	5500 5450 5800 5450
 Wire Wire Line
 	5500 5450 5500 5650
 Wire Wire Line
-	3950 5450 4400 5450
+	3950 5450 4300 5450
+Wire Wire Line
+	4300 5450 4400 5450
 Wire Wire Line
 	4300 5450 4300 5600
 Wire Wire Line
 	5500 4800 5500 5150
 Wire Wire Line
-	5400 5150 5800 5150
+	5400 5150 5500 5150
+Wire Wire Line
+	5500 5150 5800 5150
 Connection ~ 5500 5150
 Connection ~ 5500 5450
 Wire Wire Line
@@ -812,14 +855,18 @@ Wire Wire Line
 Wire Wire Line
 	5650 5350 5650 5650
 Wire Wire Line
-	3950 5150 4400 5150
+	3950 5150 4300 5150
+Wire Wire Line
+	4300 5150 4400 5150
 Connection ~ 4300 5450
 Wire Wire Line
 	4400 5250 4150 5250
 Wire Wire Line
 	4150 5250 4150 5000
 Wire Wire Line
-	4150 5000 2650 5000
+	4150 5000 3500 5000
+Wire Wire Line
+	3500 5000 2650 5000
 Wire Wire Line
 	3500 5000 3500 5150
 Wire Wire Line
@@ -827,14 +874,20 @@ Wire Wire Line
 Wire Wire Line
 	4150 5350 4150 5550
 Wire Wire Line
-	4150 5550 2650 5550
+	4150 5550 3500 5550
+Wire Wire Line
+	3500 5550 2650 5550
 Wire Wire Line
 	3500 5550 3500 5450
 Wire Wire Line
-	2650 4900 2650 5100
+	2650 4900 2650 5000
+Wire Wire Line
+	2650 5000 2650 5100
 Connection ~ 3500 5000
 Wire Wire Line
-	2650 5500 2650 6050
+	2650 5500 2650 5550
+Wire Wire Line
+	2650 5550 2650 6050
 Connection ~ 3500 5550
 Connection ~ 2650 5550
 Connection ~ 2650 5000
@@ -843,17 +896,23 @@ Wire Wire Line
 Wire Wire Line
 	5650 4950 6200 4950
 Wire Wire Line
-	6600 4950 7000 4950
+	6600 4950 6700 4950
+Wire Wire Line
+	6700 4950 7000 4950
 Wire Wire Line
 	7000 4950 7000 5200
 Wire Wire Line
 	5650 5650 6200 5650
 Wire Wire Line
-	6600 5650 7000 5650
+	6600 5650 6700 5650
+Wire Wire Line
+	6700 5650 7000 5650
 Wire Wire Line
 	7000 5650 7000 5400
 Wire Wire Line
-	7600 5300 8100 5300
+	7600 5300 7850 5300
+Wire Wire Line
+	7850 5300 8100 5300
 Connection ~ 4300 5150
 Wire Wire Line
 	7150 4400 7100 4400
@@ -889,7 +948,7 @@ Wire Wire Line
 	6700 6050 6700 5650
 Connection ~ 6700 5650
 Wire Wire Line
-	6700 6700 6700 6450
+	6700 6600 6700 6450
 Wire Wire Line
 	4400 3850 4400 4000
 Wire Wire Line
@@ -897,23 +956,29 @@ Wire Wire Line
 Wire Wire Line
 	3800 3450 4400 3450
 Wire Wire Line
-	5400 3650 5700 3650
+	5400 3650 6000 3650
 Wire Wire Line
 	2100 750  2650 750 
 Wire Wire Line
 	2650 2450 2100 2450
 Wire Wire Line
-	5400 1850 5800 1850
+	5400 1850 5500 1850
+Wire Wire Line
+	5500 1850 5800 1850
 Wire Wire Line
 	5500 1850 5500 2050
 Wire Wire Line
-	3950 1850 4400 1850
+	3950 1850 4300 1850
+Wire Wire Line
+	4300 1850 4400 1850
 Wire Wire Line
 	4300 1850 4300 2000
 Wire Wire Line
 	5500 1200 5500 1550
 Wire Wire Line
-	5400 1550 5800 1550
+	5400 1550 5500 1550
+Wire Wire Line
+	5500 1550 5800 1550
 Connection ~ 5500 1550
 Connection ~ 5500 1850
 Wire Wire Line
@@ -925,14 +990,18 @@ Wire Wire Line
 Wire Wire Line
 	5650 1750 5650 2050
 Wire Wire Line
-	3950 1550 4400 1550
+	3950 1550 4300 1550
+Wire Wire Line
+	4300 1550 4400 1550
 Connection ~ 4300 1850
 Wire Wire Line
 	4400 1650 4150 1650
 Wire Wire Line
 	4150 1650 4150 1400
 Wire Wire Line
-	4150 1400 2650 1400
+	4150 1400 3500 1400
+Wire Wire Line
+	3500 1400 2650 1400
 Wire Wire Line
 	3500 1400 3500 1550
 Wire Wire Line
@@ -940,14 +1009,20 @@ Wire Wire Line
 Wire Wire Line
 	4150 1750 4150 1950
 Wire Wire Line
-	4150 1950 2650 1950
+	4150 1950 3500 1950
+Wire Wire Line
+	3500 1950 2650 1950
 Wire Wire Line
 	3500 1950 3500 1850
 Wire Wire Line
-	2650 1300 2650 1500
+	2650 1300 2650 1400
+Wire Wire Line
+	2650 1400 2650 1500
 Connection ~ 3500 1400
 Wire Wire Line
-	2650 1900 2650 2450
+	2650 1900 2650 1950
+Wire Wire Line
+	2650 1950 2650 2450
 Connection ~ 3500 1950
 Connection ~ 2650 1950
 Connection ~ 2650 1400
@@ -956,17 +1031,23 @@ Wire Wire Line
 Wire Wire Line
 	5650 1350 6200 1350
 Wire Wire Line
-	6600 1350 7000 1350
+	6600 1350 6700 1350
+Wire Wire Line
+	6700 1350 7000 1350
 Wire Wire Line
 	7000 1350 7000 1600
 Wire Wire Line
 	5650 2050 6200 2050
 Wire Wire Line
-	6600 2050 7000 2050
+	6600 2050 6700 2050
+Wire Wire Line
+	6700 2050 7000 2050
 Wire Wire Line
 	7000 2050 7000 1800
 Wire Wire Line
-	7600 1700 8100 1700
+	7600 1700 7850 1700
+Wire Wire Line
+	7850 1700 8100 1700
 Connection ~ 4300 1550
 Wire Wire Line
 	7150 800  7100 800 
@@ -1002,37 +1083,82 @@ Wire Wire Line
 	6700 2450 6700 2050
 Connection ~ 6700 2050
 Wire Wire Line
-	6700 3100 6700 2850
+	6700 2950 6700 2850
 Wire Wire Line
 	4300 1550 4300 1200
 Wire Wire Line
 	4300 5150 4300 4750
-Text Label 4300 4750 0    60   ~ 0
-5V_ISO
-$Comp
-L Diode D?
-U 1 1 594AB9D9
-P 7200 3450
-F 0 "D?" H 7150 3600 60  0000 C CNN
-F 1 "Diode" H 7150 3300 60  0000 C CNN
-F 2 "F" H 7200 2430 60  0001 C CNN
-F 3 "D" H 7200 2330 60  0001 C CNN
-F 4 "Supplier" H 7200 2930 60  0001 C CNN "Supplier"
-F 5 "Supplier Part Number" H 7200 2830 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 7200 2730 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 7200 2630 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Description" H 7200 2530 60  0001 C CNN "Description"
-	1    7200 3450
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	4900 650  4900 1400
 Wire Notes Line
-	4900 2100 4900 3100
+	4900 2200 4900 3200
 Wire Notes Line
 	4900 4100 4900 5000
 Wire Notes Line
 	4900 5700 4900 7550
-Text Notes 5700 3850 0    60   ~ 0
-TODO: LC filter + control
+Wire Wire Line
+	5700 3450 5400 3450
+Wire Wire Line
+	6000 3450 6900 3450
+Wire Wire Line
+	7300 3450 8150 3450
+$Comp
+L 885012207075 C?
+U 1 1 594853E0
+P 6600 3950
+F 0 "C?" V 6450 4100 60  0000 C CNN
+F 1 "885012207075" H 6550 3600 60  0001 C CNN
+F 2 "Capacitors:C0805" H 6550 3000 60  0001 C CNN
+F 3 "http://katalog.we-online.com/pbs/datasheet/885012207075.pdf" H 6550 2900 60  0001 C CNN
+F 4 "Digikey" H 6550 3500 60  0001 C CNN "Supplier"
+F 5 "732-7669-1-ND" H 6550 3400 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 6550 3300 60  0001 C CNN "Manufacturer"
+F 7 "885012207075" H 6550 3200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.33UF 25V X7R 0805" H 6550 3100 60  0001 C CNN "Description"
+F 9 "330nF" V 6550 4150 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±10%" H 6810 3830 50  0001 C CNN "Tolerance (%)"
+F 11 "25V" H 6450 3700 50  0001 C CNN "Voltage Rated (Volt)"
+	1    6600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L RLB0608-471KL L?
+U 1 1 59485E8F
+P 6200 3650
+F 0 "L?" H 6200 3750 60  0000 C CNN
+F 1 "RLB0608-471KL" H 6200 3300 60  0001 C CNN
+F 2 "Inductors:RLB0608" H 6200 2700 60  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" H 6200 2600 60  0001 C CNN
+F 4 "Digikey" H 6200 3200 60  0001 C CNN "Supplier"
+F 5 "RLB0608-471KL-ND" H 6200 3100 60  0001 C CNN "Supplier Part Number"
+F 6 "Bourns Inc." H 6200 3000 60  0001 C CNN "Manufacturer"
+F 7 "RLB0608-471KL" H 6200 2900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FIXED IND 470UH 140MA 6.5 OHM TH" H 6200 2800 60  0001 C CNN "Description"
+F 9 "470µH" H 6200 3600 50  0000 C CNN "Inductance (Henry)"
+F 10 "140mA" H 6200 3530 50  0000 C CNN "Current Rating (Ampere)"
+	1    6200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3650 6600 3650
+Wire Wire Line
+	6600 3650 6750 3650
+Wire Wire Line
+	6600 3650 6600 3750
+Connection ~ 6600 3650
+$Comp
+L DGND #PWR?
+U 1 1 59486B2F
+P 6600 4200
+F 0 "#PWR?" H 6600 4030 50  0001 C CNN
+F 1 "DGND" H 6600 4100 50  0000 C CNN
+F 2 "" H 6600 4300 60  0000 C CNN
+F 3 "" H 6580 4110 60  0000 C CNN
+	1    6600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4100 6600 4050
+Text Notes 3150 850  0    120  ~ 0
+Isolated
 $EndSCHEMATC

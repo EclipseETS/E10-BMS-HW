@@ -94,11 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3000 5300 3400
 Wire Wire Line
-	5000 3400 5300 3400
-Wire Wire Line
-	5300 3400 5450 3400
-Wire Wire Line
-	5450 3400 5800 3400
+	5000 3400 5800 3400
 Wire Wire Line
 	5450 3500 5450 3400
 Connection ~ 5450 3400
@@ -107,9 +103,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 3900 5450 3800
 Wire Wire Line
-	4050 3900 5100 3900
-Wire Wire Line
-	5100 3900 5450 3900
+	4050 3900 5450 3900
 Wire Wire Line
 	5100 3900 5100 4000
 $Comp

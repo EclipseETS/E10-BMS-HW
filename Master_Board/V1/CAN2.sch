@@ -163,20 +163,20 @@ $EndComp
 $Comp
 L Capacitor_Generic C403
 U 1 1 58F808A7
-P 5750 4500
-F 0 "C403" V 5700 4725 60  0000 C CNN
-F 1 "Capacitor_Generic" H 5700 4150 60  0001 C CNN
-F 2 "Capacitors:C0805" H 5700 3550 60  0001 C CNN
-F 3 "D" H 5700 3450 60  0001 C CNN
-F 4 "Supplier" H 5700 4050 60  0001 C CNN "Supplier"
-F 5 "Supplier Part Number" H 5700 3950 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 5700 3850 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 5700 3750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Description" H 5700 3650 60  0001 C CNN "Description"
-F 9 "Capacitance" V 5600 4775 50  0000 C CNN "Capacitance (Farad)"
-F 10 "Tolerance" H 5960 4380 50  0001 C CNN "Tolerance (%)"
-F 11 "Voltage Rated" H 5700 4310 50  0001 C CNN "Voltage Rated (Volt)"
-	1    5750 4500
+P 6050 4500
+F 0 "C403" V 6000 4725 60  0000 C CNN
+F 1 "Capacitor_Generic" H 6000 4150 60  0001 C CNN
+F 2 "Capacitors:C0805" H 6000 3550 60  0001 C CNN
+F 3 "D" H 6000 3450 60  0001 C CNN
+F 4 "Supplier" H 6000 4050 60  0001 C CNN "Supplier"
+F 5 "Supplier Part Number" H 6000 3950 60  0001 C CNN "Supplier Part Number"
+F 6 "Manufacturer" H 6000 3850 60  0001 C CNN "Manufacturer"
+F 7 "Manufacturer Part Number" H 6000 3750 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Description" H 6000 3650 60  0001 C CNN "Description"
+F 9 "Capacitance" V 5900 4775 50  0000 C CNN "Capacitance (Farad)"
+F 10 "Tolerance" H 6260 4380 50  0001 C CNN "Tolerance (%)"
+F 11 "Voltage Rated" H 6000 4310 50  0001 C CNN "Voltage Rated (Volt)"
+	1    6050 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -217,12 +217,12 @@ $EndComp
 $Comp
 L DGND #PWR053
 U 1 1 58F808C6
-P 5750 4900
-F 0 "#PWR053" H 5750 4730 50  0001 C CNN
-F 1 "DGND" H 5750 4800 50  0000 C CNN
-F 2 "" H 5750 5000 60  0000 C CNN
-F 3 "" H 5730 4810 60  0000 C CNN
-	1    5750 4900
+P 6050 4900
+F 0 "#PWR053" H 6050 4730 50  0001 C CNN
+F 1 "DGND" H 6050 4800 50  0000 C CNN
+F 2 "" H 6050 5000 60  0000 C CNN
+F 3 "" H 6030 4810 60  0000 C CNN
+	1    6050 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -367,7 +367,9 @@ Wire Wire Line
 Wire Wire Line
 	1200 4000 1300 4000
 Wire Wire Line
-	2300 4200 3100 4200
+	2300 4200 2500 4200
+Wire Wire Line
+	2500 4200 3100 4200
 Wire Wire Line
 	2900 4500 2900 4400
 Wire Wire Line
@@ -375,14 +377,22 @@ Wire Wire Line
 Wire Wire Line
 	2900 3800 3100 3800
 Wire Wire Line
-	1700 4000 3100 4000
+	1700 4000 1800 4000
+Wire Wire Line
+	1800 4000 1900 4000
+Wire Wire Line
+	1900 4000 3100 4000
 Connection ~ 1800 4000
 Wire Wire Line
 	1800 4100 1800 4000
 Wire Wire Line
 	2900 3400 2800 3400
 Wire Wire Line
-	2900 2900 2900 3800
+	2900 2900 2900 3000
+Wire Wire Line
+	2900 3000 2900 3400
+Wire Wire Line
+	2900 3400 2900 3800
 Connection ~ 2900 3400
 Wire Wire Line
 	2400 3400 2500 3400
@@ -392,18 +402,28 @@ Connection ~ 2900 3000
 Wire Wire Line
 	2500 3000 2400 3000
 Wire Wire Line
-	2400 3000 2400 3500
+	2400 3000 2400 3400
+Wire Wire Line
+	2400 3400 2400 3500
 Connection ~ 2400 3400
 Wire Wire Line
 	5350 4700 5350 4800
 Wire Wire Line
-	5750 4700 5750 4800
+	6050 4700 6050 4800
 Wire Wire Line
 	5350 4000 5350 4400
 Wire Wire Line
-	3800 4200 6700 4200
+	3800 4200 4200 4200
 Wire Wire Line
-	5750 4200 5750 4400
+	4200 4200 4800 4200
+Wire Wire Line
+	4800 4200 6050 4200
+Wire Wire Line
+	6050 4200 6450 4200
+Wire Wire Line
+	6450 4200 6700 4200
+Wire Wire Line
+	6050 4200 6050 4400
 Wire Wire Line
 	7500 4100 7500 4400
 Wire Wire Line
@@ -435,8 +455,16 @@ Wire Wire Line
 	2500 4400 2500 4200
 Connection ~ 2500 4200
 Wire Wire Line
-	3800 4000 6700 4000
-Connection ~ 5750 4200
+	3800 4000 4200 4000
+Wire Wire Line
+	4200 4000 4400 4000
+Wire Wire Line
+	4400 4000 5350 4000
+Wire Wire Line
+	5350 4000 6450 4000
+Wire Wire Line
+	6450 4000 6700 4000
+Connection ~ 6050 4200
 Connection ~ 5350 4000
 Wire Wire Line
 	6450 4000 6450 3650
