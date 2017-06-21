@@ -35,16 +35,40 @@ P 2 0 1 15 0 -50 0 50 N
 P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080RS75000-RESCUE-Master_Board
+#
+DEF 150080RS75000-RESCUE-Master_Board D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080RS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_RED" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4984-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080RS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED RED CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "RED" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
 X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 150080VS75000
+# 150080VS75000-RESCUE-Master_Board
 #
-DEF 150080VS75000 D 0 0 N N 1 F N
+DEF 150080VS75000-RESCUE-Master_Board D 0 0 N N 1 F N
 F0 "D" -50 150 60 H V C CNN
-F1 "150080VS75000" 0 -200 60 H V C CNN
+F1 "150080VS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
 F2 "Diodes:LED_0805_GREEN" 10 -1080 60 H I C CNN
 F3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" 10 -1180 60 H I C CNN
 F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
@@ -64,11 +88,11 @@ X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 150080YS75000
+# 150080YS75000-RESCUE-Master_Board
 #
-DEF 150080YS75000 D 0 0 N N 1 F N
+DEF 150080YS75000-RESCUE-Master_Board D 0 0 N N 1 F N
 F0 "D" -50 150 60 H V C CNN
-F1 "150080YS75000" 0 -200 60 H V C CNN
+F1 "150080YS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
 F2 "Diodes:LED_0805_YELLOW" 10 -1080 60 H I C CNN
 F3 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" 10 -1180 60 H I C CNN
 F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
@@ -760,6 +784,26 @@ X D 3 100 300 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# C3D04060A
+#
+DEF C3D04060A D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "C3D04060A" -50 -150 60 H V C CNN
+F2 "F" 0 -1020 60 H I C CNN
+F3 "http://www.wolfspeed.com/media/downloads/845/C3D04060A.pdf" 0 -1120 60 H I C CNN
+F4 "Supplier" 0 -520 60 H I C CNN "Supplier"
+F5 "C3D04060A-ND" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -720 60 H I C CNN "Manufacturer"
+F7 "C3D04060A" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 600V 4A TO220-2" 0 -920 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # CAN_PWR
 #
 DEF CAN_PWR #PWR 0 0 N N 1 F P
@@ -867,26 +911,6 @@ X DGND 1 0 100 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Diode
-#
-DEF Diode D 0 0 N N 1 F N
-F0 "D" -50 150 60 H V C CNN
-F1 "Diode" -50 -150 60 H V C CNN
-F2 "F" 0 -1020 60 H I C CNN
-F3 "D" 0 -1120 60 H I C CNN
-F4 "Supplier" 0 -520 60 H I C CNN "Supplier"
-F5 "Supplier Part Number" 0 -620 60 H I C CNN "Supplier Part Number"
-F6 "Manufacturer" 0 -720 60 H I C CNN "Manufacturer"
-F7 "Manufacturer Part Number" 0 -820 60 H I C CNN "Manufacturer Part Number"
-F8 "Description" 0 -920 60 H I C CNN "Description"
-DRAW
-P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
-X Cathode 1 100 0 100 L 50 50 1 1 I
-X Anode 2 -200 0 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Header_Male_Pin_2.54mm_1X2_,_Unshrouded
 #
 DEF ~Header_Male_Pin_2.54mm_1X2_,_Unshrouded J 0 0 Y N 1 F N
@@ -974,11 +998,11 @@ X VCC 5 0 200 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LTV-816S
+# LTV-816S-RESCUE-Master_Board
 #
-DEF LTV-816S U 0 0 N N 1 F N
+DEF LTV-816S-RESCUE-Master_Board U 0 0 N N 1 F N
 F0 "U" 0 300 60 H V C CNN
-F1 "LTV-816S" 0 -200 60 H V C CNN
+F1 "LTV-816S-RESCUE-Master_Board" 0 -200 60 H V C CNN
 F2 "IC:4-SMD" 0 -900 60 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf" 0 -1000 60 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
@@ -1239,6 +1263,30 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RC0805JR-0715KL
+#
+DEF ~RC0805JR-0715KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0715KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-15KARTR-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0715KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 15K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "15k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC0805JR-071KL
 #
 DEF ~RC0805JR-071KL R 0 0 N N 1 F N
@@ -1276,6 +1324,30 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805JR-071ML" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 1M OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "1M" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-072K2L
+#
+DEF ~RC0805JR-072K2L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-072K2L" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-2.2KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-072K2L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 2.2K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "2.2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
@@ -1383,30 +1455,6 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RC0805JR-076K8L
-#
-DEF ~RC0805JR-076K8L R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "RC0805JR-076K8L" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-6.8KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-076K8L" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 6.8K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "6.8k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # RC1206JR-07120RL
 #
 DEF ~RC1206JR-07120RL R 0 0 N N 1 F N
@@ -1451,6 +1499,26 @@ A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
 A 80 0 40 1 1799 0 1 0 N 120 0 40 0
 X 1 1 -200 0 80 R 50 50 1 1 P
 X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SD0805S020S1R0
+#
+DEF SD0805S020S1R0 D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "SD0805S020S1R0" -50 -150 60 H V C CNN
+F2 "Diodes:Diode_0805" 0 -1020 60 H I C CNN
+F3 "http://datasheets.avx.com/schottky.pdf" 0 -1120 60 H I C CNN
+F4 "Digikey" 0 -520 60 H I C CNN "Supplier"
+F5 "478-7800-1-ND" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "AVX Corporation" 0 -720 60 H I C CNN "Manufacturer"
+F7 "SD0805S020S1R0" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 20V 1A 0805" 0 -920 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

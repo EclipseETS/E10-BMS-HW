@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Master_Board-rescue
 LIBS:ADC
 LIBS:Amplifiers
 LIBS:Battery
@@ -93,4 +94,64 @@ F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 7000 2550 60  0001 C CNN "Description"
 	1    7000 3350
 	-1   0    0    -1  
 $EndComp
+Text Notes 4550 4850 0    60   ~ 0
+LED Error
+$Comp
+L 150080RS75000 D?
+U 1 1 594D45D6
+P 4800 5200
+F 0 "D?" H 4800 5000 60  0000 C CNN
+F 1 "150080RS75000" H 4750 5350 60  0000 C CNN
+F 2 "Diodes:LED_0805_RED" H 4810 4120 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4810 4020 60  0001 C CNN
+F 4 "Digikey" H 4810 4620 60  0001 C CNN "Supplier"
+F 5 "732-4984-1-ND" H 4810 4520 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4810 4420 60  0001 C CNN "Manufacturer"
+F 7 "150080RS75000" H 4810 4320 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED RED CLEAR 0805 SMD" H 4810 4220 60  0001 C CNN "Description"
+F 9 "RED" H 4800 4900 60  0001 C CNN "Color"
+F 10 "2V" H 4800 4800 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    4800 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L RC0805JR-07330RL R?
+U 1 1 594D472A
+P 5550 5200
+F 0 "R?" H 5550 5280 60  0000 C CNN
+F 1 "RC0805JR-07330RL" H 5550 4900 50  0001 C CNN
+F 2 "Resistors:R0805" H 5550 4300 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5550 4250 30  0001 C CNN
+F 4 "Digikey" H 5550 4800 60  0001 C CNN "Supplier"
+F 5 "311-330ARCT-ND" H 5550 4700 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 5550 4600 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07330RL" H 5550 4500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 330 OHM 5% 1/8W 0805" H 5550 4400 60  0001 C CNN "Description"
+F 9 "330" H 5550 5130 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5960 5120 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 5550 5060 50  0001 C CNN "Puissance (Watts)"
+	1    5550 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5200 5000 5200
+Text HLabel 6300 5200 2    60   Input ~ 0
+LED_Error
+Wire Wire Line
+	6300 5200 5750 5200
+Wire Wire Line
+	4700 5200 4000 5200
+$Comp
+L DGND #PWR?
+U 1 1 594D4935
+P 4000 5500
+F 0 "#PWR?" H 4000 5330 50  0001 C CNN
+F 1 "DGND" H 4000 5400 50  0000 C CNN
+F 2 "" H 4000 5600 60  0000 C CNN
+F 3 "" H 3980 5410 60  0000 C CNN
+	1    4000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5200 4000 5400
 $EndSCHEMATC
