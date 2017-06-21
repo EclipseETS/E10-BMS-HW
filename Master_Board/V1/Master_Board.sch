@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -84,8 +84,8 @@ F41 "PA5" O L 9000 1900 60
 F42 "PA6" O L 9000 2000 60 
 F43 "PA7" O L 9000 2100 60 
 F44 "NRST" I L 9000 6100 60 
-F45 "PA2" B L 9000 1600 60 
-F46 "PA3" B L 9000 1700 60 
+F45 "PA2" O L 9000 1600 60 
+F46 "PA3" I L 9000 1700 60 
 $EndSheet
 $Sheet
 S 9100 700  1000 200 
@@ -94,7 +94,7 @@ F0 "Power Supply" 60
 F1 "Power Supply.sch" 60
 $EndSheet
 $Sheet
-S 6900 2400 600  300 
+S 6400 2400 1100 300 
 U 58F7D3A7
 F0 "CAN1" 60
 F1 "CAN1.sch" 60
@@ -187,22 +187,6 @@ Text Label 8700 6400 0    60   ~ 0
 VBat
 Text Label 8700 6100 0    60   ~ 0
 NRST
-$Comp
-L Header_Male_Pin_2.54mm_1X3_,_Unshrouded J102
-U 1 1 59008176
-P 8600 5200
-F 0 "J102" H 8300 5200 60  0000 C CNN
-F 1 "Header_Male_Pin_2.54mm_1X3_,_Unshrouded" H 8600 4880 50  0001 C CNN
-F 2 "Connectors:Headers_2.54mm_1X3" H 8600 4290 30  0001 C CNN
-F 3 "D" H 8600 4240 30  0001 C CNN
-F 4 "Ebay" H 8600 4690 60  0001 C CNN "Supplier"
-F 5 "Pin Male Single Row Pin Header Strip" H 8600 4790 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 8600 4590 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 8600 4490 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Pin Male Single Row Pin Header Strip" H 8600 4390 60  0001 C CNN "Description"
-	1    8600 5200
-	1    0    0    1   
-$EndComp
 $Sheet
 S 6400 3200 1100 300 
 U 593E754B
@@ -218,49 +202,146 @@ TXD
 $Comp
 L 649022227222 J101
 U 1 1 5940AD85
-P 950 4300
-F 0 "J101" H 900 6600 60  0000 C CNN
-F 1 "649022227222" H 950 4150 60  0000 C CNN
-F 2 "Connectors:649022227222" H 950 3400 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649022227222.pdf" H 950 3300 60  0001 C CNN
-F 4 "Digikey" H 950 3900 60  0001 C CNN "Supplier"
-F 5 "732-4785-ND" H 950 3800 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 950 3700 60  0001 C CNN "Manufacturer"
-F 7 "649022227222" H 950 3600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 22P" H 950 3500 60  0001 C CNN "Description"
-	1    950  4300
+P 950 3650
+F 0 "J101" H 900 5950 60  0000 C CNN
+F 1 "649022227222" H 850 3500 60  0000 C CNN
+F 2 "Connectors:649022227222" H 950 2750 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649022227222.pdf" H 950 2650 60  0001 C CNN
+F 4 "Digikey" H 950 3250 60  0001 C CNN "Supplier"
+F 5 "732-4785-ND" H 950 3150 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 950 3050 60  0001 C CNN "Manufacturer"
+F 7 "649022227222" H 950 2950 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 22P" H 950 2850 60  0001 C CNN "Description"
+	1    950  3650
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6400 4500 1100 550 
+S 5400 4200 2100 550 
 U 5941228A
 F0 "Isolated" 60
 F1 "Isolated.sch" 60
 F2 "PC_MAIN_EN" I R 7500 4600 60 
 F3 "PC_MPPT_EN" I R 7500 4700 60 
-F4 "BP_VSense" I R 7500 4800 60 
-F5 "VSense_EN" I R 7500 4900 60 
-F6 "MPPT_VSense" I R 7500 5000 60 
+F4 "BP_VSense" I R 7500 4300 60 
+F5 "VSense_EN" I R 7500 4500 60 
+F6 "MPPT_VSense" I R 7500 4400 60 
+F7 "EXT_PC_MAIN_EN" O L 5400 4350 60 
+F8 "EXT_PC_MPPT_EN" O L 5400 4600 60 
 $EndSheet
 Text Label 5900 3300 0    60   ~ 0
 CAN2_H
 Text Label 5900 3400 0    60   ~ 0
 CAN2_L
-Text Label 1150 2650 0    60   ~ 0
+Text Label 1150 2000 0    60   ~ 0
 CAN2_L
-Text Label 1150 3650 0    60   ~ 0
+Text Label 1150 3000 0    60   ~ 0
 CAN2_H
 $Comp
-L DGND #PWR?
+L DGND #PWR103
 U 1 1 5943B6C4
-P 1050 1000
-F 0 "#PWR?" H 1050 830 50  0001 C CNN
-F 1 "DGND" H 1050 900 50  0000 C CNN
-F 2 "" H 1050 1100 60  0000 C CNN
-F 3 "" H 1030 910 60  0000 C CNN
-	1    1050 1000
+P 1350 3800
+F 0 "#PWR103" H 1350 3630 50  0001 C CNN
+F 1 "DGND" H 1350 3700 50  0000 C CNN
+F 2 "" H 1350 3900 60  0000 C CNN
+F 3 "" H 1330 3710 60  0000 C CNN
+	1    1350 3800
 	1    0    0    -1  
 $EndComp
+Text Label 1150 1500 0    60   ~ 0
+PWM_COM
+Text Label 1150 1600 0    60   ~ 0
+ANA1
+Text Label 1150 1700 0    60   ~ 0
+ANA2
+Text Label 1150 1800 0    60   ~ 0
+RS232_RX
+Text Label 1150 1900 0    60   ~ 0
+ANA_IN
+Text Label 1150 2100 0    60   ~ 0
+IO2
+Text Label 1150 2200 0    60   ~ 0
+IO4
+Text Label 1150 2300 0    60   ~ 0
+IO6
+Text Label 1150 2400 0    60   ~ 0
+IO8
+Text Label 1150 2500 0    60   ~ 0
+12V_IN1
+Text Label 1150 2600 0    60   ~ 0
+ANA_SUP
+Text Label 1150 2700 0    60   ~ 0
+PWM2_OUT
+Text Label 1150 2800 0    60   ~ 0
+RX232_TX
+Text Label 1150 2900 0    60   ~ 0
+GND
+Text Label 1150 3100 0    60   ~ 0
+IO1
+Text Label 1150 3300 0    60   ~ 0
+IO5
+Text Label 1150 3200 0    60   ~ 0
+IO3
+Text Label 1150 3400 0    60   ~ 0
+IO7
+Text Label 1150 3500 0    60   ~ 0
+12V_IN2
+Text Label 1150 3600 0    60   ~ 0
+GND
+$Comp
+L 12V #PWR104
+U 1 1 594F2512
+P 1900 4200
+F 0 "#PWR104" H 1900 4050 50  0001 C CNN
+F 1 "12V" H 1890 4340 50  0000 C CNN
+F 2 "" H 1900 4200 60  0000 C CNN
+F 3 "" H 1900 4200 60  0000 C CNN
+	1    1900 4200
+	1    0    0    -1  
+$EndComp
+Text Label 800  4500 0    60   ~ 0
+12V_IN1
+$Sheet
+S 6400 1300 1100 250 
+U 59412BEE
+F0 "TempSens" 60
+F1 "TempSens.sch" 60
+F2 "NTC_1_GPIO" I R 7500 1400 60 
+F3 "NTC_1_ADC" I R 7500 1500 60 
+$EndSheet
+Text Label 8700 1600 0    60   ~ 0
+PA2
+Text Label 8700 1700 0    60   ~ 0
+PA3
+Text Label 7950 1600 0    60   ~ 0
+USART2_TX
+Text Label 7950 1700 0    60   ~ 0
+USART2_RX
+Text Label 8000 2500 0    60   ~ 0
+CAN1_RX
+Text Label 8000 2600 0    60   ~ 0
+CAN1_TX
+Text Label 7950 1400 0    60   ~ 0
+NTC_1_GPIO
+Text Label 7950 1500 0    60   ~ 0
+NTC_1_ADC
+Text Label 8000 3300 0    60   ~ 0
+CAN2_TX
+Text Label 8000 3400 0    60   ~ 0
+CAN2_RX
+Text Label 7900 5000 0    60   ~ 0
+PA8
+Text Label 2450 1800 0    60   ~ 0
+USART2_RX
+Text Label 2450 2800 0    60   ~ 0
+USART2_TX
+Text Label 2450 1500 0    60   ~ 0
+GND
+Text Label 2950 4100 0    60   ~ 0
+ANA_SUP
+Text Label 2950 5700 0    60   ~ 0
+PWM_COM
+Text Label 2950 4600 0    60   ~ 0
+PWM2_OUT
 Wire Wire Line
 	7500 2600 9000 2600
 Wire Wire Line
@@ -269,16 +350,6 @@ Wire Wire Line
 	7500 1400 9000 1400
 Wire Wire Line
 	7500 1500 9000 1500
-Wire Wire Line
-	8700 1800 9000 1800
-Wire Wire Line
-	8700 1900 9000 1900
-Wire Wire Line
-	8700 2000 9000 2000
-Wire Wire Line
-	8700 2100 9000 2100
-Wire Wire Line
-	8700 2200 9000 2200
 Wire Wire Line
 	8700 2300 9000 2300
 Wire Wire Line
@@ -294,19 +365,11 @@ Wire Wire Line
 Wire Wire Line
 	8700 3600 9000 3600
 Wire Wire Line
-	7500 3800 9000 3800
-Wire Wire Line
-	7500 3900 9000 3900
-Wire Wire Line
-	7500 4000 9000 4000
-Wire Wire Line
-	7500 4100 9000 4100
-Wire Wire Line
 	8700 4200 9000 4200
 Wire Wire Line
-	8700 4300 9000 4300
+	7500 4300 9000 4300
 Wire Wire Line
-	8700 4400 9000 4400
+	7500 4400 9000 4400
 Wire Wire Line
 	8700 4700 9000 4700
 Wire Wire Line
@@ -314,11 +377,11 @@ Wire Wire Line
 Wire Wire Line
 	8700 4900 9000 4900
 Wire Wire Line
-	8700 5100 9000 5100
+	7500 5100 9000 5100
 Wire Wire Line
-	9000 5200 8700 5200
+	7500 5200 9000 5200
 Wire Wire Line
-	8700 5300 9000 5300
+	7500 5300 9000 5300
 Wire Wire Line
 	8700 5400 9000 5400
 Wire Wire Line
@@ -350,142 +413,595 @@ Wire Wire Line
 Wire Wire Line
 	6400 3400 5900 3400
 Wire Wire Line
-	1050 2650 1150 2650
+	1050 2000 1150 2000
 Wire Wire Line
-	1050 3650 1150 3650
+	1050 3000 1150 3000
 Wire Wire Line
-	1050 2150 1150 2150
+	1050 1500 2450 1500
 Wire Wire Line
-	1050 2250 1150 2250
+	1050 1600 1150 1600
 Wire Wire Line
-	1050 2350 1150 2350
+	1050 1700 1150 1700
 Wire Wire Line
-	1050 2450 1150 2450
+	1050 1800 2450 1800
 Wire Wire Line
-	1050 2550 1150 2550
+	1050 1900 2450 1900
 Wire Wire Line
-	1050 2750 1150 2750
+	1050 2100 2450 2100
 Wire Wire Line
-	1050 2850 1150 2850
+	1050 2200 1150 2200
 Wire Wire Line
-	1050 2950 1150 2950
+	1050 2300 1150 2300
 Wire Wire Line
-	1050 3050 1150 3050
+	1050 2400 1150 2400
 Wire Wire Line
-	1050 3150 1150 3150
+	1050 2500 1150 2500
 Wire Wire Line
-	1050 3250 1150 3250
+	1050 2600 1150 2600
 Wire Wire Line
-	1050 3350 1150 3350
+	1050 2700 1150 2700
 Wire Wire Line
-	1050 3450 1150 3450
+	1050 2800 2450 2800
 Wire Wire Line
-	1050 3550 1150 3550
+	1050 2900 1150 2900
 Wire Wire Line
-	1050 3750 1150 3750
+	1050 3100 2450 3100
 Wire Wire Line
-	1050 3850 1150 3850
+	1050 3200 2450 3200
 Wire Wire Line
-	1050 3950 1150 3950
+	1050 3300 1150 3300
 Wire Wire Line
-	1050 4050 1150 4050
+	1050 3400 1150 3400
 Wire Wire Line
-	1050 4150 1150 4150
-Text Label 1150 2150 0    60   ~ 0
-PWM_COM
-Text Label 1150 2250 0    60   ~ 0
-ANA1
-Text Label 1150 2350 0    60   ~ 0
-ANA2
-Text Label 1150 2450 0    60   ~ 0
-RS232_RX
-Text Label 1150 2550 0    60   ~ 0
-ANA_IN
-Text Label 1150 2750 0    60   ~ 0
-IO2
-Text Label 1150 2850 0    60   ~ 0
-IO4
-Text Label 1150 2950 0    60   ~ 0
-IO6
-Text Label 1150 3050 0    60   ~ 0
-IO8
-Text Label 1150 3150 0    60   ~ 0
-12V_IN
-Text Label 1150 3250 0    60   ~ 0
-ANA_SUP
-Text Label 1150 3350 0    60   ~ 0
-PWM2_OUT
-Text Label 1150 3450 0    60   ~ 0
-RX232_TX
-Text Label 1150 3550 0    60   ~ 0
-GND
-Text Label 1150 3750 0    60   ~ 0
-IO1
-Text Label 1150 3950 0    60   ~ 0
-IO5
-Text Label 1150 3850 0    60   ~ 0
-IO3
-Text Label 1150 4050 0    60   ~ 0
-IO7
-Text Label 1150 4150 0    60   ~ 0
-12V_IN
+	1050 3500 1150 3500
 Wire Wire Line
-	1050 4250 1150 4250
-Text Label 1150 4250 0    60   ~ 0
-GND
-Wire Wire Line
-	1050 800  1050 900 
-Wire Wire Line
-	850  800  1050 800 
-$Comp
-L 12V #PWR?
-U 1 1 594F2512
-P 1400 900
-F 0 "#PWR?" H 1400 750 50  0001 C CNN
-F 1 "12V" H 1390 1040 50  0000 C CNN
-F 2 "" H 1400 900 60  0000 C CNN
-F 3 "" H 1400 900 60  0000 C CNN
-	1    1400 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 900  1400 1000
-Wire Wire Line
-	1400 1000 1550 1000
-Text Label 850  800  0    60   ~ 0
-GND
-Text Label 1550 1000 0    60   ~ 0
-12V_IN
-$Sheet
-S 6400 3700 1100 500 
-U 59412458
-F0 "ContactorControl" 60
-F1 "ContactorControl.sch" 60
-F2 "HighSide" I R 7500 3800 60 
-F3 "MainP-LowSide" I R 7500 3900 60 
-F4 "MainN-LowSide" I R 7500 4000 60 
-F5 "MPPT-LowSide" I R 7500 4100 60 
-$EndSheet
+	1050 3600 1350 3600
 Wire Wire Line
 	8700 3700 9000 3700
-$Sheet
-S 6600 1300 900  300 
-U 59412BEE
-F0 "TempSens" 60
-F1 "TempSens.sch" 60
-F2 "NTC_1_GPIO" I R 7500 1400 60 
-F3 "NTC_1_ADC" I R 7500 1500 60 
-$EndSheet
 Wire Wire Line
 	7950 1600 9000 1600
 Wire Wire Line
 	7950 1700 9000 1700
-Text Label 8700 1600 0    60   ~ 0
-PA2
-Text Label 8700 1700 0    60   ~ 0
-PA3
-Text Label 7950 1600 0    60   ~ 0
-RS232_RX
-Text Label 7950 1700 0    60   ~ 0
-RX232_TX
+Wire Wire Line
+	8700 3800 9000 3800
+Wire Wire Line
+	8700 3900 9000 3900
+Wire Wire Line
+	8700 4000 9000 4000
+Wire Wire Line
+	8700 4100 9000 4100
+Wire Wire Line
+	8700 2200 9000 2200
+Wire Wire Line
+	7500 5000 7900 5000
+Wire Wire Line
+	5400 5000 4600 5000
+Wire Wire Line
+	5400 5150 4600 5150
+Wire Wire Line
+	5400 5300 4600 5300
+Text Label 4600 5150 0    60   ~ 0
+MainContactor+
+Text Label 4600 5000 0    60   ~ 0
+MainContactor-
+Text Label 4600 5300 0    60   ~ 0
+MpptContactor
+Text Label 2450 3100 0    60   ~ 0
+MainContactor+
+Text Label 2450 2100 0    60   ~ 0
+MainContactor-
+Text Label 2450 3200 0    60   ~ 0
+MpptContactor
+Wire Wire Line
+	5400 4350 4600 4350
+Wire Wire Line
+	5400 4600 4600 4600
+Text Label 4600 4350 0    60   ~ 0
+IO4
+Text Label 4600 4600 0    60   ~ 0
+IO6
+$Comp
+L 2N7002P,215 Q103
+U 1 1 59586FBC
+P 2850 4950
+F 0 "Q103" H 2700 5150 60  0000 C CNN
+F 1 "2N7002P,215" H 2500 5050 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 3000 4050 60  0001 C CNN
+F 3 "http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf" H 3000 3950 60  0001 C CNN
+F 4 "Digikey" H 3000 4550 60  0001 C CNN "Supplier"
+F 5 "1727-4692-1-ND" H 3000 4450 60  0001 C CNN "Supplier Part Number"
+F 6 "Nexperia USA Inc." H 3000 4350 60  0001 C CNN "Manufacturer"
+F 7 "2N7002P,215" H 2950 4250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "MOSFET N-CH 60V 0.36A SOT-23" H 3000 4150 60  0001 C CNN "Description"
+	1    2850 4950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4100 2950 4100
+Wire Wire Line
+	2750 5700 2950 5700
+Wire Wire Line
+	2750 5250 2750 5350
+Wire Wire Line
+	2750 5350 2750 5700
+Wire Wire Line
+	3050 4950 3450 4950
+Wire Wire Line
+	3450 4950 3750 4950
+Wire Wire Line
+	2900 5350 2750 5350
+Connection ~ 2750 5350
+Wire Wire Line
+	3300 5350 3450 5350
+Wire Wire Line
+	3450 5350 3450 4950
+Connection ~ 3450 4950
+Text Notes 2750 3850 0    60   ~ 0
+External PWM
+Text Label 3750 4950 0    60   ~ 0
+PB4
+Wire Wire Line
+	1700 7400 1750 7400
+Wire Wire Line
+	1750 7400 1750 7000
+Connection ~ 1750 7000
+Wire Wire Line
+	1300 7400 1200 7400
+Wire Wire Line
+	1200 7300 1200 7400
+Wire Wire Line
+	1200 7400 1200 7500
+$Comp
+L DGND #PWR102
+U 1 1 595E4DA0
+P 1200 7600
+F 0 "#PWR102" H 1200 7430 50  0001 C CNN
+F 1 "DGND" H 1200 7500 50  0000 C CNN
+F 2 "" H 1200 7700 60  0000 C CNN
+F 3 "" H 1180 7510 60  0000 C CNN
+	1    1200 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 7400
+Wire Wire Line
+	1500 7000 1750 7000
+Wire Wire Line
+	1750 7000 2150 7000
+$Comp
+L BSS806NH6327XTSA1 Q102
+U 1 1 596C1E1D
+P 1300 7000
+F 0 "Q102" H 1150 7250 60  0000 C CNN
+F 1 "BSS806NH6327XTSA1" H 750 7150 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 1450 6100 60  0001 C CNN
+F 3 "D" H 1450 6000 60  0001 C CNN
+F 4 "Digikey" H 1450 6600 60  0001 C CNN "Supplier"
+F 5 "BSS806NH6327XTSA1CT-ND" H 1450 6500 60  0001 C CNN "Supplier Part Number"
+F 6 "Infineon Technologies" H 1450 6400 60  0001 C CNN "Manufacturer"
+F 7 "BSS806NH6327XTSA1" H 1400 6300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "MOSFET N-CH 20V 2.3A SOT23" H 1450 6200 60  0001 C CNN "Description"
+	1    1300 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-07100KL R102
+U 1 1 596EF7A6
+P 3100 5350
+F 0 "R102" H 3100 5430 60  0000 C CNN
+F 1 "RC0805JR-07100KL" H 3100 5050 50  0001 C CNN
+F 2 "Resistors:R0805" H 3100 4450 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3100 4400 30  0001 C CNN
+F 4 "Digikey" H 3100 4950 60  0001 C CNN "Supplier"
+F 5 "311-100KARCT-ND" H 3100 4850 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3100 4750 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07100KL" H 3100 4650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100K OHM 5% 1/8W 0805" H 3100 4550 60  0001 C CNN "Description"
+F 9 "100k" H 3100 5280 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3510 5270 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3100 5210 50  0001 C CNN "Puissance (Watts)"
+	1    3100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-07100KL R101
+U 1 1 596F356C
+P 1500 7400
+F 0 "R101" H 1500 7480 60  0000 C CNN
+F 1 "RC0805JR-07100KL" H 1500 7100 50  0001 C CNN
+F 2 "Resistors:R0805" H 1500 6500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 1500 6450 30  0001 C CNN
+F 4 "Digikey" H 1500 7000 60  0001 C CNN "Supplier"
+F 5 "311-100KARCT-ND" H 1500 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 1500 6800 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07100KL" H 1500 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100K OHM 5% 1/8W 0805" H 1500 6600 60  0001 C CNN "Description"
+F 9 "100k" H 1500 7330 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 1910 7320 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 1500 7260 50  0001 C CNN "Puissance (Watts)"
+	1    1500 7400
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5400 4900 2100 500 
+U 59412458
+F0 "ContactorControl" 60
+F1 "ContactorControl.sch" 60
+F2 "HighSide" I R 7500 5000 60 
+F3 "MainP-LowSide" I R 7500 5100 60 
+F4 "MainN-LowSide" I R 7500 5200 60 
+F5 "MPPT-LowSide" I R 7500 5300 60 
+F6 "MainN_EN" O L 5400 5000 60 
+F7 "MainP_EN" O L 5400 5150 60 
+F8 "MPPT_EN" O L 5400 5300 60 
+$EndSheet
+Text Label 1200 6400 0    60   ~ 0
+IO3
+Wire Wire Line
+	1200 6400 1200 6700
+Wire Wire Line
+	3200 7400 3250 7400
+Wire Wire Line
+	3250 7400 3250 7000
+Connection ~ 3250 7000
+Wire Wire Line
+	2800 7400 2700 7400
+Wire Wire Line
+	2700 7300 2700 7400
+Wire Wire Line
+	2700 7400 2700 7500
+$Comp
+L DGND #PWR?
+U 1 1 5973DEB6
+P 2700 7600
+F 0 "#PWR?" H 2700 7430 50  0001 C CNN
+F 1 "DGND" H 2700 7500 50  0000 C CNN
+F 2 "" H 2700 7700 60  0000 C CNN
+F 3 "" H 2680 7510 60  0000 C CNN
+	1    2700 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 7400
+Wire Wire Line
+	3000 7000 3250 7000
+Wire Wire Line
+	3250 7000 3650 7000
+$Comp
+L BSS806NH6327XTSA1 Q?
+U 1 1 5973DEC3
+P 2800 7000
+F 0 "Q?" H 2650 7250 60  0000 C CNN
+F 1 "BSS806NH6327XTSA1" H 2250 7150 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 2950 6100 60  0001 C CNN
+F 3 "D" H 2950 6000 60  0001 C CNN
+F 4 "Digikey" H 2950 6600 60  0001 C CNN "Supplier"
+F 5 "BSS806NH6327XTSA1CT-ND" H 2950 6500 60  0001 C CNN "Supplier Part Number"
+F 6 "Infineon Technologies" H 2950 6400 60  0001 C CNN "Manufacturer"
+F 7 "BSS806NH6327XTSA1" H 2900 6300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "MOSFET N-CH 20V 2.3A SOT23" H 2950 6200 60  0001 C CNN "Description"
+	1    2800 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-07100KL R?
+U 1 1 5973DED1
+P 3000 7400
+F 0 "R?" H 3000 7480 60  0000 C CNN
+F 1 "RC0805JR-07100KL" H 3000 7100 50  0001 C CNN
+F 2 "Resistors:R0805" H 3000 6500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3000 6450 30  0001 C CNN
+F 4 "Digikey" H 3000 7000 60  0001 C CNN "Supplier"
+F 5 "311-100KARCT-ND" H 3000 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3000 6800 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07100KL" H 3000 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100K OHM 5% 1/8W 0805" H 3000 6600 60  0001 C CNN "Description"
+F 9 "100k" H 3000 7330 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3410 7320 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3000 7260 50  0001 C CNN "Puissance (Watts)"
+	1    3000 7400
+	1    0    0    -1  
+$EndComp
+Text Label 2700 6400 0    60   ~ 0
+IO7
+Wire Wire Line
+	2700 6400 2700 6700
+Wire Wire Line
+	4650 7400 4700 7400
+Wire Wire Line
+	4700 7400 4700 7000
+Connection ~ 4700 7000
+Wire Wire Line
+	4250 7400 4150 7400
+Wire Wire Line
+	4150 7300 4150 7400
+Wire Wire Line
+	4150 7400 4150 7500
+$Comp
+L DGND #PWR?
+U 1 1 5973F4D0
+P 4150 7600
+F 0 "#PWR?" H 4150 7430 50  0001 C CNN
+F 1 "DGND" H 4150 7500 50  0000 C CNN
+F 2 "" H 4150 7700 60  0000 C CNN
+F 3 "" H 4130 7510 60  0000 C CNN
+	1    4150 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 7400
+Wire Wire Line
+	4450 7000 4700 7000
+Wire Wire Line
+	4700 7000 5100 7000
+$Comp
+L BSS806NH6327XTSA1 Q?
+U 1 1 5973F4DD
+P 4250 7000
+F 0 "Q?" H 4100 7250 60  0000 C CNN
+F 1 "BSS806NH6327XTSA1" H 3700 7150 60  0000 C CNN
+F 2 "IC:SOT-23-3" H 4400 6100 60  0001 C CNN
+F 3 "D" H 4400 6000 60  0001 C CNN
+F 4 "Digikey" H 4400 6600 60  0001 C CNN "Supplier"
+F 5 "BSS806NH6327XTSA1CT-ND" H 4400 6500 60  0001 C CNN "Supplier Part Number"
+F 6 "Infineon Technologies" H 4400 6400 60  0001 C CNN "Manufacturer"
+F 7 "BSS806NH6327XTSA1" H 4350 6300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "MOSFET N-CH 20V 2.3A SOT23" H 4400 6200 60  0001 C CNN "Description"
+	1    4250 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-07100KL R?
+U 1 1 5973F4EB
+P 4450 7400
+F 0 "R?" H 4450 7480 60  0000 C CNN
+F 1 "RC0805JR-07100KL" H 4450 7100 50  0001 C CNN
+F 2 "Resistors:R0805" H 4450 6500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4450 6450 30  0001 C CNN
+F 4 "Digikey" H 4450 7000 60  0001 C CNN "Supplier"
+F 5 "311-100KARCT-ND" H 4450 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4450 6800 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07100KL" H 4450 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100K OHM 5% 1/8W 0805" H 4450 6600 60  0001 C CNN "Description"
+F 9 "100k" H 4450 7330 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 4860 7320 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4450 7260 50  0001 C CNN "Puissance (Watts)"
+	1    4450 7400
+	1    0    0    -1  
+$EndComp
+Text Label 4150 6450 0    60   ~ 0
+IO8
+Wire Wire Line
+	2950 4600 2750 4600
+Wire Wire Line
+	2750 4550 2750 4600
+Wire Wire Line
+	2750 4600 2750 4650
+Wire Wire Line
+	2750 4100 2750 4150
+Connection ~ 2750 4600
+Wire Wire Line
+	7500 4500 7900 4500
+Wire Wire Line
+	7500 4600 7900 4600
+Wire Wire Line
+	7500 4700 7900 4700
+Text Label 7900 4500 0    60   ~ 0
+PC5
+Text Label 7900 4600 0    60   ~ 0
+PC4
+Text Label 7900 4700 0    60   ~ 0
+PA7
+NoConn ~ 2450 1900
+Wire Wire Line
+	8700 1800 9000 1800
+Wire Wire Line
+	8700 1900 9000 1900
+Wire Wire Line
+	8700 2000 9000 2000
+Wire Wire Line
+	8700 2100 9000 2100
+$Sheet
+S 5450 5800 1450 650 
+U 5978798D
+F0 "LedDriver" 60
+F1 "LedDriver.sch" 60
+$EndSheet
+Wire Wire Line
+	4150 6450 4150 6700
+$Comp
+L LMV321RILT U?
+U 1 1 597AD704
+P 4800 2050
+F 0 "U?" H 4600 2400 60  0000 C CNN
+F 1 "LMV321RILT" H 4400 2300 60  0000 C CNN
+F 2 "IC:SOT-23-5" H 4800 1150 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 4800 1050 60  0001 C CNN
+F 4 "Digikey" H 4800 1650 60  0001 C CNN "Supplier"
+F 5 "497-4942-1-ND" H 4800 1550 60  0001 C CNN "Supplier Part Number"
+F 6 "STMicroelectronics" H 4800 1450 60  0001 C CNN "Manufacturer"
+F 7 "LMV321RILT" H 4800 1350 60  0001 C CNN "Manufacturer Part Number"
+F 8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" H 4800 1250 60  0001 C CNN "Description"
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMV321RILT U?
+U 1 1 597ADA36
+P 4800 3100
+F 0 "U?" H 4600 3500 60  0000 C CNN
+F 1 "LMV321RILT" H 4400 3400 60  0000 C CNN
+F 2 "IC:SOT-23-5" H 4800 2200 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 4800 2100 60  0001 C CNN
+F 4 "Digikey" H 4800 2700 60  0001 C CNN "Supplier"
+F 5 "497-4942-1-ND" H 4800 2600 60  0001 C CNN "Supplier Part Number"
+F 6 "STMicroelectronics" H 4800 2500 60  0001 C CNN "Manufacturer"
+F 7 "LMV321RILT" H 4800 2400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" H 4800 2300 60  0001 C CNN "Description"
+	1    4800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3.3V #PWR?
+U 1 1 597AED0A
+P 4800 1750
+F 0 "#PWR?" H 4800 1600 50  0001 C CNN
+F 1 "3.3V" H 4790 1890 50  0000 C CNN
+F 2 "" H 4800 1750 60  0000 C CNN
+F 3 "" H 4800 1750 60  0000 C CNN
+	1    4800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3.3V #PWR?
+U 1 1 597AEEC6
+P 4800 2800
+F 0 "#PWR?" H 4800 2650 50  0001 C CNN
+F 1 "3.3V" H 4790 2940 50  0000 C CNN
+F 2 "" H 4800 2800 60  0000 C CNN
+F 3 "" H 4800 2800 60  0000 C CNN
+	1    4800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2800 4800 2900
+Wire Wire Line
+	4800 1750 4800 1850
+Wire Wire Line
+	5100 2050 5200 2050
+Wire Wire Line
+	5200 2050 5600 2050
+Wire Wire Line
+	4400 2150 4400 2500
+Wire Wire Line
+	4400 2500 5200 2500
+Wire Wire Line
+	5200 2500 5200 2050
+Connection ~ 5200 2050
+Wire Wire Line
+	5100 3100 5200 3100
+Wire Wire Line
+	5200 3100 5600 3100
+Wire Wire Line
+	4500 1950 4000 1950
+Text Label 4000 1950 0    60   ~ 0
+ANA1
+Text Label 4000 3000 0    60   ~ 0
+ANA2
+Wire Wire Line
+	4500 3000 4000 3000
+Wire Wire Line
+	4400 2150 4500 2150
+$Comp
+L DGND #PWR?
+U 1 1 597B255D
+P 4800 2350
+F 0 "#PWR?" H 4800 2180 50  0001 C CNN
+F 1 "DGND" H 4800 2250 50  0000 C CNN
+F 2 "" H 4800 2450 60  0000 C CNN
+F 3 "" H 4780 2260 60  0000 C CNN
+	1    4800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 597B380D
+P 4800 3400
+F 0 "#PWR?" H 4800 3230 50  0001 C CNN
+F 1 "DGND" H 4800 3300 50  0000 C CNN
+F 2 "" H 4800 3500 60  0000 C CNN
+F 3 "" H 4780 3310 60  0000 C CNN
+	1    4800 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 3600
+Wire Wire Line
+	4400 3600 5200 3600
+Wire Wire Line
+	5200 3600 5200 3100
+Connection ~ 5200 3100
+Text Label 5600 2050 0    60   ~ 0
+PA4
+Text Label 5600 3100 0    60   ~ 0
+PA5
+Wire Wire Line
+	1350 3600 1350 3700
+$Comp
+L 39511000440 F?
+U 1 1 597C4FE6
+P 1450 4500
+F 0 "F?" H 1450 4610 60  0000 C CNN
+F 1 "39511000440" H 1450 4200 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 1450 3600 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1450 3550 30  0001 C CNN
+F 4 "Digikey" H 1450 3300 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 1450 3200 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 1450 3050 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 1450 2900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 1450 2750 60  0001 C CNN "Description"
+F 9 "1A" H 1450 4400 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 1350 4300 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 1550 4300 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 1450 3400 60  0001 C CNN "Fuse Holder"
+	1    1450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 39511000440 F?
+U 1 1 597C5636
+P 1450 4950
+F 0 "F?" H 1450 5060 60  0000 C CNN
+F 1 "39511000440" H 1450 4650 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 1450 4050 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1450 4000 30  0001 C CNN
+F 4 "Digikey" H 1450 3750 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 1450 3650 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 1450 3500 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 1450 3350 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 1450 3200 60  0001 C CNN "Description"
+F 9 "1A" H 1450 4850 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 1350 4750 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 1550 4750 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 1450 3850 60  0001 C CNN "Fuse Holder"
+	1    1450 4950
+	1    0    0    -1  
+$EndComp
+Text Label 800  4950 0    60   ~ 0
+12V_IN2
+Wire Wire Line
+	800  4500 1250 4500
+Wire Wire Line
+	800  4950 1250 4950
+Wire Wire Line
+	1650 4500 1900 4500
+Wire Wire Line
+	1900 4200 1900 4500
+Wire Wire Line
+	1900 4500 1900 4950
+Wire Wire Line
+	1900 4950 1650 4950
+Connection ~ 1900 4500
+$Comp
+L RC0805JR-076K8L R?
+U 1 1 597CFD0D
+P 2750 4350
+F 0 "R?" V 2650 4450 60  0000 L CNN
+F 1 "RC0805JR-076K8L" H 2750 4050 50  0001 C CNN
+F 2 "Resistors:R0805" H 2750 3450 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2750 3400 30  0001 C CNN
+F 4 "Digikey" H 2750 3950 60  0001 C CNN "Supplier"
+F 5 "311-6.8KARCT-ND" H 2750 3850 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 2750 3750 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-076K8L" H 2750 3650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 6.8K OHM 5% 1/8W 0805" H 2750 3550 60  0001 C CNN "Description"
+F 9 "6.8k" V 2750 4450 50  0000 L CNN "Resistance (Ohms)"
+F 10 "±5%" H 3160 4270 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 2750 4210 50  0001 C CNN "Puissance (Watts)"
+	1    2750 4350
+	0    1    1    0   
+$EndComp
+Text Notes 4350 1350 0    60   ~ 0
+DAC Protection
+Text Notes 1150 6050 0    60   ~ 0
+GPIO
 $EndSCHEMATC
