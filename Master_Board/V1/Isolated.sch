@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -43,6 +43,8 @@ F0 "Precharge" 60
 F1 "Precharge.sch" 60
 F2 "PC_MAIN" I L 4050 2800 60 
 F3 "PC_MPPT" I L 4050 3300 60 
+F4 "EX_PC_MAIN" O R 7100 2850 60 
+F5 "EX_PC_MPPT" O R 7100 3300 60 
 $EndSheet
 Text HLabel 3350 2800 0    60   Input ~ 0
 PC_MAIN_EN
@@ -73,4 +75,12 @@ Text HLabel 3350 5000 0    60   Input ~ 0
 VSense_EN
 Text HLabel 3350 5300 0    60   Input ~ 0
 MPPT_VSense
+Wire Wire Line
+	7100 2850 7550 2850
+Wire Wire Line
+	7100 3300 7550 3300
+Text HLabel 7550 2850 2    60   Output ~ 0
+EXT_PC_MAIN_EN
+Text HLabel 7550 3300 2    60   Output ~ 0
+EXT_PC_MPPT_EN
 $EndSCHEMATC

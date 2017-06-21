@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title "Can Bus Template"
 Date ""
 Rev ""
@@ -37,10 +37,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VDD #PWR046
+L VDD #PWR403
 U 1 1 58F7D88D
 P 2900 2900
-F 0 "#PWR046" H 2900 2750 50  0001 C CNN
+F 0 "#PWR403" H 2900 2750 50  0001 C CNN
 F 1 "VDD" H 2890 3040 50  0000 C CNN
 F 2 "" H 2900 2900 60  0000 C CNN
 F 3 "" H 2900 2750 60  0000 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 2900 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DGND #PWR047
-U 1 1 58F7D8B1
+L DGND #PWR404
+U 1 1 597095FB
 P 2900 4600
-F 0 "#PWR047" H 2900 4430 50  0001 C CNN
+F 0 "#PWR404" H 2900 4430 50  0001 C CNN
 F 1 "DGND" H 2900 4500 50  0000 C CNN
 F 2 "" H 2900 4700 60  0000 C CNN
 F 3 "" H 2880 4510 60  0000 C CNN
@@ -59,48 +59,10 @@ F 3 "" H 2880 4510 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistor_Generic R401
-U 1 1 58F7E5D5
-P 1500 4000
-F 0 "R401" H 1500 4100 60  0000 C CNN
-F 1 "Resistor_Generic" H 1550 3700 50  0001 C CNN
-F 2 "Resistors:R0805" H 1550 3100 30  0001 C CNN
-F 3 "D" H 1550 3050 30  0001 C CNN
-F 4 "Supplier" H 1550 3600 60  0001 C CNN "Supplier"
-F 5 "Supplier Part Number" H 1550 3500 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 1550 3400 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 1550 3300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Description" H 1550 3200 60  0001 C CNN "Description"
-F 9 "Resistance" H 1500 3920 50  0000 C CNN "Resistance (Ohms)"
-F 10 "Puissance" H 1500 3800 50  0001 C CNN "Puissance (Watts)"
-F 11 "Tolerance" H 1500 3860 50  0001 C CNN "Tolerance (%)"
-	1    1500 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Capacitor_Generic C405
-U 1 1 58F7E722
-P 1800 4200
-F 0 "C405" V 1750 4425 60  0000 C CNN
-F 1 "Capacitor_Generic" H 1750 3850 60  0001 C CNN
-F 2 "Capacitors:C0805" H 1750 3250 60  0001 C CNN
-F 3 "D" H 1750 3150 60  0001 C CNN
-F 4 "Supplier" H 1750 3750 60  0001 C CNN "Supplier"
-F 5 "Supplier Part Number" H 1750 3650 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 1750 3550 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 1750 3450 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Description" H 1750 3350 60  0001 C CNN "Description"
-F 9 "Capacitance" V 1675 4525 50  0000 C CNN "Capacitance (Farad)"
-F 10 "Tolerance" H 2010 4080 50  0001 C CNN "Tolerance (%)"
-F 11 "Voltage Rated" H 1750 4010 50  0001 C CNN "Voltage Rated (Volt)"
-	1    1800 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DGND #PWR048
+L DGND #PWR401
 U 1 1 58F7E8BB
 P 1800 4600
-F 0 "#PWR048" H 1800 4430 50  0001 C CNN
+F 0 "#PWR401" H 1800 4430 50  0001 C CNN
 F 1 "DGND" H 1800 4500 50  0000 C CNN
 F 2 "" H 1800 4700 60  0000 C CNN
 F 3 "" H 1780 4510 60  0000 C CNN
@@ -129,10 +91,10 @@ Connection ~ 1800 4000
 Wire Wire Line
 	1800 4100 1800 4000
 $Comp
-L 885012207098 C404
+L 885012207098 C403
 U 1 1 58F7ED24
 P 2700 3400
-F 0 "C404" H 2650 3550 60  0000 C CNN
+F 0 "C403" H 2650 3550 60  0000 C CNN
 F 1 "885012207098" H 2650 3050 60  0001 C CNN
 F 2 "Capacitors:C0805" H 2650 2450 60  0001 C CNN
 F 3 "D" H 2650 2350 60  0001 C CNN
@@ -153,10 +115,10 @@ Wire Wire Line
 	2900 2900 2900 3800
 Connection ~ 2900 3400
 $Comp
-L DGND #PWR049
+L DGND #PWR402
 U 1 1 58F7EE1E
 P 2400 3600
-F 0 "#PWR049" H 2400 3430 50  0001 C CNN
+F 0 "#PWR402" H 2400 3430 50  0001 C CNN
 F 1 "DGND" H 2400 3500 50  0000 C CNN
 F 2 "" H 2400 3700 60  0000 C CNN
 F 3 "" H 2380 3510 60  0000 C CNN
@@ -166,10 +128,10 @@ $EndComp
 Wire Wire Line
 	2400 3400 2500 3400
 $Comp
-L 885012107015 C401
-U 1 1 58F7F5F6
+L 885012107015 C402
+U 1 1 59709601
 P 2700 3000
-F 0 "C401" H 2650 3150 60  0000 C CNN
+F 0 "C402" H 2650 3150 60  0000 C CNN
 F 1 "885012107015" H 2650 2650 60  0001 C CNN
 F 2 "Capacitors:C0805" H 2650 2050 60  0001 C CNN
 F 3 "D" H 2650 1950 60  0001 C CNN
@@ -193,48 +155,10 @@ Wire Wire Line
 	2400 3000 2400 3500
 Connection ~ 2400 3400
 $Comp
-L Capacitor_Generic C407
-U 1 1 58F7FBD6
-P 6200 4500
-F 0 "C407" V 6150 4725 60  0000 C CNN
-F 1 "Capacitor_Generic" H 6150 4150 60  0001 C CNN
-F 2 "Capacitors:C0805" H 6150 3550 60  0001 C CNN
-F 3 "D" H 6150 3450 60  0001 C CNN
-F 4 "Supplier" H 6150 4050 60  0001 C CNN "Supplier"
-F 5 "Supplier Part Number" H 6150 3950 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 6150 3850 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 6150 3750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Description" H 6150 3650 60  0001 C CNN "Description"
-F 9 "Capacitance" V 6050 4775 50  0000 C CNN "Capacitance (Farad)"
-F 10 "Tolerance" H 6410 4380 50  0001 C CNN "Tolerance (%)"
-F 11 "Voltage Rated" H 6150 4310 50  0001 C CNN "Voltage Rated (Volt)"
-	1    6200 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Capacitor_Generic C406
-U 1 1 58F7FC0B
-P 5600 4500
-F 0 "C406" V 5550 4725 60  0000 C CNN
-F 1 "Capacitor_Generic" H 5550 4150 60  0001 C CNN
-F 2 "Capacitors:C0805" H 5550 3550 60  0001 C CNN
-F 3 "D" H 5550 3450 60  0001 C CNN
-F 4 "Supplier" H 5550 4050 60  0001 C CNN "Supplier"
-F 5 "Supplier Part Number" H 5550 3950 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 5550 3850 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 5550 3750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Description" H 5550 3650 60  0001 C CNN "Description"
-F 9 "Capacitance" V 5475 4825 50  0000 C CNN "Capacitance (Farad)"
-F 10 "Tolerance" H 5810 4380 50  0001 C CNN "Tolerance (%)"
-F 11 "Voltage Rated" H 5550 4310 50  0001 C CNN "Voltage Rated (Volt)"
-	1    5600 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L D1213A-02SOL-7 D402
+L D1213A-02SOL-7 D401
 U 1 1 58F7FD89
 P 6700 4100
-F 0 "D402" H 6700 3900 60  0000 C CNN
+F 0 "D401" H 6700 3900 60  0000 C CNN
 F 1 "D1213A-02SOL-7" H 6700 4400 60  0000 C CNN
 F 2 "IC:SOT-23-3" H 6700 3080 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf" H 6700 2980 60  0001 C CNN
@@ -247,10 +171,10 @@ F 8 "TVS DIODE 3.3VWM 10VC SOT23" H 6700 3180 60  0001 C CNN "Description"
 	1    0    0    1   
 $EndComp
 $Comp
-L DGND #PWR050
+L DGND #PWR408
 U 1 1 58F7FE79
 P 7200 4500
-F 0 "#PWR050" H 7200 4330 50  0001 C CNN
+F 0 "#PWR408" H 7200 4330 50  0001 C CNN
 F 1 "DGND" H 7200 4400 50  0000 C CNN
 F 2 "" H 7200 4600 60  0000 C CNN
 F 3 "" H 7180 4410 60  0000 C CNN
@@ -262,10 +186,10 @@ Wire Wire Line
 Wire Wire Line
 	7200 4100 7200 4400
 $Comp
-L DGND #PWR051
+L DGND #PWR406
 U 1 1 58F80304
 P 6200 4900
-F 0 "#PWR051" H 6200 4730 50  0001 C CNN
+F 0 "#PWR406" H 6200 4730 50  0001 C CNN
 F 1 "DGND" H 6200 4800 50  0000 C CNN
 F 2 "" H 6200 5000 60  0000 C CNN
 F 3 "" H 6180 4810 60  0000 C CNN
@@ -273,10 +197,10 @@ F 3 "" H 6180 4810 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DGND #PWR052
+L DGND #PWR405
 U 1 1 58F80376
 P 5600 4900
-F 0 "#PWR052" H 5600 4730 50  0001 C CNN
+F 0 "#PWR405" H 5600 4730 50  0001 C CNN
 F 1 "DGND" H 5600 4800 50  0000 C CNN
 F 2 "" H 5600 5000 60  0000 C CNN
 F 3 "" H 5580 4810 60  0000 C CNN
@@ -315,10 +239,10 @@ TVS and Capacitor need to be routed \nas close as possible to the connector
 NoConn ~ 3800 3800
 NoConn ~ 3800 4400
 $Comp
-L Test_Point_THM TP401
+L Test_Point_THM TP403
 U 1 1 58F8F52D
 P 4200 3600
-F 0 "TP401" V 4100 3600 60  0000 C CNN
+F 0 "TP403" V 4100 3600 60  0000 C CNN
 F 1 "Test_Point_THM" H 4200 3300 60  0001 C CNN
 F 2 "Connectors:Keystone_5001" H 4200 2700 60  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 4200 2600 60  0001 C CNN
@@ -331,10 +255,10 @@ F 8 "TEST POINT PC MINI .040\"D BLACK" H 4200 2800 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L Test_Point_THM TP403
-U 1 1 58F8F64E
+L Test_Point_THM TP404
+U 1 1 59709603
 P 4200 4500
-F 0 "TP403" V 4075 4500 60  0000 C CNN
+F 0 "TP404" V 4075 4500 60  0000 C CNN
 F 1 "Test_Point_THM" H 4200 4200 60  0001 C CNN
 F 2 "Connectors:Keystone_5001" H 4200 3600 60  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 4200 3500 60  0001 C CNN
@@ -357,10 +281,10 @@ CAN_L
 Text Notes 4000 3400 0    60   ~ 0
 CAN_H
 $Comp
-L Test_Point_THM TP402
+L Test_Point_THM TP401
 U 1 1 58F8FB78
 P 1900 3700
-F 0 "TP402" V 1775 3700 60  0000 C CNN
+F 0 "TP401" V 1775 3700 60  0000 C CNN
 F 1 "Test_Point_THM" H 1900 3400 60  0001 C CNN
 F 2 "Connectors:Keystone_5001" H 1900 2800 60  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 1900 2700 60  0001 C CNN
@@ -378,10 +302,10 @@ Connection ~ 1900 4000
 Text Notes 1825 3525 0    60   ~ 0
 TXD
 $Comp
-L Test_Point_THM TP404
-U 1 1 58F8FE19
+L Test_Point_THM TP402
+U 1 1 59709605
 P 2500 4600
-F 0 "TP404" V 2375 4600 60  0000 C CNN
+F 0 "TP402" V 2375 4600 60  0000 C CNN
 F 1 "Test_Point_THM" H 2500 4300 60  0001 C CNN
 F 2 "Connectors:Keystone_5001" H 2500 3700 60  0001 C CNN
 F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 2500 3600 60  0001 C CNN
@@ -400,7 +324,7 @@ Wire Wire Line
 Connection ~ 2500 4200
 $Comp
 L RC1206JR-07120RL R402
-U 1 1 58FBF6A8
+U 1 1 59709606
 P 4600 5100
 F 0 "R402" H 4600 5180 60  0000 C CNN
 F 1 "RC1206JR-07120RL" H 4600 4800 50  0001 C CNN
@@ -447,28 +371,12 @@ $EndComp
 Wire Wire Line
 	6100 3200 6100 4200
 Wire Wire Line
-	6300 3600 6300 4000
+	6300 3100 6300 4000
 $Comp
-L 649004227222 J402
-U 1 1 593D5B03
-P 6900 3200
-F 0 "J402" H 6900 3400 60  0000 C CNN
-F 1 "649004227222" H 6900 3050 60  0000 C CNN
-F 2 "Connectors:649004227222" H 6900 2300 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 6900 2200 60  0001 C CNN
-F 4 "Digikey" H 6900 2800 60  0001 C CNN "Supplier"
-F 5 "732-1938-ND" H 6900 2700 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 6900 2600 60  0001 C CNN "Manufacturer"
-F 7 "649004227222" H 6900 2500 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 4P" H 6900 2400 60  0001 C CNN "Description"
-	1    6900 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L DGND #PWR058
+L DGND #PWR409
 U 1 1 593D5B09
 P 7400 3400
-F 0 "#PWR058" H 7400 3230 50  0001 C CNN
+F 0 "#PWR409" H 7400 3230 50  0001 C CNN
 F 1 "DGND" H 7400 3300 50  0000 C CNN
 F 2 "" H 7400 3500 60  0000 C CNN
 F 3 "" H 7380 3310 60  0000 C CNN
@@ -480,30 +388,160 @@ Wire Wire Line
 Wire Wire Line
 	7400 3200 7400 3300
 $Comp
-L CAN_PWR #PWR059
+L CAN_PWR #PWR407
 U 1 1 593D5B11
-P 6300 3000
-F 0 "#PWR059" H 6300 2850 50  0001 C CNN
-F 1 "CAN_PWR" H 6290 3140 50  0000 C CNN
-F 2 "" H 6300 3000 60  0000 C CNN
-F 3 "" H 6300 3000 60  0000 C CNN
-	1    6300 3000
+P 7350 2800
+F 0 "#PWR407" H 7350 2650 50  0001 C CNN
+F 1 "CAN_PWR" H 7340 2940 50  0000 C CNN
+F 2 "" H 7350 2800 60  0000 C CNN
+F 3 "" H 7350 2800 60  0000 C CNN
+	1    7350 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6300 3100 6700 3100
-Wire Wire Line
-	6300 3000 6300 3100
-Text Label 7200 3100 0    60   ~ 0
+Text Label 6350 3100 0    60   ~ 0
 CAN_P
 Wire Wire Line
 	7100 3100 7600 3100
 Wire Wire Line
 	6100 3200 6700 3200
-Text Label 6300 3200 0    60   ~ 0
+Text Label 6350 3200 0    60   ~ 0
 CAN_N
+$Comp
+L RC0805JR-07100RL R?
+U 1 1 597A434D
+P 1500 4000
+F 0 "R?" H 1500 4080 60  0000 C CNN
+F 1 "RC0805JR-07100RL" H 1500 3700 50  0001 C CNN
+F 2 "Resistors:R0805" H 1500 3100 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 1500 3050 30  0001 C CNN
+F 4 "Digikey" H 1500 3600 60  0001 C CNN "Supplier"
+F 5 "311-100ARCT-ND" H 1500 3500 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 1500 3400 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07100RL" H 1500 3300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 1500 3200 60  0001 C CNN "Description"
+F 9 "100" H 1500 3930 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 1910 3920 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 1500 3860 50  0001 C CNN "Puissance (Watts)"
+	1    1500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 885012207080 C?
+U 1 1 597A447F
+P 1800 4200
+F 0 "C?" V 1800 4050 60  0000 C CNN
+F 1 "885012207080" H 1750 3850 60  0001 C CNN
+F 2 "Capacitors:C0805" H 1750 3250 60  0001 C CNN
+F 3 "D" H 1750 3150 60  0001 C CNN
+F 4 "Digikey" H 1750 3750 60  0001 C CNN "Supplier"
+F 5 "732-8062-1-ND" H 1750 3650 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1750 3550 60  0001 C CNN "Manufacturer"
+F 7 "885012207080" H 1750 3450 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 100PF 50V X7R 0805" H 1750 3350 60  0001 C CNN "Description"
+F 9 "100pF" V 1700 4000 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±10%" H 2010 4080 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 1750 4010 50  0001 C CNN "Voltage Rated (Volt)"
+	1    1800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 885012007053 C?
+U 1 1 597A4A3D
+P 5600 4600
+F 0 "C?" V 5500 4750 60  0000 C CNN
+F 1 "885012007053" H 5550 4250 60  0001 C CNN
+F 2 "Capacitors:C0805" H 5550 3650 60  0001 C CNN
+F 3 "D" H 5550 3550 60  0001 C CNN
+F 4 "Digikey" H 5550 4150 60  0001 C CNN "Supplier"
+F 5 "732-7848-1-ND" H 5550 4050 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 5550 3950 60  0001 C CNN "Manufacturer"
+F 7 "885012007053" H 5550 3850 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 22PF 50V C0G/NP0 0805" H 5550 3750 60  0001 C CNN "Description"
+F 9 "22pF" V 5600 4800 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±5%" H 5810 4480 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 5550 4410 50  0001 C CNN "Voltage Rated (Volt)"
+	1    5600 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 885012007053 C?
+U 1 1 597A4B6F
+P 6200 4600
+F 0 "C?" V 6100 4750 60  0000 C CNN
+F 1 "885012007053" H 6150 4250 60  0001 C CNN
+F 2 "Capacitors:C0805" H 6150 3650 60  0001 C CNN
+F 3 "D" H 6150 3550 60  0001 C CNN
+F 4 "Digikey" H 6150 4150 60  0001 C CNN "Supplier"
+F 5 "732-7848-1-ND" H 6150 4050 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 6150 3950 60  0001 C CNN "Manufacturer"
+F 7 "885012007053" H 6150 3850 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 22PF 50V C0G/NP0 0805" H 6150 3750 60  0001 C CNN "Description"
+F 9 "22pF" V 6200 4800 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±5%" H 6410 4480 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 6150 4410 50  0001 C CNN "Voltage Rated (Volt)"
+	1    6200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L 649006227222 J?
+U 1 1 597A4DAE
+P 6900 3200
+F 0 "J?" H 6900 3500 60  0000 C CNN
+F 1 "649006227222" H 6900 3050 60  0000 C CNN
+F 2 "Connectors:649006227222" H 6900 2300 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" H 6900 2200 60  0001 C CNN
+F 4 "Digikey" H 6900 2800 60  0001 C CNN "Supplier"
+F 5 "732-1939-ND" H 6900 2700 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 6900 2600 60  0001 C CNN "Manufacturer"
+F 7 "649006227222" H 6900 2500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 6P" H 6900 2400 60  0001 C CNN "Description"
+	1    6900 3200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7600 3100 7600 3600
+	6700 3000 6300 3000
+$Comp
+L RC0805JR-070RL R?
+U 1 1 597A4F67
+P 7800 3100
+F 0 "R?" H 7800 3180 60  0000 C CNN
+F 1 "RC0805JR-070RL" H 7800 2800 50  0001 C CNN
+F 2 "Resistors:R0805" H 7800 2200 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7800 2150 30  0001 C CNN
+F 4 "Digikey" H 7800 2700 60  0001 C CNN "Supplier"
+F 5 "311-0.0ARCT-ND" H 7800 2600 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 7800 2500 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 7800 2400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 7800 2300 60  0001 C CNN "Description"
+F 9 "0" H 7800 3030 50  0000 C CNN "Resistance (Ohms)"
+F 10 "0" H 8210 3020 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 7800 2960 50  0001 C CNN "Puissance (Watts)"
+	1    7800 3100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7600 3600 6300 3600
+	7350 2800 7350 3000
+Wire Wire Line
+	7350 3000 7100 3000
+Text Label 6300 3000 0    60   ~ 0
+Shield1
+Text Label 7200 3100 0    60   ~ 0
+Shield1
+$Comp
+L DGND #PWR?
+U 1 1 597A52DE
+P 8100 3400
+F 0 "#PWR?" H 8100 3230 50  0001 C CNN
+F 1 "DGND" H 8100 3300 50  0000 C CNN
+F 2 "" H 8100 3500 60  0000 C CNN
+F 3 "" H 8080 3310 60  0000 C CNN
+	1    8100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3100 8100 3100
+Wire Wire Line
+	8100 3100 8100 3300
 $EndSCHEMATC
