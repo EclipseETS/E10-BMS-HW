@@ -274,26 +274,6 @@ Connection ~ 5300 5100
 Wire Wire Line
 	5300 4600 5300 4550
 $Comp
-L 39511000440 F702
-U 1 1 5945789A
-P 3050 2350
-F 0 "F702" H 3050 2460 60  0000 C CNN
-F 1 "39511000440" H 3050 2050 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 3050 1450 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 3050 1400 30  0001 C CNN
-F 4 "Digikey" H 3050 1150 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 3050 1050 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 3050 900 60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 3050 750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 3050 600 60  0001 C CNN "Description"
-F 9 "1A" H 3050 2250 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 2950 2150 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 3150 2150 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 3050 1250 60  0001 C CNN "Fuse Holder"
-	1    3050 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L 649002227222 J701
 U 1 1 59457BA5
 P 950 2500
@@ -313,49 +293,10 @@ Wire Wire Line
 	3500 2500 1150 2500
 Wire Wire Line
 	3500 2350 3250 2350
-$Comp
-L TR50JBC100R R702
-U 1 1 59458C40
-P 2400 2350
-F 0 "R702" H 2400 2430 60  0000 C CNN
-F 1 "TR50JBC100R" H 2400 2050 50  0001 C CNN
-F 2 "Resistors:TR50" H 2400 1450 30  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-tr.pdf" H 2400 1400 30  0001 C CNN
-F 4 "Digikey" H 2400 1950 60  0001 C CNN "Supplier"
-F 5 "TR50JBC100R-ND" H 2400 1850 60  0001 C CNN "Supplier Part Number"
-F 6 "Stackpole Electronics Inc." H 2400 1750 60  0001 C CNN "Manufacturer"
-F 7 "TR50JBC100R" H 2400 1650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES 100 OHM 50W 5% TO220" H 2400 1550 60  0001 C CNN "Description"
-F 9 "100" H 2400 2280 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 2810 2270 50  0001 C CNN "Tolerance (%)"
-F 11 "50W" H 2400 2210 50  0001 C CNN "Puissance (Watts)"
-	1    2400 2350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 2350 2600 2350
 Wire Wire Line
 	2200 2350 2000 2350
-$Comp
-L 39511000440 F701
-U 1 1 59458F9F
-P 3000 4950
-F 0 "F701" H 3000 5060 60  0000 C CNN
-F 1 "39511000440" H 3000 4650 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 3000 4050 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 3000 4000 30  0001 C CNN
-F 4 "Digikey" H 3000 3750 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 3000 3650 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 3000 3500 60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 3000 3350 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 3000 3200 60  0001 C CNN "Description"
-F 9 "1A" H 3000 4850 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 2900 4750 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 3100 4750 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 3000 3850 60  0001 C CNN "Fuse Holder"
-	1    3000 4950
-	-1   0    0    -1  
-$EndComp
 $Comp
 L 649002227222 J702
 U 1 1 59458FAA
@@ -376,25 +317,6 @@ Wire Wire Line
 	3450 5100 1150 5100
 Wire Wire Line
 	3450 4950 3200 4950
-$Comp
-L TR50JBC100R R701
-U 1 1 59458FBA
-P 2350 4950
-F 0 "R701" H 2350 5030 60  0000 C CNN
-F 1 "TR50JBC100R" H 2350 4650 50  0001 C CNN
-F 2 "Resistors:TR50" H 2350 4050 30  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-tr.pdf" H 2350 4000 30  0001 C CNN
-F 4 "Digikey" H 2350 4550 60  0001 C CNN "Supplier"
-F 5 "TR50JBC100R-ND" H 2350 4450 60  0001 C CNN "Supplier Part Number"
-F 6 "Stackpole Electronics Inc." H 2350 4350 60  0001 C CNN "Manufacturer"
-F 7 "TR50JBC100R" H 2350 4250 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES 100 OHM 50W 5% TO220" H 2350 4150 60  0001 C CNN "Description"
-F 9 "100" H 2350 4880 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 2760 4870 50  0001 C CNN "Tolerance (%)"
-F 11 "50W" H 2350 4810 50  0001 C CNN "Puissance (Watts)"
-	1    2350 4950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 4950 2550 4950
 Wire Wire Line
@@ -673,5 +595,83 @@ F 7 "ALQ112" H 3700 4450 60  0001 C CNN "Manufacturer Part Number"
 F 8 "RELAY GEN PURPOSE SPST 10A 12V" H 3700 4350 60  0001 C CNN "Description"
 	1    3700 5150
 	-1   0    0    -1  
+$EndComp
+$Comp
+L 39511000440 F701
+U 1 1 59621787
+P 3000 4950
+F 0 "F701" H 3000 5060 60  0000 C CNN
+F 1 "39511000440" H 3000 4650 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 3000 4050 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 3000 4000 30  0001 C CNN
+F 4 "Digikey" H 3000 3750 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 3000 3650 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 3000 3500 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 3000 3350 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 3000 3200 60  0001 C CNN "Description"
+F 9 "1A" H 3000 4850 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 2900 4750 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 3100 4750 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 3000 3850 60  0001 C CNN "Fuse Holder"
+	1    3000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 39511000440 F702
+U 1 1 59621E4D
+P 3050 2350
+F 0 "F702" H 3050 2460 60  0000 C CNN
+F 1 "39511000440" H 3050 2050 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 3050 1450 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 3050 1400 30  0001 C CNN
+F 4 "Digikey" H 3050 1150 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 3050 1050 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 3050 900 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 3050 750 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 3050 600 60  0001 C CNN "Description"
+F 9 "1A" H 3050 2250 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 2950 2150 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 3150 2150 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 3050 1250 60  0001 C CNN "Fuse Holder"
+	1    3050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TR50JBC100R R702
+U 1 1 5963CF60
+P 2400 2350
+F 0 "R702" H 2400 2430 60  0000 C CNN
+F 1 "TR50JBC100R" H 2400 2050 50  0001 C CNN
+F 2 "Resistors:TR50" H 2400 1450 30  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-tr.pdf" H 2400 1400 30  0001 C CNN
+F 4 "Digikey" H 2400 1950 60  0001 C CNN "Supplier"
+F 5 "TR50JBC100R-ND" H 2400 1850 60  0001 C CNN "Supplier Part Number"
+F 6 "Stackpole Electronics Inc." H 2400 1750 60  0001 C CNN "Manufacturer"
+F 7 "TR50JBC100R" H 2400 1650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES 100 OHM 50W 5% TO220" H 2400 1550 60  0001 C CNN "Description"
+F 9 "100" H 2400 2280 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 2810 2270 50  0001 C CNN "Tolerance (%)"
+F 11 "50W" H 2400 2210 50  0001 C CNN "Puissance (Watts)"
+	1    2400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TR50JBC100R R701
+U 1 1 5963D004
+P 2350 4950
+F 0 "R701" H 2350 5030 60  0000 C CNN
+F 1 "TR50JBC100R" H 2350 4650 50  0001 C CNN
+F 2 "Resistors:TR50" H 2350 4050 30  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-tr.pdf" H 2350 4000 30  0001 C CNN
+F 4 "Digikey" H 2350 4550 60  0001 C CNN "Supplier"
+F 5 "TR50JBC100R-ND" H 2350 4450 60  0001 C CNN "Supplier Part Number"
+F 6 "Stackpole Electronics Inc." H 2350 4350 60  0001 C CNN "Manufacturer"
+F 7 "TR50JBC100R" H 2350 4250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES 100 OHM 50W 5% TO220" H 2350 4150 60  0001 C CNN "Description"
+F 9 "100" H 2350 4880 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 2760 4870 50  0001 C CNN "Tolerance (%)"
+F 11 "50W" H 2350 4810 50  0001 C CNN "Puissance (Watts)"
+	1    2350 4950
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

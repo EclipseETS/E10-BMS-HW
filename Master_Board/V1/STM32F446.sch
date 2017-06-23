@@ -696,87 +696,69 @@ F 11 "1/8W" H 2100 7360 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 150080VS75000-RESCUE-Master_Board D201
-U 1 1 58F8F583
-P 3500 7000
-F 0 "D201" V 3400 7200 60  0000 C CNN
-F 1 "150080VS75000" H 3500 6800 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 3510 5920 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 3510 5820 60  0001 C CNN
-F 4 "Digikey" H 3510 6420 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 3510 6320 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 3510 6220 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 3510 6120 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 3510 6020 60  0001 C CNN "Description"
-F 9 "GREEN" V 3500 7200 60  0000 C CNN "Color"
-F 10 "2V" H 3500 6600 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    3500 7000
-	0    -1   1    0   
-$EndComp
-$Comp
 L RC0805JR-07470RL R207
 U 1 1 58F8F74B
-P 3500 7400
-F 0 "R207" V 3600 7600 60  0000 C CNN
-F 1 "RC0805JR-07470RL" H 3500 7100 50  0001 C CNN
-F 2 "Resistors:R0805" H 3500 6500 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3500 6450 30  0001 C CNN
-F 4 "Digikey" H 3500 7000 60  0001 C CNN "Supplier"
-F 5 "311-470ARCT-ND" H 3500 6900 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 3500 6800 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470RL" H 3500 6700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 3500 6600 60  0001 C CNN "Description"
-F 9 "470" V 3500 7600 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 3910 7320 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 3500 7260 50  0001 C CNN "Puissance (Watts)"
-	1    3500 7400
+P 3450 7400
+F 0 "R207" V 3550 7600 60  0000 C CNN
+F 1 "RC0805JR-07470RL" H 3450 7100 50  0001 C CNN
+F 2 "Resistors:R0805" H 3450 6500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3450 6450 30  0001 C CNN
+F 4 "Digikey" H 3450 7000 60  0001 C CNN "Supplier"
+F 5 "311-470ARCT-ND" H 3450 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3450 6800 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07470RL" H 3450 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 3450 6600 60  0001 C CNN "Description"
+F 9 "470" V 3450 7600 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3860 7320 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3450 7260 50  0001 C CNN "Puissance (Watts)"
+	1    3450 7400
 	0    -1   -1   0   
 $EndComp
 Text Label 7100 4000 0    60   ~ 0
 BLINK
-Text Label 3500 6400 3    60   ~ 0
+Text Label 3450 6400 3    60   ~ 0
 BLINK
 $Comp
 L DGND #PWR033
 U 1 1 58F90369
-P 3500 7800
-F 0 "#PWR033" H 3500 7630 50  0001 C CNN
-F 1 "DGND" H 3500 7700 50  0000 C CNN
-F 2 "" H 3500 7900 60  0000 C CNN
-F 3 "" H 3480 7710 60  0000 C CNN
-	1    3500 7800
+P 3450 7800
+F 0 "#PWR033" H 3450 7630 50  0001 C CNN
+F 1 "DGND" H 3450 7700 50  0000 C CNN
+F 2 "" H 3450 7900 60  0000 C CNN
+F 3 "" H 3430 7710 60  0000 C CNN
+	1    3450 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L RC0805JR-07470RL R208
 U 1 1 58F904BD
-P 4200 7400
-F 0 "R208" V 4300 7600 60  0000 C CNN
-F 1 "RC0805JR-07470RL" H 4200 7100 50  0001 C CNN
-F 2 "Resistors:R0805" H 4200 6500 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4200 6450 30  0001 C CNN
-F 4 "Digikey" H 4200 7000 60  0001 C CNN "Supplier"
-F 5 "311-470ARCT-ND" H 4200 6900 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 4200 6800 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470RL" H 4200 6700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 4200 6600 60  0001 C CNN "Description"
-F 9 "470" V 4200 7600 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 4610 7320 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4200 7260 50  0001 C CNN "Puissance (Watts)"
-	1    4200 7400
+P 4150 7400
+F 0 "R208" V 4250 7600 60  0000 C CNN
+F 1 "RC0805JR-07470RL" H 4150 7100 50  0001 C CNN
+F 2 "Resistors:R0805" H 4150 6500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4150 6450 30  0001 C CNN
+F 4 "Digikey" H 4150 7000 60  0001 C CNN "Supplier"
+F 5 "311-470ARCT-ND" H 4150 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4150 6800 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07470RL" H 4150 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 4150 6600 60  0001 C CNN "Description"
+F 9 "470" V 4150 7600 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 4560 7320 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4150 7260 50  0001 C CNN "Puissance (Watts)"
+	1    4150 7400
 	0    -1   -1   0   
 $EndComp
-Text Label 4200 6400 3    60   ~ 0
+Text Label 4150 6400 3    60   ~ 0
 DEBUG
 $Comp
 L DGND #PWR034
 U 1 1 58F904C6
-P 4200 7800
-F 0 "#PWR034" H 4200 7630 50  0001 C CNN
-F 1 "DGND" H 4200 7700 50  0000 C CNN
-F 2 "" H 4200 7900 60  0000 C CNN
-F 3 "" H 4180 7710 60  0000 C CNN
-	1    4200 7800
+P 4150 7800
+F 0 "#PWR034" H 4150 7630 50  0001 C CNN
+F 1 "DGND" H 4150 7700 50  0000 C CNN
+F 2 "" H 4150 7900 60  0000 C CNN
+F 3 "" H 4130 7710 60  0000 C CNN
+	1    4150 7800
 	1    0    0    -1  
 $EndComp
 Text Label 7100 4200 0    60   ~ 0
@@ -784,73 +766,37 @@ ERROR
 $Comp
 L RC0805JR-07470RL R209
 U 1 1 58F90B78
-P 4900 7400
-F 0 "R209" V 5000 7600 60  0000 C CNN
-F 1 "RC0805JR-07470RL" H 4900 7100 50  0001 C CNN
-F 2 "Resistors:R0805" H 4900 6500 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4900 6450 30  0001 C CNN
-F 4 "Digikey" H 4900 7000 60  0001 C CNN "Supplier"
-F 5 "311-470ARCT-ND" H 4900 6900 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 4900 6800 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470RL" H 4900 6700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 4900 6600 60  0001 C CNN "Description"
-F 9 "470" V 4900 7600 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 5310 7320 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4900 7260 50  0001 C CNN "Puissance (Watts)"
-	1    4900 7400
+P 4850 7400
+F 0 "R209" V 4950 7600 60  0000 C CNN
+F 1 "RC0805JR-07470RL" H 4850 7100 50  0001 C CNN
+F 2 "Resistors:R0805" H 4850 6500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4850 6450 30  0001 C CNN
+F 4 "Digikey" H 4850 7000 60  0001 C CNN "Supplier"
+F 5 "311-470ARCT-ND" H 4850 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4850 6800 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07470RL" H 4850 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 4850 6600 60  0001 C CNN "Description"
+F 9 "470" V 4850 7600 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5260 7320 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4850 7260 50  0001 C CNN "Puissance (Watts)"
+	1    4850 7400
 	0    -1   -1   0   
 $EndComp
-Text Label 4900 6400 3    60   ~ 0
+Text Label 4850 6400 3    60   ~ 0
 ERROR
 $Comp
 L DGND #PWR035
 U 1 1 58F90B81
-P 4900 7800
-F 0 "#PWR035" H 4900 7630 50  0001 C CNN
-F 1 "DGND" H 4900 7700 50  0000 C CNN
-F 2 "" H 4900 7900 60  0000 C CNN
-F 3 "" H 4880 7710 60  0000 C CNN
-	1    4900 7800
+P 4850 7800
+F 0 "#PWR035" H 4850 7630 50  0001 C CNN
+F 1 "DGND" H 4850 7700 50  0000 C CNN
+F 2 "" H 4850 7900 60  0000 C CNN
+F 3 "" H 4830 7710 60  0000 C CNN
+	1    4850 7800
 	1    0    0    -1  
-$EndComp
-$Comp
-L 150080RS75000-RESCUE-Master_Board D203
-U 1 1 58F90B8F
-P 4900 7000
-F 0 "D203" V 4800 7200 60  0000 C CNN
-F 1 "150080RS75000" H 4900 6800 60  0001 C CNN
-F 2 "Diodes:LED_0805_RED" H 4910 5920 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4910 5820 60  0001 C CNN
-F 4 "Digikey" H 4910 6420 60  0001 C CNN "Supplier"
-F 5 "732-4984-1-ND" H 4910 6320 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 4910 6220 60  0001 C CNN "Manufacturer"
-F 7 "150080RS75000" H 4910 6120 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED RED CLEAR 0805 SMD" H 4910 6020 60  0001 C CNN "Description"
-F 9 "RED" V 4900 7200 60  0000 C CNN "Color"
-F 10 "2V" H 4900 6600 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    4900 7000
-	0    -1   1    0   
 $EndComp
 Text Label 7100 4100 0    60   ~ 0
 DEBUG
-$Comp
-L 150080YS75000-RESCUE-Master_Board D202
-U 1 1 58F90CA0
-P 4200 7000
-F 0 "D202" V 4100 7200 60  0000 C CNN
-F 1 "150080YS75000" H 4200 6800 60  0001 C CNN
-F 2 "Diodes:LED_0805_YELLOW" H 4210 5920 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" H 4210 5820 60  0001 C CNN
-F 4 "Digikey" H 4210 6420 60  0001 C CNN "Supplier"
-F 5 "732-4987-1-ND" H 4210 6320 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 4210 6220 60  0001 C CNN "Manufacturer"
-F 7 "150080YS75000" H 4210 6120 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED YELLOW CLEAR 0805 SMD" H 4210 6020 60  0001 C CNN "Description"
-F 9 "YELLOW" V 4200 7300 60  0000 C CNN "Color"
-F 10 "2V" H 4200 6600 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    4200 7000
-	0    -1   1    0   
-$EndComp
 Text Notes 3100 6300 0    60   ~ 0
 LED : BLINK, DEBUG, ASSERT
 $Comp
@@ -1478,23 +1424,23 @@ Wire Wire Line
 Wire Wire Line
 	4400 5800 4400 5700
 Wire Wire Line
-	3500 6400 3500 6800
+	3450 6400 3450 6800
 Wire Wire Line
-	3500 7100 3500 7200
+	3450 7100 3450 7200
 Wire Wire Line
-	3500 7700 3500 7600
+	3450 7700 3450 7600
 Wire Wire Line
-	4200 6400 4200 6800
+	4150 6400 4150 6800
 Wire Wire Line
-	4200 7100 4200 7200
+	4150 7100 4150 7200
 Wire Wire Line
-	4200 7700 4200 7600
+	4150 7700 4150 7600
 Wire Wire Line
-	4900 6400 4900 6800
+	4850 6400 4850 6800
 Wire Wire Line
-	4900 7100 4900 7200
+	4850 7100 4850 7200
 Wire Wire Line
-	4900 7700 4900 7600
+	4850 7700 4850 7600
 Wire Notes Line
 	3100 6300 3100 8000
 Wire Notes Line
@@ -1613,4 +1559,58 @@ Wire Wire Line
 Wire Wire Line
 	4000 5150 3700 5150
 Connection ~ 4000 4900
+$Comp
+L 150080RS75000 D203
+U 1 1 5962351A
+P 4850 7000
+F 0 "D203" V 4800 7200 60  0000 C CNN
+F 1 "150080RS75000" H 4700 6800 60  0000 C CNN
+F 2 "Diodes:LED_0805_RED" H 4860 5920 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 4860 5820 60  0001 C CNN
+F 4 "Digikey" H 4860 6420 60  0001 C CNN "Supplier"
+F 5 "732-4984-1-ND" H 4860 6320 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4860 6220 60  0001 C CNN "Manufacturer"
+F 7 "150080RS75000" H 4860 6120 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED RED CLEAR 0805 SMD" H 4860 6020 60  0001 C CNN "Description"
+F 9 "RED" H 4850 6700 60  0001 C CNN "Color"
+F 10 "2V" H 4850 6600 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    4850 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L 150080YS75000 D202
+U 1 1 596239FB
+P 4150 7000
+F 0 "D202" V 4100 7200 60  0000 C CNN
+F 1 "150080YS75000" H 3950 6800 60  0000 C CNN
+F 2 "Diodes:LED_0805_YELLOW" H 4160 5920 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" H 4160 5820 60  0001 C CNN
+F 4 "Digikey" H 4160 6420 60  0001 C CNN "Supplier"
+F 5 "732-4987-1-ND" H 4160 6320 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4160 6220 60  0001 C CNN "Manufacturer"
+F 7 "150080YS75000" H 4160 6120 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED YELLOW CLEAR 0805 SMD" H 4160 6020 60  0001 C CNN "Description"
+F 9 "YELLOW" H 4150 6700 60  0001 C CNN "Color"
+F 10 "2V" H 4150 6600 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    4150 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L 150080VS75000 D201
+U 1 1 59623ABD
+P 3450 7000
+F 0 "D201" V 3400 7200 60  0000 C CNN
+F 1 "150080VS75000" H 3250 6800 60  0000 C CNN
+F 2 "Diodes:LED_0805_GREEN" H 3460 5920 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 3460 5820 60  0001 C CNN
+F 4 "Digikey" H 3460 6420 60  0001 C CNN "Supplier"
+F 5 "732-4986-1-ND" H 3460 6320 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 3460 6220 60  0001 C CNN "Manufacturer"
+F 7 "150080VS75000" H 3460 6120 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED GREEN CLEAR 0805 SMD" H 3460 6020 60  0001 C CNN "Description"
+F 9 "GREEN" H 3450 6700 60  0001 C CNN "Color"
+F 10 "2V" H 3450 6600 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    3450 7000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

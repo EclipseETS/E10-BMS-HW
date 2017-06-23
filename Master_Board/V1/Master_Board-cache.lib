@@ -40,27 +40,27 @@ X Anode 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 150080RS75000-RESCUE-Master_Board
+# 150080VS75000
 #
-DEF 150080RS75000-RESCUE-Master_Board D 0 0 N N 1 F N
+DEF 150080VS75000 D 0 0 N N 1 F N
 F0 "D" -50 150 60 H V C CNN
-F1 "150080RS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
-F2 "Diodes:LED_0805_RED" 10 -1080 60 H I C CNN
-F3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" 10 -1180 60 H I C CNN
+F1 "150080VS75000" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_GREEN" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" 10 -1180 60 H I C CNN
 F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
-F5 "732-4984-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F5 "732-4986-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
 F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
-F7 "150080RS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
-F8 "LED RED CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
-F9 "RED" 0 -300 60 H I C CNN "Color"
+F7 "150080VS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED GREEN CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "GREEN" 0 -300 60 H I C CNN "Color"
 F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
 DRAW
 P 2 0 1 15 0 -50 0 50 N
 P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
-X Cathode 1 100 0 100 L 50 50 1 1 I
-X Anode 2 -200 0 100 R 50 50 1 1 I
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -88,11 +88,11 @@ X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 150080YS75000-RESCUE-Master_Board
+# 150080YS75000
 #
-DEF 150080YS75000-RESCUE-Master_Board D 0 0 N N 1 F N
+DEF 150080YS75000 D 0 0 N N 1 F N
 F0 "D" -50 150 60 H V C CNN
-F1 "150080YS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
+F1 "150080YS75000" 0 -200 60 H V C CNN
 F2 "Diodes:LED_0805_YELLOW" 10 -1080 60 H I C CNN
 F3 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" 10 -1180 60 H I C CNN
 F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
@@ -107,8 +107,8 @@ P 2 0 1 15 0 -50 0 50 N
 P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
-X Cathode 1 100 0 100 L 50 50 1 1 I
-X Anode 2 -200 0 100 R 50 50 1 1 I
+X Cathode 1 100 0 100 L 50 50 1 1 P
+X Anode 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -334,6 +334,29 @@ X 19 19 100 350 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 744052471
+#
+DEF ~744052471 L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "744052471" 0 -350 60 H I C CNN
+F2 "Inductors:WE-TPC-SMD" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-3668-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "744052471" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 470UH 140MA 5.5 OHM" 0 -850 60 H I C CNN "Description"
+F9 "470µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "140mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 7447715330
 #
 DEF ~7447715330 L 0 0 N N 1 F N
@@ -354,6 +377,34 @@ A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
 A 80 0 40 1 1799 0 1 0 N 120 0 40 0
 X 1 1 -200 0 80 R 50 50 1 1 P
 X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 860020472006
+#
+DEF ~860020472006 C 0 0 N N 1 F N
+F0 "C" 35 145 60 H V C CNN
+F1 "860020472006" -50 -490 60 H I C CNN
+F2 "Capacitors:Radial-Can-5_11_2" -50 -1100 60 H I C CNN
+F3 "http://katalog.we-online.com/pbs/datasheet/860020472006.pdf" -50 -1200 60 H I C CNN
+F4 "Digikey" -50 -600 60 H I C CNN "Supplier"
+F5 "732-8823-1-ND" -50 -700 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -800 60 H I C CNN "Manufacturer"
+F7 "860020472006" -50 -900 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP ALUM 47UF 20% 25V RADIAL" -50 -1000 60 H I C CNN "Description"
+F9 "47uF" 0 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "+-20%" 400 -150 60 H I C CNN "Tolerance (%)"
+F11 "25V" 0 -250 50 H V C CNN "Voltage Rated (Volt)"
+F12 "105 mA" 0 -400 50 H I C CNN "Ripple Current (A)"
+DRAW
+A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 10 75 75 75 -75 N
+P 2 0 1 0 95 40 145 40 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 120 15 120 65 N
+X Positif 1 200 0 100 L 50 50 1 1 P
+X Negatif 2 -100 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -739,10 +790,10 @@ P 3 0 1 0 -50 100 -50 50 -150 50 N
 P 3 0 1 0 100 100 100 50 150 50 N
 P 4 0 1 0 150 200 100 200 100 150 50 100 N
 P 8 0 1 0 -150 200 -50 200 -50 150 -100 150 -100 100 0 100 0 150 -50 150 N
-X ~ 1 -250 50 100 R 50 50 1 1 I
-X ~ 2 -250 200 100 R 50 50 1 1 I
-X ~ 3 250 200 100 L 50 50 1 1 I
-X ~ 4 250 50 100 L 50 50 1 1 I
+X ~ 1 -250 50 100 R 50 50 1 1 P
+X ~ 2 -250 200 100 R 50 50 1 1 P
+X ~ 3 250 200 100 L 50 50 1 1 P
+X ~ 4 250 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1118,8 +1169,8 @@ F8 "NTC THERMISTOR 47K OHM 1% 0402" 50 -800 60 H I C CNN "Description"
 DRAW
 S -150 0 150 100 0 1 0 f
 P 3 0 1 0 -100 -50 -50 -50 50 150 N
-X ~ ~ -350 50 200 R 50 50 1 1 I
-X ~ ~ 350 50 200 L 50 50 1 1 I
+X ~ 1 -350 50 200 R 50 50 1 1 I
+X ~ 2 350 50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1569,29 +1620,6 @@ S 150 0 120 0 0 1 0 N
 P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
 X 1 1 -200 0 50 R 50 50 1 1 P
 X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# RLB0608-471KL
-#
-DEF ~RLB0608-471KL L 0 0 N N 1 F N
-F0 "L" 0 100 60 H V C CNN
-F1 "RLB0608-471KL" 0 -350 60 H I C CNN
-F2 "Inductors:RLB0608" 0 -950 60 H I C CNN
-F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
-F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
-F5 "RLB0608-471KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
-F6 "Bourns Inc." 0 -650 60 H I C CNN "Manufacturer"
-F7 "RLB0608-471KL" 0 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "FIXED IND 470UH 140MA 6.5 OHM TH" 0 -850 60 H I C CNN "Description"
-F9 "470µH" 0 -50 50 H V C CNN "Inductance (Henry)"
-F10 "140mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
-DRAW
-A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
-A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
-A 80 0 40 1 1799 0 1 0 N 120 0 40 0
-X 1 1 -200 0 80 R 50 50 1 1 P
-X 2 2 200 0 80 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
