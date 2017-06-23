@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Master_Board-rescue
 LIBS:ADC
 LIBS:Amplifiers
 LIBS:Battery
@@ -37,7 +36,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6400 3400 2    60   Input ~ 0
+Text HLabel 6400 3400 2    60   Output ~ 0
 NTC_1_GPIO
 Text HLabel 6400 3000 2    60   Input ~ 0
 NTC_1_ADC
@@ -80,10 +79,10 @@ F 11 "25V" H 5400 3510 50  0001 C CNN "Voltage Rated (Volt)"
 	0    1    1    0   
 $EndComp
 $Comp
-L DGND #PWR901
+L DGND #PWR0103
 U 1 1 5947B3D9
 P 5100 4100
-F 0 "#PWR901" H 5100 3930 50  0001 C CNN
+F 0 "#PWR0103" H 5100 3930 50  0001 C CNN
 F 1 "DGND" H 5100 4000 50  0000 C CNN
 F 2 "" H 5100 4200 60  0000 C CNN
 F 3 "" H 5080 4010 60  0000 C CNN
