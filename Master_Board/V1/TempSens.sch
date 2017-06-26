@@ -27,11 +27,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TempSense"
+Date "2017-06-25"
+Rev "V1"
+Comp "Eclipse Solar Car"
+Comment1 "Julien G. Bourassa"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -128,4 +128,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 3400 4300 3400
 Connection ~ 5100 3900
+Text Notes 4050 2250 0    120  ~ 0
+Temperature Sensor
 $EndSCHEMATC

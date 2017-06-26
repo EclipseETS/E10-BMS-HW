@@ -27,11 +27,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Voltage Sense"
+Date "2017-06-25"
+Rev "V1"
+Comp "Eclipse Solar Car"
+Comment1 "Julien G. Bourassa"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -316,7 +316,7 @@ U 1 1 594A7534
 P 4900 3650
 F 0 "U802" H 5150 3300 60  0000 C CNN
 F 1 "NCS1S2405SC" H 4900 4050 60  0000 C CNN
-F 2 "IC:MSOP-8-EP" H 4950 2600 60  0001 C CNN
+F 2 "IC:NCS1S2405SC" H 4950 2600 60  0001 C CNN
 F 3 "http://power.murata.com/data/power/ncl/kdc_ncs1.pdf" H 4950 2500 60  0001 C CNN
 F 4 "Digikey" H 4900 3100 60  0001 C CNN "Supplier"
 F 5 "811-2948-ND" H 4900 3000 60  0001 C CNN "Supplier Part Number"

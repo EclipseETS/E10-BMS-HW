@@ -27,11 +27,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Precharge"
+Date "2017-06-25"
+Rev "V1"
+Comp "Eclipse Solar Car"
+Comment1 "Julien G. Bourassa"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -640,6 +640,8 @@ $Comp
 L TR50JBC100R R702
 U 1 1 5963CF60
 P 2400 2350
+AR Path="/5941228A/5941231F/5963CF60" Ref="R702"  Part="1" 
+AR Path="/58F25814/5963CF60" Ref="R702"  Part="1" 
 F 0 "R702" H 2400 2430 60  0000 C CNN
 F 1 "TR50JBC100R" H 2400 2050 50  0001 C CNN
 F 2 "Resistors:TR50" H 2400 1450 30  0001 C CNN

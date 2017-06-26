@@ -27,12 +27,12 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 5 11
-Title "Can Bus Template"
-Date ""
-Rev ""
+Title "CAN2"
+Date "2017-06-25"
+Rev "V1"
 Comp "Eclipse Solar Car"
 Comment1 "Christian Daigneault-St-Arnaud"
-Comment2 ""
+Comment2 "Modif: Julien G. Bourassa"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -231,8 +231,6 @@ F 8 "TEST POINT PC MINI .040\"D BLACK" H 1900 2900 60  0001 C CNN "Description"
 	1    1900 3700
 	0    1    1    0   
 $EndComp
-Text Notes 1825 3525 0    60   ~ 0
-TXD
 $Comp
 L Test_Point_THM TP502
 U 1 1 58F8FE19
@@ -249,8 +247,6 @@ F 8 "TEST POINT PC MINI .040\"D BLACK" H 2500 3800 60  0001 C CNN "Description"
 	1    2500 4600
 	0    -1   -1   0   
 $EndComp
-Text Notes 2125 4850 0    60   ~ 0
-RXD
 $Comp
 L RC1206JR-07120RL R502
 U 1 1 58FBF6A8

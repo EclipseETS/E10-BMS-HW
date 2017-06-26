@@ -29,7 +29,7 @@ encoding utf-8
 Sheet 3 11
 Title "Power Supply"
 Date ""
-Rev ""
+Rev "V1"
 Comp "Eclipse Solar Car"
 Comment1 "Christian Daigneault-St-Arnaud"
 Comment2 ""

@@ -27,11 +27,11 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 11
-Title ""
-Date ""
-Rev ""
+Title "BMS_MasterBoard-Root"
+Date "2017-06-25"
+Rev "V1"
 Comp "Eclipse Solar Car"
-Comment1 ""
+Comment1 "Julien G. Bourassa"
 Comment2 ""
 Comment3 ""
 Comment4 ""

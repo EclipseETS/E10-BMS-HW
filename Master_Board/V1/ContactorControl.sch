@@ -27,11 +27,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Contactor Control"
+Date "2017-06-25"
+Rev "V1"
+Comp "Eclipse Solar Car"
+Comment1 "Julien G. Bourassa"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -136,7 +136,7 @@ U 1 1 5945B361
 P 5150 2050
 F 0 "RL1001" H 5150 2650 60  0000 C CNN
 F 1 "CPC1907B" H 5200 1950 60  0000 C CNN
-F 2 "IC:SOIC-8" H 5150 1150 60  0001 C CNN
+F 2 "Relays:CPC1907B" H 5150 1150 60  0001 C CNN
 F 3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1907B.pdf/$file/CPC1907B.pdf" H 5150 1050 60  0001 C CNN
 F 4 "Digikey" H 5150 1650 60  0001 C CNN "Supplier"
 F 5 "CLA394-ND" H 5150 1550 60  0001 C CNN "Supplier Part Number"
@@ -152,7 +152,7 @@ U 1 1 5945B450
 P 5150 3350
 F 0 "RL1002" H 5150 3950 60  0000 C CNN
 F 1 "CPC1907B" H 5200 3250 60  0000 C CNN
-F 2 "IC:SOIC-8" H 5150 2450 60  0001 C CNN
+F 2 "Relays:CPC1907B" H 5150 2450 60  0001 C CNN
 F 3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1907B.pdf/$file/CPC1907B.pdf" H 5150 2350 60  0001 C CNN
 F 4 "Digikey" H 5150 2950 60  0001 C CNN "Supplier"
 F 5 "CLA394-ND" H 5150 2850 60  0001 C CNN "Supplier Part Number"
@@ -168,7 +168,7 @@ U 1 1 5945B4D7
 P 5150 4550
 F 0 "RL1003" H 5150 5150 60  0000 C CNN
 F 1 "CPC1907B" H 5200 4450 60  0000 C CNN
-F 2 "IC:SOIC-8" H 5150 3650 60  0001 C CNN
+F 2 "Relays:CPC1907B" H 5150 3650 60  0001 C CNN
 F 3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1907B.pdf/$file/CPC1907B.pdf" H 5150 3550 60  0001 C CNN
 F 4 "Digikey" H 5150 4150 60  0001 C CNN "Supplier"
 F 5 "CLA394-ND" H 5150 4050 60  0001 C CNN "Supplier Part Number"
@@ -184,7 +184,7 @@ U 1 1 5945B551
 P 5150 6100
 F 0 "RL1004" H 5150 6700 60  0000 C CNN
 F 1 "CPC1907B" H 5200 6000 60  0000 C CNN
-F 2 "IC:SOIC-8" H 5150 5200 60  0001 C CNN
+F 2 "Relays:CPC1907B" H 5150 5200 60  0001 C CNN
 F 3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1907B.pdf/$file/CPC1907B.pdf" H 5150 5100 60  0001 C CNN
 F 4 "Digikey" H 5150 5700 60  0001 C CNN "Supplier"
 F 5 "CLA394-ND" H 5150 5600 60  0001 C CNN "Supplier Part Number"

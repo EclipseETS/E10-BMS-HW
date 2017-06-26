@@ -29,10 +29,10 @@ encoding utf-8
 Sheet 2 11
 Title "STM32F446RE"
 Date ""
-Rev ""
+Rev "V1"
 Comp "Eclipse Solar Car"
 Comment1 "Christian Daigneault-St-Arnaud"
-Comment2 ""
+Comment2 "Modif: Julien G. Bourassa"
 Comment3 ""
 Comment4 ""
 $EndDescr

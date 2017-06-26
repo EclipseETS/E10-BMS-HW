@@ -27,11 +27,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "LED Driver"
+Date "2017-06-25"
+Rev "V1"
+Comp "Eclipse Solar Car"
+Comment1 "Julien G. Bourassa"
 Comment2 ""
 Comment3 ""
 Comment4 ""

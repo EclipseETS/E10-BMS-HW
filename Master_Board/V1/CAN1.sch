@@ -27,12 +27,12 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 11
-Title "Can Bus Template"
-Date ""
-Rev ""
+Title "CAN1"
+Date "2017-06-25"
+Rev "V1"
 Comp "Eclipse Solar Car"
 Comment1 "Christian Daigneault-St-Arnaud"
-Comment2 ""
+Comment2 "Modif: Julien G. Bourassa"
 Comment3 ""
 Comment4 ""
 $EndDescr
