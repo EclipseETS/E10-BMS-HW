@@ -104,7 +104,9 @@ $EndComp
 Wire Wire Line
 	1000 800  1000 900 
 Wire Wire Line
-	1000 1300 1000 1800
+	1000 1300 1000 1400
+Wire Wire Line
+	1000 1400 1000 1800
 $Comp
 L GNDB #PWR02
 U 1 1 592D1603
@@ -139,7 +141,9 @@ F 3 "" H 6880 5610 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 2200 1000 2700
+	1000 2200 1000 2600
+Wire Wire Line
+	1000 2600 1000 2700
 $Comp
 L 885012207098 C202
 U 1 1 592D1EFA
@@ -179,7 +183,15 @@ F 11 "25V" H 1350 1810 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1000 1400 2700 1400
+	1000 1400 1400 1400
+Wire Wire Line
+	1400 1400 1800 1400
+Wire Wire Line
+	1800 1400 2200 1400
+Wire Wire Line
+	2200 1400 2600 1400
+Wire Wire Line
+	2600 1400 2700 1400
 Wire Wire Line
 	1400 1400 1400 1900
 Connection ~ 1000 1400
@@ -189,7 +201,11 @@ Connection ~ 1400 1400
 Wire Wire Line
 	1800 2600 1800 2200
 Wire Wire Line
-	1000 2600 2200 2600
+	1000 2600 1400 2600
+Wire Wire Line
+	1400 2600 1800 2600
+Wire Wire Line
+	1800 2600 2200 2600
 Connection ~ 1000 2600
 Wire Wire Line
 	1400 2200 1400 2600
@@ -204,7 +220,9 @@ Circuit must as close \nas possible to VREF pin
 Wire Wire Line
 	7200 5200 6900 5200
 Wire Wire Line
-	6900 5200 6900 5600
+	6900 5200 6900 5400
+Wire Wire Line
+	6900 5400 6900 5600
 Wire Wire Line
 	7200 5400 6900 5400
 Connection ~ 6900 5400
@@ -253,9 +271,13 @@ Wire Wire Line
 	2200 1400 2200 1500
 Connection ~ 2200 1400
 Wire Wire Line
-	2200 1900 2200 2100
+	2200 1900 2200 2000
 Wire Wire Line
-	2200 2000 2700 2000
+	2200 2000 2200 2100
+Wire Wire Line
+	2200 2000 2600 2000
+Wire Wire Line
+	2600 2000 2700 2000
 Connection ~ 2200 2000
 $Comp
 L RC0805JR-072K2L R201
@@ -294,7 +316,11 @@ F 3 "" H 8400 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 4200 8400 4800
+	8400 4200 8400 4300
+Wire Wire Line
+	8400 4300 8400 4600
+Wire Wire Line
+	8400 4600 8400 4800
 Wire Wire Line
 	8400 4300 8500 4300
 $Comp
@@ -417,16 +443,18 @@ Wire Wire Line
 $Comp
 L 5VB #PWR07
 U 1 1 592E5071
-P 4500 3900
-F 0 "#PWR07" H 4500 3750 50  0001 C CNN
-F 1 "5VB" H 4490 4040 50  0000 C CNN
-F 2 "" H 4500 3900 60  0000 C CNN
-F 3 "" H 4500 3900 60  0000 C CNN
-	1    4500 3900
+P 4500 3600
+F 0 "#PWR07" H 4500 3450 50  0001 C CNN
+F 1 "5VB" H 4490 3740 50  0000 C CNN
+F 2 "" H 4500 3600 60  0000 C CNN
+F 3 "" H 4500 3600 60  0000 C CNN
+	1    4500 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 3900 4500 4500
+	4500 4100 4500 4200
+Wire Wire Line
+	4500 4200 4500 4500
 Wire Wire Line
 	4500 4500 4400 4500
 Wire Wire Line
@@ -469,18 +497,20 @@ Wire Wire Line
 $Comp
 L -15VB #PWR010
 U 1 1 592E5864
-P 3100 5800
-F 0 "#PWR010" H 3100 5520 50  0001 C CNN
-F 1 "-15VB" H 3090 5660 50  0000 C CNN
-F 2 "" H 3100 5800 60  0000 C CNN
-F 3 "" H 3100 5800 60  0000 C CNN
-	1    3100 5800
+P 3100 6300
+F 0 "#PWR010" H 3100 6020 50  0001 C CNN
+F 1 "-15VB" H 3090 6160 50  0000 C CNN
+F 2 "" H 3100 6300 60  0000 C CNN
+F 3 "" H 3100 6300 60  0000 C CNN
+	1    3100 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3200 5300 3100 5300
 Wire Wire Line
-	3100 5300 3100 5800
+	3100 5300 3100 5600
+Wire Wire Line
+	3100 5600 3100 5800
 Wire Wire Line
 	2900 5600 3100 5600
 Connection ~ 3100 5600
@@ -502,16 +532,18 @@ Wire Wire Line
 $Comp
 L 15VB #PWR012
 U 1 1 592E5ACE
-P 3100 4100
-F 0 "#PWR012" H 3100 3950 50  0001 C CNN
-F 1 "15VB" H 3090 4240 50  0000 C CNN
-F 2 "" H 3100 4100 60  0000 C CNN
-F 3 "" H 3100 4100 60  0000 C CNN
-	1    3100 4100
+P 3100 3600
+F 0 "#PWR012" H 3100 3450 50  0001 C CNN
+F 1 "15VB" H 3090 3740 50  0000 C CNN
+F 2 "" H 3100 3600 60  0000 C CNN
+F 3 "" H 3100 3600 60  0000 C CNN
+	1    3100 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 4100 3100 4700
+	3100 4100 3100 4300
+Wire Wire Line
+	3100 4300 3100 4700
 Wire Wire Line
 	3100 4300 2900 4300
 Wire Wire Line
@@ -605,16 +637,22 @@ F 3 "" H 5780 4910 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 4800 6200 5000
+	6200 4800 6200 4900
+Wire Wire Line
+	6200 4900 6200 5000
 Wire Wire Line
 	5800 4900 6200 4900
 Connection ~ 6200 4900
 Wire Wire Line
-	6000 4400 6600 4400
+	6000 4400 6200 4400
+Wire Wire Line
+	6200 4400 6600 4400
 Wire Wire Line
 	6200 4400 6200 4500
 Wire Wire Line
-	6000 5400 6600 5400
+	6000 5400 6200 5400
+Wire Wire Line
+	6200 5400 6600 5400
 Wire Wire Line
 	6200 5400 6200 5300
 Wire Wire Line
@@ -630,10 +668,14 @@ Wire Wire Line
 Wire Wire Line
 	5400 5400 5600 5400
 Wire Wire Line
-	6600 4200 6600 4800
+	6600 4200 6600 4400
+Wire Wire Line
+	6600 4400 6600 4800
 Connection ~ 6200 4400
 Wire Wire Line
-	6600 5000 6600 5600
+	6600 5000 6600 5400
+Wire Wire Line
+	6600 5400 6600 5600
 Connection ~ 6200 5400
 Wire Wire Line
 	6600 4800 7200 4800
@@ -669,7 +711,9 @@ $EndComp
 Wire Wire Line
 	2000 5000 2100 5000
 Wire Wire Line
-	2100 5000 2100 5200
+	2100 5000 2100 5100
+Wire Wire Line
+	2100 5100 2100 5200
 Wire Wire Line
 	2000 4900 3200 4900
 Wire Wire Line
@@ -773,7 +817,9 @@ F 11 "50V" H 4950 5810 50  0001 C CNN "Voltage Rated (Volt)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 6000 4800 6000
+	4500 6000 4700 6000
+Wire Wire Line
+	4700 6000 4800 6000
 $Comp
 L GNDB #PWR015
 U 1 1 592EDD4F
@@ -910,4 +956,67 @@ Wire Wire Line
 	3400 6700 4300 6700
 Text Label 2700 2000 0    60   ~ 0
 VREF_DIV2
+$Comp
+L RC0805JR-0722RL R?
+U 1 1 5951E4F5
+P 3100 3900
+F 0 "R?" H 3100 3980 60  0000 C CNN
+F 1 "RC0805JR-0722RL" H 3100 3600 50  0001 C CNN
+F 2 "Resistors:R0805" H 3100 3000 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3100 2950 30  0001 C CNN
+F 4 "Digikey" H 3100 3500 60  0001 C CNN "Supplier"
+F 5 "311-22ARCT-ND" H 3100 3400 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3100 3300 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-0722RL" H 3100 3200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 22 OHM 5% 1/8W 0805" H 3100 3100 60  0001 C CNN "Description"
+F 9 "22" H 3100 3830 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3510 3820 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3100 3760 50  0001 C CNN "Puissance (Watts)"
+	1    3100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3600 3100 3700
+$Comp
+L RC0805JR-0722RL R?
+U 1 1 5951F097
+P 3100 6000
+F 0 "R?" H 3100 6080 60  0000 C CNN
+F 1 "RC0805JR-0722RL" H 3100 5700 50  0001 C CNN
+F 2 "Resistors:R0805" H 3100 5100 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3100 5050 30  0001 C CNN
+F 4 "Digikey" H 3100 5600 60  0001 C CNN "Supplier"
+F 5 "311-22ARCT-ND" H 3100 5500 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3100 5400 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-0722RL" H 3100 5300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 22 OHM 5% 1/8W 0805" H 3100 5200 60  0001 C CNN "Description"
+F 9 "22" H 3100 5930 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3510 5920 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3100 5860 50  0001 C CNN "Puissance (Watts)"
+	1    3100 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 6200 3100 6300
+$Comp
+L RC0805JR-0722RL R?
+U 1 1 5951FC2F
+P 4500 3900
+F 0 "R?" H 4500 3980 60  0000 C CNN
+F 1 "RC0805JR-0722RL" H 4500 3600 50  0001 C CNN
+F 2 "Resistors:R0805" H 4500 3000 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4500 2950 30  0001 C CNN
+F 4 "Digikey" H 4500 3500 60  0001 C CNN "Supplier"
+F 5 "311-22ARCT-ND" H 4500 3400 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4500 3300 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-0722RL" H 4500 3200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 22 OHM 5% 1/8W 0805" H 4500 3100 60  0001 C CNN "Description"
+F 9 "22" H 4500 3830 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 4910 3820 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4500 3760 50  0001 C CNN "Puissance (Watts)"
+	1    4500 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3600 4500 3700
 $EndSCHEMATC
