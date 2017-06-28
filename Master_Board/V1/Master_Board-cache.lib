@@ -1362,6 +1362,30 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RC0805JR-0710RL
+#
+DEF ~RC0805JR-0710RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0710RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-10ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0710RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "10" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC0805JR-0715KL
 #
 DEF ~RC0805JR-0715KL R 0 0 N N 1 F N
@@ -1370,7 +1394,7 @@ F1 "RC0805JR-0715KL" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
 F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-15KARTR-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F5 "311-15KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
 F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805JR-0715KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 15K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
@@ -1447,6 +1471,30 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805JR-072K2L" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 2.2K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "2.2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-072KL
+#
+DEF ~RC0805JR-072KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-072KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-2.0KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-072KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 2K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
@@ -1544,6 +1592,30 @@ F7 "RC0805JR-074K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 4.7K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "4.7k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 200 -100 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-07680RL
+#
+DEF ~RC0805JR-07680RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-07680RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-680ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-07680RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 680 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "680" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N
