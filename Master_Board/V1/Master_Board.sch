@@ -1,15 +1,26 @@
 EESchema Schematic File Version 2
-LIBS:Master_Board-rescue
+LIBS:ADC
 LIBS:Amplifiers
+LIBS:Battery
 LIBS:Capacitors
+LIBS:Comparators
 LIBS:Connectors
+LIBS:Crystals
+LIBS:DAC
 LIBS:Diodes
 LIBS:Fuses
 LIBS:Inductors
+LIBS:Interface
+LIBS:Isolators
+LIBS:STMicroelectronics
 LIBS:PMIC
+LIBS:Power_Port
 LIBS:Relays
 LIBS:Resistors
 LIBS:Sensors
+LIBS:Switches
+LIBS:Transformers
+LIBS:Transistors
 LIBS:Master_Board-cache
 EELAYER 25 0
 EELAYER END
@@ -879,8 +890,8 @@ Wire Wire Line
 Wire Wire Line
 	1900 5300 1650 5300
 Connection ~ 1900 4850
-Text Notes 4200 750  0    60   ~ 0
-Analog Protection
+Text Notes 3950 650  0    60   ~ 0
+Digital-to-Analog Converter
 Text Notes 1100 5850 0    60   ~ 0
 GPIO
 Wire Wire Line
@@ -1366,4 +1377,10 @@ Wire Wire Line
 Connection ~ 5050 2550
 Wire Wire Line
 	3000 1650 3800 1650
+Text Notes 5400 2650 0    60   ~ 0
+3.045V
+Text Notes 3400 2700 0    60   ~ 0
+12V
+Text Notes 3800 2100 0    60   ~ 0
+Analog Input
 $EndSCHEMATC

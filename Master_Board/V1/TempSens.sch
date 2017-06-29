@@ -1,15 +1,26 @@
 EESchema Schematic File Version 2
-LIBS:Master_Board-rescue
+LIBS:ADC
 LIBS:Amplifiers
+LIBS:Battery
 LIBS:Capacitors
+LIBS:Comparators
 LIBS:Connectors
+LIBS:Crystals
+LIBS:DAC
 LIBS:Diodes
 LIBS:Fuses
 LIBS:Inductors
+LIBS:Interface
+LIBS:Isolators
+LIBS:STMicroelectronics
 LIBS:PMIC
+LIBS:Power_Port
 LIBS:Relays
 LIBS:Resistors
 LIBS:Sensors
+LIBS:Switches
+LIBS:Transformers
+LIBS:Transistors
 LIBS:Master_Board-cache
 EELAYER 25 0
 EELAYER END
