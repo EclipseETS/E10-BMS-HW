@@ -45,7 +45,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 0.2032)
     (user_trace_width 0.127)
     (user_trace_width 0.18)
     (user_trace_width 0.2032)
@@ -1148,7 +1148,7 @@
   (module IC:SOT-23-5 (layer F.Cu) (tedit 595129A6) (tstamp 594DDF54)
     (at 92.529491 32.595075 270)
     (path /5978798D/597DEFD1)
-    (fp_text reference U1101 (at 0 3.9535 450) (layer F.SilkS)
+    (fp_text reference U1101 (at -4.020075 1.724491 450) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2032)))
     )
     (fp_text value AL8807W5-7 (at -0.25 3.51 270) (layer F.Fab) hide
