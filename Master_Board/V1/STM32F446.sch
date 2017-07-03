@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Master_Board-rescue
 LIBS:ADC
 LIBS:Amplifiers
 LIBS:Battery
@@ -636,8 +637,8 @@ NoConn ~ 900  5400
 NoConn ~ 900  5000
 Text Label 1300 7500 0    60   ~ 0
 USART2_TX
-Text Label 3750 5150 0    60   ~ 0
-PA3
+Text Label 3750 4900 0    60   ~ 0
+PA3_RX
 $Comp
 L RC0805JR-074K7L R204
 U 1 1 58F95EAF
@@ -670,12 +671,12 @@ F 3 "" H 2380 7110 60  0000 C CNN
 	1    2400 7200
 	1    0    0    -1  
 $EndComp
-Text Label 3750 4700 0    60   ~ 0
-PA2
+Text Label 3750 4550 0    60   ~ 0
+PA2_TX
 Text Label 2500 7500 0    60   ~ 0
-PA2
+PA2_TX
 Text Label 2500 6600 0    60   ~ 0
-PA3
+PA3_RX
 $Comp
 L RC0805JR-071KL R205
 U 1 1 58F97B70
@@ -936,33 +937,33 @@ NoConn ~ 10000 5500
 $Comp
 L Test_Point_THM TP201
 U 1 1 58FAE11E
-P 3500 4700
-F 0 "TP201" H 3500 4825 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 4400 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 3800 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3700 60  0001 C CNN
-F 4 "Digikey" H 3500 4300 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 4200 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 4100 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 4000 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 3900 60  0001 C CNN "Description"
-	1    3500 4700
+P 3500 4550
+F 0 "TP201" H 3500 4675 60  0000 C CNN
+F 1 "Test_Point_THM" H 3500 4250 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 3500 3650 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3550 60  0001 C CNN
+F 4 "Digikey" H 3500 4150 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 3500 4050 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 3500 3950 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 3500 3850 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 3750 60  0001 C CNN "Description"
+	1    3500 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Test_Point_THM TP202
 U 1 1 58FAE1BD
-P 3500 5150
-F 0 "TP202" H 3500 5275 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 4850 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 4250 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 4150 60  0001 C CNN
-F 4 "Digikey" H 3500 4750 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 4650 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 4550 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 4450 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4350 60  0001 C CNN "Description"
-	1    3500 5150
+P 3500 4900
+F 0 "TP202" H 3500 5025 60  0000 C CNN
+F 1 "Test_Point_THM" H 3500 4600 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 3500 4000 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3900 60  0001 C CNN
+F 4 "Digikey" H 3500 4500 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 3500 4400 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 3500 4300 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 3500 4200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4100 60  0001 C CNN "Description"
+	1    3500 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1270,8 +1271,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 4300 4300 4300
 Wire Wire Line
-	3700 4400 4300 4400
-Wire Wire Line
 	5700 4900 5700 4800
 Wire Wire Line
 	5800 4900 5800 4800
@@ -1398,8 +1397,6 @@ Wire Notes Line
 Wire Notes Line
 	3900 1400 1900 1400
 Wire Wire Line
-	3700 4900 4700 4900
-Wire Wire Line
 	2300 6600 2500 6600
 Wire Wire Line
 	2300 7500 2500 7500
@@ -1454,11 +1451,11 @@ Wire Wire Line
 Wire Notes Line
 	500  6300 500  7800
 Wire Notes Line
-	500  7800 2800 7800
+	500  7800 3000 7800
 Wire Notes Line
-	2800 7800 2800 6300
+	3000 7800 3000 6300
 Wire Notes Line
-	2800 6300 500  6300
+	3000 6300 500  6300
 Connection ~ 7400 2800
 Wire Wire Line
 	9900 4800 9900 4900
@@ -1545,20 +1542,14 @@ Wire Wire Line
 	5500 4900 5500 4800
 Wire Wire Line
 	5600 4800 5600 4900
-Text HLabel 3700 4400 0    60   Output ~ 0
+Text HLabel 1800 7650 0    60   Output ~ 0
 PA2
-Text HLabel 3700 4900 0    60   Input ~ 0
+Text HLabel 1750 6450 0    60   Input ~ 0
 PA3
 Wire Wire Line
-	4000 4400 4000 4700
+	3700 4550 4250 4550
 Wire Wire Line
-	4000 4700 3700 4700
-Connection ~ 4000 4400
-Wire Wire Line
-	4000 4900 4000 5150
-Wire Wire Line
-	4000 5150 3700 5150
-Connection ~ 4000 4900
+	3700 4900 4700 4900
 $Comp
 L 150080RS75000 D203
 U 1 1 5962351A
@@ -1613,4 +1604,18 @@ F 10 "2V" H 3450 6600 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
 	1    3450 7000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1750 6450 1850 6450
+Wire Wire Line
+	1850 6450 1850 6600
+Connection ~ 1850 6600
+Wire Wire Line
+	1850 7500 1850 7650
+Wire Wire Line
+	1850 7650 1800 7650
+Connection ~ 1850 7500
+Wire Wire Line
+	4300 4400 4250 4400
+Wire Wire Line
+	4250 4400 4250 4550
 $EndSCHEMATC

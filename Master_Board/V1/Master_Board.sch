@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Master_Board-rescue
 LIBS:ADC
 LIBS:Amplifiers
 LIBS:Battery
@@ -306,10 +307,6 @@ F1 "TempSens.sch" 60
 F2 "NTC_1_GPIO" I R 7500 1400 60 
 F3 "NTC_1_ADC" I R 7500 1500 60 
 $EndSheet
-Text Label 8700 1600 0    60   ~ 0
-PA2
-Text Label 8700 1700 0    60   ~ 0
-PA3
 Text Label 7950 1600 0    60   ~ 0
 RS232_TX
 Text Label 7950 1700 0    60   ~ 0
