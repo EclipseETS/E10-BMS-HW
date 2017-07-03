@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Master_Board-rescue
 LIBS:ADC
 LIBS:Amplifiers
 LIBS:Battery
@@ -712,13 +711,9 @@ Wire Wire Line
 	7600 5300 8100 5300
 Connection ~ 4300 5150
 Wire Wire Line
-	7150 4400 7100 4400
+	7050 4400 7150 4400
 Wire Wire Line
-	7100 4400 7100 4650
-Wire Wire Line
-	7450 4400 7500 4400
-Wire Wire Line
-	7500 4400 7500 4650
+	7450 4400 7550 4400
 Wire Wire Line
 	7100 4650 6700 4650
 Connection ~ 6700 4950
@@ -813,13 +808,9 @@ Wire Wire Line
 	7600 1700 8100 1700
 Connection ~ 4300 1550
 Wire Wire Line
-	7150 800  7100 800 
+	7050 800  7150 800 
 Wire Wire Line
-	7100 800  7100 1050
-Wire Wire Line
-	7450 800  7500 800 
-Wire Wire Line
-	7500 800  7500 1050
+	7450 800  7550 800 
 Wire Wire Line
 	7100 1050 6700 1050
 Connection ~ 6700 1350
@@ -1260,4 +1251,16 @@ Connection ~ 6700 2400
 Wire Wire Line
 	6500 2900 6700 2900
 Connection ~ 6700 2900
+Wire Wire Line
+	7550 800  7550 1050
+Connection ~ 7550 1050
+Wire Wire Line
+	7050 800  7050 1050
+Connection ~ 7050 1050
+Wire Wire Line
+	7050 4400 7050 4650
+Connection ~ 7050 4650
+Wire Wire Line
+	7550 4400 7550 4650
+Connection ~ 7550 4650
 $EndSCHEMATC

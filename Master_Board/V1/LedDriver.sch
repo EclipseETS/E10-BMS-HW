@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Master_Board-rescue
 LIBS:ADC
 LIBS:Amplifiers
 LIBS:Battery
