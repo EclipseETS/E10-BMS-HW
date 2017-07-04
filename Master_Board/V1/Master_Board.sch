@@ -235,14 +235,14 @@ CAN2_L
 Text Label 1150 3000 0    60   ~ 0
 CAN2_H
 $Comp
-L DGND #PWR01
+L DGND #PWR104
 U 1 1 5943B6C4
-P 2450 1600
-F 0 "#PWR01" H 2450 1430 50  0001 C CNN
-F 1 "DGND" H 2450 1500 50  0000 C CNN
-F 2 "" H 2450 1700 60  0000 C CNN
-F 3 "" H 2430 1510 60  0000 C CNN
-	1    2450 1600
+P 1900 1600
+F 0 "#PWR104" H 1900 1430 50  0001 C CNN
+F 1 "DGND" H 1900 1500 50  0000 C CNN
+F 2 "" H 1900 1700 60  0000 C CNN
+F 3 "" H 1880 1510 60  0000 C CNN
+	1    1900 1600
 	1    0    0    -1  
 $EndComp
 Text Label 1150 1500 0    60   ~ 0
@@ -286,10 +286,10 @@ Text Label 1150 3500 0    60   ~ 0
 Text Label 1150 3600 0    60   ~ 0
 GND
 $Comp
-L 12V #PWR02
+L 12V #PWR105
 U 1 1 594F2512
 P 1900 4550
-F 0 "#PWR02" H 1900 4400 50  0001 C CNN
+F 0 "#PWR105" H 1900 4400 50  0001 C CNN
 F 1 "12V" H 1890 4690 50  0000 C CNN
 F 2 "" H 1900 4550 60  0000 C CNN
 F 3 "" H 1900 4550 60  0000 C CNN
@@ -306,10 +306,6 @@ F1 "TempSens.sch" 60
 F2 "NTC_1_GPIO" I R 7500 1400 60 
 F3 "NTC_1_ADC" I R 7500 1500 60 
 $EndSheet
-Text Label 8700 1600 0    60   ~ 0
-PA2
-Text Label 8700 1700 0    60   ~ 0
-PA3
 Text Label 7950 1600 0    60   ~ 0
 RS232_TX
 Text Label 7950 1700 0    60   ~ 0
@@ -326,7 +322,7 @@ Text Label 8000 3300 0    60   ~ 0
 CAN2_TX
 Text Label 8000 3400 0    60   ~ 0
 CAN2_RX
-Text Label 2450 1500 0    60   ~ 0
+Text Label 1900 1500 0    60   ~ 0
 GND
 Text Label 2950 3850 0    60   ~ 0
 ANA_SUP
@@ -334,150 +330,18 @@ Text Label 2950 5450 0    60   ~ 0
 PWM_COM
 Text Label 2950 4350 0    60   ~ 0
 PWM2_OUT
-Wire Wire Line
-	7500 2600 9000 2600
-Wire Wire Line
-	7500 2500 9000 2500
-Wire Wire Line
-	7500 1400 9000 1400
-Wire Wire Line
-	7500 1500 9000 1500
-Wire Wire Line
-	8700 2300 9000 2300
-Wire Wire Line
-	8700 2400 9000 2400
-Wire Wire Line
-	8700 2900 9000 2900
-Wire Wire Line
-	7500 3300 9000 3300
-Wire Wire Line
-	7500 3400 9000 3400
-Wire Wire Line
-	8700 3500 9000 3500
-Wire Wire Line
-	8700 4200 9000 4200
-Wire Wire Line
-	7500 4400 9000 4400
-Wire Wire Line
-	8400 4700 9000 4700
-Wire Wire Line
-	8500 4800 9000 4800
-Wire Wire Line
-	8600 4900 9000 4900
-Wire Wire Line
-	8700 5400 9000 5400
-Wire Wire Line
-	8700 5500 9000 5500
-Wire Wire Line
-	8700 5600 9000 5600
-Wire Wire Line
-	8700 5700 9000 5700
-Wire Wire Line
-	8700 5800 9000 5800
-Wire Wire Line
-	8700 5900 9000 5900
-Wire Wire Line
-	8700 6000 9000 6000
-Wire Wire Line
-	8700 6100 9000 6100
-Wire Wire Line
-	8300 4600 9000 4600
-Wire Wire Line
-	8700 6300 9000 6300
-Wire Wire Line
-	8700 6400 9000 6400
-Wire Wire Line
-	9000 3200 8700 3200
-Wire Wire Line
-	9000 5000 8700 5000
-Wire Wire Line
-	6400 3300 5900 3300
-Wire Wire Line
-	6400 3400 5900 3400
-Wire Wire Line
-	1050 2000 1150 2000
-Wire Wire Line
-	1050 3000 1150 3000
-Wire Wire Line
-	1050 1500 2450 1500
-Wire Wire Line
-	1050 1600 1150 1600
-Wire Wire Line
-	1050 1700 1150 1700
-Wire Wire Line
-	1050 1800 1150 1800
-Wire Wire Line
-	1050 1900 1150 1900
-Wire Wire Line
-	1050 2100 2450 2100
-Wire Wire Line
-	1050 2200 1150 2200
-Wire Wire Line
-	1050 2300 1150 2300
-Wire Wire Line
-	1050 2400 1150 2400
-Wire Wire Line
-	1050 2500 1150 2500
-Wire Wire Line
-	1050 2600 1150 2600
-Wire Wire Line
-	1050 2700 1150 2700
-Wire Wire Line
-	1050 2800 1150 2800
-Wire Wire Line
-	1050 2900 1150 2900
-Wire Wire Line
-	1050 3100 2450 3100
-Wire Wire Line
-	1050 3200 2450 3200
-Wire Wire Line
-	1050 3300 1150 3300
-Wire Wire Line
-	1050 3400 1150 3400
-Wire Wire Line
-	1050 3500 1150 3500
-Wire Wire Line
-	1050 3600 1350 3600
-Wire Wire Line
-	8200 3700 9000 3700
-Wire Wire Line
-	7950 1600 9000 1600
-Wire Wire Line
-	7950 1700 9000 1700
-Wire Wire Line
-	8700 3800 9000 3800
-Wire Wire Line
-	8700 3900 9000 3900
-Wire Wire Line
-	8700 4000 9000 4000
-Wire Wire Line
-	8700 4100 9000 4100
-Wire Wire Line
-	8700 2200 9000 2200
-Wire Wire Line
-	7500 5050 8300 5050
-Wire Wire Line
-	5400 5050 4600 5050
-Wire Wire Line
-	5400 5200 4600 5200
-Wire Wire Line
-	5400 5350 4600 5350
 Text Label 4600 5200 0    60   ~ 0
 MainContactor+
 Text Label 4600 5050 0    60   ~ 0
 MainContactor-
 Text Label 4600 5350 0    60   ~ 0
 MpptContactor
-Text Label 2450 3100 0    60   ~ 0
+Text Label 1850 3100 0    60   ~ 0
 MainContactor+
-Text Label 2450 2100 0    60   ~ 0
+Text Label 1850 2100 0    60   ~ 0
 MainContactor-
-Text Label 2450 3200 0    60   ~ 0
+Text Label 1850 3200 0    60   ~ 0
 MpptContactor
-Wire Wire Line
-	5400 4350 4600 4350
-Wire Wire Line
-	5400 4600 4600 4600
 Text Label 4600 4350 0    60   ~ 0
 IO4
 Text Label 4600 4600 0    60   ~ 0
@@ -498,49 +362,21 @@ F 8 "MOSFET N-CH 60V 0.36A SOT-23" H 3000 3900 60  0001 C CNN "Description"
 	1    2850 4700
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 3850 2950 3850
-Wire Wire Line
-	2750 5450 2950 5450
-Wire Wire Line
-	2750 5000 2750 5550
-Wire Wire Line
-	3050 4700 3750 4700
-Wire Wire Line
-	2900 5100 2750 5100
-Connection ~ 2750 5100
-Wire Wire Line
-	3300 5100 3450 5100
-Wire Wire Line
-	3450 5100 3450 4700
-Connection ~ 3450 4700
 Text Notes 2750 3600 0    60   ~ 0
 External PWM
 Text Label 3750 4700 0    60   ~ 0
 PB4
-Wire Wire Line
-	1700 7400 1750 7400
-Wire Wire Line
-	1750 7400 1750 7000
-Connection ~ 1750 7000
-Wire Wire Line
-	1300 7400 1200 7400
-Wire Wire Line
-	1200 7300 1200 7500
 $Comp
-L DGND #PWR03
+L DGND #PWR102
 U 1 1 595E4DA0
 P 1200 7600
-F 0 "#PWR03" H 1200 7430 50  0001 C CNN
+F 0 "#PWR102" H 1200 7430 50  0001 C CNN
 F 1 "DGND" H 1200 7500 50  0000 C CNN
 F 2 "" H 1200 7700 60  0000 C CNN
 F 3 "" H 1180 7510 60  0000 C CNN
 	1    1200 7600
 	1    0    0    -1  
 $EndComp
-Connection ~ 1200 7400
-Wire Wire Line
-	1500 7000 2150 7000
 $Comp
 L BSS806NH6327XTSA1 Q101
 U 1 1 596C1E1D
@@ -610,29 +446,17 @@ F8 "MPPT_EN" O L 5400 5350 60
 $EndSheet
 Text Label 2150 6650 0    60   ~ 0
 IO5
-Wire Wire Line
-	3250 7400 3300 7400
-Wire Wire Line
-	3300 7400 3300 7000
-Connection ~ 3300 7000
-Wire Wire Line
-	2850 7400 2750 7400
-Wire Wire Line
-	2750 7300 2750 7500
 $Comp
-L DGND #PWR04
+L DGND #PWR108
 U 1 1 5973DEB6
 P 2750 7600
-F 0 "#PWR04" H 2750 7430 50  0001 C CNN
+F 0 "#PWR108" H 2750 7430 50  0001 C CNN
 F 1 "DGND" H 2750 7500 50  0000 C CNN
 F 2 "" H 2750 7700 60  0000 C CNN
 F 3 "" H 2730 7510 60  0000 C CNN
 	1    2750 7600
 	1    0    0    -1  
 $EndComp
-Connection ~ 2750 7400
-Wire Wire Line
-	3050 7000 3700 7000
 $Comp
 L BSS806NH6327XTSA1 Q103
 U 1 1 5973DEC3
@@ -670,29 +494,17 @@ F 11 "1/8W" H 3050 7260 50  0001 C CNN "Puissance (Watts)"
 $EndComp
 Text Label 3700 6650 0    60   ~ 0
 IO7
-Wire Wire Line
-	4750 7400 4800 7400
-Wire Wire Line
-	4800 7400 4800 7000
-Connection ~ 4800 7000
-Wire Wire Line
-	4350 7400 4250 7400
-Wire Wire Line
-	4250 7300 4250 7500
 $Comp
-L DGND #PWR05
+L DGND #PWR114
 U 1 1 5973F4D0
 P 4250 7600
-F 0 "#PWR05" H 4250 7430 50  0001 C CNN
+F 0 "#PWR114" H 4250 7430 50  0001 C CNN
 F 1 "DGND" H 4250 7500 50  0000 C CNN
 F 2 "" H 4250 7700 60  0000 C CNN
 F 3 "" H 4230 7510 60  0000 C CNN
 	1    4250 7600
 	1    0    0    -1  
 $EndComp
-Connection ~ 4250 7400
-Wire Wire Line
-	4550 7000 5200 7000
 $Comp
 L BSS806NH6327XTSA1 Q104
 U 1 1 5973F4DD
@@ -730,33 +542,12 @@ F 11 "1/8W" H 4550 7260 50  0001 C CNN "Puissance (Watts)"
 $EndComp
 Text Label 5200 6650 0    60   ~ 0
 IO8
-Wire Wire Line
-	2950 4350 2750 4350
-Wire Wire Line
-	2750 4300 2750 4400
-Wire Wire Line
-	2750 3850 2750 3900
-Connection ~ 2750 4350
-Wire Wire Line
-	7500 4500 7900 4500
-Wire Wire Line
-	7500 4600 7900 4600
-Wire Wire Line
-	7500 4700 7900 4700
 Text Label 7900 4500 0    60   ~ 0
 PC5
 Text Label 7900 4600 0    60   ~ 0
 PC4
 Text Label 7900 4700 0    60   ~ 0
 PA7
-Wire Wire Line
-	8700 1800 9000 1800
-Wire Wire Line
-	8700 1900 9000 1900
-Wire Wire Line
-	8700 2000 9000 2000
-Wire Wire Line
-	8700 2100 9000 2100
 $Sheet
 S 6400 3700 1100 350 
 U 5978798D
@@ -768,179 +559,87 @@ $EndSheet
 $Comp
 L LMV321RILT U101
 U 1 1 597AD704
-P 4650 1250
-F 0 "U101" H 4450 1600 60  0000 C CNN
-F 1 "LMV321RILT" H 4250 1500 60  0000 C CNN
-F 2 "IC:SOT-23-5" H 4650 350 60  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 4650 250 60  0001 C CNN
-F 4 "Digikey" H 4650 850 60  0001 C CNN "Supplier"
-F 5 "497-4942-1-ND" H 4650 750 60  0001 C CNN "Supplier Part Number"
-F 6 "STMicroelectronics" H 4650 650 60  0001 C CNN "Manufacturer"
-F 7 "LMV321RILT" H 4650 550 60  0001 C CNN "Manufacturer Part Number"
-F 8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" H 4650 450 60  0001 C CNN "Description"
-	1    4650 1250
+P 3200 1200
+F 0 "U101" H 2850 1550 60  0000 C CNN
+F 1 "LMV321RILT" H 2700 1450 60  0000 C CNN
+F 2 "IC:SOT-23-5" H 3200 300 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 3200 200 60  0001 C CNN
+F 4 "Digikey" H 3200 800 60  0001 C CNN "Supplier"
+F 5 "497-4942-1-ND" H 3200 700 60  0001 C CNN "Supplier Part Number"
+F 6 "STMicroelectronics" H 3200 600 60  0001 C CNN "Manufacturer"
+F 7 "LMV321RILT" H 3200 500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" H 3200 400 60  0001 C CNN "Description"
+	1    3200 1200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L LMV321RILT U102
 U 1 1 597ADA36
-P 4650 2300
-F 0 "U102" H 4450 2700 60  0000 C CNN
-F 1 "LMV321RILT" H 4250 2600 60  0000 C CNN
-F 2 "IC:SOT-23-5" H 4650 1400 60  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 4650 1300 60  0001 C CNN
-F 4 "Digikey" H 4650 1900 60  0001 C CNN "Supplier"
-F 5 "497-4942-1-ND" H 4650 1800 60  0001 C CNN "Supplier Part Number"
-F 6 "STMicroelectronics" H 4650 1700 60  0001 C CNN "Manufacturer"
-F 7 "LMV321RILT" H 4650 1600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" H 4650 1500 60  0001 C CNN "Description"
-	1    4650 2300
+P 5050 1200
+F 0 "U102" H 4700 1550 60  0000 C CNN
+F 1 "LMV321RILT" H 4550 1450 60  0000 C CNN
+F 2 "IC:SOT-23-5" H 5050 300 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 5050 200 60  0001 C CNN
+F 4 "Digikey" H 5050 800 60  0001 C CNN "Supplier"
+F 5 "497-4942-1-ND" H 5050 700 60  0001 C CNN "Supplier Part Number"
+F 6 "STMicroelectronics" H 5050 600 60  0001 C CNN "Manufacturer"
+F 7 "LMV321RILT" H 5050 500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" H 5050 400 60  0001 C CNN "Description"
+	1    5050 1200
 	-1   0    0    -1  
 $EndComp
-$Comp
-L 3.3V #PWR06
-U 1 1 597AED0A
-P 4650 950
-F 0 "#PWR06" H 4650 800 50  0001 C CNN
-F 1 "3.3V" H 4640 1090 50  0000 C CNN
-F 2 "" H 4650 950 60  0000 C CNN
-F 3 "" H 4650 950 60  0000 C CNN
-	1    4650 950 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 3.3V #PWR07
-U 1 1 597AEEC6
-P 4650 2000
-F 0 "#PWR07" H 4650 1850 50  0001 C CNN
-F 1 "3.3V" H 4640 2140 50  0000 C CNN
-F 2 "" H 4650 2000 60  0000 C CNN
-F 3 "" H 4650 2000 60  0000 C CNN
-	1    4650 2000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 2000 4650 2100
-Wire Wire Line
-	4650 950  4650 1050
-Wire Wire Line
-	3850 1250 4350 1250
-Wire Wire Line
-	5050 1350 5050 1700
-Wire Wire Line
-	5050 1700 4250 1700
-Wire Wire Line
-	4250 1700 4250 1250
-Connection ~ 4250 1250
-Wire Wire Line
-	3850 2300 4350 2300
-Wire Wire Line
-	4950 1150 5450 1150
-Text Label 3850 1250 2    60   ~ 0
+Text Label 2750 1200 2    60   ~ 0
 ANA1
-Text Label 3850 2300 2    60   ~ 0
+Text Label 4600 1200 2    60   ~ 0
 ANA2
-Wire Wire Line
-	4950 2200 5450 2200
-Wire Wire Line
-	5050 1350 4950 1350
 $Comp
-L DGND #PWR08
+L DGND #PWR110
 U 1 1 597B255D
-P 4650 1550
-F 0 "#PWR08" H 4650 1380 50  0001 C CNN
-F 1 "DGND" H 4650 1450 50  0000 C CNN
-F 2 "" H 4650 1650 60  0000 C CNN
-F 3 "" H 4630 1460 60  0000 C CNN
-	1    4650 1550
+P 3200 1550
+F 0 "#PWR110" H 3200 1380 50  0001 C CNN
+F 1 "DGND" H 3200 1450 50  0000 C CNN
+F 2 "" H 3200 1650 60  0000 C CNN
+F 3 "" H 3180 1460 60  0000 C CNN
+	1    3200 1550
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DGND #PWR09
+L DGND #PWR120
 U 1 1 597B380D
-P 4650 2600
-F 0 "#PWR09" H 4650 2430 50  0001 C CNN
-F 1 "DGND" H 4650 2500 50  0000 C CNN
-F 2 "" H 4650 2700 60  0000 C CNN
-F 3 "" H 4630 2510 60  0000 C CNN
-	1    4650 2600
+P 5050 1550
+F 0 "#PWR120" H 5050 1380 50  0001 C CNN
+F 1 "DGND" H 5050 1450 50  0000 C CNN
+F 2 "" H 5050 1650 60  0000 C CNN
+F 3 "" H 5030 1460 60  0000 C CNN
+	1    5050 1550
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 2400 5050 2400
-Wire Wire Line
-	5050 2400 5050 2800
-Wire Wire Line
-	5050 2800 4250 2800
-Wire Wire Line
-	4250 2800 4250 2300
-Connection ~ 4250 2300
-Text Label 5450 2200 0    60   ~ 0
+Text Label 5900 1100 0    60   ~ 0
 PA5
-Text Label 5500 3400 0    60   ~ 0
+Text Label 5350 2850 0    60   ~ 0
 PA6
-Wire Wire Line
-	1350 3600 1350 3700
 Text Label 800  5300 0    60   ~ 0
 12V_IN2
-Wire Wire Line
-	800  4850 1250 4850
-Wire Wire Line
-	800  5300 1250 5300
-Wire Wire Line
-	1650 4850 1900 4850
-Wire Wire Line
-	1900 4550 1900 5300
-Wire Wire Line
-	1900 5300 1650 5300
-Connection ~ 1900 4850
-Text Notes 4300 650  0    60   ~ 0
-Analog Protection
+Text Notes 3600 650  0    60   ~ 0
+Digital-to-Analog Converter
 Text Notes 1100 5850 0    60   ~ 0
 GPIO
-Wire Wire Line
-	8300 5050 8300 4600
-Wire Wire Line
-	8700 5100 9000 5100
-Wire Wire Line
-	8700 5200 9000 5200
-Wire Wire Line
-	8700 5300 9000 5300
-Wire Wire Line
-	7500 5150 8400 5150
-Wire Wire Line
-	8400 5150 8400 4700
-Wire Wire Line
-	7500 5250 8500 5250
-Wire Wire Line
-	8500 5250 8500 4800
-Wire Wire Line
-	7500 5350 8600 5350
-Wire Wire Line
-	8600 5350 8600 4900
-Wire Wire Line
-	7500 3900 8200 3900
-Wire Wire Line
-	8200 3900 8200 3700
-Wire Wire Line
-	8100 3600 9000 3600
 $Comp
-L DGND #PWR010
+L DGND #PWR106
 U 1 1 594E7946
 P 2750 5650
-F 0 "#PWR010" H 2750 5480 50  0001 C CNN
+F 0 "#PWR106" H 2750 5480 50  0001 C CNN
 F 1 "DGND" H 2750 5550 50  0000 C CNN
 F 2 "" H 2750 5750 60  0000 C CNN
 F 3 "" H 2730 5560 60  0000 C CNN
 	1    2750 5650
 	1    0    0    -1  
 $EndComp
-Connection ~ 2750 5450
 $Comp
-L 12V #PWR011
+L 12V #PWR101
 U 1 1 594FA6E2
 P 1200 6150
-F 0 "#PWR011" H 1200 6000 50  0001 C CNN
+F 0 "#PWR101" H 1200 6000 50  0001 C CNN
 F 1 "12V" H 1190 6290 50  0000 C CNN
 F 2 "" H 1200 6150 60  0000 C CNN
 F 3 "" H 1200 6150 60  0000 C CNN
@@ -985,18 +684,11 @@ F 11 "1/8W" H 1200 6260 50  0001 C CNN "Puissance (Watts)"
 	1    1200 6400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2150 6650 1200 6650
-Wire Wire Line
-	1200 6600 1200 6700
-Connection ~ 1200 6650
-Wire Wire Line
-	1200 6150 1200 6200
 $Comp
-L 12V #PWR012
+L 12V #PWR107
 U 1 1 59508B4F
 P 2750 6150
-F 0 "#PWR012" H 2750 6000 50  0001 C CNN
+F 0 "#PWR107" H 2750 6000 50  0001 C CNN
 F 1 "12V" H 2740 6290 50  0000 C CNN
 F 2 "" H 2750 6150 60  0000 C CNN
 F 3 "" H 2750 6150 60  0000 C CNN
@@ -1022,18 +714,11 @@ F 11 "1/8W" H 2750 6260 50  0001 C CNN "Puissance (Watts)"
 	1    2750 6400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2750 6150 2750 6200
-Wire Wire Line
-	2750 6600 2750 6700
-Wire Wire Line
-	2750 6650 3700 6650
-Connection ~ 2750 6650
 $Comp
-L 12V #PWR013
+L 12V #PWR113
 U 1 1 5950A06A
 P 4250 6150
-F 0 "#PWR013" H 4250 6000 50  0001 C CNN
+F 0 "#PWR113" H 4250 6000 50  0001 C CNN
 F 1 "12V" H 4240 6290 50  0000 C CNN
 F 2 "" H 4250 6150 60  0000 C CNN
 F 3 "" H 4250 6150 60  0000 C CNN
@@ -1059,13 +744,6 @@ F 11 "1/8W" H 4250 6260 50  0001 C CNN "Puissance (Watts)"
 	1    4250 6400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4250 6150 4250 6200
-Wire Wire Line
-	4250 6600 4250 6700
-Wire Wire Line
-	4250 6650 5200 6650
-Connection ~ 4250 6650
 Text Label 5200 7000 0    60   ~ 0
 PC2
 Text Label 3700 7000 0    60   ~ 0
@@ -1073,67 +751,36 @@ PC1
 Text Label 2150 7000 0    60   ~ 0
 PC0
 $Comp
-L LMV321RILT U103
-U 1 1 5951BAFD
-P 4700 3400
-F 0 "U103" H 4900 3750 60  0000 C CNN
-F 1 "LMV321RILT" H 5100 3600 60  0000 C CNN
-F 2 "IC:SOT-23-5" H 4700 2500 60  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/b9/d8/3b/8f/a1/8f/46/01/CD00079372.pdf/files/CD00079372.pdf/jcr:content/translations/en.CD00079372.pdf" H 4700 2400 60  0001 C CNN
-F 4 "Digikey" H 4700 3000 60  0001 C CNN "Supplier"
-F 5 "497-4942-1-ND" H 4700 2900 60  0001 C CNN "Supplier Part Number"
-F 6 "STMicroelectronics" H 4700 2800 60  0001 C CNN "Manufacturer"
-F 7 "LMV321RILT" H 4700 2700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "IC OPAMP GP 1.3MHZ RRO SOT23-5" H 4700 2600 60  0001 C CNN "Description"
-	1    4700 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3.3V #PWR014
+L 3.3V #PWR115
 U 1 1 5951BB03
-P 4700 3100
-F 0 "#PWR014" H 4700 2950 50  0001 C CNN
-F 1 "3.3V" H 4690 3240 50  0000 C CNN
-F 2 "" H 4700 3100 60  0000 C CNN
-F 3 "" H 4700 3100 60  0000 C CNN
-	1    4700 3100
+P 4500 2350
+F 0 "#PWR115" H 4500 2200 50  0001 C CNN
+F 1 "3.3V" H 4490 2490 50  0000 C CNN
+F 2 "" H 4500 2350 60  0000 C CNN
+F 3 "" H 4500 2350 60  0000 C CNN
+	1    4500 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4700 3100 4700 3200
-Wire Wire Line
-	5000 3400 5500 3400
-Wire Wire Line
-	4300 3500 4300 3850
-Wire Wire Line
-	4300 3850 5100 3850
-Wire Wire Line
-	5100 3850 5100 3400
-Connection ~ 5100 3400
-Wire Wire Line
-	4400 3300 3850 3300
-Text Label 3850 3300 2    60   ~ 0
+Text Label 3500 2850 2    60   ~ 0
 ANA_IN
-Wire Wire Line
-	4300 3500 4400 3500
 $Comp
-L DGND #PWR015
+L DGND #PWR111
 U 1 1 5951BB12
-P 4700 3700
-F 0 "#PWR015" H 4700 3530 50  0001 C CNN
-F 1 "DGND" H 4700 3600 50  0000 C CNN
-F 2 "" H 4700 3800 60  0000 C CNN
-F 3 "" H 4680 3610 60  0000 C CNN
-	1    4700 3700
+P 4000 3500
+F 0 "#PWR111" H 4000 3330 50  0001 C CNN
+F 1 "DGND" H 4000 3400 50  0000 C CNN
+F 2 "" H 4000 3600 60  0000 C CNN
+F 3 "" H 3980 3410 60  0000 C CNN
+	1    4000 3500
 	1    0    0    -1  
 $EndComp
-Text Label 5450 1150 0    60   ~ 0
+Text Label 4000 1100 0    60   ~ 0
 PA4
 $Comp
-L DGND #PWR016
+L DGND #PWR103
 U 1 1 59528AC5
 P 1350 3800
-F 0 "#PWR016" H 1350 3630 50  0001 C CNN
+F 0 "#PWR103" H 1350 3630 50  0001 C CNN
 F 1 "DGND" H 1350 3700 50  0000 C CNN
 F 2 "" H 1350 3900 60  0000 C CNN
 F 3 "" H 1330 3710 60  0000 C CNN
@@ -1180,14 +827,8 @@ F 12 "Fuse Holder" H 1450 4200 60  0001 C CNN "Fuse Holder"
 	1    1450 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 3800 8100 3800
-Wire Wire Line
-	8100 3800 8100 3600
 Text Notes 800  4500 0    60   ~ 0
 Alim Protection
-Wire Wire Line
-	7500 4300 9000 4300
 NoConn ~ 8700 3800
 NoConn ~ 8700 3900
 NoConn ~ 8700 4000
@@ -1202,4 +843,698 @@ NoConn ~ 8700 3500
 NoConn ~ 8700 4200
 NoConn ~ 8700 5700
 NoConn ~ 8700 6300
+$Comp
+L DGND #PWR116
+U 1 1 59558379
+P 4500 3500
+F 0 "#PWR116" H 4500 3330 50  0001 C CNN
+F 1 "DGND" H 4500 3400 50  0000 C CNN
+F 2 "" H 4500 3600 60  0000 C CNN
+F 3 "" H 4480 3410 60  0000 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-07680RL R110
+U 1 1 59558CEF
+P 4000 3150
+F 0 "R110" V 3950 3250 60  0000 L CNN
+F 1 "RC0805JR-07680RL" H 4000 2850 50  0001 C CNN
+F 2 "Resistors:R0805" H 4000 2250 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4000 2200 30  0001 C CNN
+F 4 "Digikey" H 4000 2750 60  0001 C CNN "Supplier"
+F 5 "311-680ARCT-ND" H 4000 2650 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4000 2550 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07680RL" H 4000 2450 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 680 OHM 5% 1/8W 0805" H 4000 2350 60  0001 C CNN "Description"
+F 9 "680" V 4050 3250 50  0000 L CNN "Resistance (Ohms)"
+F 10 "±5%" H 4410 3070 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4000 3010 50  0001 C CNN "Puissance (Watts)"
+	1    4000 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L RC0805JR-072KL R109
+U 1 1 5955A3AF
+P 3750 2850
+F 0 "R109" H 3750 2930 60  0000 C CNN
+F 1 "RC0805JR-072KL" H 3750 2550 50  0001 C CNN
+F 2 "Resistors:R0805" H 3750 1950 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3750 1900 30  0001 C CNN
+F 4 "Digikey" H 3750 2450 60  0001 C CNN "Supplier"
+F 5 "311-2.0KARCT-ND" H 3750 2350 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3750 2250 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-072KL" H 3750 2150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 2K OHM 5% 1/8W 0805" H 3750 2050 60  0001 C CNN "Description"
+F 9 "2k" H 3750 2780 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 4160 2770 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3750 2710 50  0001 C CNN "Puissance (Watts)"
+	1    3750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SD0805S020S1R0 D101
+U 1 1 5955F861
+P 4500 2600
+F 0 "D101" V 4550 2750 60  0000 C CNN
+F 1 "SD0805S020S1R0" V 4450 3100 60  0000 C CNN
+F 2 "Diodes:Diode_0805" H 4500 1580 60  0001 C CNN
+F 3 "http://datasheets.avx.com/schottky.pdf" H 4500 1480 60  0001 C CNN
+F 4 "Digikey" H 4500 2080 60  0001 C CNN "Supplier"
+F 5 "478-7800-1-ND" H 4500 1980 60  0001 C CNN "Supplier Part Number"
+F 6 "AVX Corporation" H 4500 1880 60  0001 C CNN "Manufacturer"
+F 7 "SD0805S020S1R0" H 4500 1780 60  0001 C CNN "Manufacturer Part Number"
+F 8 "DIODE SCHOTTKY 20V 1A 0805" H 4500 1680 60  0001 C CNN "Description"
+	1    4500 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SD0805S020S1R0 D102
+U 1 1 595601DD
+P 4500 3000
+F 0 "D102" V 4450 2800 60  0000 C CNN
+F 1 "SD0805S020S1R0" H 4000 2800 60  0000 C CNN
+F 2 "Diodes:Diode_0805" H 4500 1980 60  0001 C CNN
+F 3 "http://datasheets.avx.com/schottky.pdf" H 4500 1880 60  0001 C CNN
+F 4 "Digikey" H 4500 2480 60  0001 C CNN "Supplier"
+F 5 "478-7800-1-ND" H 4500 2380 60  0001 C CNN "Supplier Part Number"
+F 6 "AVX Corporation" H 4500 2280 60  0001 C CNN "Manufacturer"
+F 7 "SD0805S020S1R0" H 4500 2180 60  0001 C CNN "Manufacturer Part Number"
+F 8 "DIODE SCHOTTKY 20V 1A 0805" H 4500 2080 60  0001 C CNN "Description"
+	1    4500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 885012207092 C101
+U 1 1 5956FA83
+P 5000 3100
+F 0 "C101" V 4900 3250 60  0000 L CNN
+F 1 "885012207092" H 4950 2750 60  0001 C CNN
+F 2 "Capacitors:C0805" H 4950 2150 60  0001 C CNN
+F 3 "D" H 4950 2050 60  0001 C CNN
+F 4 "Digikey" H 4950 2650 60  0001 C CNN "Supplier"
+F 5 "732-8074-1-ND" H 4950 2550 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4950 2450 60  0001 C CNN "Manufacturer"
+F 7 "885012207092" H 4950 2350 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 10000PF 50V X7R 0805" H 4950 2250 60  0001 C CNN "Description"
+F 9 "10nF" V 5000 3250 50  0000 L CNN "Capacitance (Farad)"
+F 10 "±10%" H 5210 2980 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 4950 2910 50  0001 C CNN "Voltage Rated (Volt)"
+	1    5000 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L RC0805JR-07100KL R113
+U 1 1 5956FDF1
+P 5000 2600
+F 0 "R113" V 4950 2700 60  0000 L CNN
+F 1 "RC0805JR-07100KL" H 5000 2300 50  0001 C CNN
+F 2 "Resistors:R0805" H 5000 1700 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5000 1650 30  0001 C CNN
+F 4 "Digikey" H 5000 2200 60  0001 C CNN "Supplier"
+F 5 "311-100KARCT-ND" H 5000 2100 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 5000 2000 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-07100KL" H 5000 1900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100K OHM 5% 1/8W 0805" H 5000 1800 60  0001 C CNN "Description"
+F 9 "100k" V 5050 2700 50  0000 L CNN "Resistance (Ohms)"
+F 10 "±5%" H 5410 2520 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 5000 2460 50  0001 C CNN "Puissance (Watts)"
+	1    5000 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L 3.3V #PWR117
+U 1 1 595704D4
+P 5000 2350
+F 0 "#PWR117" H 5000 2200 50  0001 C CNN
+F 1 "3.3V" H 4990 2490 50  0000 C CNN
+F 2 "" H 5000 2350 60  0000 C CNN
+F 3 "" H 5000 2350 60  0000 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR118
+U 1 1 59570DF2
+P 5000 3500
+F 0 "#PWR118" H 5000 3330 50  0001 C CNN
+F 1 "DGND" H 5000 3400 50  0000 C CNN
+F 2 "" H 5000 3600 60  0000 C CNN
+F 3 "" H 4980 3410 60  0000 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-0710RL R111
+U 1 1 5957382E
+P 4250 2850
+F 0 "R111" H 4250 2930 60  0000 C CNN
+F 1 "RC0805JR-0710RL" H 4250 2550 50  0001 C CNN
+F 2 "Resistors:R0805" H 4250 1950 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4250 1900 30  0001 C CNN
+F 4 "Digikey" H 4250 2450 60  0001 C CNN "Supplier"
+F 5 "311-10ARCT-ND" H 4250 2350 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4250 2250 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-0710RL" H 4250 2150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 10 OHM 5% 1/8W 0805" H 4250 2050 60  0001 C CNN "Description"
+F 9 "10" H 4250 2780 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 4660 2770 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4250 2710 50  0001 C CNN "Puissance (Watts)"
+	1    4250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-071KL R112
+U 1 1 59574307
+P 4750 2850
+F 0 "R112" H 4750 2930 60  0000 C CNN
+F 1 "RC0805JR-071KL" H 4750 2550 50  0001 C CNN
+F 2 "Resistors:R0805" H 4750 1950 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4750 1900 30  0001 C CNN
+F 4 "Digikey" H 4750 2450 60  0001 C CNN "Supplier"
+F 5 "311-1.0KARCT-ND" H 4750 2350 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4750 2250 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-071KL" H 4750 2150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 1K OHM 5% 1/8W 0805" H 4750 2050 60  0001 C CNN "Description"
+F 9 "1k" H 4750 2780 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5160 2770 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4750 2710 50  0001 C CNN "Puissance (Watts)"
+	1    4750 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 5350 2950 0    60   ~ 0
+3.045V
+Text Notes 3350 3000 0    60   ~ 0
+12V
+Text Notes 3750 2400 0    60   ~ 0
+Analog Input
+$Comp
+L 12V #PWR109
+U 1 1 595F421D
+P 3200 900
+F 0 "#PWR109" H 3200 750 50  0001 C CNN
+F 1 "12V" H 3190 1040 50  0000 C CNN
+F 2 "" H 3200 900 60  0000 C CNN
+F 3 "" H 3200 900 60  0000 C CNN
+	1    3200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 12V #PWR119
+U 1 1 595F4418
+P 5050 900
+F 0 "#PWR119" H 5050 750 50  0001 C CNN
+F 1 "12V" H 5040 1040 50  0000 C CNN
+F 2 "" H 5050 900 60  0000 C CNN
+F 3 "" H 5050 900 60  0000 C CNN
+	1    5050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR112
+U 1 1 595FA52E
+P 4050 1800
+F 0 "#PWR112" H 4050 1630 50  0001 C CNN
+F 1 "DGND" H 4050 1700 50  0000 C CNN
+F 2 "" H 4050 1900 60  0000 C CNN
+F 3 "" H 4030 1710 60  0000 C CNN
+	1    4050 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR121
+U 1 1 595FAA8E
+P 5900 1800
+F 0 "#PWR121" H 5900 1630 50  0001 C CNN
+F 1 "DGND" H 5900 1700 50  0000 C CNN
+F 2 "" H 5900 1900 60  0000 C CNN
+F 3 "" H 5880 1710 60  0000 C CNN
+	1    5900 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-070RL R117
+U 1 1 59604161
+P 5650 1300
+F 0 "R117" H 5650 1200 60  0000 C CNN
+F 1 "RC0805JR-070RL" H 5650 1000 50  0001 C CNN
+F 2 "Resistors:R0805" H 5650 400 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5650 350 30  0001 C CNN
+F 4 "Digikey" H 5650 900 60  0001 C CNN "Supplier"
+F 5 "311-0.0ARCT-ND" H 5650 800 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 5650 700 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 5650 600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 5650 500 60  0001 C CNN "Description"
+F 9 "0" H 5650 1400 50  0000 C CNN "Resistance (Ohms)"
+F 10 "0" H 6060 1220 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 5650 1160 50  0001 C CNN "Puissance (Watts)"
+	1    5650 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L RC0805JR-070RL R115
+U 1 1 59609431
+P 3800 1300
+F 0 "R115" H 3800 1380 60  0000 C CNN
+F 1 "RC0805JR-070RL" H 3800 1000 50  0001 C CNN
+F 2 "Resistors:R0805" H 3800 400 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3800 350 30  0001 C CNN
+F 4 "Digikey" H 3800 900 60  0001 C CNN "Supplier"
+F 5 "311-0.0ARCT-ND" H 3800 800 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3800 700 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 3800 600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 3800 500 60  0001 C CNN "Description"
+F 9 "0" H 3800 1230 50  0000 C CNN "Resistance (Ohms)"
+F 10 "0" H 4210 1220 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3800 1160 50  0001 C CNN "Puissance (Watts)"
+	1    3800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-070RL R114
+U 1 1 59609DE6
+P 3200 1900
+F 0 "R114" H 3200 2000 60  0000 C CNN
+F 1 "RC0805JR-070RL" H 3200 1600 50  0001 C CNN
+F 2 "Resistors:R0805" H 3200 1000 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3200 950 30  0001 C CNN
+F 4 "Digikey" H 3200 1500 60  0001 C CNN "Supplier"
+F 5 "311-0.0ARCT-ND" H 3200 1400 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3200 1300 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 3200 1200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 3200 1100 60  0001 C CNN "Description"
+F 9 "0" H 3200 1800 50  0000 C CNN "Resistance (Ohms)"
+F 10 "0" H 3610 1820 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3200 1760 50  0001 C CNN "Puissance (Watts)"
+	1    3200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RC0805JR-070RL R116
+U 1 1 596164DF
+P 5050 1900
+F 0 "R116" H 5050 1800 60  0000 C CNN
+F 1 "RC0805JR-070RL" H 5050 1600 50  0001 C CNN
+F 2 "Resistors:R0805" H 5050 1000 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5050 950 30  0001 C CNN
+F 4 "Digikey" H 5050 1500 60  0001 C CNN "Supplier"
+F 5 "311-0.0ARCT-ND" H 5050 1400 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 5050 1300 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 5050 1200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 5050 1100 60  0001 C CNN "Description"
+F 9 "0" H 5050 2000 50  0000 C CNN "Resistance (Ohms)"
+F 10 "0" H 5460 1820 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 5050 1760 50  0001 C CNN "Puissance (Watts)"
+	1    5050 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 1900 3550 1300
+Wire Wire Line
+	3400 1900 3550 1900
+Wire Wire Line
+	3000 1900 2850 1900
+Wire Wire Line
+	4700 1900 4850 1900
+Wire Wire Line
+	5400 1900 5250 1900
+Connection ~ 2850 1200
+Wire Wire Line
+	2850 1900 2850 1200
+Connection ~ 3550 1300
+Wire Wire Line
+	4050 1300 4050 1350
+Wire Wire Line
+	4000 1300 4050 1300
+Wire Wire Line
+	5900 1100 5350 1100
+Connection ~ 4700 1200
+Wire Wire Line
+	4600 1200 4750 1200
+Wire Wire Line
+	4700 1200 4700 1900
+Wire Wire Line
+	5900 1300 5900 1350
+Wire Wire Line
+	5850 1300 5900 1300
+Connection ~ 5400 1300
+Wire Wire Line
+	5400 1300 5400 1900
+Wire Wire Line
+	5350 1300 5450 1300
+Wire Wire Line
+	3500 1300 3600 1300
+Wire Wire Line
+	3200 1400 3200 1450
+Wire Wire Line
+	5050 1400 5050 1450
+Connection ~ 5000 2850
+Wire Wire Line
+	5000 2800 5000 2900
+Wire Wire Line
+	4950 2850 5350 2850
+Wire Wire Line
+	4450 2850 4550 2850
+Wire Wire Line
+	3950 2850 4050 2850
+Wire Wire Line
+	5000 3400 5000 3200
+Wire Wire Line
+	5000 2350 5000 2400
+Connection ~ 4500 2850
+Wire Wire Line
+	4500 2350 4500 2500
+Wire Wire Line
+	4500 2800 4500 2900
+Connection ~ 4000 2850
+Wire Wire Line
+	3500 2850 3550 2850
+Wire Wire Line
+	4000 2850 4000 2950
+Wire Wire Line
+	4500 3200 4500 3400
+Wire Wire Line
+	4000 3350 4000 3400
+Wire Wire Line
+	7500 4300 9000 4300
+Wire Wire Line
+	8100 3800 8100 3600
+Wire Wire Line
+	7500 3800 8100 3800
+Connection ~ 4250 6650
+Wire Wire Line
+	4250 6650 5200 6650
+Wire Wire Line
+	4250 6600 4250 6700
+Wire Wire Line
+	4250 6150 4250 6200
+Connection ~ 2750 6650
+Wire Wire Line
+	2750 6650 3700 6650
+Wire Wire Line
+	2750 6600 2750 6700
+Wire Wire Line
+	2750 6150 2750 6200
+Wire Wire Line
+	1200 6150 1200 6200
+Connection ~ 1200 6650
+Wire Wire Line
+	1200 6600 1200 6700
+Wire Wire Line
+	2150 6650 1200 6650
+Connection ~ 2750 5450
+Wire Wire Line
+	8100 3600 9000 3600
+Wire Wire Line
+	8200 3900 8200 3700
+Wire Wire Line
+	7500 3900 8200 3900
+Wire Wire Line
+	8600 5350 8600 4900
+Wire Wire Line
+	7500 5350 8600 5350
+Wire Wire Line
+	8500 5250 8500 4800
+Wire Wire Line
+	7500 5250 8500 5250
+Wire Wire Line
+	8400 5150 8400 4700
+Wire Wire Line
+	7500 5150 8400 5150
+Wire Wire Line
+	8700 5300 9000 5300
+Wire Wire Line
+	8700 5200 9000 5200
+Wire Wire Line
+	8700 5100 9000 5100
+Wire Wire Line
+	8300 5050 8300 4600
+Connection ~ 1900 4850
+Wire Wire Line
+	1900 5300 1650 5300
+Wire Wire Line
+	1900 4550 1900 5300
+Wire Wire Line
+	1650 4850 1900 4850
+Wire Wire Line
+	800  5300 1250 5300
+Wire Wire Line
+	800  4850 1250 4850
+Wire Wire Line
+	1350 3600 1350 3700
+Wire Wire Line
+	3500 1100 4000 1100
+Wire Wire Line
+	2750 1200 2900 1200
+Wire Wire Line
+	3200 900  3200 1000
+Wire Wire Line
+	5050 900  5050 1000
+Wire Wire Line
+	8700 2100 9000 2100
+Wire Wire Line
+	8700 2000 9000 2000
+Wire Wire Line
+	8700 1900 9000 1900
+Wire Wire Line
+	8700 1800 9000 1800
+Wire Wire Line
+	7500 4700 7900 4700
+Wire Wire Line
+	7500 4600 7900 4600
+Wire Wire Line
+	7500 4500 7900 4500
+Connection ~ 2750 4350
+Wire Wire Line
+	2750 3850 2750 3900
+Wire Wire Line
+	2750 4300 2750 4400
+Wire Wire Line
+	2950 4350 2750 4350
+Wire Wire Line
+	4550 7000 5200 7000
+Connection ~ 4250 7400
+Wire Wire Line
+	4250 7300 4250 7500
+Wire Wire Line
+	4350 7400 4250 7400
+Connection ~ 4800 7000
+Wire Wire Line
+	4800 7400 4800 7000
+Wire Wire Line
+	4750 7400 4800 7400
+Wire Wire Line
+	3050 7000 3700 7000
+Connection ~ 2750 7400
+Wire Wire Line
+	2750 7300 2750 7500
+Wire Wire Line
+	2850 7400 2750 7400
+Connection ~ 3300 7000
+Wire Wire Line
+	3300 7400 3300 7000
+Wire Wire Line
+	3250 7400 3300 7400
+Wire Wire Line
+	1500 7000 2150 7000
+Connection ~ 1200 7400
+Wire Wire Line
+	1200 7300 1200 7500
+Wire Wire Line
+	1300 7400 1200 7400
+Connection ~ 1750 7000
+Wire Wire Line
+	1750 7400 1750 7000
+Wire Wire Line
+	1700 7400 1750 7400
+Connection ~ 3450 4700
+Wire Wire Line
+	3450 5100 3450 4700
+Wire Wire Line
+	3300 5100 3450 5100
+Connection ~ 2750 5100
+Wire Wire Line
+	2900 5100 2750 5100
+Wire Wire Line
+	3050 4700 3750 4700
+Wire Wire Line
+	2750 5000 2750 5550
+Wire Wire Line
+	2750 5450 2950 5450
+Wire Wire Line
+	2750 3850 2950 3850
+Wire Wire Line
+	5400 4600 4600 4600
+Wire Wire Line
+	5400 4350 4600 4350
+Wire Wire Line
+	5400 5350 4600 5350
+Wire Wire Line
+	5400 5200 4600 5200
+Wire Wire Line
+	5400 5050 4600 5050
+Wire Wire Line
+	7500 5050 8300 5050
+Wire Wire Line
+	8700 2200 9000 2200
+Wire Wire Line
+	8700 4100 9000 4100
+Wire Wire Line
+	8700 4000 9000 4000
+Wire Wire Line
+	8700 3900 9000 3900
+Wire Wire Line
+	8700 3800 9000 3800
+Wire Wire Line
+	7950 1700 9000 1700
+Wire Wire Line
+	7950 1600 9000 1600
+Wire Wire Line
+	8200 3700 9000 3700
+Wire Wire Line
+	1050 3600 1350 3600
+Wire Wire Line
+	1050 3500 1150 3500
+Wire Wire Line
+	1050 3400 1150 3400
+Wire Wire Line
+	1050 3300 1150 3300
+Wire Wire Line
+	1050 3200 1850 3200
+Wire Wire Line
+	1050 3100 1850 3100
+Wire Wire Line
+	1050 2900 1150 2900
+Wire Wire Line
+	1050 2800 1150 2800
+Wire Wire Line
+	1050 2700 1150 2700
+Wire Wire Line
+	1050 2600 1150 2600
+Wire Wire Line
+	1050 2500 1150 2500
+Wire Wire Line
+	1050 2400 1150 2400
+Wire Wire Line
+	1050 2300 1150 2300
+Wire Wire Line
+	1050 2200 1150 2200
+Wire Wire Line
+	1050 2100 1850 2100
+Wire Wire Line
+	1050 1900 1150 1900
+Wire Wire Line
+	1050 1800 1150 1800
+Wire Wire Line
+	1050 1700 1150 1700
+Wire Wire Line
+	1050 1600 1150 1600
+Wire Wire Line
+	1050 1500 1900 1500
+Wire Wire Line
+	1050 3000 1150 3000
+Wire Wire Line
+	1050 2000 1150 2000
+Wire Wire Line
+	6400 3400 5900 3400
+Wire Wire Line
+	6400 3300 5900 3300
+Wire Wire Line
+	9000 5000 8700 5000
+Wire Wire Line
+	9000 3200 8700 3200
+Wire Wire Line
+	8700 6400 9000 6400
+Wire Wire Line
+	8700 6300 9000 6300
+Wire Wire Line
+	8300 4600 9000 4600
+Wire Wire Line
+	8700 6100 9000 6100
+Wire Wire Line
+	8700 6000 9000 6000
+Wire Wire Line
+	8700 5900 9000 5900
+Wire Wire Line
+	8700 5800 9000 5800
+Wire Wire Line
+	8700 5700 9000 5700
+Wire Wire Line
+	8700 5600 9000 5600
+Wire Wire Line
+	8700 5500 9000 5500
+Wire Wire Line
+	8700 5400 9000 5400
+Wire Wire Line
+	8600 4900 9000 4900
+Wire Wire Line
+	8500 4800 9000 4800
+Wire Wire Line
+	8400 4700 9000 4700
+Wire Wire Line
+	7500 4400 9000 4400
+Wire Wire Line
+	8700 4200 9000 4200
+Wire Wire Line
+	8700 3500 9000 3500
+Wire Wire Line
+	7500 3400 9000 3400
+Wire Wire Line
+	7500 3300 9000 3300
+Wire Wire Line
+	8700 2900 9000 2900
+Wire Wire Line
+	8700 2400 9000 2400
+Wire Wire Line
+	8700 2300 9000 2300
+Wire Wire Line
+	7500 1500 9000 1500
+Wire Wire Line
+	7500 1400 9000 1400
+Wire Wire Line
+	7500 2500 9000 2500
+Wire Wire Line
+	7500 2600 9000 2600
+$Comp
+L 885012207098 C102
+U 1 1 5961D01F
+P 4050 1550
+F 0 "C102" V 3950 1750 60  0000 C CNN
+F 1 "885012207098" H 4000 1200 60  0001 C CNN
+F 2 "Capacitors:C0805" H 4000 600 60  0001 C CNN
+F 3 "D" H 4000 500 60  0001 C CNN
+F 4 "Digikey" H 4000 1100 60  0001 C CNN "Supplier"
+F 5 "732-8080-1-ND" H 4000 1000 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4000 900 60  0001 C CNN "Manufacturer"
+F 7 "885012207098" H 4000 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0805" H 4000 700 60  0001 C CNN "Description"
+F 9 "100nF" V 4050 1750 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±10%" H 4260 1430 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 4000 1360 50  0001 C CNN "Voltage Rated (Volt)"
+	1    4050 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 1700 4050 1650
+$Comp
+L 885012207098 C103
+U 1 1 5961DD58
+P 5900 1550
+F 0 "C103" V 5800 1750 60  0000 C CNN
+F 1 "885012207098" H 5850 1200 60  0001 C CNN
+F 2 "Capacitors:C0805" H 5850 600 60  0001 C CNN
+F 3 "D" H 5850 500 60  0001 C CNN
+F 4 "Digikey" H 5850 1100 60  0001 C CNN "Supplier"
+F 5 "732-8080-1-ND" H 5850 1000 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 5850 900 60  0001 C CNN "Manufacturer"
+F 7 "885012207098" H 5850 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0805" H 5850 700 60  0001 C CNN "Description"
+F 9 "100nF" V 5900 1750 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±10%" H 6110 1430 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 5850 1360 50  0001 C CNN "Voltage Rated (Volt)"
+	1    5900 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 1650 5900 1700
 $EndSCHEMATC

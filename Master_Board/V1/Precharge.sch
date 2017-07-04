@@ -37,10 +37,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DGND #PWR079
+L DGND #PWR082
 U 1 1 594558D5
 P 5550 3350
-F 0 "#PWR079" H 5550 3180 50  0001 C CNN
+F 0 "#PWR082" H 5550 3180 50  0001 C CNN
 F 1 "DGND" H 5550 3250 50  0000 C CNN
 F 2 "" H 5550 3450 60  0000 C CNN
 F 3 "" H 5530 3260 60  0000 C CNN
@@ -105,14 +105,14 @@ F 10 "2V" H 5300 1800 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 12V #PWR080
+L 12V #PWR083
 U 1 1 5945671D
-P 4500 1300
-F 0 "#PWR080" H 4500 1150 50  0001 C CNN
-F 1 "12V" H 4490 1440 50  0000 C CNN
-F 2 "" H 4500 1300 60  0000 C CNN
-F 3 "" H 4500 1300 60  0000 C CNN
-	1    4500 1300
+P 4200 1300
+F 0 "#PWR083" H 4200 1150 50  0001 C CNN
+F 1 "12V" H 4190 1440 50  0000 C CNN
+F 2 "" H 4200 1300 60  0000 C CNN
+F 3 "" H 4200 1300 60  0000 C CNN
+	1    4200 1300
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -121,14 +121,10 @@ Wire Wire Line
 	4500 2200 4500 2500
 Connection ~ 4500 2500
 Wire Wire Line
-	4000 1500 4000 2350
-Wire Wire Line
-	4000 1500 7300 1500
-Wire Wire Line
-	4500 1300 4500 1900
+	4500 1500 4500 1900
 Connection ~ 4500 1500
 Wire Wire Line
-	5300 1550 5300 1500
+	5300 1500 5300 1550
 Wire Wire Line
 	5300 2000 5300 1950
 Wire Wire Line
@@ -170,14 +166,14 @@ F 11 "1/8W" H 5300 4210 50  0001 C CNN "Puissance (Watts)"
 	0    -1   1    0   
 $EndComp
 $Comp
-L 12V #PWR081
+L 12V #PWR084
 U 1 1 59456C8C
-P 4500 3900
-F 0 "#PWR081" H 4500 3750 50  0001 C CNN
-F 1 "12V" H 4490 4040 50  0000 C CNN
-F 2 "" H 4500 3900 60  0000 C CNN
-F 3 "" H 4500 3900 60  0000 C CNN
-	1    4500 3900
+P 4200 3900
+F 0 "#PWR084" H 4200 3750 50  0001 C CNN
+F 1 "12V" H 4190 4040 50  0000 C CNN
+F 2 "" H 4200 3900 60  0000 C CNN
+F 3 "" H 4200 3900 60  0000 C CNN
+	1    4200 3900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -186,11 +182,9 @@ Wire Wire Line
 	4500 4800 4500 5100
 Connection ~ 4500 5100
 Wire Wire Line
-	3950 4100 3950 4950
+	4200 4100 6550 4100
 Wire Wire Line
-	3950 4100 6550 4100
-Wire Wire Line
-	4500 3900 4500 4500
+	4500 4100 4500 4500
 Connection ~ 4500 4100
 Wire Wire Line
 	5300 4150 5300 4100
@@ -265,7 +259,7 @@ Wire Wire Line
 	2800 4950 2550 4950
 Wire Wire Line
 	2150 4950 1950 4950
-Text Notes 1650 1100 0    120  ~ 0
+Text Notes 1700 3550 0    120  ~ 0
 Isolated
 Wire Notes Line
 	3750 2150 3750 750 
@@ -279,7 +273,7 @@ Text HLabel 6550 4100 2    60   Output ~ 0
 EX_PC_MPPT
 Text Notes 650  2000 0    120  ~ 0
 Precharge Main Contactor
-Text Notes 650  4650 0    120  ~ 0
+Text Notes 950  4600 0    120  ~ 0
 Precharge MPPT Contactor
 Connection ~ 5300 1500
 Connection ~ 5300 4100
@@ -308,10 +302,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 2850 5950 2850
 $Comp
-L DGND #PWR082
+L DGND #PWR085
 U 1 1 594DEAF5
 P 5550 5950
-F 0 "#PWR082" H 5550 5780 50  0001 C CNN
+F 0 "#PWR085" H 5550 5780 50  0001 C CNN
 F 1 "DGND" H 5550 5850 50  0000 C CNN
 F 2 "" H 5550 6050 60  0000 C CNN
 F 3 "" H 5530 5860 60  0000 C CNN
@@ -392,112 +386,6 @@ Wire Wire Line
 	1200 4950 1200 5000
 Wire Wire Line
 	1200 5000 1150 5000
-Text Notes 1850 3650 0    60   ~ 0
-Fuses needs fine tune.
-$Comp
-L C3D04060A D702
-U 1 1 596170BA
-P 1800 2350
-F 0 "D702" H 1750 2200 60  0000 C CNN
-F 1 "C3D04060A" H 1750 2450 60  0000 C CNN
-F 2 "Diodes:TO-220-2-D" H 1800 1330 60  0001 C CNN
-F 3 "http://www.wolfspeed.com/media/downloads/845/C3D04060A.pdf" H 1800 1230 60  0001 C CNN
-F 4 "Digikey" H 1800 1830 60  0001 C CNN "Supplier"
-F 5 "C3D04060A-ND" H 1800 1730 60  0001 C CNN "Supplier Part Number"
-F 6 "Cree/Wolfspeed" H 1800 1630 60  0001 C CNN "Manufacturer"
-F 7 "C3D04060A" H 1800 1530 60  0001 C CNN "Manufacturer Part Number"
-F 8 "DIODE SCHOTTKY 600V 4A TO220-2" H 1800 1430 60  0001 C CNN "Description"
-	1    1800 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L C3D04060A D701
-U 1 1 596173F8
-P 1750 4950
-F 0 "D701" H 1700 4800 60  0000 C CNN
-F 1 "C3D04060A" H 1700 5050 60  0000 C CNN
-F 2 "Diodes:TO-220-2-D" H 1750 3930 60  0001 C CNN
-F 3 "http://www.wolfspeed.com/media/downloads/845/C3D04060A.pdf" H 1750 3830 60  0001 C CNN
-F 4 "Digikey" H 1750 4430 60  0001 C CNN "Supplier"
-F 5 "C3D04060A-ND" H 1750 4330 60  0001 C CNN "Supplier Part Number"
-F 6 "Cree/Wolfspeed" H 1750 4230 60  0001 C CNN "Manufacturer"
-F 7 "C3D04060A" H 1750 4130 60  0001 C CNN "Manufacturer Part Number"
-F 8 "DIODE SCHOTTKY 600V 4A TO220-2" H 1750 4030 60  0001 C CNN "Description"
-	1    1750 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L ALQ112 RL702
-U 1 1 596176EC
-P 3750 2550
-F 0 "RL702" H 3750 2850 60  0000 C CNN
-F 1 "ALQ112" H 3800 2450 60  0000 C CNN
-F 2 "Relays:ALQ112" H 3750 1650 60  0001 C CNN
-F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf" H 3750 1550 60  0001 C CNN
-F 4 "Digikey" H 3750 2150 60  0001 C CNN "Supplier"
-F 5 "255-3562-ND" H 3750 2050 60  0001 C CNN "Supplier Part Number"
-F 6 "Panasonic Electric Works" H 3750 1950 60  0001 C CNN "Manufacturer"
-F 7 "ALQ112" H 3750 1850 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RELAY GEN PURPOSE SPST 10A 12V" H 3750 1750 60  0001 C CNN "Description"
-	1    3750 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ALQ112 RL701
-U 1 1 596178D7
-P 3700 5150
-F 0 "RL701" H 3700 5450 60  0000 C CNN
-F 1 "ALQ112" H 3750 5050 60  0000 C CNN
-F 2 "Relays:ALQ112" H 3700 4250 60  0001 C CNN
-F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf" H 3700 4150 60  0001 C CNN
-F 4 "Digikey" H 3700 4750 60  0001 C CNN "Supplier"
-F 5 "255-3562-ND" H 3700 4650 60  0001 C CNN "Supplier Part Number"
-F 6 "Panasonic Electric Works" H 3700 4550 60  0001 C CNN "Manufacturer"
-F 7 "ALQ112" H 3700 4450 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RELAY GEN PURPOSE SPST 10A 12V" H 3700 4350 60  0001 C CNN "Description"
-	1    3700 5150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 39511000440 F701
-U 1 1 59621787
-P 3000 4950
-F 0 "F701" H 3000 5060 60  0000 C CNN
-F 1 "39511000440" H 3000 4650 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 3000 4050 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 3000 4000 30  0001 C CNN
-F 4 "Digikey" H 3000 3750 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 3000 3650 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 3000 3500 60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 3000 3350 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 3000 3200 60  0001 C CNN "Description"
-F 9 "1A" H 3000 4850 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 2900 4750 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 3100 4750 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 3000 3850 60  0001 C CNN "Fuse Holder"
-	1    3000 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 39511000440 F702
-U 1 1 59621E4D
-P 3050 2350
-F 0 "F702" H 3050 2460 60  0000 C CNN
-F 1 "39511000440" H 3050 2050 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 3050 1450 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 3050 1400 30  0001 C CNN
-F 4 "Digikey" H 3050 1150 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 3050 1050 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 3050 900 60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 3050 750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 3050 600 60  0001 C CNN "Description"
-F 9 "1A" H 3050 2250 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 2950 2150 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 3150 2150 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 3050 1250 60  0001 C CNN "Fuse Holder"
-	1    3050 2350
-	1    0    0    -1  
-$EndComp
 $Comp
 L TR50JBC100R R702
 U 1 1 5963CF60
@@ -538,4 +426,120 @@ F 11 "50W" H 2350 4810 50  0001 C CNN "Puissance (Watts)"
 	1    2350 4950
 	1    0    0    -1  
 $EndComp
+$Comp
+L NRVBS3200T3G D702
+U 1 1 5959B1C7
+P 1900 2350
+F 0 "D702" H 1850 2500 60  0000 C CNN
+F 1 "NRVBS3200T3G" H 1900 2250 60  0000 C CNN
+F 2 "Diodes:DO-214AA_SMB" H 1880 1350 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBRS3200T3-D.PDF" H 1880 1250 60  0001 C CNN
+F 4 "Digikey" H 1880 1850 60  0001 C CNN "Supplier"
+F 5 "NRVBS3200T3GOSCT-ND" H 1880 1750 60  0001 C CNN "Supplier Part Number"
+F 6 "ON Semiconductor" H 1880 1650 60  0001 C CNN "Manufacturer"
+F 7 "NRVBS3200T3G" H 1880 1550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "DIODE SCHOTTKY 200V 3A SMB" H 1880 1450 60  0001 C CNN "Description"
+	1    1900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NRVBS3200T3G D701
+U 1 1 5959B5A4
+P 1850 4950
+F 0 "D701" H 1800 5100 60  0000 C CNN
+F 1 "NRVBS3200T3G" H 1850 4850 60  0000 C CNN
+F 2 "Diodes:DO-214AA_SMB" H 1830 3950 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBRS3200T3-D.PDF" H 1830 3850 60  0001 C CNN
+F 4 "Digikey" H 1830 4450 60  0001 C CNN "Supplier"
+F 5 "NRVBS3200T3GOSCT-ND" H 1830 4350 60  0001 C CNN "Supplier Part Number"
+F 6 "ON Semiconductor" H 1830 4250 60  0001 C CNN "Manufacturer"
+F 7 "NRVBS3200T3G" H 1830 4150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "DIODE SCHOTTKY 200V 3A SMB" H 1830 4050 60  0001 C CNN "Description"
+	1    1850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ALQ312 RL702
+U 1 1 5959BCFC
+P 3750 2300
+F 0 "RL702" H 3750 2250 60  0000 C CNN
+F 1 "ALQ312" H 3750 2600 60  0000 C CNN
+F 2 "Relays:ALQ312" H 3750 1400 60  0001 C CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf" H 3750 1300 60  0001 C CNN
+F 4 "Digikey" H 3750 1900 60  0001 C CNN "Supplier"
+F 5 "255-3556-ND" H 3750 1800 60  0001 C CNN "Supplier Part Number"
+F 6 "Panasonic Electric Works" H 3750 1700 60  0001 C CNN "Manufacturer"
+F 7 "ALQ312" H 3750 1600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RELAY GEN PURPOSE SPST 10A 12V" H 3750 1500 60  0001 C CNN "Description"
+	1    3750 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ALQ312 RL701
+U 1 1 5959C32A
+P 3700 4900
+F 0 "RL701" H 3700 4850 60  0000 C CNN
+F 1 "ALQ312" H 3700 5200 60  0000 C CNN
+F 2 "Relays:ALQ312" H 3700 4000 60  0001 C CNN
+F 3 "http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lq.pdf" H 3700 3900 60  0001 C CNN
+F 4 "Digikey" H 3700 4500 60  0001 C CNN "Supplier"
+F 5 "255-3556-ND" H 3700 4400 60  0001 C CNN "Supplier Part Number"
+F 6 "Panasonic Electric Works" H 3700 4300 60  0001 C CNN "Manufacturer"
+F 7 "ALQ312" H 3700 4200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RELAY GEN PURPOSE SPST 10A 12V" H 3700 4100 60  0001 C CNN "Description"
+	1    3700 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 80812000440 F702
+U 1 1 5959C75E
+P 3050 2350
+F 0 "F702" H 3050 2460 60  0000 C CNN
+F 1 "80812000440" H 3050 2050 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 3050 1450 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf" H 3050 1400 30  0001 C CNN
+F 4 "Digikey" H 3050 1950 60  0001 C CNN "Supplier"
+F 5 "WK6289-ND" H 3050 1850 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 3050 1750 60  0001 C CNN "Manufacturer"
+F 7 "80812000440" H 3050 1650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE BOARD MNT 2A 250VAC 450VDC" H 3050 1550 60  0001 C CNN "Description"
+F 9 "2A" H 3050 2250 50  0000 C CNN "Current Rating (A)"
+F 10 "450V" H 2850 2150 50  0001 C CNN "Voltage Rating - DC"
+F 11 "250V" H 3250 2150 60  0001 C CNN "Voltage Rating - AC"
+	1    3050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 80812000440 F701
+U 1 1 5959C838
+P 3000 4950
+F 0 "F701" H 3000 5060 60  0000 C CNN
+F 1 "80812000440" H 3000 4650 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 3000 4050 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf" H 3000 4000 30  0001 C CNN
+F 4 "Digikey" H 3000 4550 60  0001 C CNN "Supplier"
+F 5 "WK6289-ND" H 3000 4450 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 3000 4350 60  0001 C CNN "Manufacturer"
+F 7 "80812000440" H 3000 4250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE BOARD MNT 2A 250VAC 450VDC" H 3000 4150 60  0001 C CNN "Description"
+F 9 "2A" H 3000 4850 50  0000 C CNN "Current Rating (A)"
+F 10 "450V" H 2800 4750 50  0001 C CNN "Voltage Rating - DC"
+F 11 "250V" H 3200 4750 60  0001 C CNN "Voltage Rating - AC"
+	1    3000 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2350 4000 2350
+Wire Wire Line
+	4200 1300 4200 2350
+Connection ~ 4200 1500
+Wire Wire Line
+	4200 1500 7300 1500
+Wire Wire Line
+	4200 3900 4200 4950
+Wire Wire Line
+	4200 4950 3950 4950
+Connection ~ 4200 4100
+Text Notes 600  7700 0    60   ~ 0
+*Note: Precharge resistor can be used with heatsink ATS-PCB1064 for 50W.
 $EndSCHEMATC
