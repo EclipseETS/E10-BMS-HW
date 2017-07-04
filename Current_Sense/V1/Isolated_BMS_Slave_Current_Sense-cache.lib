@@ -118,81 +118,6 @@ X 15VB 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# 1694224
-#
-DEF 1694224 J 0 0 Y N 1 F N
-F0 "J" 0 300 60 H V C CNN
-F1 "1694224" 0 -350 60 H V C CNN
-F2 "Connectors:1694224" 0 -1000 60 H I C CNN
-F3 "https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1694224.pdf" 0 -1100 60 H I C CNN
-F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
-F5 "277-2689-ND" 0 -600 60 H I C CNN "Supplier Part Number"
-F6 "Phoenix Contact" 0 -700 60 H I C CNN "Manufacturer"
-F7 "1694224" 0 -800 60 H I C CNN "Manufacturer Part Number"
-F8 "CONN PLUG 5POS PANEL MOUNT Male Pins" 0 -900 60 H I C CNN "Description"
-DRAW
-T 0 -10 0 30 0 0 0 CAN_GND Normal 0 C C
-T 0 0 -100 30 0 0 0 CAN_H Normal 0 C C
-T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
-T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
-T 900 -150 0 30 0 0 0 M12-5~Male~Pins Normal 0 C C
-T 0 -10 200 30 0 0 0 Shield Normal 0 C C
-S 100 250 -120 -250 0 1 0 f
-X Shield 1 200 200 100 L 50 50 1 1 I
-X CAN_PWR 2 200 100 100 L 50 50 1 1 I
-X CAN_GND 3 200 0 100 L 50 50 1 1 I
-X CAN_H 4 200 -100 100 L 50 50 1 1 I
-X CAN_L 5 200 -200 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 1694240
-#
-DEF 1694240 J 0 0 Y N 1 F N
-F0 "J" 0 300 60 H V C CNN
-F1 "1694240" 0 -350 60 H V C CNN
-F2 "Connectors:1694240" 0 -1000 60 H I C CNN
-F3 "https://media.digikey.com/PDF/Data%20Sheets/Phoenix%20Contact%20PDFs/1694240.pdf" 0 -1100 60 H I C CNN
-F4 "Digikey" 0 -500 60 H I C CNN "Supplier"
-F5 "277-2707-ND" 0 -600 60 H I C CNN "Supplier Part Number"
-F6 "Phoenix Contact" 0 -700 60 H I C CNN "Manufacturer"
-F7 "1694240" 0 -800 60 H I C CNN "Manufacturer Part Number"
-F8 "CONN SOCKET 5POS PANEL MOUNT Receptacle" 0 -900 60 H I C CNN "Description"
-DRAW
-T 0 -10 0 30 0 0 0 CAN_GND Normal 0 C C
-T 0 0 -100 30 0 0 0 CAN_H Normal 0 C C
-T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
-T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
-T 900 -150 0 30 0 0 0 M12-5~Receptacle Normal 0 C C
-T 0 -10 200 30 0 0 0 Shield Normal 0 C C
-S 100 250 -120 -250 0 1 0 f
-X Shield 1 200 200 100 L 50 50 1 1 I
-X CAN_PWR 2 200 100 100 L 50 50 1 1 I
-X CAN_GND 3 200 0 100 L 50 50 1 1 I
-X CAN_H 4 200 -100 100 L 50 50 1 1 I
-X CAN_L 5 200 -200 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# 1935161
-#
-DEF ~1935161 J 0 0 Y N 1 F N
-F0 "J" -100 200 60 H V C CNN
-F1 "1935161" 0 -320 50 H I C CNN
-F2 "Connectors:1935161" 0 -910 30 H I C CNN
-F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 0 -960 30 H I C CNN
-F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
-F5 "277-1667-ND" 0 -410 60 H I C CNN "Supplier Part Number"
-F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
-F7 "1935161" 0 -710 60 H I C CNN "Manufacturer Part Number"
-F8 "TERM BLOCK PCB 2POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
-DRAW
-S -150 150 0 -50 0 0 0 f
-X ~ 1 100 0 100 L 50 40 1 1 P
-X ~ 2 100 100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 3.3VA
 #
 DEF 3.3VA #PWR 0 0 N N 1 F P
@@ -220,6 +145,48 @@ P 2 0 1 0 -70 100 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 70 100 N
 X 5VB 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 649002227222
+#
+DEF 649002227222 J 0 0 Y N 1 F N
+F0 "J" 0 200 60 H V C CNN
+F1 "649002227222" 0 -150 60 H V C CNN
+F2 "Connectors:649002227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1937-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649002227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 2P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 150 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 P
+X 2 2 200 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 649006227222
+#
+DEF 649006227222 J 0 0 Y N 1 F N
+F0 "J" 0 300 60 H V C CNN
+F1 "649006227222" 0 -150 60 H V C CNN
+F2 "Connectors:649006227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "732-1939-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "649006227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "HEADER MALE DUAL ANGLE W/MNT 6P" 0 -800 60 H I C CNN "Description"
+DRAW
+S -100 250 100 -50 0 1 0 f
+X 1 1 200 0 100 L 50 50 1 1 I
+X 2 2 -200 0 100 R 50 50 1 1 I
+X 3 3 200 100 100 L 50 50 1 1 I
+X 4 4 -200 100 100 R 50 50 1 1 I
+X 5 5 200 200 100 L 50 50 1 1 I
+X 6 6 -200 200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -697,6 +664,25 @@ X GNDB 1 0 100 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# Header_Male_Pin_2.54mm_1X2_,_Unshrouded
+#
+DEF ~Header_Male_Pin_2.54mm_1X2_,_Unshrouded J 0 0 Y N 1 F N
+F0 "J" -50 200 60 H V C CNN
+F1 "Header_Male_Pin_2.54mm_1X2_,_Unshrouded" 0 -320 50 H I C CNN
+F2 "Connectors:Headers_2.54mm_1X2" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Ebay" 0 -510 60 H I C CNN "Supplier"
+F5 "Pin Male Single Row Pin Header Strip" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 150 0 -50 0 0 0 f
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Header_Male_Pin_2.54mm_1X3_,_Unshrouded
 #
 DEF ~Header_Male_Pin_2.54mm_1X3_,_Unshrouded J 0 0 Y N 1 F N
@@ -1114,6 +1100,30 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805JR-072K2L" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 2.2K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "2.2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805JR-0733KL
+#
+DEF ~RC0805JR-0733KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0733KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-33KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0733KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 33K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "33k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
