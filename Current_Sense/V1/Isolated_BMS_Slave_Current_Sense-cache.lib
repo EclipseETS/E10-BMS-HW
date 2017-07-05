@@ -133,6 +133,37 @@ X 3.3VA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# 39511000440
+#
+DEF ~39511000440 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "39511000440" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "WK4348BK-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "39511000440" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 1A 125VAC RADIAL" 0 -800 60 H I C CNN "Description"
+F9 "1A" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "-" -100 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "125V" 100 -200 60 H I C CNN "Voltage Rating - AC"
+F12 "Fuse Holder" 0 -1100 60 H I C CNN "Fuse Holder"
+F13 "Digikey" 0 -1200 60 H I C CNN "Supplier"
+F14 "WK0009-ND" 0 -1300 60 H I C CNN "Supplier Part Number"
+F15 "Littelfuse Inc." 0 -1450 60 H I C CNN "Manufacturer"
+F16 "56200001009" 0 -1600 60 H I C CNN "Manufacturer Part Number"
+F17 "FUSE HOLDER RADIAL 250V 6.3A PCB" 0 -1750 60 H I C CNN "Description"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 5VB
 #
 DEF 5VB #PWR 0 0 N N 1 F P
@@ -540,6 +571,21 @@ P 2 0 1 0 0 0 -10 0 N
 P 2 0 1 0 25 0 50 0 N
 X 1 1 -200 0 100 R 50 50 1 1 P
 X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CAN_PWR
+#
+DEF CAN_PWR #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "CAN_PWR" -10 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -70 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 70 100 N
+X CAN_PWR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
