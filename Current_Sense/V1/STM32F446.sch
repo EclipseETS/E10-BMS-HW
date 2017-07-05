@@ -191,9 +191,9 @@ Text HLabel 4200 3800 0    60   BiDi ~ 0
 PC2
 Text HLabel 4200 3900 0    60   BiDi ~ 0
 PC3
-Text HLabel 4200 4200 0    60   BiDi ~ 0
+Text HLabel 3700 4200 0    60   Input ~ 0
 PA0
-Text HLabel 4200 4300 0    60   BiDi ~ 0
+Text HLabel 3700 4300 0    60   Output ~ 0
 PA1
 Text HLabel 5400 4900 3    60   BiDi ~ 0
 PC4
@@ -448,11 +448,9 @@ Wire Wire Line
 Wire Wire Line
 	4200 3800 4300 3800
 Wire Wire Line
-	4200 4200 4300 4200
+	3700 4200 4300 4200
 Wire Wire Line
-	4200 4300 4300 4300
-Wire Wire Line
-	3700 4400 4300 4400
+	3700 4300 4300 4300
 Wire Wire Line
 	5100 4800 5100 5700
 Wire Wire Line
@@ -951,7 +949,7 @@ F 3 "" H 2380 7110 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2400 7000 2400 7100
-Text Label 3700 4400 0    60   ~ 0
+Text Label 3700 4600 0    60   ~ 0
 PA2
 Text Label 2500 7500 0    60   ~ 0
 PA2
@@ -1353,17 +1351,17 @@ NoConn ~ 10000 5500
 $Comp
 L Test_Point_THM TP501
 U 1 1 58FAE11E
-P 3500 4400
-F 0 "TP501" H 3500 4525 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 4100 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 3500 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3400 60  0001 C CNN
-F 4 "Digikey" H 3500 4000 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 3900 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 3800 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 3700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 3600 60  0001 C CNN "Description"
-	1    3500 4400
+P 3500 4600
+F 0 "TP501" H 3500 4725 60  0000 C CNN
+F 1 "Test_Point_THM" H 3500 4300 60  0001 C CNN
+F 2 "Connectors:Keystone_5001" H 3500 3700 60  0001 C CNN
+F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3600 60  0001 C CNN
+F 4 "Digikey" H 3500 4200 60  0001 C CNN "Supplier"
+F 5 "36-5001-ND" H 3500 4100 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 3500 4000 60  0001 C CNN "Manufacturer"
+F 7 "5001" H 3500 3900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 3800 60  0001 C CNN "Description"
+	1    3500 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1629,4 +1627,14 @@ Text Label 5000 2100 1    60   ~ 0
 G4
 Text Label 4900 2100 1    60   ~ 0
 EF
+Wire Wire Line
+	3700 4600 4100 4600
+Wire Wire Line
+	4100 4600 4100 4400
+Wire Wire Line
+	4100 4400 4300 4400
+Text Label 3800 4200 0    60   ~ 0
+NTC_ADC
+Text Label 3800 4300 0    60   ~ 0
+NTC_GPIO
 $EndSCHEMATC
