@@ -627,11 +627,9 @@ Wire Wire Line
 	5400 5100 5400 5400
 Wire Wire Line
 	5400 5400 5600 5400
-Wire Wire Line
-	6600 4200 6600 4800
 Connection ~ 6200 4400
 Wire Wire Line
-	6600 5000 6600 5600
+	6600 5400 6600 5000
 Connection ~ 6200 5400
 Wire Wire Line
 	6600 4800 7200 4800
@@ -664,22 +662,6 @@ SHUNT+
 Text Label 2300 5100 0    60   ~ 0
 SHUNT-
 $Comp
-L Test_Point_THM TP203
-U 1 1 592E74C6
-P 6600 4000
-F 0 "TP203" H 6600 3900 60  0000 C CNN
-F 1 "Test_Point_THM" H 6600 3700 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 6600 3100 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 6600 3000 60  0001 C CNN
-F 4 "Digikey" H 6600 3600 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 6600 3500 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 6600 3400 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 6600 3300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 6600 3200 60  0001 C CNN "Description"
-	1    6600 4000
-	0    1    1    0   
-$EndComp
-$Comp
 L Test_Point_THM TP201
 U 1 1 592E7591
 P 2600 1100
@@ -694,22 +676,6 @@ F 7 "5001" H 2600 400 60  0001 C CNN "Manufacturer Part Number"
 F 8 "TEST POINT PC MINI .040\"D BLACK" H 2600 300 60  0001 C CNN "Description"
 	1    2600 1100
 	0    1    1    0   
-$EndComp
-$Comp
-L Test_Point_THM TP204
-U 1 1 592E7654
-P 6600 5800
-F 0 "TP204" H 6600 5900 60  0000 C CNN
-F 1 "Test_Point_THM" H 6600 5500 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 6600 4900 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 6600 4800 60  0001 C CNN
-F 4 "Digikey" H 6600 5400 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 6600 5300 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 6600 5200 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 6600 5100 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 6600 5000 60  0001 C CNN "Description"
-	1    6600 5800
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Test_Point_THM TP202
@@ -733,8 +699,6 @@ Connection ~ 2600 2000
 Wire Wire Line
 	2600 1300 2600 1400
 Connection ~ 2600 1400
-Connection ~ 6600 4400
-Connection ~ 6600 5400
 $Comp
 L 885012207098 C209
 U 1 1 592EDD48
@@ -1070,4 +1034,6 @@ F 3 "" H 3600 6800 60  0000 C CNN
 $EndComp
 Connection ~ 3600 6600
 Connection ~ 4000 6400
+Wire Wire Line
+	6600 4400 6600 4800
 $EndSCHEMATC

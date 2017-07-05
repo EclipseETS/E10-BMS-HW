@@ -1349,38 +1349,6 @@ $EndComp
 NoConn ~ 10000 5900
 NoConn ~ 10000 5500
 $Comp
-L Test_Point_THM TP501
-U 1 1 58FAE11E
-P 3500 4600
-F 0 "TP501" H 3500 4725 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 4300 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 3700 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3600 60  0001 C CNN
-F 4 "Digikey" H 3500 4200 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 4100 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 4000 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 3900 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 3800 60  0001 C CNN "Description"
-	1    3500 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Test_Point_THM TP502
-U 1 1 58FAE1BD
-P 3500 4900
-F 0 "TP502" H 3500 5025 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 4600 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 4000 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 3900 60  0001 C CNN
-F 4 "Digikey" H 3500 4500 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 4400 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 4300 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 4200 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4100 60  0001 C CNN "Description"
-	1    3500 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Header_Male_Pin_2.54mm_1X6_,_Unshrouded J501
 U 1 1 58FBA4E6
 P 10100 1100
@@ -1498,35 +1466,6 @@ Wire Wire Line
 Wire Wire Line
 	1200 6800 1200 6600
 $Comp
-L Test_Point_THM TP503
-U 1 1 58FBE32C
-P 3500 5300
-F 0 "TP503" H 3500 5425 60  0000 C CNN
-F 1 "Test_Point_THM" H 3500 5000 60  0001 C CNN
-F 2 "Connectors:Keystone_5001" H 3500 4400 60  0001 C CNN
-F 3 "http://keyelco.com/userAssets/file/M65p56.pdf" H 3500 4300 60  0001 C CNN
-F 4 "Digikey" H 3500 4900 60  0001 C CNN "Supplier"
-F 5 "36-5001-ND" H 3500 4800 60  0001 C CNN "Supplier Part Number"
-F 6 "Keystone Electronics" H 3500 4700 60  0001 C CNN "Manufacturer"
-F 7 "5001" H 3500 4600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "TEST POINT PC MINI .040\"D BLACK" H 3500 4500 60  0001 C CNN "Description"
-	1    3500 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L DGND #PWR0101
-U 1 1 58FBE35A
-P 3700 5500
-F 0 "#PWR0101" H 3700 5330 50  0001 C CNN
-F 1 "DGND" H 3700 5400 50  0000 C CNN
-F 2 "" H 3700 5600 60  0000 C CNN
-F 3 "" H 3680 5410 60  0000 C CNN
-	1    3700 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 5300 3700 5400
-$Comp
 L 885012107015 C504
 U 1 1 58FC121C
 P 4000 2600
@@ -1546,10 +1485,10 @@ F 11 "25V" H 3950 2410 50  0001 C CNN "Voltage Rated (Volt)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DGND #PWR0102
+L DGND #PWR0101
 U 1 1 58FC1307
 P 3600 2700
-F 0 "#PWR0102" H 3600 2530 50  0001 C CNN
+F 0 "#PWR0101" H 3600 2530 50  0001 C CNN
 F 1 "DGND" H 3600 2600 50  0000 C CNN
 F 2 "" H 3600 2800 60  0000 C CNN
 F 3 "" H 3580 2610 60  0000 C CNN
@@ -1594,10 +1533,10 @@ F 11 "50V" H 2350 6610 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GNDB #PWR0103
+L GNDB #PWR0102
 U 1 1 595B15EE
 P 6400 5800
-F 0 "#PWR0103" H 6400 5630 50  0001 C CNN
+F 0 "#PWR0102" H 6400 5630 50  0001 C CNN
 F 1 "GNDB" H 6400 5700 50  0000 C CNN
 F 2 "" H 6400 5900 60  0000 C CNN
 F 3 "" H 6380 5710 60  0000 C CNN

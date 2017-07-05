@@ -396,7 +396,7 @@ L D1213A-02SOL-7 D302
 U 1 1 592F2827
 P 9200 5600
 F 0 "D302" H 9200 5800 60  0000 C CNN
-F 1 "D1213A-02SOL-7" H 9200 5400 60  0000 C CNN
+F 1 "D1213A-02SOL-7" H 9250 5400 60  0000 C CNN
 F 2 "IC:SOT-23-3" H 9200 4580 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf" H 9200 4480 60  0001 C CNN
 F 4 "Digikey" H 9200 5080 60  0001 C CNN "Supplier"
@@ -405,7 +405,7 @@ F 6 "Diodes Incorporated" H 9200 4880 60  0001 C CNN "Manufacturer"
 F 7 "D1213A-02SOL-7" H 9200 4780 60  0001 C CNN "Manufacturer Part Number"
 F 8 "TVS DIODE 3.3VWM 10VC SOT23" H 9200 4680 60  0001 C CNN "Description"
 	1    9200 5600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Capacitor_Generic C311
@@ -1065,9 +1065,9 @@ Wire Wire Line
 Wire Wire Line
 	9500 4600 9400 4600
 Text Label 9400 4700 0    60   ~ 0
-Shield1
+Shield2
 Text Label 8600 4600 0    60   ~ 0
-Shield1
+Shield2
 Wire Wire Line
 	8600 4600 9000 4600
 Wire Wire Line
