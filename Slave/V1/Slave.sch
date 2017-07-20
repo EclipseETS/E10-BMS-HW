@@ -1026,4 +1026,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 6400 5800 6400
 Connection ~ 5800 6400
+Text Notes 6000 2600 0    60   ~ 0
+Ajouter Pull Down
 $EndSCHEMATC

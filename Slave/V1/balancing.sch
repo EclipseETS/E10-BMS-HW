@@ -518,4 +518,6 @@ Drain_P_Mosfet
 Wire Wire Line
 	4450 3350 4300 3350
 Connection ~ 4300 3350
+Text Notes 2550 4750 0    60   ~ 0
+Ajouter pull-down
 $EndSCHEMATC

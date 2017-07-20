@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 14 36
+Sheet 6 36
 Title "Isolated BMS Slave Front End"
 Date ""
 Rev "0"
@@ -426,8 +426,6 @@ Text Notes 3900 4500 0    100  ~ 0
 VRef Regulator
 Text HLabel 3400 1800 0    60   Input ~ 0
 Vin
-Text Notes 4700 6000 0    60   ~ 0
-Changer\npour\n12.1k
 Wire Wire Line
 	4600 2900 3600 2900
 $Comp
