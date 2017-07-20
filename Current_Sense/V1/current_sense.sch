@@ -1061,4 +1061,12 @@ Connection ~ 8400 3900
 Wire Wire Line
 	8800 3900 8900 3900
 Connection ~ 8900 4300
+Text Notes 5800 5600 0    60   ~ 0
+33k
+Text Notes 5700 4600 0    60   ~ 0
+33k
+Text Notes 6300 4600 0    60   ~ 0
+470pF
+Text Notes 6300 5100 0    60   ~ 0
+470pF
 $EndSCHEMATC
