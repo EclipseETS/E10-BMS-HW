@@ -1263,4 +1263,8 @@ Connection ~ 7050 4650
 Wire Wire Line
 	7550 4400 7550 4650
 Connection ~ 7550 4650
+Text Notes 7700 2800 0    60   ~ 0
+Note: LMV321RILT input pins are inverted
+Text Notes 7750 6100 0    60   ~ 0
+Note: LMV321RILT input pins are inverted
 $EndSCHEMATC

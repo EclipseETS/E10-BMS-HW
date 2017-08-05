@@ -418,7 +418,7 @@ F6 "Wurth Electronics Inc." -50 -800 60 H I C CNN "Manufacturer"
 F7 "860020472006" -50 -900 60 H I C CNN "Manufacturer Part Number"
 F8 "CAP ALUM 47UF 20% 25V RADIAL" -50 -1000 60 H I C CNN "Description"
 F9 "47uF" 0 -150 50 H V C CNN "Capacitance (Farad)"
-F10 "+-20%" 400 -150 60 H I C CNN "Tolerance (%)"
+F10 "±20%" 400 -150 60 H I C CNN "Tolerance (%)"
 F11 "25V" 0 -250 50 H V C CNN "Voltage Rated (Volt)"
 F12 "105 mA" 0 -400 50 H I C CNN "Ripple Current (A)"
 DRAW
@@ -1847,7 +1847,7 @@ F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
 F7 "TR50JBC100R" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES 100 OHM 50W 5% TO220" 0 -800 60 H I C CNN "Description"
 F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F10 "±5%" 150 -100 50 H I C CNN "Tolerance (%)"
 F11 "50W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N

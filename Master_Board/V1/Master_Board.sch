@@ -1537,4 +1537,26 @@ F 11 "50V" H 5850 1360 50  0001 C CNN "Voltage Rated (Volt)"
 $EndComp
 Wire Wire Line
 	5900 1650 5900 1700
+Text Notes 1550 6500 0    60   ~ 0
+R101->4.7k
+Text Notes 550  650  0    60   ~ 0
+Note1: BMS functions should be on separte sheet
+Text Notes 2900 2150 0    60   ~ 0
+R114->24k\n
+Text Notes 2900 2250 0    60   ~ 0
+R115->9.1k\n
+Text Notes 5350 2150 0    60   ~ 0
+R116->24k\n
+Text Notes 5350 2250 0    60   ~ 0
+R117->9.1k\n
+Text Notes 3300 3250 0    60   ~ 0
+R109->24k\nR110->9.1k
+Text Notes 3150 6500 0    60   ~ 0
+R104->4.7k
+Text Notes 4650 6500 0    60   ~ 0
+R104->4.7k
+Text Notes 3150 4150 0    60   ~ 0
+R103->4.7k
+Text Notes 550  750  0    60   ~ 0
+Note2: Precharge sheet should be remove
 $EndSCHEMATC

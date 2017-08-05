@@ -343,4 +343,6 @@ Wire Wire Line
 	4400 3200 4400 3650
 Connection ~ 4900 3650
 Connection ~ 4400 2450
+Text Notes 5250 4250 0    60   ~ 0
+Note: Add pull down (100k) to CTRL pin
 $EndSCHEMATC
