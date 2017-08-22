@@ -112,39 +112,6 @@ X Anode 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 2N7002P,215
-#
-DEF 2N7002P,215 Q 0 0 N N 1 F N
-F0 "Q" -150 200 60 H V C CNN
-F1 "2N7002P,215" -350 100 60 H V C CNN
-F2 "IC:SOT-23-3" 150 -900 60 H I C CNN
-F3 "http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf" 150 -1000 60 H I C CNN
-F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
-F5 "1727-4692-1-ND" 150 -500 60 H I C CNN "Supplier Part Number"
-F6 "Nexperia USA Inc." 150 -600 60 H I C CNN "Manufacturer"
-F7 "2N7002P,215" 100 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "MOSFET N-CH 60V 0.36A SOT-23" 150 -800 60 H I C CNN "Description"
-DRAW
-P 2 0 1 0 0 0 0 -100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 20 -50 20 -100 N
-P 2 0 1 0 20 -25 20 25 N
-P 2 0 1 0 20 50 20 100 N
-P 2 0 1 0 100 -100 100 -75 N
-P 2 0 1 0 150 -25 145 -25 N
-P 3 0 1 0 20 75 100 75 100 100 N
-P 3 0 1 0 170 -25 170 -95 100 -95 N
-P 3 0 1 0 170 25 170 90 100 90 N
-P 4 0 1 0 20 -75 100 -75 100 0 70 0 N
-P 4 0 1 0 25 0 70 25 70 -25 25 0 F
-P 4 0 1 0 140 10 150 25 190 25 200 40 N
-P 4 0 1 0 145 -25 170 20 195 -25 150 -25 F
-X G 1 -200 0 200 R 50 50 1 1 I
-X S 2 100 -300 200 U 50 50 1 1 I
-X D 3 100 300 200 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # 3.3V
 #
 DEF 3.3V #PWR 0 0 N N 1 F P
@@ -295,42 +262,36 @@ X 6 6 -200 200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 649022227222
+# 649016227222
 #
-DEF 649022227222 J 0 0 Y N 1 F N
-F0 "J" -50 2300 60 H V C CNN
-F1 "649022227222" 0 -150 60 H V C CNN
-F2 "Connectors:649022227222" 0 -900 60 H I C CNN
-F3 "http://katalog.we-online.de/em/datasheet/649022227222.pdf" 0 -1000 60 H I C CNN
+DEF 649016227222 J 0 0 Y N 1 F N
+F0 "J" 0 1700 60 H V C CNN
+F1 "649016227222" 0 -150 60 H V C CNN
+F2 "Connectors:649016227222" 0 -900 60 H I C CNN
+F3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" 0 -1000 60 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "732-4785-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F5 "732-4777-ND" 0 -500 60 H I C CNN "Supplier Part Number"
 F6 "Wurth Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
 F7 "649022227222" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "HEADER MALE DUAL ANGLE W/MNT 22P" 0 -800 60 H I C CNN "Description"
+F8 "HEADER MALE DUAL ANGLE W/MNT 16P" 0 -800 60 H I C CNN "Description"
 DRAW
-S -100 2200 0 0 0 1 0 f
-X 1 1 100 2150 100 L 50 50 1 1 P
-X 2 2 100 2050 100 L 50 50 1 1 P
-X 3 3 100 1950 100 L 50 50 1 1 P
-X 4 4 100 1850 100 L 50 50 1 1 P
-X 5 5 100 1750 100 L 50 50 1 1 P
-X 6 6 100 1650 100 L 50 50 1 1 P
-X 7 7 100 1550 100 L 50 50 1 1 P
-X 8 8 100 1450 100 L 50 50 1 1 P
-X 9 9 100 1350 100 L 50 50 1 1 P
-X 10 10 100 1250 100 L 50 50 1 1 P
-X 20 20 100 250 100 L 50 50 1 1 P
-X 11 11 100 1150 100 L 50 50 1 1 P
-X 21 21 100 150 100 L 50 50 1 1 P
-X 12 12 100 1050 100 L 50 50 1 1 P
-X 22 22 100 50 100 L 50 50 1 1 P
-X 13 13 100 950 100 L 50 50 1 1 P
-X 14 14 100 850 100 L 50 50 1 1 P
-X 15 15 100 750 100 L 50 50 1 1 P
-X 16 16 100 650 100 L 50 50 1 1 P
-X 17 17 100 550 100 L 50 50 1 1 P
-X 18 18 100 450 100 L 50 50 1 1 P
-X 19 19 100 350 100 L 50 50 1 1 P
+S -50 1600 50 0 0 1 0 f
+X 1 1 150 1550 100 L 50 50 1 1 P
+X 2 2 150 1450 100 L 50 50 1 1 P
+X 3 3 150 1350 100 L 50 50 1 1 P
+X 4 4 150 1250 100 L 50 50 1 1 P
+X 5 5 150 1150 100 L 50 50 1 1 P
+X 6 6 150 1050 100 L 50 50 1 1 P
+X 7 7 150 950 100 L 50 50 1 1 P
+X 8 8 150 850 100 L 50 50 1 1 P
+X 9 9 150 750 100 L 50 50 1 1 P
+X 10 10 150 650 100 L 50 50 1 1 P
+X 11 11 150 550 100 L 50 50 1 1 P
+X 12 12 150 450 100 L 50 50 1 1 P
+X 13 13 150 350 100 L 50 50 1 1 P
+X 14 14 150 250 100 L 50 50 1 1 P
+X 15 15 150 150 100 L 50 50 1 1 P
+X 16 16 150 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -348,29 +309,6 @@ F7 "744052471" 0 -750 60 H I C CNN "Manufacturer Part Number"
 F8 "FIXED IND 470UH 140MA 5.5 OHM" 0 -850 60 H I C CNN "Description"
 F9 "470µH" 0 -50 50 H V C CNN "Inductance (Henry)"
 F10 "140mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
-DRAW
-A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
-A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
-A 80 0 40 1 1799 0 1 0 N 120 0 40 0
-X 1 1 -200 0 80 R 50 50 1 1 P
-X 2 2 200 0 80 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 7447715330
-#
-DEF ~7447715330 L 0 0 N N 1 F N
-F0 "L" 0 100 60 H V C CNN
-F1 "7447715330" 0 -350 60 H I C CNN
-F2 "Inductors:IND_1245" 0 -950 60 H I C CNN
-F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
-F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
-F5 "732-2196-6-ND" 0 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
-F7 "7447715330" 0 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "FIXED IND 33UH 2.3A 85 MOHM SMD" 0 -850 60 H I C CNN "Description"
-F9 "33µH" 0 -50 50 H V C CNN "Inductance (Henry)"
-F10 "2.3A" 0 -120 50 H V C CNN "Current Rating (Ampere)"
 DRAW
 A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
 A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
@@ -774,25 +712,18 @@ X VDD2 8 500 350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# AL8807W5-7
+# AGND
 #
-DEF AL8807W5-7 U 0 40 N Y 1 F N
-F0 "U" -50 350 60 H V C CNN
-F1 "AL8807W5-7" 350 -400 60 H V C CNN
-F2 "IC:SOT-23-5" 50 -1100 60 H I C CNN
-F3 "https://www.diodes.com/assets/Datasheets/AL8807.pdf" 100 -1200 60 H I C CNN
-F4 "Digikey" 0 -600 60 H I C CNN "Supplier"
-F5 "AL8808WT-7DICT-ND" 0 -700 60 H I C CNN "Supplier Part Number"
-F6 "Diodes Incorporated" 0 -800 60 H I C CNN "Manufacturer"
-F7 "AL8808WT-7" 0 -900 60 H I C CNN "Manufacturer Part Number"
-F8 "IC LED DRVR REG PWM 1A TSOT25" 0 -1000 60 H I C CNN "Description"
+DEF AGND #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -170 50 H I C CNN
+F1 "AGND" 0 -100 50 H V C CNN
+F2 "" 0 100 60 H V C CNN
+F3 "" -20 -90 60 H V C CNN
 DRAW
-S -300 250 300 -300 0 1 0 f
-X SW 1 500 -100 200 L 50 50 1 1 I
-X GND 2 0 -500 200 U 50 50 1 1 I
-X CTRL 3 -500 -100 200 R 50 50 1 1 I
-X SET 4 200 450 200 D 50 50 1 1 I
-X VIN 5 -200 450 200 D 50 50 1 1 I
+P 2 0 1 0 0 0 50 0 N
+P 3 0 1 0 -50 0 0 -60 50 0 f
+P 3 0 1 0 0 100 0 0 -50 0 N
+X AGND 1 0 100 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -850,26 +781,6 @@ X GND 1 0 -300 100 U 50 50 1 1 I
 X Vout 2 300 0 100 L 50 50 1 1 I
 X Vin 3 -300 0 100 R 50 50 1 1 I
 X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# B240AQ-13-F
-#
-DEF B240AQ-13-F D 0 0 N N 1 F N
-F0 "D" -50 150 60 H V C CNN
-F1 "B240AQ-13-F" -50 -150 60 H V C CNN
-F2 "Diodes:DO-214AC_SMA" 0 -1020 60 H I C CNN
-F3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" 0 -1120 60 H I C CNN
-F4 "Digikey" 0 -520 60 H I C CNN "Supplier"
-F5 "B240AQ-13-FDICT-ND" 0 -620 60 H I C CNN "Supplier Part Number"
-F6 "Diode Incorporated" 0 -720 60 H I C CNN "Manufacturer"
-F7 "B240AQ-13-F" 0 -820 60 H I C CNN "Manufacturer Part Number"
-F8 "DIODE SCHOTTKY 40V 2A SMA" 0 -920 60 H I C CNN "Description"
-DRAW
-P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
-X Cathode 1 100 0 100 L 50 50 1 1 I
-X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1033,21 +944,6 @@ P 2 0 1 0 0 0 50 0 N
 P 3 0 1 0 -50 0 0 -60 50 0 f
 P 3 0 1 0 0 100 0 0 -50 0 N
 X DGND 1 0 100 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# GND
-#
-DEF GND #PWR 0 0 N N 1 F P
-F0 "#PWR" 0 -170 50 H I C CNN
-F1 "GND" 0 -100 50 H V C CNN
-F2 "" 0 100 60 H V C CNN
-F3 "" -20 -90 60 H V C CNN
-DRAW
-P 2 0 1 0 0 0 50 0 N
-P 3 0 1 0 -50 0 0 -60 50 0 f
-P 3 0 1 0 0 100 0 0 -50 0 N
-X GND 1 0 100 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -1292,54 +1188,6 @@ P 6 0 1 0 0 0 0 50 -50 100 0 150 50 100 0 50 f
 ENDDRAW
 ENDDEF
 #
-# RC0805FR-0724KL
-#
-DEF ~RC0805FR-0724KL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "RC0805FR-0724KL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-24.0KCRCT-ND" 0 -500 60 H I C TNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805FR-0724KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 24K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "24k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# RC0805FR-079K1L
-#
-DEF ~RC0805FR-079K1L R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "RC0805FR-079K1L" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-9.10KCRCT-ND" 0 -500 60 H I C TNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805FR-079K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 9.1K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "9.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # RC0805JR-070RL
 #
 DEF ~RC0805JR-070RL R 0 0 N N 1 F N
@@ -1425,30 +1273,6 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805JR-0710KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 10K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "10k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# RC0805JR-0710RL
-#
-DEF ~RC0805JR-0710RL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "RC0805JR-0710RL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-10ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-0710RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 10 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "10" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
@@ -1673,51 +1497,6 @@ S 150 0 120 0 0 1 0 N
 P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
 X 1 1 -200 0 50 R 50 50 1 1 P
 X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# RL0805FR-070R15L
-#
-DEF ~RL0805FR-070R15L R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "RL0805FR-070R15L" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-.15SCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RL0805FR-070R15L" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 0.15 OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "0R15" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# SD0805
-#
-DEF SD0805 D 0 0 N N 1 F N
-F0 "D" -50 150 60 H V L CNN
-F1 "SD0805" -200 -150 60 H V L CNN
-F2 "Diodes:Diode_0805" -20 -800 60 H I C CNN
-F3 "http://datasheets.avx.com/schottky.pdf" -20 -900 60 H I C CNN
-F4 "Digikey" -20 -300 60 H I C CNN "Supplier"
-F5 "478-7800-1-ND" -20 -400 60 H I C CNN "Supplier Part Number"
-F6 "AVX Corporation" -20 -500 60 H I C CNN "Manufacturer"
-F7 "SD0805S020S1R0" -20 -600 60 H I C CNN "Manufacturer Part Number"
-F8 "DIODE SCHOTTKY 20V 1A 0805" -20 -700 60 H I C CNN "Description"
-DRAW
-P 3 0 1 10 50 -60 25 -60 25 -40 N
-P 4 0 1 10 -50 50 -50 -50 50 0 -50 50 f
-P 4 0 1 10 50 -60 50 60 75 60 75 40 N
-X Cathode 1 150 0 100 L 50 50 1 1 I
-X Anode 2 -150 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
