@@ -1118,7 +1118,7 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805FR-0712K1L" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 12.1K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "12.1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N
@@ -1142,7 +1142,7 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805FR-07324KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 324K OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "324k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F10 "±1%" 200 -100 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N

@@ -243,5 +243,7 @@ GND
 Wire Wire Line
 	6800 3100 7200 3100
 Text Notes 4100 3800 0    60   ~ 0
-1k
+16k
+Text Notes 4600 4500 0    60   ~ 0
+100nF
 $EndSCHEMATC
