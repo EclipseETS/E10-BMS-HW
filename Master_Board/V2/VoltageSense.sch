@@ -26,7 +26,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 11 11
 Title "Voltage Sense"
 Date "2017-06-25"
 Rev "V2"
