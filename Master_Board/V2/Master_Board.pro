@@ -1,11 +1,9 @@
-update=2017-07-03 12:39:47
+update=2017-08-29 14:56:22
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=Project_Template.kicad_wks
@@ -61,3 +59,5 @@ LibName19=Sensors/Sensors
 LibName20=Switches/Switches
 LibName21=Transformers/Transformers
 LibName22=Transistors/Transistors
+[general]
+version=1
