@@ -1198,7 +1198,7 @@ F 10 "2V" H 8550 2850 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
 	0    1    1    0   
 $EndComp
 Text Label 4050 7500 0    60   ~ 0
-USART2_TX
+USART1_TX
 $Comp
 L RC0805JR-074K7L R207
 U 1 1 59843533
@@ -1219,7 +1219,7 @@ F 11 "1/8W" H 4850 6460 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 Text Label 4050 6600 0    60   ~ 0
-USART2_RX
+USART1_RX
 $Comp
 L DGND #PWR029
 U 1 1 5984353A
@@ -1312,9 +1312,9 @@ $EndComp
 Text Label 7350 3500 2    60   ~ 0
 PA9_TX
 Text HLabel 3950 6600 0    60   Input ~ 0
-USART2_RX
+USART1_RX
 Text HLabel 3950 7500 0    60   Input ~ 0
-USART2_TX
+USART1_TX
 Wire Wire Line
 	6000 5200 6000 4800
 Wire Wire Line
