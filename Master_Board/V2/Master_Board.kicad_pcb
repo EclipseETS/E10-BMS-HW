@@ -3,7 +3,7 @@
   (general
     (links 376)
     (no_connects 4)
-    (area 85.293999 38.303999 222.808001 136.702001)
+    (area 79.208047 1.263333 237.684735 142.768666)
     (thickness 1.6)
     (drawings 45)
     (tracks 1597)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.2032)
     (user_trace_width 0.127)
     (user_trace_width 0.18)
     (user_trace_width 0.2032)
@@ -93,11 +93,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Documentation/))
   )
 
   (net 0 "")
@@ -4970,11 +4970,6 @@
       (net 27 "Net-(C907-Pad1)"))
     (pad 1 thru_hole circle (at -8.89 -1.27 270) (size 1.905 1.905) (drill 1.24968) (layers *.Cu *.Mask)
       (net 1 DGND))
-    (model IC/ncs1.wrl
-      (at (xyz 0.365 0.34 0))
-      (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module IC:SSO-8 (layer F.Cu) (tedit 5946B8E0) (tstamp 599CA8AF)

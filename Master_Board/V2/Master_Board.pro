@@ -1,19 +1,9 @@
-update=2017-08-29 14:56:22
+update=11/09/2017 11:17:41 AM
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=Project_Template.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -61,3 +51,13 @@ LibName21=Transformers/Transformers
 LibName22=Transistors/Transistors
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=Project_Template.kicad_wks
+PlotDirectoryName=Documentation/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
