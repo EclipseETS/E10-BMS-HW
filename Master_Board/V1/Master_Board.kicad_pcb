@@ -3,7 +3,7 @@
   (general
     (links 428)
     (no_connects 2)
-    (area 70.153199 20.153199 206.253201 127.253201)
+    (area 58.628095 16.091 217.651905 131.795866)
     (thickness 1.6)
     (drawings 71)
     (tracks 2296)
@@ -82,7 +82,7 @@
     (visible_elements 7FFEFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -100,11 +100,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Gerber/))
+      (outputdirectory Documentation/))
   )
 
   (net 0 "")
@@ -788,11 +788,6 @@
       (net 23 "Net-(C807-Pad1)"))
     (pad 1 thru_hole circle (at -8.89 -1.27 270) (size 1.905 1.905) (drill 1.24968) (layers *.Cu *.Mask)
       (net 1 DGND))
-    (model IC/ncs1.wrl
-      (at (xyz 0.365 0.34 0))
-      (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module Resistors:R0805 (layer B.Cu) (tedit 59511A07) (tstamp 594DDCCA)
