@@ -37,10 +37,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DGND #PWR082
+L DGND #PWR083
 U 1 1 594558D5
 P 5550 3350
-F 0 "#PWR082" H 5550 3180 50  0001 C CNN
+F 0 "#PWR083" H 5550 3180 50  0001 C CNN
 F 1 "DGND" H 5550 3250 50  0000 C CNN
 F 2 "" H 5550 3450 60  0000 C CNN
 F 3 "" H 5530 3260 60  0000 C CNN
@@ -104,17 +104,6 @@ F 10 "2V" H 5300 1800 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
 	1    5300 2200
 	0    -1   1    0   
 $EndComp
-$Comp
-L 12V #PWR083
-U 1 1 5945671D
-P 4200 1300
-F 0 "#PWR083" H 4200 1150 50  0001 C CNN
-F 1 "12V" H 4190 1440 50  0000 C CNN
-F 2 "" H 4200 1300 60  0000 C CNN
-F 3 "" H 4200 1300 60  0000 C CNN
-	1    4200 1300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 2500 5550 2500
 Wire Wire Line
@@ -165,29 +154,16 @@ F 11 "1/8W" H 5300 4210 50  0001 C CNN "Puissance (Watts)"
 	1    5300 4350
 	0    -1   1    0   
 $EndComp
-$Comp
-L 12V #PWR084
-U 1 1 59456C8C
-P 4200 3900
-F 0 "#PWR084" H 4200 3750 50  0001 C CNN
-F 1 "12V" H 4190 4040 50  0000 C CNN
-F 2 "" H 4200 3900 60  0000 C CNN
-F 3 "" H 4200 3900 60  0000 C CNN
-	1    4200 3900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3950 5100 5550 5100
 Wire Wire Line
 	4500 4800 4500 5100
 Connection ~ 4500 5100
 Wire Wire Line
-	4200 4100 6550 4100
-Wire Wire Line
 	4500 4100 4500 4500
 Connection ~ 4500 4100
 Wire Wire Line
-	5300 4150 5300 4100
+	5300 4100 5300 4150
 $Comp
 L 150080VS75000-RESCUE-Master_Board D806
 U 1 1 59456C86
@@ -267,16 +243,10 @@ Wire Notes Line
 	3750 2800 3750 4750
 Wire Notes Line
 	3750 5350 3750 7100
-Text HLabel 7300 1500 2    60   Output ~ 0
-EX_PC_MAIN
-Text HLabel 6550 4100 2    60   Output ~ 0
-EX_PC_MPPT
 Text Notes 650  2000 0    120  ~ 0
 Precharge Main Contactor
 Text Notes 950  4600 0    120  ~ 0
 Precharge MPPT Contactor
-Connection ~ 5300 1500
-Connection ~ 5300 4100
 $Comp
 L BC849BLT1G Q801
 U 1 1 594DD1FE
@@ -302,10 +272,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 2850 5950 2850
 $Comp
-L DGND #PWR085
+L DGND #PWR084
 U 1 1 594DEAF5
 P 5550 5950
-F 0 "#PWR085" H 5550 5780 50  0001 C CNN
+F 0 "#PWR084" H 5550 5780 50  0001 C CNN
 F 1 "DGND" H 5550 5850 50  0000 C CNN
 F 2 "" H 5550 6050 60  0000 C CNN
 F 3 "" H 5530 5860 60  0000 C CNN
@@ -532,12 +502,18 @@ Wire Wire Line
 	4200 1300 4200 2350
 Connection ~ 4200 1500
 Wire Wire Line
-	4200 1500 7300 1500
-Wire Wire Line
 	4200 3900 4200 4950
 Wire Wire Line
 	4200 4950 3950 4950
 Connection ~ 4200 4100
 Text Notes 600  7700 0    60   ~ 0
 *Note: Precharge resistor can be used with heatsink ATS-PCB1064 for 50W.
+Wire Wire Line
+	4200 1500 5300 1500
+Wire Wire Line
+	4200 4100 5300 4100
+Text HLabel 4200 1300 1    60   Input ~ 0
+12V_Contactor
+Text HLabel 4200 3900 1    60   Input ~ 0
+12V_Contactor
 $EndSCHEMATC

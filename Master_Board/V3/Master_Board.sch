@@ -239,10 +239,6 @@ Text Label 7950 1400 0    60   ~ 0
 NTC_1_GPIO
 Text Label 7950 1500 0    60   ~ 0
 NTC_1_ADC
-Text Label 5700 3650 0    60   ~ 0
-IO4
-Text Label 5700 3850 0    60   ~ 0
-IO6
 $Sheet
 S 6100 4500 1700 650 
 U 59412458
@@ -322,8 +318,7 @@ F0 "Precharge" 60
 F1 "Precharge.sch" 60
 F2 "PC_MAIN" I R 7400 3850 60 
 F3 "PC_MPPT" I R 7400 3650 60 
-F4 "EX_PC_MAIN" O L 6100 3650 60 
-F5 "EX_PC_MPPT" O L 6100 3850 60 
+F4 "12V_Contactor" I L 6100 3750 60 
 $EndSheet
 $Sheet
 S 3950 3700 850  200 
@@ -358,6 +353,81 @@ Text Label 5250 3250 2    60   ~ 0
 PB5
 Text Label 5250 3150 2    60   ~ 0
 PB13
+NoConn ~ 8700 2100
+Text Label 5100 3800 2    60   ~ 0
+PB12
+$Sheet
+S 3650 1600 1450 500 
+U 5981A81E
+F0 "Lithium Balance Legacy" 60
+F1 "LithiumBalance_Legacy.sch" 60
+F2 "GPO1_EN" I R 5100 1750 60 
+F3 "GPIO1" O L 3650 1750 60 
+F4 "GPO2" O L 3650 1850 60 
+F5 "GPO2_EN" I R 5100 1850 60 
+F6 "GPO3_EN" I R 5100 1950 60 
+F7 "GPO3" O L 3650 1950 60 
+$EndSheet
+Text Label 5450 4600 0    60   ~ 0
+IO2
+Text Label 5450 4750 0    60   ~ 0
+IO1
+Text Label 5450 4900 0    60   ~ 0
+IO3
+Text Label 7750 3650 2    60   ~ 0
+PB2
+Text Label 7750 3850 2    60   ~ 0
+PB10
+Text Label 7850 2050 2    60   ~ 0
+PA4
+Text Label 7850 2200 2    60   ~ 0
+PA5
+Text Label 7850 2350 2    60   ~ 0
+PA6
+NoConn ~ 8700 5600
+NoConn ~ 8700 5500
+NoConn ~ 8700 4100
+$Sheet
+S 6400 1900 1100 600 
+U 5982995E
+F0 "Voltage Sense" 60
+F1 "VoltageSense.sch" 60
+F2 "VSENSE_BP" O R 7500 2050 60 
+F3 "VSENSE_EN" I R 7500 2200 60 
+F4 "VSENSE_MPPT" O R 7500 2350 60 
+$EndSheet
+Text Label 5400 1750 2    60   ~ 0
+PC0
+Text Label 5400 1850 2    60   ~ 0
+PC1
+Text Label 5400 1950 2    60   ~ 0
+PC2
+NoConn ~ 8700 4400
+NoConn ~ 8700 4300
+Text Label 2150 2350 0    60   ~ 0
+Contactor_12V
+Text Label 5450 5050 0    60   ~ 0
+Contactor_12V
+$Comp
+L 39511000440 F102
+U 1 1 5A89A190
+P 1700 2350
+F 0 "F102" H 1700 2460 60  0000 C CNN
+F 1 "39511000440" H 1700 2050 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 1700 1450 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1700 1400 30  0001 C CNN
+F 4 "Digikey" H 1700 1150 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 1700 1050 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 1700 900 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 1700 750 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 1700 600 60  0001 C CNN "Description"
+F 9 "1A" H 1700 2250 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 1600 2150 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 1800 2150 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 1700 1250 60  0001 C CNN "Fuse Holder"
+	1    1700 2350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	8700 3600 9000 3600
 Wire Wire Line
@@ -374,10 +444,6 @@ Wire Wire Line
 	8700 1900 9000 1900
 Wire Wire Line
 	8700 1800 9000 1800
-Wire Wire Line
-	6100 3850 5700 3850
-Wire Wire Line
-	6100 3650 5700 3650
 Wire Wire Line
 	6100 4900 5450 4900
 Wire Wire Line
@@ -496,37 +562,12 @@ Wire Wire Line
 	4900 2650 5250 2650
 Wire Wire Line
 	5250 3250 4900 3250
-NoConn ~ 8700 2100
-Text Label 5100 3800 2    60   ~ 0
-PB12
 Wire Wire Line
 	5100 3800 4800 3800
-$Sheet
-S 3650 1600 1450 500 
-U 5981A81E
-F0 "Lithium Balance Legacy" 60
-F1 "LithiumBalance_Legacy.sch" 60
-F2 "GPO1_EN" I R 5100 1750 60 
-F3 "GPIO1" O L 3650 1750 60 
-F4 "GPO2" O L 3650 1850 60 
-F5 "GPO2_EN" I R 5100 1850 60 
-F6 "GPO3_EN" I R 5100 1950 60 
-F7 "GPO3" O L 3650 1950 60 
-$EndSheet
-Text Label 5450 4600 0    60   ~ 0
-IO2
-Text Label 5450 4750 0    60   ~ 0
-IO1
-Text Label 5450 4900 0    60   ~ 0
-IO3
 Wire Wire Line
 	7400 3650 7750 3650
 Wire Wire Line
 	7400 3850 7750 3850
-Text Label 7750 3650 2    60   ~ 0
-PB2
-Text Label 7750 3850 2    60   ~ 0
-PB10
 Wire Wire Line
 	8700 5600 9000 5600
 Wire Wire Line
@@ -541,42 +582,14 @@ Wire Wire Line
 	7500 2200 7850 2200
 Wire Wire Line
 	7500 2350 7850 2350
-Text Label 7850 2050 2    60   ~ 0
-PA4
-Text Label 7850 2200 2    60   ~ 0
-PA5
-Text Label 7850 2350 2    60   ~ 0
-PA6
-NoConn ~ 8700 5600
-NoConn ~ 8700 5500
-NoConn ~ 8700 4100
-$Sheet
-S 6400 1900 1100 600 
-U 5982995E
-F0 "Voltage Sense" 60
-F1 "VoltageSense.sch" 60
-F2 "VSENSE_BP" O R 7500 2050 60 
-F3 "VSENSE_EN" I R 7500 2200 60 
-F4 "VSENSE_MPPT" O R 7500 2350 60 
-$EndSheet
 Wire Wire Line
 	5100 1750 5400 1750
 Wire Wire Line
 	5100 1850 5400 1850
 Wire Wire Line
 	5100 1950 5400 1950
-Text Label 5400 1750 2    60   ~ 0
-PC0
-Text Label 5400 1850 2    60   ~ 0
-PC1
-Text Label 5400 1950 2    60   ~ 0
-PC2
-NoConn ~ 8700 4400
-NoConn ~ 8700 4300
 Wire Wire Line
 	2150 1900 2150 1600
-Text Label 2150 2350 0    60   ~ 0
-Contactor_12V
 Wire Wire Line
 	7800 4600 9000 4600
 Wire Wire Line
@@ -587,26 +600,10 @@ Wire Wire Line
 	7800 4900 9000 4900
 Wire Wire Line
 	5450 5050 6100 5050
-Text Label 5450 5050 0    60   ~ 0
+Wire Wire Line
+	5450 3750 6100 3750
+Text Label 5450 3750 0    60   ~ 0
 Contactor_12V
-$Comp
-L 39511000440 F102
-U 1 1 5A89A190
-P 1700 2350
-F 0 "F102" H 1700 2460 60  0000 C CNN
-F 1 "39511000440" H 1700 2050 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 1700 1450 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1700 1400 30  0001 C CNN
-F 4 "Digikey" H 1700 1150 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 1700 1050 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 1700 900 60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 1700 750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 1700 600 60  0001 C CNN "Description"
-F 9 "1A" H 1700 2250 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 1600 2150 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 1800 2150 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 1700 1250 60  0001 C CNN "Fuse Holder"
-	1    1700 2350
-	1    0    0    -1  
-$EndComp
+NoConn ~ 1400 3750
+NoConn ~ 1400 4550
 $EndSCHEMATC
