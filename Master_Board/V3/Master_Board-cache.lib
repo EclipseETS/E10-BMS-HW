@@ -1473,6 +1473,30 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RC0805JR-0747KL
+#
+DEF ~RC0805JR-0747KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC0805JR-0747KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-47KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0747KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 47K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "47k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC0805JR-074K7L
 #
 DEF ~RC0805JR-074K7L R 0 0 N N 1 F N
@@ -1487,30 +1511,6 @@ F7 "RC0805JR-074K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 4.7K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "4.7k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 200 -100 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# RC0805JR-076K8L
-#
-DEF ~RC0805JR-076K8L R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "RC0805JR-076K8L" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-6.8KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-076K8L" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 6.8K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "6.8k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N
