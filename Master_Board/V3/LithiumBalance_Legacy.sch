@@ -127,7 +127,7 @@ F 3 "" H 3200 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 4300 2150 0    120  ~ 0
-Genral Purpose Output
+General Purpose Output
 $Comp
 L RC0805JR-07100KL R1106
 U 1 1 5973F4EB
@@ -335,4 +335,10 @@ Text HLabel 7800 3600 2    60   Input ~ 0
 GPO3_EN
 Text HLabel 7800 3250 2    60   Output ~ 0
 GPO3
+Text Notes 3250 2950 0    60   ~ 0
+Do not install
+Text Notes 5050 2950 0    60   ~ 0
+Do not install
+Text Notes 6900 2900 0    60   ~ 0
+Do not install
 $EndSCHEMATC
