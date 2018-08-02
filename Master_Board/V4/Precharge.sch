@@ -1,28 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ADC
-LIBS:Amplifiers
-LIBS:Battery
-LIBS:Capacitors
-LIBS:Comparators
-LIBS:Connectors
-LIBS:Crystals
-LIBS:DAC
-LIBS:Diodes
-LIBS:Fuses
-LIBS:Inductors
-LIBS:Interface
-LIBS:Isolators
-LIBS:STMicroelectronics
-LIBS:PMIC
-LIBS:Power_Port
-LIBS:Relays
-LIBS:Resistors
-LIBS:Sensors
-LIBS:Switches
-LIBS:Transformers
-LIBS:Transistors
+EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -37,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DGND #PWR801
+L DGND #PWR0801
 U 1 1 594558D5
 P 5550 3350
-F 0 "#PWR801" H 5550 3180 50  0001 C CNN
+F 0 "#PWR0801" H 5550 3180 50  0001 C CNN
 F 1 "DGND" H 5550 3250 50  0000 C CNN
 F 2 "" H 5550 3450 60  0000 C CNN
 F 3 "" H 5530 3260 60  0000 C CNN
@@ -272,10 +250,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 2850 5950 2850
 $Comp
-L DGND #PWR802
+L DGND #PWR0802
 U 1 1 594DEAF5
 P 5550 5950
-F 0 "#PWR802" H 5550 5780 50  0001 C CNN
+F 0 "#PWR0802" H 5550 5780 50  0001 C CNN
 F 1 "DGND" H 5550 5850 50  0000 C CNN
 F 2 "" H 5550 6050 60  0000 C CNN
 F 3 "" H 5530 5860 60  0000 C CNN

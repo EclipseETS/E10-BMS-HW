@@ -1,28 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ADC
-LIBS:Amplifiers
-LIBS:Battery
-LIBS:Capacitors
-LIBS:Comparators
-LIBS:Connectors
-LIBS:Crystals
-LIBS:DAC
-LIBS:Diodes
-LIBS:Fuses
-LIBS:Inductors
-LIBS:Interface
-LIBS:Isolators
-LIBS:STMicroelectronics
-LIBS:PMIC
-LIBS:Power_Port
-LIBS:Relays
-LIBS:Resistors
-LIBS:Sensors
-LIBS:Switches
-LIBS:Transformers
-LIBS:Transistors
+EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -289,10 +267,10 @@ Text Label 1050 2350 0    60   ~ 0
 Text Label 1050 1900 0    60   ~ 0
 12V_IN1
 $Comp
-L 12V #PWR101
+L 12V #PWR0101
 U 1 1 594F2512
 P 2150 1600
-F 0 "#PWR101" H 2150 1450 50  0001 C CNN
+F 0 "#PWR0101" H 2150 1450 50  0001 C CNN
 F 1 "12V" H 2140 1740 50  0000 C CNN
 F 2 "" H 2150 1600 60  0000 C CNN
 F 3 "" H 2150 1600 60  0000 C CNN

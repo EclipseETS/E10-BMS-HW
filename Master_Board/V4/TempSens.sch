@@ -1,28 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ADC
-LIBS:Amplifiers
-LIBS:Battery
-LIBS:Capacitors
-LIBS:Comparators
-LIBS:Connectors
-LIBS:Crystals
-LIBS:DAC
-LIBS:Diodes
-LIBS:Fuses
-LIBS:Inductors
-LIBS:Interface
-LIBS:Isolators
-LIBS:STMicroelectronics
-LIBS:PMIC
-LIBS:Power_Port
-LIBS:Relays
-LIBS:Resistors
-LIBS:Sensors
-LIBS:Switches
-LIBS:Transformers
-LIBS:Transistors
+EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -79,10 +57,10 @@ F 11 "25V" H 5400 3510 50  0001 C CNN "Voltage Rated (Volt)"
 	0    1    1    0   
 $EndComp
 $Comp
-L DGND #PWR601
+L DGND #PWR0601
 U 1 1 5947B3D9
 P 5100 4100
-F 0 "#PWR601" H 5100 3930 50  0001 C CNN
+F 0 "#PWR0601" H 5100 3930 50  0001 C CNN
 F 1 "DGND" H 5100 4000 50  0000 C CNN
 F 2 "" H 5100 4200 60  0000 C CNN
 F 3 "" H 5080 4010 60  0000 C CNN
