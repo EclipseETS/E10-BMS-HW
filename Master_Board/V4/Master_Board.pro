@@ -1,4 +1,4 @@
-update=11/09/2017 11:17:41 AM
+update=Mon 17 Sep 2018 09:14:40 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,32 +23,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[eeschema]
-version=1
-LibDir=../../../KiCad_Library/Schematic;../../../KiCad_Library/Footprint;../../../KiCad_Library/3D_Model
-[eeschema/libraries]
-LibName1=ADC/ADC
-LibName2=Amplifiers/Amplifiers
-LibName3=Battery/Battery
-LibName4=Capacitors/Capacitors
-LibName5=Comparators/Comparators
-LibName6=Connectors/Connectors
-LibName7=Crystals/Crystals
-LibName8=DAC/DAC
-LibName9=Diodes/Diodes
-LibName10=Fuses/Fuses
-LibName11=Inductors/Inductors
-LibName12=Interface/Interface
-LibName13=Isolators/Isolators
-LibName14=Microcontrollers/STMicroelectronics/STMicroelectronics
-LibName15=PMIC/PMIC
-LibName16=Power Port/Power_Port
-LibName17=Relays/Relays
-LibName18=Resistors/Resistors
-LibName19=Sensors/Sensors
-LibName20=Switches/Switches
-LibName21=Transformers/Transformers
-LibName22=Transistors/Transistors
 [general]
 version=1
 [schematic_editor]
@@ -61,3 +35,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
