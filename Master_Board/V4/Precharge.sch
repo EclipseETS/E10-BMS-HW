@@ -83,7 +83,7 @@ F 10 "2V" H 5300 1800 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4000 2500 5550 2500
+	4000 2500 4500 2500
 Wire Wire Line
 	4500 2200 4500 2500
 Connection ~ 4500 2500
@@ -133,7 +133,7 @@ F 11 "1/8W" H 5300 4210 50  0001 C CNN "Puissance (Watts)"
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3950 5100 5550 5100
+	3950 5100 4500 5100
 Wire Wire Line
 	4500 4800 4500 5100
 Connection ~ 4500 5100
@@ -477,21 +477,37 @@ $EndComp
 Wire Wire Line
 	4200 2350 4000 2350
 Wire Wire Line
-	4200 1300 4200 2350
+	4200 1300 4200 1500
 Connection ~ 4200 1500
 Wire Wire Line
-	4200 3900 4200 4950
+	4200 3900 4200 4100
 Wire Wire Line
 	4200 4950 3950 4950
 Connection ~ 4200 4100
 Text Notes 600  7700 0    60   ~ 0
 *Note: Precharge resistor can be used with heatsink ATS-PCB1064 for 50W.
 Wire Wire Line
-	4200 1500 5300 1500
+	4200 1500 4500 1500
 Wire Wire Line
-	4200 4100 5300 4100
+	4200 4100 4500 4100
 Text HLabel 4200 1300 1    60   Input ~ 0
 12V_Contactor
 Text HLabel 4200 3900 1    60   Input ~ 0
 12V_Contactor
+Wire Wire Line
+	4500 2500 5300 2500
+Wire Wire Line
+	4500 1500 5300 1500
+Wire Wire Line
+	5300 2500 5550 2500
+Wire Wire Line
+	4500 5100 5300 5100
+Wire Wire Line
+	4500 4100 5300 4100
+Wire Wire Line
+	5300 5100 5550 5100
+Wire Wire Line
+	4200 1500 4200 2350
+Wire Wire Line
+	4200 4100 4200 4950
 $EndSCHEMATC

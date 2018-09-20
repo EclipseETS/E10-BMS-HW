@@ -279,12 +279,6 @@ F 3 "" H 2150 1600 60  0000 C CNN
 $EndComp
 Text Notes 750  3150 0    120  ~ 0
 Connecteur 16p
-Text Label 3150 1750 0    60   ~ 0
-IO5
-Text Label 3150 1850 0    60   ~ 0
-IO7
-Text Label 3150 1950 0    60   ~ 0
-IO8
 Text Label 8700 2900 2    60   ~ 0
 RS232_RX
 Text Label 8700 3000 2    60   ~ 0
@@ -335,16 +329,13 @@ NoConn ~ 8700 2100
 Text Label 5100 3800 2    60   ~ 0
 PB12
 $Sheet
-S 3650 1600 1450 500 
+S 3650 1600 550  500 
 U 5981A81E
-F0 "Lithium Balance Legacy" 60
-F1 "LithiumBalance_Legacy.sch" 60
-F2 "GPO1_EN" I R 5100 1750 60 
-F3 "GPIO1" O L 3650 1750 60 
-F4 "GPO2" O L 3650 1850 60 
-F5 "GPO2_EN" I R 5100 1850 60 
-F6 "GPO3_EN" I R 5100 1950 60 
-F7 "GPO3" O L 3650 1950 60 
+F0 "Fan Control" 60
+F1 "Fan Control.sch" 60
+F2 "GPO1_EN" I R 4200 1750 60 
+F3 "GPO2_EN" I R 4200 1850 60 
+F4 "GPO3_EN" I R 4200 1950 60 
 $EndSheet
 Text Label 5450 4600 0    60   ~ 0
 IO2
@@ -374,11 +365,11 @@ F2 "VSENSE_BP" O R 7500 2050 60
 F3 "VSENSE_EN" I R 7500 2200 60 
 F4 "VSENSE_MPPT" O R 7500 2350 60 
 $EndSheet
-Text Label 5400 1750 2    60   ~ 0
+Text Label 4500 1750 2    60   ~ 0
 PC0
-Text Label 5400 1850 2    60   ~ 0
+Text Label 4500 1850 2    60   ~ 0
 PC1
-Text Label 5400 1950 2    60   ~ 0
+Text Label 4500 1950 2    60   ~ 0
 PC2
 NoConn ~ 8700 4400
 NoConn ~ 8700 4300
@@ -481,12 +472,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 2350 1900 2350
 Wire Wire Line
-	3650 1750 3150 1750
-Wire Wire Line
-	3650 1850 3150 1850
-Wire Wire Line
-	3650 1950 3150 1950
-Wire Wire Line
 	8700 2700 9000 2700
 Wire Wire Line
 	9000 2900 8700 2900
@@ -561,11 +546,11 @@ Wire Wire Line
 Wire Wire Line
 	7500 2350 7850 2350
 Wire Wire Line
-	5100 1750 5400 1750
+	4200 1750 4500 1750
 Wire Wire Line
-	5100 1850 5400 1850
+	4200 1850 4500 1850
 Wire Wire Line
-	5100 1950 5400 1950
+	4200 1950 4500 1950
 Wire Wire Line
 	2150 1900 2150 1600
 Wire Wire Line

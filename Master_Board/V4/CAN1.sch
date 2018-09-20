@@ -56,7 +56,7 @@ Wire Wire Line
 Text HLabel 2300 4200 0    60   Output ~ 0
 RXD
 Wire Wire Line
-	2300 4200 3100 4200
+	2300 4200 2500 4200
 Wire Wire Line
 	2900 4500 2900 4400
 Wire Wire Line
@@ -64,7 +64,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3800 3100 3800
 Wire Wire Line
-	1700 4000 3100 4000
+	1700 4000 1800 4000
 Connection ~ 1800 4000
 Wire Wire Line
 	1800 4100 1800 4000
@@ -90,7 +90,7 @@ $EndComp
 Wire Wire Line
 	2900 3400 2800 3400
 Wire Wire Line
-	2900 2900 2900 3800
+	2900 2900 2900 3000
 Connection ~ 2900 3400
 $Comp
 L Power_Port:DGND #PWR0402
@@ -130,7 +130,7 @@ Connection ~ 2900 3000
 Wire Wire Line
 	2500 3000 2400 3000
 Wire Wire Line
-	2400 3000 2400 3500
+	2400 3000 2400 3400
 Connection ~ 2400 3400
 $Comp
 L Diodes:D1213A-02SOL-7 D401
@@ -190,9 +190,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 4700 6200 4800
 Wire Wire Line
-	3800 4200 6400 4200
+	3800 4200 4200 4200
 Wire Wire Line
-	3800 4000 6400 4000
+	3800 4000 4200 4000
 Connection ~ 6300 4000
 Wire Wire Line
 	4400 4000 4400 5100
@@ -522,4 +522,32 @@ Wire Wire Line
 	8000 3100 8100 3100
 Wire Wire Line
 	8100 3100 8100 3300
+Wire Wire Line
+	1800 4000 1900 4000
+Wire Wire Line
+	2900 3400 2900 3800
+Wire Wire Line
+	2900 3000 2900 3400
+Wire Wire Line
+	2400 3400 2400 3500
+Wire Wire Line
+	6300 4000 6400 4000
+Wire Wire Line
+	4400 4000 6200 4000
+Wire Wire Line
+	4800 4200 5600 4200
+Wire Wire Line
+	4200 4200 4800 4200
+Wire Wire Line
+	4200 4000 4400 4000
+Wire Wire Line
+	1900 4000 3100 4000
+Wire Wire Line
+	2500 4200 3100 4200
+Wire Wire Line
+	5600 4200 6100 4200
+Wire Wire Line
+	6100 4200 6400 4200
+Wire Wire Line
+	6200 4000 6300 4000
 $EndSCHEMATC

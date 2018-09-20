@@ -96,9 +96,9 @@ F 3 "" H 4180 4310 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 4000 4200 4300
+	4200 4000 4200 4100
 Wire Wire Line
-	4500 3700 5900 3700
+	4500 3700 4800 3700
 Wire Wire Line
 	4900 3700 4900 3600
 Wire Wire Line
@@ -143,9 +143,9 @@ F 11 "25V" H 4750 3710 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3600 4100 3600 4300
+	3600 4100 3600 4200
 Wire Wire Line
-	3600 4200 4200 4200
+	3600 4200 3900 4200
 Connection ~ 4200 4200
 Wire Wire Line
 	4200 4100 4800 4100
@@ -522,11 +522,11 @@ F 12 "Fuse Holder" H 2300 2600 60  0001 C CNN "Fuse Holder"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 3700 3900 3700
+	2500 3700 2600 3700
 Wire Wire Line
-	1600 3700 2100 3700
+	1600 3700 1900 3700
 Wire Wire Line
-	6500 3600 7700 3600
+	6500 3600 6600 3600
 $Comp
 L Power_Port:12V #PWR0302
 U 1 1 58FEC80D
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3500 7800 3600
 Wire Wire Line
-	7800 3600 8500 3600
+	7800 3600 8000 3600
 Wire Wire Line
 	8000 3600 8000 3500
 $Comp
@@ -677,4 +677,52 @@ F 11 "1/8W" H 3200 4160 50  0001 C CNN "Puissance (Watts)"
 	1    3200 4300
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4900 3700 5000 3700
+Wire Wire Line
+	4200 4200 4200 4300
+Wire Wire Line
+	4200 4100 4200 4200
+Wire Wire Line
+	4800 3700 4900 3700
+Wire Wire Line
+	3600 3700 3900 3700
+Wire Wire Line
+	5100 3700 5400 3700
+Wire Wire Line
+	5700 3700 5900 3700
+Wire Wire Line
+	6600 3600 6800 3600
+Wire Wire Line
+	6800 3600 7000 3600
+Wire Wire Line
+	7000 3600 7100 3600
+Wire Wire Line
+	1900 3700 2100 3700
+Wire Wire Line
+	3900 4200 4200 4200
+Wire Wire Line
+	5000 3700 5100 3700
+Wire Wire Line
+	7500 3600 7700 3600
+Wire Wire Line
+	3200 3700 3400 3700
+Wire Wire Line
+	3400 3700 3600 3700
+Wire Wire Line
+	5400 3700 5700 3700
+Wire Wire Line
+	7300 3600 7500 3600
+Wire Wire Line
+	3600 4200 3600 4300
+Wire Wire Line
+	2600 3700 2900 3700
+Wire Wire Line
+	2900 3700 3200 3700
+Wire Wire Line
+	7100 3600 7300 3600
+Wire Wire Line
+	8000 3600 8300 3600
+Wire Wire Line
+	8300 3600 8500 3600
 $EndSCHEMATC
