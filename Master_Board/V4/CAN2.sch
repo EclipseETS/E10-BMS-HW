@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 9
+Sheet 5 10
 Title "CAN2"
 Date "2017-06-25"
 Rev "V2"

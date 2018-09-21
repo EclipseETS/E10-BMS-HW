@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 10 9
+Sheet 8 10
 Title "BMS_MasterBoard_Fan_Control"
 Date "2018-09-20"
 Rev "V2"
@@ -108,11 +108,11 @@ F 8 "MOSFET N-CH 20V 2.3A SOT23" H 3450 2850 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 Text HLabel 4150 3650 2    60   Input ~ 0
-GPO1_EN
+GPIO1_EN
 Text HLabel 5950 3650 2    60   Input ~ 0
-GPO2_EN
+GPIO2_EN
 Text HLabel 7800 3600 2    60   Input ~ 0
-GPO3_EN
+GPIO3_EN
 Wire Wire Line
 	6850 3150 6850 3300
 Wire Wire Line
