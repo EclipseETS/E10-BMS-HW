@@ -64,18 +64,18 @@ F43 "USART1_RX" I L 9000 2900 60
 F44 "USART1_TX" O L 9000 3000 60 
 $EndSheet
 $Sheet
-S 9100 700  1000 200 
+S 9000 700  1250 350 
 U 58F590C0
 F0 "Power Supply" 60
 F1 "Power Supply.sch" 60
 $EndSheet
 $Sheet
-S 3800 2450 1100 300 
+S 6100 1450 1100 300 
 U 58F7D3A7
 F0 "CAN1" 60
 F1 "CAN1.sch" 60
-F2 "TXD" I R 4900 2650 60 
-F3 "RXD" O R 4900 2550 60 
+F2 "TXD" I R 7200 1650 60 
+F3 "RXD" O R 7200 1550 60 
 $EndSheet
 Text Label 8700 1400 0    60   ~ 0
 PA0
@@ -160,18 +160,18 @@ VBat
 Text Label 8700 6100 0    60   ~ 0
 NRST
 $Sheet
-S 3800 3050 1100 300 
+S 6100 2000 1100 300 
 U 593E754B
 F0 "CAN2" 60
 F1 "CAN2.sch" 60
-F2 "CAN2_H" B L 3800 3150 60 
-F3 "CAN2_L" B L 3800 3250 60 
-F4 "TXD" I R 4900 3150 60 
-F5 "RXD" O R 4900 3250 60 
+F2 "CAN2_H" B L 6100 2100 60 
+F3 "CAN2_L" B L 6100 2200 60 
+F4 "TXD" I R 7200 2100 60 
+F5 "RXD" O R 7200 2200 60 
 $EndSheet
-Text Label 3300 3150 0    60   ~ 0
+Text Label 5600 2100 0    60   ~ 0
 CAN2_H
-Text Label 3300 3250 0    60   ~ 0
+Text Label 5600 2200 0    60   ~ 0
 CAN2_L
 $Sheet
 S 6100 4500 1700 650 
@@ -195,8 +195,6 @@ NoConn ~ 8700 5200
 NoConn ~ 8700 5300
 NoConn ~ 8700 5700
 NoConn ~ 8700 6300
-Text Notes 950  950  0    120  ~ 24
-Alim Protection
 Text Label 8700 2900 2    60   ~ 0
 RS232_RX
 Text Label 8700 3000 2    60   ~ 0
@@ -212,23 +210,23 @@ F4 "12V_Contactor" I L 6100 3750 60
 $EndSheet
 NoConn ~ 8700 3600
 NoConn ~ 8700 3700
-Text Label 5250 2650 2    60   ~ 0
+Text Label 7550 1650 2    60   ~ 0
 PA12
-Text Label 5250 2550 2    60   ~ 0
+Text Label 7550 1550 2    60   ~ 0
 PA11
-Text Label 5250 3250 2    60   ~ 0
+Text Label 7550 2200 2    60   ~ 0
 PB5
-Text Label 5250 3150 2    60   ~ 0
+Text Label 7550 2100 2    60   ~ 0
 PB13
 NoConn ~ 8700 2100
 $Sheet
-S 3800 1600 550  500 
+S 6100 5450 550  500 
 U 5981A81E
 F0 "Fan Control" 60
 F1 "Fan Control.sch" 60
-F2 "GPO1_EN" I R 4350 1750 60 
-F3 "GPO2_EN" I R 4350 1850 60 
-F4 "GPO3_EN" I R 4350 1950 60 
+F2 "GPO1_EN" I R 6650 5600 60 
+F3 "GPO2_EN" I R 6650 5700 60 
+F4 "GPO3_EN" I R 6650 5800 60 
 $EndSheet
 Text Label 5450 4600 0    60   ~ 0
 IO2
@@ -240,56 +238,32 @@ Text Label 7750 3650 2    60   ~ 0
 PB2
 Text Label 7750 3850 2    60   ~ 0
 PB10
-Text Label 7850 2050 2    60   ~ 0
+Text Label 7550 2700 2    60   ~ 0
 PA4
-Text Label 7850 2200 2    60   ~ 0
+Text Label 7550 2850 2    60   ~ 0
 PA5
-Text Label 7850 2350 2    60   ~ 0
+Text Label 7550 3000 2    60   ~ 0
 PA6
 NoConn ~ 8700 5600
 NoConn ~ 8700 5500
 NoConn ~ 8700 4100
 $Sheet
-S 6400 1900 1100 600 
+S 6100 2550 1100 600 
 U 5982995E
 F0 "Voltage Sense" 60
 F1 "VoltageSense.sch" 60
-F2 "VSENSE_BP" O R 7500 2050 60 
-F3 "VSENSE_EN" I R 7500 2200 60 
-F4 "VSENSE_MPPT" O R 7500 2350 60 
+F2 "VSENSE_BP" O R 7200 2700 60 
+F3 "VSENSE_EN" I R 7200 2850 60 
+F4 "VSENSE_MPPT" O R 7200 3000 60 
 $EndSheet
-Text Label 4650 1750 2    60   ~ 0
+Text Label 6950 5600 2    60   ~ 0
 PC0
-Text Label 4650 1850 2    60   ~ 0
+Text Label 6950 5700 2    60   ~ 0
 PC1
-Text Label 4650 1950 2    60   ~ 0
+Text Label 6950 5800 2    60   ~ 0
 PC2
 NoConn ~ 8700 4400
 NoConn ~ 8700 4300
-Text Label 2150 1450 0    60   ~ 0
-Contactor_12V
-Text Label 5450 5050 0    60   ~ 0
-Contactor_12V
-$Comp
-L Fuses:39511000440 F102
-U 1 1 5A89A190
-P 1700 1450
-F 0 "F102" H 1700 1560 60  0000 C CNN
-F 1 "39511000440" H 1700 1150 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 1700 550 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1700 500 30  0001 C CNN
-F 4 "Digikey" H 1700 250 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 1700 150 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 1700 0   60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 1700 -150 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 1700 -300 60  0001 C CNN "Description"
-F 9 "1A" H 1700 1350 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 1600 1250 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 1800 1250 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 1700 350 60  0001 C CNN "Fuse Holder"
-	1    1700 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 3600 9000 3600
 Wire Wire Line
@@ -325,9 +299,9 @@ Wire Wire Line
 Wire Wire Line
 	8700 3700 9000 3700
 Wire Wire Line
-	3800 3250 3300 3250
+	6100 2200 5600 2200
 Wire Wire Line
-	3800 3150 3300 3150
+	6100 2100 5600 2100
 Wire Wire Line
 	9000 2400 8700 2400
 Wire Wire Line
@@ -353,15 +327,13 @@ Wire Wire Line
 Wire Wire Line
 	8700 3500 9000 3500
 Wire Wire Line
-	2150 1450 1900 1450
-Wire Wire Line
 	8700 5000 9000 5000
 Wire Wire Line
 	9000 2900 8700 2900
 Wire Wire Line
 	9000 3000 8700 3000
 Wire Wire Line
-	4900 3150 5250 3150
+	7200 2100 7550 2100
 Wire Wire Line
 	8700 3300 9000 3300
 Wire Wire Line
@@ -371,11 +343,11 @@ Wire Wire Line
 Wire Wire Line
 	8700 2600 9000 2600
 Wire Wire Line
-	4900 2550 5250 2550
+	7200 1550 7550 1550
 Wire Wire Line
-	4900 2650 5250 2650
+	7200 1650 7550 1650
 Wire Wire Line
-	5250 3250 4900 3250
+	7550 2200 7200 2200
 Wire Wire Line
 	7400 3650 7750 3650
 Wire Wire Line
@@ -389,17 +361,17 @@ Wire Wire Line
 Wire Wire Line
 	8700 4300 9000 4300
 Wire Wire Line
-	7500 2050 7850 2050
+	7200 2700 7550 2700
 Wire Wire Line
-	7500 2200 7850 2200
+	7200 2850 7550 2850
 Wire Wire Line
-	7500 2350 7850 2350
+	7200 3000 7550 3000
 Wire Wire Line
-	4350 1750 4650 1750
+	6650 5600 6950 5600
 Wire Wire Line
-	4350 1850 4650 1850
+	6650 5700 6950 5700
 Wire Wire Line
-	4350 1950 4650 1950
+	6650 5800 6950 5800
 Wire Wire Line
 	7800 4600 9000 4600
 Wire Wire Line
@@ -417,138 +389,121 @@ Contactor_12V
 $Comp
 L Connectors:649006227222 J?
 U 1 1 5BA73856
-P 1700 3350
-F 0 "J?" H 1700 3787 60  0000 C CNN
-F 1 "649006227222" H 1650 3700 60  0000 C CNN
-F 2 "Connectors:649006227222" H 1700 2450 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" H 1700 2350 60  0001 C CNN
-F 4 "Digikey" H 1700 2950 60  0001 C CNN "Supplier"
-F 5 "732-1939-ND" H 1700 2850 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 1700 2750 60  0001 C CNN "Manufacturer"
-F 7 "649006227222" H 1700 2650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 6P" H 1700 2550 60  0001 C CNN "Description"
-	1    1700 3350
+P 1450 1500
+F 0 "J?" H 1450 1937 60  0000 C CNN
+F 1 "649006227222" H 1400 1850 60  0000 C CNN
+F 2 "Connectors:649006227222" H 1450 600 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" H 1450 500 60  0001 C CNN
+F 4 "Digikey" H 1450 1100 60  0001 C CNN "Supplier"
+F 5 "732-1939-ND" H 1450 1000 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1450 900 60  0001 C CNN "Manufacturer"
+F 7 "649006227222" H 1450 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 6P" H 1450 700 60  0001 C CNN "Description"
+	1    1450 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 3350 1200 3350
-Text Label 1200 3350 2    60   ~ 0
+	1250 1500 950  1500
+Text Label 950  1500 2    60   ~ 0
 CAN2_L
 Wire Wire Line
-	1500 3250 1200 3250
+	1250 1400 950  1400
 Wire Wire Line
-	1500 3150 1200 3150
+	1250 1300 950  1300
 Wire Wire Line
-	1900 3150 2050 3150
+	1650 1300 1800 1300
 Wire Wire Line
-	1900 3350 2200 3350
-Text Label 1200 3250 2    60   ~ 0
+	1650 1500 1950 1500
+Text Label 950  1400 2    60   ~ 0
 CAN2_H
 $Comp
 L Power_Port:DGND #PWR?
 U 1 1 5BA85747
-P 2200 3600
-F 0 "#PWR?" H 2200 3430 50  0001 C CNN
-F 1 "DGND" H 2200 3500 50  0000 C CNN
-F 2 "" H 2200 3700 60  0000 C CNN
-F 3 "" H 2180 3510 60  0000 C CNN
-	1    2200 3600
+P 1950 1750
+F 0 "#PWR?" H 1950 1580 50  0001 C CNN
+F 1 "DGND" H 1950 1650 50  0000 C CNN
+F 2 "" H 1950 1850 60  0000 C CNN
+F 3 "" H 1930 1660 60  0000 C CNN
+	1    1950 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 3500 2200 3350
-Text Label 2500 3250 2    60   ~ 0
+	1950 1650 1950 1500
+Text Label 2250 1400 2    60   ~ 0
 Shield2
 Wire Wire Line
-	2500 3250 2500 3350
+	2250 1400 2250 1500
 Wire Wire Line
-	1900 3250 2500 3250
+	1650 1400 2250 1400
 $Comp
 L Resistors:RC0805JR-070RL R?
 U 1 1 5BA8F541
-P 2500 3550
-F 0 "R?" V 2455 3608 60  0000 L CNN
-F 1 "RC0805JR-070RL" H 2500 3250 50  0001 C CNN
-F 2 "Resistors:R0805" H 2500 2650 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2500 2600 30  0001 C CNN
-F 4 "Digikey" H 2500 3150 60  0001 C CNN "Supplier"
-F 5 "311-0.0ARCT-ND" H 2500 3050 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 2500 2950 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-070RL" H 2500 2850 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 2500 2750 60  0001 C CNN "Description"
-F 9 "0" V 2553 3608 50  0000 L CNN "Resistance (Ohms)"
-F 10 "0" H 2910 3470 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 2500 3410 50  0001 C CNN "Puissance (Watts)"
-	1    2500 3550
+P 2250 1700
+F 0 "R?" V 2205 1758 60  0000 L CNN
+F 1 "RC0805JR-070RL" H 2250 1400 50  0001 C CNN
+F 2 "Resistors:R0805" H 2250 800 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2250 750 30  0001 C CNN
+F 4 "Digikey" H 2250 1300 60  0001 C CNN "Supplier"
+F 5 "311-0.0ARCT-ND" H 2250 1200 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 2250 1100 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 2250 1000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 2250 900 60  0001 C CNN "Description"
+F 9 "0" V 2303 1758 50  0000 L CNN "Resistance (Ohms)"
+F 10 "0" H 2660 1620 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 2250 1560 50  0001 C CNN "Puissance (Watts)"
+	1    2250 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L Power_Port:DGND #PWR?
 U 1 1 5BA8F5F1
-P 2500 3950
-F 0 "#PWR?" H 2500 3780 50  0001 C CNN
-F 1 "DGND" H 2500 3850 50  0000 C CNN
-F 2 "" H 2500 4050 60  0000 C CNN
-F 3 "" H 2480 3860 60  0000 C CNN
-	1    2500 3950
+P 2250 2100
+F 0 "#PWR?" H 2250 1930 50  0001 C CNN
+F 1 "DGND" H 2250 2000 50  0000 C CNN
+F 2 "" H 2250 2200 60  0000 C CNN
+F 3 "" H 2230 2010 60  0000 C CNN
+	1    2250 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 3750 2500 3850
-Text Label 1200 3150 2    60   ~ 0
+	2250 1900 2250 2000
+Text Label 950  1300 2    60   ~ 0
 Shield2
 $Comp
 L Power_Port:CAN_PWR #PWR?
 U 1 1 5BA9C650
-P 2200 2950
+P 1950 1100
 AR Path="/58F590C0/5BA9C650" Ref="#PWR?"  Part="1" 
 AR Path="/5BA9C650" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2200 2800 50  0001 C CNN
-F 1 "CAN_PWR" H 2190 3090 50  0000 C CNN
-F 2 "" H 2200 2950 60  0000 C CNN
-F 3 "" H 2200 2950 60  0000 C CNN
-	1    2200 2950
+F 0 "#PWR?" H 1950 950 50  0001 C CNN
+F 1 "CAN_PWR" H 1940 1240 50  0000 C CNN
+F 2 "" H 1950 1100 60  0000 C CNN
+F 3 "" H 1950 1100 60  0000 C CNN
+	1    1950 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 2950 2200 3150
-$Comp
-L Power_Port:CAN_PWR #PWR?
-U 1 1 5BAA2D76
-P 900 1150
-AR Path="/58F590C0/5BAA2D76" Ref="#PWR?"  Part="1" 
-AR Path="/5BAA2D76" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 900 1000 50  0001 C CNN
-F 1 "CAN_PWR" H 890 1290 50  0000 C CNN
-F 2 "" H 900 1150 60  0000 C CNN
-F 3 "" H 900 1150 60  0000 C CNN
-	1    900  1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  1150 900  1450
-Wire Wire Line
-	900  1450 1500 1450
+	1950 1100 1950 1300
 $Comp
 L Power_Port:PWR_FLAG #FLG?
 U 1 1 5BAAA8ED
-P 2050 3100
+P 1800 1250
 AR Path="/58F590C0/5BAAA8ED" Ref="#FLG?"  Part="1" 
 AR Path="/5BAAA8ED" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 2050 3000 60  0001 C CNN
-F 1 "PWR_FLAG" H 2050 3300 30  0000 C CNN
-F 2 "" H 2050 3100 60  0000 C CNN
-F 3 "" H 2050 3100 60  0000 C CNN
-	1    2050 3100
+F 0 "#FLG?" H 1800 1150 60  0001 C CNN
+F 1 "PWR_FLAG" H 1800 1450 30  0000 C CNN
+F 2 "" H 1800 1250 60  0000 C CNN
+F 3 "" H 1800 1250 60  0000 C CNN
+	1    1800 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 3100 2050 3150
-Connection ~ 2050 3150
+	1800 1250 1800 1300
+Connection ~ 1800 1300
 Wire Wire Line
-	2050 3150 2200 3150
-Text Notes 1000 2650 0    120  ~ 24
-Can Battery Pack
+	1800 1300 1950 1300
+Text Notes 1050 850  0    120  ~ 24
+Can Car
 NoConn ~ 8700 3400
 Wire Wire Line
 	8700 1400 9000 1400
@@ -556,4 +511,41 @@ Wire Wire Line
 	9000 1500 8700 1500
 NoConn ~ 8700 1400
 NoConn ~ 8700 1500
+$Comp
+L Power_Port:CAN_PWR #PWR?
+U 1 1 5BAA2D76
+P 4950 4900
+AR Path="/58F590C0/5BAA2D76" Ref="#PWR?"  Part="1" 
+AR Path="/5BAA2D76" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4950 4750 50  0001 C CNN
+F 1 "CAN_PWR" H 4940 5040 50  0000 C CNN
+F 2 "" H 4950 4900 60  0000 C CNN
+F 3 "" H 4950 4900 60  0000 C CNN
+	1    4950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuses:39511000440 F102
+U 1 1 5A89A190
+P 5250 5050
+F 0 "F102" H 5250 5160 60  0000 C CNN
+F 1 "39511000440" H 5250 4750 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 5250 4150 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 5250 4100 30  0001 C CNN
+F 4 "Digikey" H 5250 3850 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 5250 3750 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 5250 3600 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 5250 3450 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 5250 3300 60  0001 C CNN "Description"
+F 9 "1A" H 5250 4950 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 5150 4850 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 5350 4850 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 5250 3950 60  0001 C CNN "Fuse Holder"
+	1    5250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4900 4950 5050
+Wire Wire Line
+	4950 5050 5050 5050
 $EndSCHEMATC
