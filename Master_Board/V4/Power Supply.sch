@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 11
+Sheet 3 9
 Title "Power Supply"
 Date ""
 Rev "V2"
@@ -271,20 +271,6 @@ Wire Wire Line
 Connection ~ 6800 3600
 Connection ~ 7000 3600
 $Comp
-L Power_Port:PWR_FLAG #FLG0301
-U 1 1 58F8B845
-P 1900 3600
-F 0 "#FLG0301" H 1900 3500 60  0001 C CNN
-F 1 "PWR_FLAG" H 1900 3800 30  0000 C CNN
-F 2 "" H 1900 3600 60  0000 C CNN
-F 3 "" H 1900 3600 60  0000 C CNN
-	1    1900 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 3600 1900 3700
-Connection ~ 1900 3700
-$Comp
 L Power_Port:PWR_FLAG #FLG0303
 U 1 1 58F8B88C
 P 3900 4300
@@ -524,8 +510,6 @@ $EndComp
 Wire Wire Line
 	2500 3700 2600 3700
 Wire Wire Line
-	1600 3700 1900 3700
-Wire Wire Line
 	6500 3600 6600 3600
 $Comp
 L Power_Port:12V #PWR0302
@@ -698,8 +682,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 3600 7100 3600
 Wire Wire Line
-	1900 3700 2100 3700
-Wire Wire Line
 	3900 4200 4200 4200
 Wire Wire Line
 	5000 3700 5100 3700
@@ -725,4 +707,6 @@ Wire Wire Line
 	8000 3600 8300 3600
 Wire Wire Line
 	8300 3600 8500 3600
+Wire Wire Line
+	1600 3700 2100 3700
 $EndSCHEMATC

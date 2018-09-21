@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 11
+Sheet 5 9
 Title "CAN2"
 Date "2017-06-25"
 Rev "V2"
@@ -265,7 +265,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 4000 1300 4000
 Wire Wire Line
-	2300 4200 3100 4200
+	2300 4200 2500 4200
 Wire Wire Line
 	2900 4500 2900 4400
 Wire Wire Line
@@ -273,14 +273,14 @@ Wire Wire Line
 Wire Wire Line
 	2900 3800 3100 3800
 Wire Wire Line
-	1700 4000 3100 4000
+	1700 4000 1800 4000
 Connection ~ 1800 4000
 Wire Wire Line
 	1800 4100 1800 4000
 Wire Wire Line
 	2900 3400 2800 3400
 Wire Wire Line
-	2900 2900 2900 3800
+	2900 2900 2900 3000
 Connection ~ 2900 3400
 Wire Wire Line
 	2400 3400 2500 3400
@@ -290,7 +290,7 @@ Connection ~ 2900 3000
 Wire Wire Line
 	2500 3000 2400 3000
 Wire Wire Line
-	2400 3000 2400 3500
+	2400 3000 2400 3400
 Connection ~ 2400 3400
 Wire Wire Line
 	5350 4700 5350 4800
@@ -299,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4000 5350 4400
 Wire Wire Line
-	3800 4200 6700 4200
+	3800 4200 4200 4200
 Wire Wire Line
 	6050 4200 6050 4400
 Wire Wire Line
@@ -331,7 +331,7 @@ Wire Wire Line
 	2500 4400 2500 4200
 Connection ~ 2500 4200
 Wire Wire Line
-	3800 4000 6700 4000
+	3800 4000 4200 4000
 Connection ~ 6050 4200
 Connection ~ 5350 4000
 Wire Wire Line
@@ -426,4 +426,32 @@ F 11 "50V" H 6000 4410 50  0001 C CNN "Voltage Rated (Volt)"
 	1    6050 4600
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1800 4000 1900 4000
+Wire Wire Line
+	2900 3400 2900 3800
+Wire Wire Line
+	2900 3000 2900 3400
+Wire Wire Line
+	2400 3400 2400 3500
+Wire Wire Line
+	4400 4000 5350 4000
+Wire Wire Line
+	4800 4200 6050 4200
+Wire Wire Line
+	4200 4200 4800 4200
+Wire Wire Line
+	4200 4000 4400 4000
+Wire Wire Line
+	1900 4000 3100 4000
+Wire Wire Line
+	2500 4200 3100 4200
+Wire Wire Line
+	6050 4200 6450 4200
+Wire Wire Line
+	5350 4000 6450 4000
+Wire Wire Line
+	6450 4000 6700 4000
+Wire Wire Line
+	6450 4200 6700 4200
 $EndSCHEMATC

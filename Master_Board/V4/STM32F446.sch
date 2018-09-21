@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 11
+Sheet 2 9
 Title "STM32F446RE"
 Date ""
 Rev "V2"
@@ -735,7 +735,7 @@ F 3 "" H 9230 3860 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7050 4200 0    60   ~ 0
-LED_ASSERT
+LED_ERROR
 $Comp
 L Resistors:RC0805JR-07470RL R213
 U 1 1 58F90B78
@@ -1748,7 +1748,7 @@ F 3 "" H 7530 3660 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9950 2550 3    60   ~ 0
-LED_ASSERT
+LED_ERROR
 Wire Wire Line
 	3100 4100 4300 4100
 Wire Wire Line

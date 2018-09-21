@@ -4,10 +4,10 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 6 9
 Title "Contactor Control"
-Date "2017-06-25"
-Rev "V2"
+Date "2018-09-20"
+Rev "V4"
 Comp "Eclipse Solar Car"
 Comment1 "Julien G. Bourassa"
 Comment2 ""
@@ -377,7 +377,7 @@ Connection ~ 8500 1700
 Wire Wire Line
 	9300 1800 9100 1800
 Wire Wire Line
-	6750 1700 8700 1700
+	6750 1700 6850 1700
 Wire Wire Line
 	9700 1800 9700 1900
 Wire Wire Line
@@ -394,7 +394,7 @@ Connection ~ 8550 3700
 Wire Wire Line
 	9350 3800 9150 3800
 Wire Wire Line
-	8150 3700 8750 3700
+	8150 3700 8550 3700
 Wire Wire Line
 	9750 3800 9750 3900
 Wire Wire Line
@@ -411,13 +411,13 @@ Connection ~ 8550 5250
 Wire Wire Line
 	9350 5350 9150 5350
 Wire Wire Line
-	7850 5250 8750 5250
+	7850 5250 8550 5250
 Wire Wire Line
 	9750 5350 9750 5450
 Wire Wire Line
 	9750 5850 9750 5750
 Wire Wire Line
-	6750 1300 7050 1300
+	6750 1300 6850 1300
 Wire Wire Line
 	6850 1400 6750 1400
 Connection ~ 6850 1300
@@ -435,11 +435,11 @@ Wire Wire Line
 	7850 1700 7850 5250
 Connection ~ 7850 1700
 Wire Wire Line
-	6750 3800 8750 3800
+	6750 3800 6850 3800
 Wire Wire Line
 	8500 1800 8500 2600
 Wire Wire Line
-	6750 2600 8800 2600
+	6750 2600 6850 2600
 Wire Wire Line
 	6850 2600 6850 2700
 Wire Wire Line
@@ -448,7 +448,7 @@ Connection ~ 6850 2600
 Wire Wire Line
 	6750 2900 6850 2900
 Wire Wire Line
-	6850 2900 6850 3100
+	6850 2900 6850 3000
 Wire Wire Line
 	6850 3000 6750 3000
 Connection ~ 6850 3000
@@ -460,19 +460,19 @@ Connection ~ 6850 3800
 Wire Wire Line
 	6750 4100 6850 4100
 Wire Wire Line
-	6850 4100 6850 4300
+	6850 4100 6850 4200
 Wire Wire Line
 	6850 4200 6750 4200
 Connection ~ 6850 4200
 Wire Wire Line
-	6750 5350 8750 5350
+	6750 5350 6850 5350
 Wire Wire Line
 	6750 5450 6850 5450
 Wire Wire Line
 	6850 5450 6850 5350
 Connection ~ 6850 5350
 Wire Wire Line
-	6850 5650 6850 5850
+	6850 5650 6850 5750
 Wire Wire Line
 	6850 5650 6750 5650
 Wire Wire Line
@@ -740,7 +740,7 @@ F 8 "RELAY OPTOMOS 150MA 4-SOP NC" H 1900 1300 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2000 1500 1050
+	1500 2000 1500 1500
 Wire Wire Line
 	1500 1050 1700 1050
 Wire Wire Line
@@ -770,7 +770,7 @@ Wire Wire Line
 Text Label 7050 1300 0    60   ~ 0
 12V_Protected
 Wire Wire Line
-	2300 2000 3050 2000
+	2300 2000 2800 2000
 $Comp
 L Power_Port:DGND #PWR0702
 U 1 1 5A90F0FC
@@ -960,4 +960,40 @@ F 11 "1/8W" H 1500 2510 50  0001 C CNN "Puissance (Watts)"
 	1    1500 2650
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8500 1700 8700 1700
+Wire Wire Line
+	8550 3700 8750 3700
+Wire Wire Line
+	8550 5250 8750 5250
+Wire Wire Line
+	6850 1300 7050 1300
+Wire Wire Line
+	6850 1700 7850 1700
+Wire Wire Line
+	8150 1700 8500 1700
+Wire Wire Line
+	7850 1700 8150 1700
+Wire Wire Line
+	6850 2600 8500 2600
+Wire Wire Line
+	6850 3000 6850 3100
+Wire Wire Line
+	6850 3800 8150 3800
+Wire Wire Line
+	6850 4200 6850 4300
+Wire Wire Line
+	6850 5350 7850 5350
+Wire Wire Line
+	6850 5750 6850 5850
+Wire Wire Line
+	7850 5350 8750 5350
+Wire Wire Line
+	8150 3800 8750 3800
+Wire Wire Line
+	8500 2600 8800 2600
+Wire Wire Line
+	1500 1500 1500 1050
+Wire Wire Line
+	2800 2000 3050 2000
 $EndSCHEMATC
