@@ -174,19 +174,20 @@ CAN2_H
 Text Label 5600 2200 0    60   ~ 0
 CAN2_L
 $Sheet
-S 6100 4500 1700 650 
+S 6100 4500 1650 800 
 U 59412458
 F0 "ContactorControl" 60
 F1 "ContactorControl.sch" 60
-F2 "HighSide" I R 7800 4600 60 
-F3 "MainP-LowSide" I R 7800 4700 60 
-F4 "MainN-LowSide" I R 7800 4800 60 
-F5 "MPPT-LowSide" I R 7800 4900 60 
+F2 "HighSide" I R 7750 4600 60 
+F3 "MainP-LowSide" I R 7750 4700 60 
+F4 "MainN-LowSide" I R 7750 4800 60 
+F5 "MPPT-LowSide" I R 7750 4900 60 
 F6 "MainN_EN" O L 6100 4600 60 
 F7 "MainP_EN" O L 6100 4750 60 
 F8 "MPPT_EN" O L 6100 4900 60 
 F9 "12V_Contactor" I L 6100 5050 60 
-F10 "Kill_Switch_State" O R 7800 5100 60 
+F10 "Kill_Switch_State" O R 7750 5100 60 
+F11 "12V_Mush" O L 6100 5200 60 
 $EndSheet
 NoConn ~ 8700 3800
 NoConn ~ 8700 3900
@@ -220,13 +221,13 @@ Text Label 7550 2100 2    60   ~ 0
 PB13
 NoConn ~ 8700 2100
 $Sheet
-S 6100 5450 550  500 
+S 6100 5850 550  500 
 U 5981A81E
 F0 "Fan Control" 60
 F1 "Fan Control.sch" 60
-F2 "GPIO1_EN" I R 6650 5600 60 
-F3 "GPIO2_EN" I R 6650 5700 60 
-F4 "GPIO3_EN" I R 6650 5800 60 
+F2 "GPIO1_EN" I R 6650 6000 60 
+F3 "GPIO2_EN" I R 6650 6100 60 
+F4 "GPIO3_EN" I R 6650 6200 60 
 $EndSheet
 Text Label 5450 4600 0    60   ~ 0
 IO2
@@ -256,11 +257,11 @@ F2 "VSENSE_BP" O R 7200 2700 60
 F3 "VSENSE_EN" I R 7200 2850 60 
 F4 "VSENSE_MPPT" O R 7200 3000 60 
 $EndSheet
-Text Label 6950 5600 2    60   ~ 0
+Text Label 6950 6000 2    60   ~ 0
 PC0
-Text Label 6950 5700 2    60   ~ 0
+Text Label 6950 6100 2    60   ~ 0
 PC1
-Text Label 6950 5800 2    60   ~ 0
+Text Label 6950 6200 2    60   ~ 0
 PC2
 NoConn ~ 8700 4400
 NoConn ~ 8700 4300
@@ -270,8 +271,6 @@ Wire Wire Line
 	8700 5300 9000 5300
 Wire Wire Line
 	8700 5200 9000 5200
-Wire Wire Line
-	7800 5100 9000 5100
 Wire Wire Line
 	8700 2100 9000 2100
 Wire Wire Line
@@ -367,25 +366,17 @@ Wire Wire Line
 Wire Wire Line
 	7200 3000 7550 3000
 Wire Wire Line
-	6650 5600 6950 5600
+	6650 6000 6950 6000
 Wire Wire Line
-	6650 5700 6950 5700
+	6650 6100 6950 6100
 Wire Wire Line
-	6650 5800 6950 5800
+	6650 6200 6950 6200
 Wire Wire Line
-	7800 4600 9000 4600
-Wire Wire Line
-	7800 4700 9000 4700
-Wire Wire Line
-	7800 4800 9000 4800
-Wire Wire Line
-	7800 4900 9000 4900
-Wire Wire Line
-	5450 5050 6100 5050
+	5450 5200 6100 5200
 Wire Wire Line
 	5450 3750 6100 3750
 Text Label 5450 3750 0    60   ~ 0
-Contactor_12V
+12V_Mush
 $Comp
 L Connectors:649006227222 J?
 U 1 1 5BA73856
@@ -564,4 +555,18 @@ Text Label 7450 850  0    60   ~ 0
 D+
 Text Label 7450 1000 0    60   ~ 0
 D-
+Text Label 5450 5200 0    60   ~ 0
+12V_Mush
+Wire Wire Line
+	5450 5050 6100 5050
+Wire Wire Line
+	7750 4600 9000 4600
+Wire Wire Line
+	7750 4700 9000 4700
+Wire Wire Line
+	7750 4800 9000 4800
+Wire Wire Line
+	7750 4900 9000 4900
+Wire Wire Line
+	7750 5100 9000 5100
 $EndSCHEMATC

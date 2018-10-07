@@ -743,10 +743,8 @@ Wire Wire Line
 	1500 2000 1500 1500
 Wire Wire Line
 	1500 1050 1700 1050
-Wire Wire Line
-	1500 1500 2000 1500
 Connection ~ 1500 1500
-Text Label 2000 1500 0    60   ~ 0
+Text Label 2150 1500 2    60   ~ 0
 12V_Protected
 Wire Wire Line
 	1500 2150 1500 2450
@@ -996,4 +994,10 @@ Wire Wire Line
 	1500 1500 1500 1050
 Wire Wire Line
 	2800 2000 3050 2000
+Wire Wire Line
+	1500 1500 2150 1500
+Text HLabel 2150 1500 2    60   Output ~ 0
+12V_Mush
+Text Notes 1600 750  0    60   ~ 0
+Mush Connector
 $EndSCHEMATC

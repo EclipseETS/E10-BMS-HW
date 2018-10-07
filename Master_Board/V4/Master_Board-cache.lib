@@ -346,7 +346,7 @@ ENDDEF
 DEF Connectors:61400416121 J 0 0 Y N 1 F N
 F0 "J" 0 300 60 H V C CNN
 F1 "Connectors:61400416121" 0 -300 60 H V C CNN
-F2 "" 0 -900 60 H I C CNN
+F2 "Connectors:61400416121" 0 -900 60 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/Communication%20Conn%20WR-COM.pdf" 0 -1000 60 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
 F5 "732-2108-ND" 0 -500 60 H I C CNN "Supplier Part Number"
@@ -967,6 +967,21 @@ P 2 0 1 0 -70 100 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 70 100 N
 X 5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power_Port:5V_HP
+#
+DEF Power_Port:5V_HP #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power_Port:5V_HP" -10 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -70 100 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 70 100 N
+X 5V_HP 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
