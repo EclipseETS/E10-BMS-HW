@@ -627,6 +627,66 @@ X Anode 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Diodes:8240026
+#
+DEF Diodes:8240026 D 0 0 N N 1 F N
+F0 "D" -50 250 60 H V C CNN
+F1 "Diodes:8240026" 25 -475 60 H V C CNN
+F2 "Diodes:SOT-143-4" -25 -1095 60 H I C CNN
+F3 "https://katalog.we-online.de/pbs/datasheet/8240026.pdf" -25 -1195 60 H I C CNN
+F4 "Digikey" -25 -595 60 H I C CNN "Supplier"
+F5 "732-4470-1-ND" -25 -695 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -25 -795 60 H I C CNN "Manufacturer"
+F7 "8240026" -25 -895 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 5V 9V SOT143-4" -25 -995 60 H I C CNN "Description"
+DRAW
+C -150 -150 9 1 1 0 F
+C -150 50 9 1 1 0 F
+C -25 -250 9 1 1 0 F
+C 25 -150 9 1 1 0 F
+C 150 -150 9 1 1 0 F
+C 150 50 9 1 1 0 F
+S -200 200 200 -400 0 1 0 f
+P 2 0 1 0 -150 -250 -150 50 N
+P 2 0 1 0 -100 -250 -150 -250 N
+P 2 0 1 0 -100 -175 -100 -125 N
+P 2 0 1 0 -100 -150 -150 -150 N
+P 2 0 1 0 -100 -125 -50 -150 N
+P 2 0 1 0 -50 -250 -25 -250 N
+P 2 0 1 0 -50 -175 -50 -125 N
+P 2 0 1 0 -50 -150 -100 -175 N
+P 2 0 1 0 -50 50 -200 50 N
+P 2 0 1 0 -25 -250 50 -250 N
+P 2 0 1 0 25 -200 200 -200 N
+P 2 0 1 0 25 -150 25 -200 N
+P 2 0 1 0 50 -150 -50 -150 N
+P 2 0 1 15 50 0 50 100 N
+P 2 0 1 15 50 0 75 0 N
+P 2 0 1 0 50 50 200 50 N
+P 2 0 1 15 50 100 25 100 N
+P 2 0 1 0 100 -150 150 -150 N
+P 3 0 1 0 -25 -250 -25 -200 -200 -200 N
+P 3 0 1 0 100 -250 150 -250 150 50 N
+P 4 0 1 10 -50 100 -50 0 50 50 -50 100 f
+P 2 1 1 0 -100 -275 -100 -225 N
+P 2 1 1 0 -100 -225 -50 -250 N
+P 2 1 1 0 -50 -275 -50 -225 N
+P 2 1 1 0 -50 -250 -100 -275 N
+P 2 1 1 0 50 -275 50 -225 N
+P 2 1 1 0 50 -225 100 -250 N
+P 2 1 1 0 50 -175 50 -125 N
+P 2 1 1 0 50 -125 100 -150 N
+P 2 1 1 0 100 -275 100 -225 N
+P 2 1 1 0 100 -250 50 -275 N
+P 2 1 1 0 100 -175 100 -125 N
+P 2 1 1 0 100 -150 50 -175 N
+X GND 2 -300 50 100 R 50 50 1 1 I
+X I/O_2 3 300 -200 100 L 50 50 1 1 I
+X VDD 4 300 50 100 L 50 50 1 1 I
+X I/O_1 ~ -300 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Diodes:D1213A-02SOL-7
 #
 DEF Diodes:D1213A-02SOL-7 D 0 0 Y N 1 F N
@@ -709,6 +769,83 @@ P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 4 0 1 10 0 -60 0 60 25 60 25 40 N
 X Cathode 1 100 0 100 L 50 50 1 1 I
 X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Filter:742792605
+#
+DEF ~Filter:742792605 FB 0 0 N N 1 F N
+F0 "FB" 0 150 60 H V C CNN
+F1 "Filter:742792605" 0 -350 60 H I C CNN
+F2 "Ferrite_Bead:FB0603" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-3668-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "742792605" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FERRITE BEAD 33 OHM 0603 1LN" 0 -850 60 H I C CNN "Description"
+F9 "500mA" 0 -100 50 H V C CNN "Current"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+P 2 0 1 0 -125 50 125 50 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Filter:744230900
+#
+DEF ~Filter:744230900 FB 0 0 N N 1 F N
+F0 "FB" 0 150 60 H V C CNN
+F1 "Filter:744230900" 0 -350 60 H I C CNN
+F2 "Filter:744230900" 0 -950 60 H I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "732-2582-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "744230900" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CMC 550MA 2LN 90 OHM SMD" 0 -850 60 H I C CNN "Description"
+DRAW
+A -100 100 50 -1799 -1 0 1 0 N -150 100 -50 100
+A -100 -100 50 1 1799 1 1 0 N -50 -100 -150 -100
+A 0 -100 50 1 1799 1 1 0 N 50 -100 -50 -100
+A 0 100 50 -1799 -1 1 1 0 N -50 100 50 100
+A 100 -100 50 1 1799 1 1 0 N 150 -100 50 -100
+A 100 100 50 -1799 -1 1 1 0 N 50 100 150 100
+P 2 0 1 0 -150 25 150 25 N
+P 2 0 1 0 150 -25 -150 -25 N
+X 1 1 -250 -100 100 R 50 50 1 1 I
+X 2 2 250 -100 100 L 50 50 1 1 I
+X 3 3 250 100 100 L 50 50 1 1 I
+X 4 4 -250 100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Fuses:39505000440
+#
+DEF ~Fuses:39505000440 F 0 0 N N 1 F N
+F0 "F" 0 110 60 H V C CNN
+F1 "Fuses:39505000440" 0 -300 50 H I C CNN
+F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "WK4341BK-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Littelfuse Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "39505000440" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "FUSE BOARD MNT 1A 125VAC RADIAL" 0 -800 60 H I C CNN "Description"
+F9 "500mA" 0 -100 50 H V C CNN "Current Rating (A)"
+F10 "-" -100 -200 50 H I C CNN "Voltage Rating - DC"
+F11 "125V" 100 -200 60 H I C CNN "Voltage Rating - AC"
+F12 "Fuse Holder" 0 -1100 60 H I C CNN "Fuse Holder"
+DRAW
+A 60 0 60 -1799 -1 0 1 0 N 0 0 120 0
+A -60 0 60 1 1799 1 1 0 N 0 0 -120 0
+S -150 0 -120 0 0 1 0 f
+S 120 0 150 0 0 1 0 f
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1275,30 +1412,6 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805JR-071ML" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 1M OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "1M" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors:RC0805JR-0722RL
-#
-DEF ~Resistors:RC0805JR-0722RL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors:RC0805JR-0722RL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-22ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-0722RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 22 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "22" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW

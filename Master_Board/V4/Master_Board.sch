@@ -209,14 +209,10 @@ F2 "PC_MAIN" I R 7400 3850 60
 F3 "PC_MPPT" I R 7400 3650 60 
 F4 "12V_Contactor" I L 6100 3750 60 
 $EndSheet
-NoConn ~ 8700 3600
-NoConn ~ 8700 3700
 Text Label 7550 1650 2    60   ~ 0
-PA12
+PB9
 Text Label 7550 1550 2    60   ~ 0
-PA11
-Text Label 7550 2200 2    60   ~ 0
-PB5
+PB8
 Text Label 7550 2100 2    60   ~ 0
 PB13
 NoConn ~ 8700 2100
@@ -495,7 +491,6 @@ Wire Wire Line
 	2100 1300 2250 1300
 Text Notes 1350 850  0    120  ~ 24
 Can Car
-NoConn ~ 8700 3400
 Wire Wire Line
 	8700 1400 9000 1400
 Wire Wire Line
@@ -551,10 +546,6 @@ Wire Wire Line
 	7200 850  7450 850 
 Wire Wire Line
 	7200 1000 7450 1000
-Text Label 7450 850  0    60   ~ 0
-D+
-Text Label 7450 1000 0    60   ~ 0
-D-
 Text Label 5450 5200 0    60   ~ 0
 12V_Mush
 Wire Wire Line
@@ -569,4 +560,10 @@ Wire Wire Line
 	7750 4900 9000 4900
 Wire Wire Line
 	7750 5100 9000 5100
+Text Label 7550 2200 2    60   ~ 0
+PB12
+Text Label 7450 850  0    60   ~ 0
+PA12
+Text Label 7450 1000 0    60   ~ 0
+PA11
 $EndSCHEMATC
