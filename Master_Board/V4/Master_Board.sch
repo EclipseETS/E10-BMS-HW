@@ -215,7 +215,6 @@ Text Label 7550 1550 2    60   ~ 0
 PB8
 Text Label 7550 2100 2    60   ~ 0
 PB13
-NoConn ~ 8700 2100
 $Sheet
 S 6100 5850 550  500 
 U 5981A81E
@@ -245,13 +244,14 @@ NoConn ~ 8700 5600
 NoConn ~ 8700 5500
 NoConn ~ 8700 4100
 $Sheet
-S 6100 2550 1100 600 
+S 6100 2550 1100 700 
 U 5982995E
 F0 "Voltage Sense" 60
 F1 "VoltageSense.sch" 60
 F2 "VSENSE_BP" O R 7200 2700 60 
 F3 "VSENSE_EN" I R 7200 2850 60 
 F4 "VSENSE_MPPT" O R 7200 3000 60 
+F5 "STATE_RELAY_NEG" O R 7200 3150 60 
 $EndSheet
 Text Label 6950 6000 2    60   ~ 0
 PC0
@@ -566,4 +566,8 @@ Text Label 7450 850  0    60   ~ 0
 PA12
 Text Label 7450 1000 0    60   ~ 0
 PA11
+Wire Wire Line
+	7200 3150 7550 3150
+Text Label 7550 3150 2    60   ~ 0
+PA7
 $EndSCHEMATC
