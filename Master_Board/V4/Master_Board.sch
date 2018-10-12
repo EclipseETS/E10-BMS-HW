@@ -182,32 +182,31 @@ F2 "HighSide" I R 7750 4600 60
 F3 "MainP-LowSide" I R 7750 4700 60 
 F4 "MainN-LowSide" I R 7750 4800 60 
 F5 "MPPT-LowSide" I R 7750 4900 60 
-F6 "MainN_EN" O L 6100 4600 60 
-F7 "MainP_EN" O L 6100 4750 60 
-F8 "MPPT_EN" O L 6100 4900 60 
-F9 "12V_Contactor" I L 6100 5050 60 
-F10 "Kill_Switch_State" O R 7750 5100 60 
-F11 "12V_Mush" O L 6100 5200 60 
+F6 "Kill_Switch_State" O R 7750 5100 60 
+F7 "12V_Mush" O L 6100 5200 60 
 $EndSheet
 NoConn ~ 8700 3800
 NoConn ~ 8700 3900
 NoConn ~ 8700 2200
 NoConn ~ 8700 5200
 NoConn ~ 8700 5300
-NoConn ~ 8700 5700
 NoConn ~ 8700 6300
 Text Label 8700 2900 2    60   ~ 0
 RS232_RX
 Text Label 8700 3000 2    60   ~ 0
 RS232_TX
 $Sheet
-S 6100 3450 1300 600 
+S 5850 3450 1650 700 
 U 59829650
 F0 "Precharge" 60
 F1 "Precharge.sch" 60
-F2 "PC_MAIN" I R 7400 3850 60 
-F3 "PC_MPPT" I R 7400 3650 60 
-F4 "12V_Contactor" I L 6100 3750 60 
+F2 "PC_MAIN" I R 7500 3850 60 
+F3 "PC_MPPT" I R 7500 3650 60 
+F4 "12V_Contactor" I L 5850 3550 60 
+F5 "HV_PC_HIGHSIDE+" I L 5850 3700 60 
+F6 "HV_PC_HIGHSIDE-" O L 5850 3800 60 
+F7 "HV_PC_MPPT+" I L 5850 3950 60 
+F8 "HV_PC_MPPT-" O L 5850 4050 60 
 $EndSheet
 Text Label 7550 1650 2    60   ~ 0
 PB9
@@ -216,49 +215,47 @@ PB8
 Text Label 7550 2100 2    60   ~ 0
 PB13
 $Sheet
-S 6100 5850 550  500 
+S 6100 5650 600  650 
 U 5981A81E
 F0 "Fan Control" 60
 F1 "Fan Control.sch" 60
-F2 "GPIO1_EN" I R 6650 6000 60 
-F3 "GPIO2_EN" I R 6650 6100 60 
-F4 "GPIO3_EN" I R 6650 6200 60 
+F2 "GPIO1_EN" I R 6700 5800 60 
+F3 "GPIO2_EN" I R 6700 5900 60 
+F4 "GPIO3_EN" I R 6700 6000 60 
+F5 "GPIO4_EN" I R 6700 6100 60 
 $EndSheet
-Text Label 5450 4600 0    60   ~ 0
-IO2
-Text Label 5450 4750 0    60   ~ 0
-IO1
-Text Label 5450 4900 0    60   ~ 0
-IO3
-Text Label 7750 3650 2    60   ~ 0
+Text Label 7850 3650 2    60   ~ 0
 PB2
-Text Label 7750 3850 2    60   ~ 0
+Text Label 7850 3850 2    60   ~ 0
 PB10
-Text Label 7550 2700 2    60   ~ 0
+Text Label 7850 2700 2    60   ~ 0
 PA4
-Text Label 7550 2850 2    60   ~ 0
+Text Label 7850 2850 2    60   ~ 0
 PA5
-Text Label 7550 3000 2    60   ~ 0
+Text Label 7850 3000 2    60   ~ 0
 PA6
 NoConn ~ 8700 5600
 NoConn ~ 8700 5500
 NoConn ~ 8700 4100
 $Sheet
-S 6100 2550 1100 700 
+S 5850 2550 1650 700 
 U 5982995E
 F0 "Voltage Sense" 60
 F1 "VoltageSense.sch" 60
-F2 "VSENSE_BP" O R 7200 2700 60 
-F3 "VSENSE_EN" I R 7200 2850 60 
-F4 "VSENSE_MPPT" O R 7200 3000 60 
-F5 "STATE_RELAY_NEG" O R 7200 3150 60 
+F2 "VSENSE_BP" O R 7500 2700 60 
+F3 "VSENSE_EN" I R 7500 2850 60 
+F4 "VSENSE_MPPT" O R 7500 3000 60 
+F5 "STATE_RELAY_NEG" O R 7500 3150 60 
+F6 "HV_MPPT+" I L 5850 2650 60 
+F7 "HV_LOWSIDE+" O L 5850 3150 60 
+F8 "HV_HIGHSIDE-" I L 5850 2900 60 
 $EndSheet
-Text Label 6950 6000 2    60   ~ 0
-PC0
-Text Label 6950 6100 2    60   ~ 0
-PC1
-Text Label 6950 6200 2    60   ~ 0
-PC2
+Text Label 7000 5800 2    60   ~ 0
+PB0
+Text Label 7000 5900 2    60   ~ 0
+PB1
+Text Label 7000 6000 2    60   ~ 0
+PC6
 NoConn ~ 8700 4400
 NoConn ~ 8700 4300
 Wire Wire Line
@@ -275,12 +272,6 @@ Wire Wire Line
 	8700 1900 9000 1900
 Wire Wire Line
 	8700 1800 9000 1800
-Wire Wire Line
-	6100 4900 5450 4900
-Wire Wire Line
-	6100 4750 5450 4750
-Wire Wire Line
-	6100 4600 5450 4600
 Wire Wire Line
 	8700 2200 9000 2200
 Wire Wire Line
@@ -344,9 +335,9 @@ Wire Wire Line
 Wire Wire Line
 	7550 2200 7200 2200
 Wire Wire Line
-	7400 3650 7750 3650
+	7500 3650 7850 3650
 Wire Wire Line
-	7400 3850 7750 3850
+	7500 3850 7850 3850
 Wire Wire Line
 	8700 5600 9000 5600
 Wire Wire Line
@@ -356,23 +347,19 @@ Wire Wire Line
 Wire Wire Line
 	8700 4300 9000 4300
 Wire Wire Line
-	7200 2700 7550 2700
+	7500 2700 7850 2700
 Wire Wire Line
-	7200 2850 7550 2850
+	7500 2850 7850 2850
 Wire Wire Line
-	7200 3000 7550 3000
+	7500 3000 7850 3000
 Wire Wire Line
-	6650 6000 6950 6000
+	6700 5800 7000 5800
 Wire Wire Line
-	6650 6100 6950 6100
+	6700 5900 7000 5900
 Wire Wire Line
-	6650 6200 6950 6200
+	6700 6000 7000 6000
 Wire Wire Line
 	5450 5200 6100 5200
-Wire Wire Line
-	5450 3750 6100 3750
-Text Label 5450 3750 0    60   ~ 0
-12V_Mush
 $Comp
 L Connectors:649006227222 J?
 U 1 1 5BA73856
@@ -497,43 +484,6 @@ Wire Wire Line
 	9000 1500 8700 1500
 NoConn ~ 8700 1400
 NoConn ~ 8700 1500
-$Comp
-L Power_Port:CAN_PWR #PWR?
-U 1 1 5BAA2D76
-P 4950 4900
-AR Path="/58F590C0/5BAA2D76" Ref="#PWR?"  Part="1" 
-AR Path="/5BAA2D76" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4950 4750 50  0001 C CNN
-F 1 "CAN_PWR" H 4940 5040 50  0000 C CNN
-F 2 "" H 4950 4900 60  0000 C CNN
-F 3 "" H 4950 4900 60  0000 C CNN
-	1    4950 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Fuses:39511000440 F102
-U 1 1 5A89A190
-P 5250 5050
-F 0 "F102" H 5250 5160 60  0000 C CNN
-F 1 "39511000440" H 5250 4750 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 5250 4150 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 5250 4100 30  0001 C CNN
-F 4 "Digikey" H 5250 3850 60  0001 C CNN "Supplier"
-F 5 "WK0009-ND" H 5250 3750 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 5250 3600 60  0001 C CNN "Manufacturer"
-F 7 "56200001009" H 5250 3450 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 5250 3300 60  0001 C CNN "Description"
-F 9 "1A" H 5250 4950 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 5150 4850 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 5350 4850 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 5250 3950 60  0001 C CNN "Fuse Holder"
-	1    5250 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 4900 4950 5050
-Wire Wire Line
-	4950 5050 5050 5050
 $Sheet
 S 6100 700  1100 450 
 U 5BB689DC
@@ -549,8 +499,6 @@ Wire Wire Line
 Text Label 5450 5200 0    60   ~ 0
 12V_Mush
 Wire Wire Line
-	5450 5050 6100 5050
-Wire Wire Line
 	7750 4600 9000 4600
 Wire Wire Line
 	7750 4700 9000 4700
@@ -561,13 +509,131 @@ Wire Wire Line
 Wire Wire Line
 	7750 5100 9000 5100
 Text Label 7550 2200 2    60   ~ 0
-PB12
+PB5
 Text Label 7450 850  0    60   ~ 0
 PA12
 Text Label 7450 1000 0    60   ~ 0
 PA11
 Wire Wire Line
-	7200 3150 7550 3150
-Text Label 7550 3150 2    60   ~ 0
+	7500 3150 7850 3150
+Text Label 7850 3150 2    60   ~ 0
 PA7
+$Comp
+L Connectors:649002227222 J?
+U 1 1 5BC01BA2
+P 1200 6350
+F 0 "J?" H 1256 6687 60  0000 C CNN
+F 1 "649002227222" H 1256 6581 60  0000 C CNN
+F 2 "Connectors:649002227222" H 1200 5450 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1200 5350 60  0001 C CNN
+F 4 "Digikey" H 1200 5950 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 1200 5850 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1200 5750 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 1200 5650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1200 5550 60  0001 C CNN "Description"
+	1    1200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:649002227222 J?
+U 1 1 5BC04ECC
+P 1200 6850
+F 0 "J?" H 1256 7187 60  0000 C CNN
+F 1 "649002227222" H 1256 7081 60  0000 C CNN
+F 2 "Connectors:649002227222" H 1200 5950 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1200 5850 60  0001 C CNN
+F 4 "Digikey" H 1200 6450 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 1200 6350 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1200 6250 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 1200 6150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1200 6050 60  0001 C CNN "Description"
+	1    1200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:649002227222 J?
+U 1 1 5BC0813D
+P 1200 7400
+F 0 "J?" H 1256 7737 60  0000 C CNN
+F 1 "649002227222" H 1256 7631 60  0000 C CNN
+F 2 "Connectors:649002227222" H 1200 6500 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1200 6400 60  0001 C CNN
+F 4 "Digikey" H 1200 7000 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 1200 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1200 6800 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 1200 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1200 6600 60  0001 C CNN "Description"
+	1    1200 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6250 1800 6250
+Wire Wire Line
+	1400 6750 1800 6750
+Wire Wire Line
+	1400 7300 1800 7300
+Wire Wire Line
+	1400 6350 1800 6350
+Wire Wire Line
+	1400 6850 1800 6850
+Wire Wire Line
+	1400 7400 1800 7400
+Text Label 1800 6250 0    60   ~ 0
+HV_Low_Side+
+Text Label 1800 6350 0    60   ~ 0
+HV_Low_Side-
+Text Label 1800 6750 0    60   ~ 0
+HV_Mppt+
+Text Label 1800 6850 0    60   ~ 0
+HV_Mppt-
+Text Label 1800 7300 0    60   ~ 0
+HV_High_Side+
+Text Label 1800 7400 0    60   ~ 0
+HV_High_Side-
+Wire Notes Line
+	2600 5900 2600 7550
+Wire Notes Line
+	2600 7550 850  7550
+Wire Notes Line
+	850  7550 850  5900
+Wire Notes Line
+	850  5900 2600 5900
+Text Notes 750  5850 0    120  ~ 24
+High Voltage Connector
+Wire Wire Line
+	5150 3550 5850 3550
+Text Label 5150 3550 2    60   ~ 0
+12V_Mush
+Wire Wire Line
+	6700 6100 7000 6100
+Text Label 7000 6100 2    60   ~ 0
+PC7
+Wire Wire Line
+	5850 3700 5150 3700
+Wire Wire Line
+	5850 3800 5150 3800
+Wire Wire Line
+	5850 3950 5150 3950
+Wire Wire Line
+	5850 4050 5150 4050
+Text Label 5150 3700 2    60   ~ 0
+HV_Mppt+
+Text Label 5150 3800 2    60   ~ 0
+HV_Mppt-
+Text Label 5150 3950 2    60   ~ 0
+HV_High_Side+
+Text Label 5150 4050 2    60   ~ 0
+HV_High_Side-
+Wire Wire Line
+	5850 3150 5400 3150
+Wire Wire Line
+	5850 2900 5400 2900
+Wire Wire Line
+	5850 2650 5400 2650
+Text Label 5400 2900 2    60   ~ 0
+HV_High_Side-
+Text Label 5400 3150 2    60   ~ 0
+HV_Low_Side+
+Text Label 5400 2650 2    60   ~ 0
+HV_Mppt-
 $EndSCHEMATC

@@ -14,44 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connectors:649002227222 J903
-U 1 1 59455561
-P 1900 3950
-F 0 "J903" H 1900 4150 60  0000 C CNN
-F 1 "649002227222" H 1900 3800 60  0000 C CNN
-F 2 "Connectors:649002227222" H 1900 3050 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1900 2950 60  0001 C CNN
-F 4 "Digikey" H 1900 3550 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 1900 3450 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 1900 3350 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 1900 3250 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1900 3150 60  0001 C CNN "Description"
-	1    1900 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connectors:649002227222 J904
-U 1 1 594555CF
-P 1900 5550
-F 0 "J904" H 1900 5750 60  0000 C CNN
-F 1 "649002227222" H 1900 5400 60  0000 C CNN
-F 2 "Connectors:649002227222" H 1900 4650 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1900 4550 60  0001 C CNN
-F 4 "Digikey" H 1900 5150 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 1900 5050 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 1900 4950 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 1900 4850 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1900 4750 60  0001 C CNN "Description"
-	1    1900 5550
-	1    0    0    -1  
-$EndComp
 Text Label 2650 3900 0    60   ~ 0
 BP-HV+
-Text Label 2250 5550 0    60   ~ 0
-BP-HV-
-NoConn ~ 2100 3950
-NoConn ~ 2100 5450
 $Comp
 L Power_Port:DGND #PWR01108
 U 1 1 5949C56B
@@ -295,44 +259,8 @@ F 3 "" H 5430 3860 60  0000 C CNN
 $EndComp
 Text HLabel 8150 3050 2    60   Input ~ 0
 VSENSE_EN
-$Comp
-L Connectors:649002227222 J901
-U 1 1 594A896F
-P 1900 800
-F 0 "J901" H 1900 1000 60  0000 C CNN
-F 1 "649002227222" H 1900 650 60  0000 C CNN
-F 2 "Connectors:649002227222" H 1900 -100 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1900 -200 60  0001 C CNN
-F 4 "Digikey" H 1900 400 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 1900 300 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 1900 200 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 1900 100 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1900 0   60  0001 C CNN "Description"
-	1    1900 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connectors:649002227222 J902
-U 1 1 594A897A
-P 1900 2400
-F 0 "J902" H 1900 2600 60  0000 C CNN
-F 1 "649002227222" H 1900 2250 60  0000 C CNN
-F 2 "Connectors:649002227222" H 1900 1500 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1900 1400 60  0001 C CNN
-F 4 "Digikey" H 1900 2000 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 1900 1900 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 1900 1800 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 1900 1700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1900 1600 60  0001 C CNN "Description"
-	1    1900 2400
-	1    0    0    -1  
-$EndComp
 Text Label 2650 800  0    60   ~ 0
 MPPT-HV+
-Text Label 2150 2400 0    60   ~ 0
-MPPT-HV-
-NoConn ~ 2100 800 
-NoConn ~ 2100 2300
 $Comp
 L Power_Port:DGND #PWR01106
 U 1 1 594A8995
@@ -586,8 +514,6 @@ F 11 "1/8W" H 7750 2910 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 5550 2100 5550
-Wire Wire Line
 	5400 4950 5500 4950
 Wire Wire Line
 	5500 4950 5500 5150
@@ -630,7 +556,6 @@ Connection ~ 3500 4500
 Wire Wire Line
 	2650 5000 2650 5050
 Connection ~ 3500 5050
-Connection ~ 2650 5050
 Connection ~ 2650 4500
 Wire Wire Line
 	2650 3850 2650 4000
@@ -669,8 +594,6 @@ Wire Wire Line
 	7750 3950 7800 3950
 Wire Wire Line
 	5400 3250 5600 3250
-Wire Wire Line
-	2650 2400 2100 2400
 Wire Wire Line
 	5400 1800 5500 1800
 Wire Wire Line
@@ -714,7 +637,6 @@ Connection ~ 3500 1350
 Wire Wire Line
 	2650 1850 2650 1900
 Connection ~ 3500 1900
-Connection ~ 2650 1900
 Connection ~ 2650 1350
 Wire Wire Line
 	2650 700  2650 850 
@@ -789,7 +711,7 @@ F 3 "" H 6930 3710 60  0000 C CNN
 	1    6950 3800
 	1    0    0    -1  
 $EndComp
-Text Notes 1750 3200 0    120  ~ 24
+Text Notes 2200 2850 0    120  ~ 24
 Isolated
 $Comp
 L Capacitors:SD0805S020S1R0 D903
@@ -1257,8 +1179,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 5050 4300 5050
 Wire Wire Line
-	2650 5050 2650 5550
-Wire Wire Line
 	2650 4500 2650 4600
 Wire Wire Line
 	4300 4650 4400 4650
@@ -1278,8 +1198,6 @@ Wire Wire Line
 	3500 1350 2650 1350
 Wire Wire Line
 	3500 1900 4300 1900
-Wire Wire Line
-	2650 1900 2650 2400
 Wire Wire Line
 	2650 1350 2650 1450
 Wire Wire Line
@@ -1421,33 +1339,12 @@ F 3 "" H 5480 7110 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5500 7100 5500 6900
-$Comp
-L Connectors:649002227222 J?
-U 1 1 5BC9ED44
-P 3250 6450
-F 0 "J?" H 3250 6650 60  0000 C CNN
-F 1 "649002227222" H 3250 6300 60  0000 C CNN
-F 2 "Connectors:649002227222" H 3250 5550 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 3250 5450 60  0001 C CNN
-F 4 "Digikey" H 3250 6050 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 3250 5950 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 3250 5850 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 3250 5750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 3250 5650 60  0001 C CNN "Description"
-	1    3250 6450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 5450 3800 5600
-Wire Wire Line
-	3450 6450 3800 6450
 Wire Wire Line
 	3800 6000 3800 6100
 Wire Wire Line
 	4500 6100 3800 6100
-Connection ~ 3800 6100
-Wire Wire Line
-	3800 6100 3800 6450
 Wire Wire Line
 	4500 6250 4400 6250
 Wire Wire Line
@@ -1546,4 +1443,13 @@ F 11 "1/8W" H 3800 5660 50  0001 C CNN "Puissance (Watts)"
 	1    3800 5800
 	0    1    1    0   
 $EndComp
+Text HLabel 2100 700  0    60   Input ~ 0
+HV_MPPT+
+Text HLabel 2100 3850 0    60   Input ~ 0
+HV_HIGHSIDE-
+Connection ~ 3800 6100
+Text HLabel 2200 6100 0    60   Output ~ 0
+HV_LOWSIDE+
+Wire Wire Line
+	2200 6100 3800 6100
 $EndSCHEMATC

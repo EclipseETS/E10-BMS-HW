@@ -115,7 +115,7 @@ F 3 "" H 6800 2550 60  0000 C CNN
 $EndComp
 Text HLabel 4000 2900 0    60   BiDi ~ 0
 VBat
-Text HLabel 4200 3600 0    60   Output ~ 0
+Text HLabel 3700 3600 0    60   Output ~ 0
 PC0
 Text Label 4000 3500 0    60   ~ 0
 NRST
@@ -161,9 +161,9 @@ Text Label 1700 4900 0    60   ~ 0
 NRST
 Text Notes 1000 3900 0    100  ~ 0
 RESET
-Text HLabel 4200 3700 0    60   Output ~ 0
+Text HLabel 3700 3700 0    60   Output ~ 0
 PC1
-Text HLabel 4200 3800 0    60   Output ~ 0
+Text HLabel 3700 3800 0    60   Output ~ 0
 PC2
 Text HLabel 4200 3900 0    60   BiDi ~ 0
 PC3
@@ -177,11 +177,11 @@ Text HLabel 5800 4900 3    60   Output ~ 0
 PB2
 Text HLabel 5900 4900 3    60   Output ~ 0
 PB10
-Text HLabel 7600 4200 2    60   Output ~ 0
+Text HLabel 6750 4200 2    60   BiDi ~ 0
 PB14
-Text HLabel 7600 4100 2    60   Output ~ 0
+Text HLabel 6750 4100 2    60   BiDi ~ 0
 PB15
-Text HLabel 7600 4000 2    60   Output ~ 0
+Text HLabel 6750 4000 2    60   BiDi ~ 0
 PC6
 Text HLabel 6750 3900 2    60   BiDi ~ 0
 PC7
@@ -213,7 +213,7 @@ Text HLabel 5300 2400 1    60   BiDi ~ 0
 PB6
 Text HLabel 5200 2400 1    60   BiDi ~ 0
 PB7
-Text HLabel 5100 2400 1    60   BiDi ~ 0
+Text HLabel 5100 1300 1    60   BiDi ~ 0
 BOOT0
 Text HLabel 5000 2400 1    60   Output ~ 0
 PB8
@@ -687,8 +687,6 @@ F 11 "1/8W" H 8550 3460 50  0001 C CNN "Puissance (Watts)"
 	1    8550 3600
 	0    -1   -1   0   
 $EndComp
-Text Label 7050 4000 0    60   ~ 0
-LED_BLINK
 Text Label 8550 2550 3    60   ~ 0
 LED_BLINK
 $Comp
@@ -734,8 +732,6 @@ F 3 "" H 9230 3860 60  0000 C CNN
 	1    9250 3950
 	1    0    0    -1  
 $EndComp
-Text Label 7050 4200 0    60   ~ 0
-LED_ERROR
 $Comp
 L Resistors:RC0805JR-07470RL R213
 U 1 1 58F90B78
@@ -766,8 +762,6 @@ F 3 "" H 9930 3860 60  0000 C CNN
 	1    9950 3950
 	1    0    0    -1  
 $EndComp
-Text Label 7050 4100 0    60   ~ 0
-LED_DEBUG
 Text Notes 8200 2450 0    60   ~ 0
 LED : BLINK, DEBUG, ASSERT
 $Comp
@@ -1084,7 +1078,7 @@ Text HLabel 5500 4900 3    60   Output ~ 0
 PC5
 Text HLabel 5600 4900 3    60   BiDi ~ 0
 PB0
-Text HLabel 4000 3500 0    60   Input ~ 0
+Text HLabel 3700 3500 0    60   Input ~ 0
 NRST
 $Comp
 L Capacitors:885012007053 C205
@@ -1385,7 +1379,7 @@ Wire Wire Line
 	1600 5000 1600 4900
 Connection ~ 1600 4900
 Wire Wire Line
-	4300 3500 4000 3500
+	4300 3500 3700 3500
 Wire Wire Line
 	1500 4900 1600 4900
 Wire Notes Line
@@ -1401,13 +1395,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3000 4300 3000
 Wire Wire Line
-	4300 3600 4200 3600
-Wire Wire Line
-	4200 3700 4300 3700
-Wire Wire Line
 	4300 3900 4200 3900
-Wire Wire Line
-	4200 3800 4300 3800
 Wire Wire Line
 	4200 4200 4300 4200
 Wire Wire Line
@@ -1421,11 +1409,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 4300 7600 4300
 Wire Wire Line
-	6600 4200 7600 4200
+	6600 4200 6750 4200
 Wire Wire Line
-	6600 4100 7600 4100
+	6600 4100 6750 4100
 Wire Wire Line
-	6600 4000 7600 4000
+	6600 4000 6750 4000
 Wire Wire Line
 	6600 3900 6750 3900
 Wire Wire Line
@@ -1466,8 +1454,6 @@ Wire Wire Line
 	5300 2500 5300 2400
 Wire Wire Line
 	5200 2400 5200 2500
-Wire Wire Line
-	5100 2500 5100 2400
 Wire Wire Line
 	5000 2400 5000 2500
 Wire Wire Line
@@ -1803,4 +1789,57 @@ Wire Wire Line
 	5150 6600 5250 6600
 Wire Wire Line
 	5400 1600 5400 2500
+Wire Wire Line
+	5100 1400 4850 1400
+$Comp
+L Power_Port:DGND #PWR?
+U 1 1 5BD344F6
+P 4200 1550
+F 0 "#PWR?" H 4200 1380 50  0001 C CNN
+F 1 "DGND" H 4200 1450 50  0000 C CNN
+F 2 "" H 4200 1650 60  0000 C CNN
+F 3 "" H 4180 1460 60  0000 C CNN
+	1    4200 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1400 5100 2500
+$Comp
+L Resistors:RC0805JR-0710KL R?
+U 1 1 5BD5F8F8
+P 4650 1400
+F 0 "R?" H 4650 1601 60  0000 C CNN
+F 1 "RC0805JR-0710KL" H 4650 1100 50  0001 C CNN
+F 2 "Resistors:R0805" H 4650 500 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4650 450 30  0001 C CNN
+F 4 "Digikey" H 4650 1000 60  0001 C CNN "Supplier"
+F 5 "311-10KARCT-ND" H 4650 900 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4650 800 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-0710KL" H 4650 700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 10K OHM 5% 1/8W 0805" H 4650 600 60  0001 C CNN "Description"
+F 9 "10k" H 4650 1503 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5060 1320 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 4650 1260 50  0001 C CNN "Puissance (Watts)"
+	1    4650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1400 4200 1400
+Wire Wire Line
+	4200 1400 4200 1450
+Wire Wire Line
+	5100 1400 5100 1300
+Connection ~ 5100 1400
+Text Label 3700 3800 0    60   ~ 0
+LED_BLINK
+Text Label 3700 3700 0    60   ~ 0
+LED_DEBUG
+Text Label 3700 3600 0    60   ~ 0
+LED_ERROR
+Wire Wire Line
+	3700 3600 4300 3600
+Wire Wire Line
+	3700 3700 4300 3700
+Wire Wire Line
+	3700 3800 4300 3800
 $EndSCHEMATC

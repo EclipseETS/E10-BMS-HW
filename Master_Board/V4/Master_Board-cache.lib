@@ -797,8 +797,8 @@ ENDDEF
 #
 # Filter:744230900
 #
-DEF ~Filter:744230900 FB 0 0 N N 1 F N
-F0 "FB" 0 150 60 H V C CNN
+DEF ~Filter:744230900 FL 0 0 N N 1 F N
+F0 "FL" 0 150 60 H V C CNN
 F1 "Filter:744230900" 0 -350 60 H I C CNN
 F2 "Filter:744230900" 0 -950 60 H I C CNN
 F3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" 0 -1050 60 H I C CNN
@@ -1035,15 +1035,15 @@ X -Vout 7 500 200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PMIC:OKI-78SR-5_1.5-W36-C
+# PMIC:OKI-78SR-5_1.5-W36H-C
 #
-DEF PMIC:OKI-78SR-5_1.5-W36-C U 0 0 Y N 1 F N
+DEF PMIC:OKI-78SR-5_1.5-W36H-C U 0 0 Y N 1 F N
 F0 "U" 0 150 60 H V C CNN
-F1 "PMIC:OKI-78SR-5_1.5-W36-C" 0 -400 60 H V C CNN
-F2 "Assembly:OKI-78SR_Vertical" 0 -2125 60 H I C CNN
+F1 "PMIC:OKI-78SR-5_1.5-W36H-C" 0 -400 60 H V C CNN
+F2 "Assembly:OKI-78SR_Horizontal" 0 -2125 60 H I C CNN
 F3 "http://power.murata.com/data/power/oki-78sr.pdf" 0 -2225 60 H I C CNN
 F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
-F5 "811-2196-5-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F5 "811-2692-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
 F6 "Murata Power Solutions Inc." 0 -1825 60 H I C CNN "Manufacturer"
 F7 "OKI-78SR-5/1.5-W36H-C" 0 -1925 60 H I C CNN "Manufacturer Part Number"
 F8 "DC/DC CONVERTER 5V 8W" 0 -2025 60 H I C CNN "Description"

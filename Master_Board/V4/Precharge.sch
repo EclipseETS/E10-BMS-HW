@@ -165,48 +165,14 @@ Wire Wire Line
 Connection ~ 5300 5100
 Wire Wire Line
 	5300 4600 5300 4550
-$Comp
-L Connectors:649002227222 J801
-U 1 1 59457BA5
-P 950 2500
-F 0 "J801" H 950 2700 60  0000 C CNN
-F 1 "649002227222" H 950 2350 60  0000 C CNN
-F 2 "Connectors:649002227222" H 950 1600 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 950 1500 60  0001 C CNN
-F 4 "Digikey" H 950 2100 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 950 2000 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 950 1900 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 950 1800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 950 1700 60  0001 C CNN "Description"
-	1    950  2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3500 2500 1150 2500
+	3500 2500 1500 2500
 Wire Wire Line
 	3500 2350 3250 2350
 Wire Wire Line
 	2850 2350 2600 2350
 Wire Wire Line
 	2200 2350 2000 2350
-$Comp
-L Connectors:649002227222 J802
-U 1 1 59458FAA
-P 950 5100
-F 0 "J802" H 950 5300 60  0000 C CNN
-F 1 "649002227222" H 950 4950 60  0000 C CNN
-F 2 "Connectors:649002227222" H 950 4200 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 950 4100 60  0001 C CNN
-F 4 "Digikey" H 950 4700 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 950 4600 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 950 4500 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 950 4400 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 950 4300 60  0001 C CNN "Description"
-	1    950  5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 5100 1150 5100
 Wire Wire Line
 	3450 4950 3200 4950
 Wire Wire Line
@@ -323,17 +289,7 @@ F 11 "1/8W" H 6150 5310 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 2350 1200 2350
-Wire Wire Line
-	1200 2350 1200 2400
-Wire Wire Line
-	1200 2400 1150 2400
-Wire Wire Line
-	1650 4950 1200 4950
-Wire Wire Line
-	1200 4950 1200 5000
-Wire Wire Line
-	1200 5000 1150 5000
+	1650 4950 1400 4950
 $Comp
 L Resistors:TR50JBC100R R802
 U 1 1 5963CF60
@@ -510,4 +466,16 @@ Wire Wire Line
 	4200 1500 4200 2350
 Wire Wire Line
 	4200 4100 4200 4950
+Text HLabel 1500 2350 0    60   Input ~ 0
+HV_PC_HIGHSIDE+
+Text HLabel 1500 2500 0    60   Output ~ 0
+HV_PC_HIGHSIDE-
+Wire Wire Line
+	1500 2350 1700 2350
+Text HLabel 1400 4950 0    60   Input ~ 0
+HV_PC_MPPT+
+Text HLabel 1400 5100 0    60   Output ~ 0
+HV_PC_MPPT-
+Wire Wire Line
+	1400 5100 3450 5100
 $EndSCHEMATC

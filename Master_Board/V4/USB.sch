@@ -132,21 +132,21 @@ Wire Wire Line
 $Comp
 L Fuses:39505000440 F?
 U 1 1 5BBBD237
-P 4400 2600
-F 0 "F?" H 4400 2831 60  0000 C CNN
-F 1 "39505000440" H 4400 2300 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 4400 1700 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 4400 1650 30  0001 C CNN
-F 4 "Digikey" H 4400 2200 60  0001 C CNN "Supplier"
-F 5 "WK4341BK-ND" H 4400 2100 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 4400 2000 60  0001 C CNN "Manufacturer"
-F 7 "39505000440" H 4400 1900 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE BOARD MNT 1A 125VAC RADIAL" H 4400 1800 60  0001 C CNN "Description"
-F 9 "500mA" H 4400 2733 50  0000 C CNN "Current Rating (A)"
-F 10 "-" H 4300 2400 50  0001 C CNN "Voltage Rating - DC"
-F 11 "125V" H 4500 2400 60  0001 C CNN "Voltage Rating - AC"
-F 12 "Fuse Holder" H 4400 1500 60  0001 C CNN "Fuse Holder"
-	1    4400 2600
+P 4500 2600
+F 0 "F?" H 4500 2831 60  0000 C CNN
+F 1 "39505000440" H 4500 2300 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 4500 1700 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 4500 1650 30  0001 C CNN
+F 4 "Digikey" H 4500 2200 60  0001 C CNN "Supplier"
+F 5 "WK4341BK-ND" H 4500 2100 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 4500 2000 60  0001 C CNN "Manufacturer"
+F 7 "39505000440" H 4500 1900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE BOARD MNT 1A 125VAC RADIAL" H 4500 1800 60  0001 C CNN "Description"
+F 9 "500mA" H 4500 2733 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 4400 2400 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 4600 2400 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 4500 1500 60  0001 C CNN "Fuse Holder"
+	1    4500 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -180,10 +180,6 @@ Connection ~ 5450 2650
 Wire Wire Line
 	5900 3350 5450 3350
 Connection ~ 5450 3350
-Wire Wire Line
-	4200 2600 4200 2800
-Wire Wire Line
-	4600 2600 5200 2600
 Wire Wire Line
 	5200 2600 6200 2600
 Connection ~ 5200 2600
@@ -247,10 +243,10 @@ F 11 "1/8W" H 7050 2760 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Filter:744230900 FB?
+L Filter:744230900 FL?
 U 1 1 5BBC3D6A
 P 6400 2950
-F 0 "FB?" H 6400 3144 60  0000 C CNN
+F 0 "FL?" H 6400 3144 60  0000 C CNN
 F 1 "744230900" H 6400 2600 60  0001 C CNN
 F 2 "Filter:744230900" H 6400 2000 60  0001 C CNN
 F 3 "http://katalog.we-online.de/pbs/datasheet/7447715330.pdf" H 6400 1900 60  0001 C CNN
@@ -280,4 +276,12 @@ Wire Wire Line
 	6700 3000 6700 3050
 Wire Wire Line
 	6700 3050 6650 3050
+Wire Wire Line
+	4700 2600 5200 2600
+Wire Wire Line
+	4200 2800 4250 2800
+Wire Wire Line
+	4250 2800 4250 2600
+Wire Wire Line
+	4250 2600 4300 2600
 $EndSCHEMATC

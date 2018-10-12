@@ -65,26 +65,6 @@ F 3 "" H 4900 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMIC:OKI-78SR-5_1.5-W36-C U301
-U 1 1 58F88E7E
-P 4200 3700
-F 0 "U301" H 4200 3850 50  0000 C CNN
-F 1 "OKI-78SR-5/1.5-W36-C" H 4200 2900 60  0001 C CNN
-F 2 "Assembly:OKI-78SR_Vertical" H 4200 1575 60  0001 C CNN
-F 3 "http://power.murata.com/data/power/oki-78sr.pdf" H 4200 1475 60  0001 C CNN
-F 4 "Digikey" H 4200 2075 60  0001 C CNN "Supplier"
-F 5 "811-2196-5-ND" H 4200 1975 60  0001 C CNN "Supplier Part Number"
-F 6 "Murata Power Solutions Inc." H 4200 1875 60  0001 C CNN "Manufacturer"
-F 7 "OKI-78SR-5/1.5-W36H-C" H 4200 1775 60  0001 C CNN "Manufacturer Part Number"
-F 8 "DC/DC CONVERTER 5V 8W" H 4200 1675 60  0001 C CNN "Description"
-F 9 "7V" H 4190 2785 50  0001 C CNN "Voltage - Input (Min)"
-F 10 "36V" H 4190 2705 50  0001 C CNN "Voltage - Input (Max)"
-F 11 "5V" H 4190 2615 50  0001 C CNN "Voltage - Output (Min/Fixed)"
-F 12 "1.5A" H 4205 2400 50  0001 C CNN "Current - Output"
-	1    4200 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Power_Port:DGND #PWR0304
 U 1 1 58F88F61
 P 4200 4400
@@ -709,4 +689,24 @@ Wire Wire Line
 	8300 3600 8500 3600
 Wire Wire Line
 	1600 3700 2100 3700
+$Comp
+L PMIC:OKI-78SR-5_1.5-W36H-C U?
+U 1 1 5BD0EA6F
+P 4200 3700
+F 0 "U?" H 4200 3987 60  0000 C CNN
+F 1 "OKI-78SR-5_1.5-W36H-C" H 4200 3881 60  0000 C CNN
+F 2 "Assembly:OKI-78SR_Horizontal" H 4200 1575 60  0001 C CNN
+F 3 "http://power.murata.com/data/power/oki-78sr.pdf" H 4200 1475 60  0001 C CNN
+F 4 "Digikey" H 4200 2075 60  0001 C CNN "Supplier"
+F 5 "811-2692-ND" H 4200 1975 60  0001 C CNN "Supplier Part Number"
+F 6 "Murata Power Solutions Inc." H 4200 1875 60  0001 C CNN "Manufacturer"
+F 7 "OKI-78SR-5/1.5-W36H-C" H 4200 1775 60  0001 C CNN "Manufacturer Part Number"
+F 8 "DC/DC CONVERTER 5V 8W" H 4200 1675 60  0001 C CNN "Description"
+F 9 "7V" H 4190 2785 50  0001 C CNN "Voltage - Input (Min)"
+F 10 "36V" H 4190 2705 50  0001 C CNN "Voltage - Input (Max)"
+F 11 "5V" H 4190 2615 50  0001 C CNN "Voltage - Output (Min/Fixed)"
+F 12 "1.5A" H 4205 2400 50  0001 C CNN "Current - Output"
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

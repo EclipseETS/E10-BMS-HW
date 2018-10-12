@@ -518,23 +518,6 @@ NoConn ~ 6050 3800
 NoConn ~ 6050 4200
 NoConn ~ 6050 5350
 NoConn ~ 6050 5750
-Connection ~ 7850 5350
-Wire Wire Line
-	7850 5800 8900 5800
-Wire Wire Line
-	7850 5350 7850 5800
-Connection ~ 8150 3800
-Wire Wire Line
-	8150 3800 8150 4200
-Wire Wire Line
-	8150 4200 8850 4200
-Connection ~ 8500 2600
-Text HLabel 8800 2600 2    60   Output ~ 0
-MainN_EN
-Text HLabel 8850 4200 2    60   Output ~ 0
-MainP_EN
-Text HLabel 8900 5800 2    60   Output ~ 0
-MPPT_EN
 Wire Wire Line
 	5350 5750 5350 5650
 $Comp
@@ -703,120 +686,113 @@ Wire Wire Line
 	6050 3900 5950 3900
 Wire Wire Line
 	5950 3900 5950 3700
-Text HLabel 1400 950  0    60   Input ~ 0
-12V_Contactor
 $Comp
 L Connectors:649002227222 J704
 U 1 1 5A88C78F
-P 1900 1050
-F 0 "J704" H 1900 1250 60  0000 C CNN
-F 1 "649002227222" H 1900 900 60  0000 C CNN
-F 2 "Connectors:649002227222" H 1900 150 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1900 50  60  0001 C CNN
-F 4 "Digikey" H 1900 650 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 1900 550 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 1900 450 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 1900 350 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1900 250 60  0001 C CNN "Description"
-	1    1900 1050
-	-1   0    0    -1  
+P 1000 2000
+F 0 "J704" H 1000 2300 60  0000 C CNN
+F 1 "649002227222" H 1000 2200 60  0000 C CNN
+F 2 "Connectors:649002227222" H 1000 1100 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1000 1000 60  0001 C CNN
+F 4 "Digikey" H 1000 1600 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 1000 1500 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1000 1400 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 1000 1300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1000 1200 60  0001 C CNN "Description"
+	1    1000 2000
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1400 950  1700 950 
 $Comp
 L Isolators:CPC1117NTR U701
 U 1 1 5A88CE19
-P 1900 2100
-F 0 "U701" H 1900 2350 60  0000 C CNN
-F 1 "CPC1117NTR" H 1900 1800 60  0000 C CNN
-F 2 "IC:4-SOP" H 1900 1200 60  0001 C CNN
-F 3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf" H 1900 1100 60  0001 C CNN
-F 4 "Digikey" H 1900 1700 60  0001 C CNN "Supplier"
-F 5 "CLA268CT-ND" H 1900 1600 60  0001 C CNN "Supplier Part Number"
-F 6 "IXYS Integrated Circuits Division" H 1900 1500 60  0001 C CNN "Manufacturer"
-F 7 "CPC1117NTR" H 1900 1400 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RELAY OPTOMOS 150MA 4-SOP NC" H 1900 1300 60  0001 C CNN "Description"
-	1    1900 2100
+P 2300 2500
+F 0 "U701" H 2300 2750 60  0000 C CNN
+F 1 "CPC1117NTR" H 2300 2200 60  0000 C CNN
+F 2 "IC:4-SOP" H 2300 1600 60  0001 C CNN
+F 3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf" H 2300 1500 60  0001 C CNN
+F 4 "Digikey" H 2300 2100 60  0001 C CNN "Supplier"
+F 5 "CLA268CT-ND" H 2300 2000 60  0001 C CNN "Supplier Part Number"
+F 6 "IXYS Integrated Circuits Division" H 2300 1900 60  0001 C CNN "Manufacturer"
+F 7 "CPC1117NTR" H 2300 1800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RELAY OPTOMOS 150MA 4-SOP NC" H 2300 1700 60  0001 C CNN "Description"
+	1    2300 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2000 1500 1500
-Wire Wire Line
-	1500 1050 1700 1050
-Connection ~ 1500 1500
-Text Label 2150 1500 2    60   ~ 0
+	1900 2400 1900 1900
+Text Label 2550 1900 2    60   ~ 0
 12V_Protected
 Wire Wire Line
-	1500 2150 1500 2450
+	1900 2550 1900 2850
 $Comp
 L Power_Port:DGND #PWR0701
 U 1 1 5A88D5BF
-P 1500 3150
-F 0 "#PWR0701" H 1500 2980 50  0001 C CNN
-F 1 "DGND" H 1500 3050 50  0000 C CNN
-F 2 "" H 1500 3250 60  0000 C CNN
-F 3 "" H 1480 3060 60  0000 C CNN
-	1    1500 3150
+P 1900 3550
+F 0 "#PWR0701" H 1900 3380 50  0001 C CNN
+F 1 "DGND" H 1900 3450 50  0000 C CNN
+F 2 "" H 1900 3650 60  0000 C CNN
+F 3 "" H 1880 3460 60  0000 C CNN
+	1    1900 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 2850 1500 3050
-Text HLabel 3050 2000 2    60   Output ~ 0
+	1900 3250 1900 3450
+Text HLabel 3450 2400 2    60   Output ~ 0
 Kill_Switch_State
 Wire Wire Line
 	6850 1400 6850 1300
 Text Label 7050 1300 0    60   ~ 0
 12V_Protected
 Wire Wire Line
-	2300 2000 2800 2000
+	2700 2400 3200 2400
 $Comp
 L Power_Port:DGND #PWR0702
 U 1 1 5A90F0FC
-P 2400 2500
-F 0 "#PWR0702" H 2400 2330 50  0001 C CNN
-F 1 "DGND" H 2400 2400 50  0000 C CNN
-F 2 "" H 2400 2600 60  0000 C CNN
-F 3 "" H 2380 2410 60  0000 C CNN
-	1    2400 2500
+P 2800 2900
+F 0 "#PWR0702" H 2800 2730 50  0001 C CNN
+F 1 "DGND" H 2800 2800 50  0000 C CNN
+F 2 "" H 2800 3000 60  0000 C CNN
+F 3 "" H 2780 2810 60  0000 C CNN
+	1    2800 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 2150 2400 2150
+	2700 2550 2800 2550
 Wire Wire Line
-	2400 2150 2400 2400
+	2800 2550 2800 2800
 $Comp
 L Resistors:RC0805JR-0710KL R713
 U 1 1 5A90F994
-P 2800 1650
-F 0 "R713" H 2800 1730 60  0000 C CNN
-F 1 "RC0805JR-0710KL" H 2800 1350 50  0001 C CNN
-F 2 "Resistors:R0805" H 2800 750 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2800 700 30  0001 C CNN
-F 4 "Digikey" H 2800 1250 60  0001 C CNN "Supplier"
-F 5 "311-10KARCT-ND" H 2800 1150 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 2800 1050 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-0710KL" H 2800 950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 10K OHM 5% 1/8W 0805" H 2800 850 60  0001 C CNN "Description"
-F 9 "10k" H 2800 1580 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 3210 1570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 2800 1510 50  0001 C CNN "Puissance (Watts)"
-	1    2800 1650
+P 3200 2050
+F 0 "R713" H 3200 2130 60  0000 C CNN
+F 1 "RC0805JR-0710KL" H 3200 1750 50  0001 C CNN
+F 2 "Resistors:R0805" H 3200 1150 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3200 1100 30  0001 C CNN
+F 4 "Digikey" H 3200 1650 60  0001 C CNN "Supplier"
+F 5 "311-10KARCT-ND" H 3200 1550 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 3200 1450 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-0710KL" H 3200 1350 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 10K OHM 5% 1/8W 0805" H 3200 1250 60  0001 C CNN "Description"
+F 9 "10k" H 3200 1980 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 3610 1970 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 3200 1910 50  0001 C CNN "Puissance (Watts)"
+	1    3200 2050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2800 1300 2800 1450
+	3200 1700 3200 1850
 Wire Wire Line
-	2800 1850 2800 2000
-Connection ~ 2800 2000
+	3200 2250 3200 2400
+Connection ~ 3200 2400
 $Comp
 L Power_Port:VDD #PWR0703
 U 1 1 5A91C8A8
-P 2800 1300
-F 0 "#PWR0703" H 2800 1150 50  0001 C CNN
-F 1 "VDD" H 2790 1440 50  0000 C CNN
-F 2 "" H 2800 1300 60  0000 C CNN
-F 3 "" H 2800 1150 60  0000 C CNN
-	1    2800 1300
+P 3200 1700
+F 0 "#PWR0703" H 3200 1550 50  0001 C CNN
+F 1 "VDD" H 3190 1840 50  0000 C CNN
+F 2 "" H 3200 1700 60  0000 C CNN
+F 3 "" H 3200 1550 60  0000 C CNN
+	1    3200 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -942,20 +918,20 @@ $EndComp
 $Comp
 L Resistors:RC0805JR-0715KL R712
 U 1 1 5AD16522
-P 1500 2650
-F 0 "R712" H 1500 2730 60  0000 C CNN
-F 1 "RC0805JR-0715KL" H 1500 2350 50  0001 C CNN
-F 2 "Resistors:R0805" H 1500 1750 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 1500 1700 30  0001 C CNN
-F 4 "Digikey" H 1500 2250 60  0001 C CNN "Supplier"
-F 5 "311-15KARCT-ND" H 1500 2150 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 1500 2050 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-0715KL" H 1500 1950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 15K OHM 5% 1/8W 0805" H 1500 1850 60  0001 C CNN "Description"
-F 9 "15k" H 1500 2580 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 1910 2570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 1500 2510 50  0001 C CNN "Puissance (Watts)"
-	1    1500 2650
+P 1900 3050
+F 0 "R712" H 1900 3130 60  0000 C CNN
+F 1 "RC0805JR-0715KL" H 1900 2750 50  0001 C CNN
+F 2 "Resistors:R0805" H 1900 2150 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 1900 2100 30  0001 C CNN
+F 4 "Digikey" H 1900 2650 60  0001 C CNN "Supplier"
+F 5 "311-15KARCT-ND" H 1900 2550 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 1900 2450 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-0715KL" H 1900 2350 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 15K OHM 5% 1/8W 0805" H 1900 2250 60  0001 C CNN "Description"
+F 9 "15k" H 1900 2980 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 2310 2970 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 1900 2910 50  0001 C CNN "Puissance (Watts)"
+	1    1900 3050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -977,27 +953,59 @@ Wire Wire Line
 Wire Wire Line
 	6850 3000 6850 3100
 Wire Wire Line
-	6850 3800 8150 3800
-Wire Wire Line
 	6850 4200 6850 4300
-Wire Wire Line
-	6850 5350 7850 5350
 Wire Wire Line
 	6850 5750 6850 5850
 Wire Wire Line
-	7850 5350 8750 5350
+	3200 2400 3450 2400
 Wire Wire Line
-	8150 3800 8750 3800
-Wire Wire Line
-	8500 2600 8800 2600
-Wire Wire Line
-	1500 1500 1500 1050
-Wire Wire Line
-	2800 2000 3050 2000
-Wire Wire Line
-	1500 1500 2150 1500
-Text HLabel 2150 1500 2    60   Output ~ 0
-12V_Mush
+	1900 1900 2550 1900
 Text Notes 1600 750  0    60   ~ 0
 Mush Connector
+Wire Wire Line
+	6850 3800 8750 3800
+Wire Wire Line
+	6850 5350 8750 5350
+$Comp
+L Power_Port:DGND #PWR?
+U 1 1 5BC4DCC5
+P 1250 2150
+F 0 "#PWR?" H 1250 1980 50  0001 C CNN
+F 1 "DGND" H 1250 2050 50  0000 C CNN
+F 2 "" H 1250 2250 60  0000 C CNN
+F 3 "" H 1230 2060 60  0000 C CNN
+	1    1250 2150
+	-1   0    0    -1  
+$EndComp
+Text HLabel 2550 1900 2    60   Output ~ 0
+12V_Mush
+Wire Wire Line
+	1250 2050 1250 2000
+Wire Wire Line
+	1250 2000 1200 2000
+$Comp
+L Fuses:39511000440 F?
+U 1 1 5BC655F0
+P 1650 1900
+F 0 "F?" H 1650 2131 60  0000 C CNN
+F 1 "39511000440" H 1650 1600 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 1650 1000 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1650 950 30  0001 C CNN
+F 4 "Digikey" H 1650 700 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 1650 600 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 1650 450 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 1650 300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 1650 150 60  0001 C CNN "Description"
+F 9 "1A" H 1650 2033 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 1550 1700 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 1750 1700 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 1650 800 60  0001 C CNN "Fuse Holder"
+	1    1650 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1900 1450 1900
+Wire Wire Line
+	1850 1900 1900 1900
+Connection ~ 1900 1900
 $EndSCHEMATC
