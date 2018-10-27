@@ -315,22 +315,6 @@ F 3 "" H 3680 1810 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystals:ABLS-8.000MHZ-D-T XTAL201
-U 1 1 58F3DBC0
-P 1500 2800
-F 0 "XTAL201" H 1500 3000 60  0000 C CNN
-F 1 "ABLS-8.000MHZ-D-T" H 1500 2600 30  0000 C CNN
-F 2 "Crystals:HC49_US" H 1500 1900 60  0001 C CNN
-F 3 "http://www.abracon.com/Resonators/abls.pdf" H 1500 1800 60  0001 C CNN
-F 4 "Digikey" H 1500 2400 60  0001 C CNN "Supplier"
-F 5 "535-13445-2-ND" H 1500 2300 60  0001 C CNN "Supplier Part Number"
-F 6 "Abracon LLC" H 1500 2200 60  0001 C CNN "Manufacturer"
-F 7 "ABLS-8.000MHZ-D-T" H 1500 2100 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CRYSTAL 8.0000MHZ 18PF SMD" H 1500 2000 60  0001 C CNN "Description"
-	1    1500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Power_Port:DGND #PWR0201
 U 1 1 58F3DD84
 P 700 3000
@@ -1683,8 +1667,6 @@ Wire Wire Line
 Wire Wire Line
 	5150 7000 5150 7100
 Wire Wire Line
-	3950 6600 4650 6600
-Wire Wire Line
 	3950 7500 4650 7500
 Wire Notes Line
 	3250 6300 3250 7800
@@ -1718,10 +1700,6 @@ F 8 "TEST POINT PC MINI .040\"D BLACK" H 7800 2800 60  0001 C CNN "Description"
 	1    7800 3600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7600 3600 7550 3600
-Wire Wire Line
-	7550 3600 7550 3650
 $Comp
 L Power_Port:DGND #PWR0221
 U 1 1 59A40ED8
@@ -1792,10 +1770,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 1400 4850 1400
 $Comp
-L Power_Port:DGND #PWR?
+L Power_Port:DGND #PWR0104
 U 1 1 5BD344F6
 P 4200 1550
-F 0 "#PWR?" H 4200 1380 50  0001 C CNN
+F 0 "#PWR0104" H 4200 1380 50  0001 C CNN
 F 1 "DGND" H 4200 1450 50  0000 C CNN
 F 2 "" H 4200 1650 60  0000 C CNN
 F 3 "" H 4180 1460 60  0000 C CNN
@@ -1805,10 +1783,10 @@ $EndComp
 Wire Wire Line
 	5100 1400 5100 2500
 $Comp
-L Resistors:RC0805JR-0710KL R?
+L Resistors:RC0805JR-0710KL R214
 U 1 1 5BD5F8F8
 P 4650 1400
-F 0 "R?" H 4650 1601 60  0000 C CNN
+F 0 "R214" H 4650 1601 60  0000 C CNN
 F 1 "RC0805JR-0710KL" H 4650 1100 50  0001 C CNN
 F 2 "Resistors:R0805" H 4650 500 30  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4650 450 30  0001 C CNN
@@ -1842,4 +1820,26 @@ Wire Wire Line
 	3700 3700 4300 3700
 Wire Wire Line
 	3700 3800 4300 3800
+$Comp
+L Crystals:7A-8.000MAHJ-T XTAL201
+U 1 1 5BD212B3
+P 1500 2800
+F 0 "XTAL201" H 1500 3000 60  0000 C CNN
+F 1 "7A-8.000MAHJ-T" H 1500 2650 39  0000 C CNN
+F 2 "Crystals:TXC_7A_Series" H 1500 2000 60  0001 C CNN
+F 3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7A_28.pdf" H 1500 2000 60  0001 C CNN
+F 4 "Digikey" H 1500 2500 60  0001 C CNN "Supplier"
+F 5 "887-2634-1-ND" H 1500 2400 60  0001 C CNN "Supplier Part Number"
+F 6 "TXC CORPORATION" H 1500 2300 60  0001 C CNN "Manufacturer"
+F 7 "ABLS-8.000MHZ-D-T" H 1500 2200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CRYSTAL 8.000MHZ 18PF SMT" H 1500 2100 60  0001 C CNN "Description"
+	1    1500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6600 4650 6600
+Wire Wire Line
+	7600 3600 7550 3600
+Wire Wire Line
+	7550 3600 7550 3650
 $EndSCHEMATC

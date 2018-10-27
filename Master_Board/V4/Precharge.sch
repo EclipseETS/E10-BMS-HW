@@ -64,24 +64,6 @@ F 11 "1/8W" H 5300 1610 50  0001 C CNN "Puissance (Watts)"
 	1    5300 1750
 	0    -1   1    0   
 $EndComp
-$Comp
-L Diodes:150080VS75000 D805
-U 1 1 59456548
-P 5300 2200
-F 0 "D805" V 5200 1800 60  0000 L CNN
-F 1 "150080VS75000" V 5200 1700 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 5310 1120 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 5310 1020 60  0001 C CNN
-F 4 "Digikey" H 5310 1620 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 5310 1520 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 5310 1420 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 5310 1320 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 5310 1220 60  0001 C CNN "Description"
-F 9 "GREEN" V 5300 1750 60  0000 L CNN "Color"
-F 10 "2V" H 5300 1800 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    5300 2200
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4000 2500 4500 2500
 Wire Wire Line
@@ -142,24 +124,6 @@ Wire Wire Line
 Connection ~ 4500 4100
 Wire Wire Line
 	5300 4100 5300 4150
-$Comp
-L Diodes:150080VS75000 D806
-U 1 1 59456C86
-P 5300 4800
-F 0 "D806" V 5200 4400 60  0000 L CNN
-F 1 "150080VS75000" V 5200 4300 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 5310 3720 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 5310 3620 60  0001 C CNN
-F 4 "Digikey" H 5310 4220 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 5310 4120 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 5310 4020 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 5310 3920 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 5310 3820 60  0001 C CNN "Description"
-F 9 "GREEN" V 5300 4350 60  0000 L CNN "Color"
-F 10 "2V" H 5300 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    5300 4800
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	5300 4900 5300 5100
 Connection ~ 5300 5100
@@ -168,15 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 2500 1500 2500
 Wire Wire Line
-	3500 2350 3250 2350
-Wire Wire Line
-	2850 2350 2600 2350
-Wire Wire Line
 	2200 2350 2000 2350
-Wire Wire Line
-	3450 4950 3200 4950
-Wire Wire Line
-	2800 4950 2550 4950
 Wire Wire Line
 	2150 4950 1950 4950
 Text Notes 1700 3550 0    120  ~ 0
@@ -392,44 +348,6 @@ F 8 "RELAY GEN PURPOSE SPST 10A 12V" H 3700 4100 60  0001 C CNN "Description"
 	1    3700 4900
 	-1   0    0    1   
 $EndComp
-$Comp
-L Fuses:80812000440 F802
-U 1 1 5959C75E
-P 3050 2350
-F 0 "F802" H 3050 2460 60  0000 C CNN
-F 1 "80812000440" H 3050 2050 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 3050 1450 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf" H 3050 1400 30  0001 C CNN
-F 4 "Digikey" H 3050 1950 60  0001 C CNN "Supplier"
-F 5 "WK6289-ND" H 3050 1850 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 3050 1750 60  0001 C CNN "Manufacturer"
-F 7 "80812000440" H 3050 1650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE BOARD MNT 2A 250VAC 450VDC" H 3050 1550 60  0001 C CNN "Description"
-F 9 "2A" H 3050 2250 50  0000 C CNN "Current Rating (A)"
-F 10 "450V" H 2850 2150 50  0001 C CNN "Voltage Rating - DC"
-F 11 "250V" H 3250 2150 60  0001 C CNN "Voltage Rating - AC"
-	1    3050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Fuses:80812000440 F801
-U 1 1 5959C838
-P 3000 4950
-F 0 "F801" H 3000 5060 60  0000 C CNN
-F 1 "80812000440" H 3000 4650 50  0001 C CNN
-F 2 "Fuses:TE5_395" H 3000 4050 30  0001 C CNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_808_datasheet.pdf.pdf" H 3000 4000 30  0001 C CNN
-F 4 "Digikey" H 3000 4550 60  0001 C CNN "Supplier"
-F 5 "WK6289-ND" H 3000 4450 60  0001 C CNN "Supplier Part Number"
-F 6 "Littelfuse Inc." H 3000 4350 60  0001 C CNN "Manufacturer"
-F 7 "80812000440" H 3000 4250 60  0001 C CNN "Manufacturer Part Number"
-F 8 "FUSE BOARD MNT 2A 250VAC 450VDC" H 3000 4150 60  0001 C CNN "Description"
-F 9 "2A" H 3000 4850 50  0000 C CNN "Current Rating (A)"
-F 10 "450V" H 2800 4750 50  0001 C CNN "Voltage Rating - DC"
-F 11 "250V" H 3200 4750 60  0001 C CNN "Voltage Rating - AC"
-	1    3000 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 2350 4000 2350
 Wire Wire Line
@@ -478,4 +396,48 @@ Text HLabel 1400 5100 0    60   Output ~ 0
 HV_PC_MPPT-
 Wire Wire Line
 	1400 5100 3450 5100
+Wire Wire Line
+	2600 2350 3500 2350
+Wire Wire Line
+	2550 4950 3450 4950
+$Comp
+L Diodes:150080BS75000 D?
+U 1 1 5BE16FE7
+P 5300 2200
+AR Path="/58F590C0/5BE16FE7" Ref="D?"  Part="1" 
+AR Path="/59829650/5BE16FE7" Ref="D701"  Part="1" 
+F 0 "D701" V 5197 2283 60  0000 L CNN
+F 1 "150080BS75000" V 5303 2283 60  0000 L CNN
+F 2 "Diodes:LED_0805_BLUE" H 5310 1120 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 5310 1020 60  0001 C CNN
+F 4 "Digikey" H 5310 1620 60  0001 C CNN "Supplier"
+F 5 "732-4982-1-ND" H 5310 1520 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 5310 1420 60  0001 C CNN "Manufacturer"
+F 7 "150080BS75000" H 5310 1320 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED BLUE CLEAR 0805 SMD" H 5310 1220 60  0001 C CNN "Description"
+F 9 "BLUE" H 5300 1900 60  0001 C CNN "Color"
+F 10 "3.2V" H 5300 1800 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    5300 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:150080BS75000 D?
+U 1 1 5BE1780D
+P 5300 4800
+AR Path="/58F590C0/5BE1780D" Ref="D?"  Part="1" 
+AR Path="/59829650/5BE1780D" Ref="D702"  Part="1" 
+F 0 "D702" V 5197 4883 60  0000 L CNN
+F 1 "150080BS75000" V 5303 4883 60  0000 L CNN
+F 2 "Diodes:LED_0805_BLUE" H 5310 3720 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 5310 3620 60  0001 C CNN
+F 4 "Digikey" H 5310 4220 60  0001 C CNN "Supplier"
+F 5 "732-4982-1-ND" H 5310 4120 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 5310 4020 60  0001 C CNN "Manufacturer"
+F 7 "150080BS75000" H 5310 3920 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED BLUE CLEAR 0805 SMD" H 5310 3820 60  0001 C CNN "Description"
+F 9 "BLUE" H 5300 4500 60  0001 C CNN "Color"
+F 10 "3.2V" H 5300 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    5300 4800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

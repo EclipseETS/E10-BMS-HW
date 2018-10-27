@@ -650,4 +650,52 @@ Wire Wire Line
 	1800 6400 1800 6350
 Wire Wire Line
 	7750 5000 9000 5000
+$Comp
+L Mechanicals:Mounting-Hole-M3 H104
+U 1 1 5BD5CAFE
+P 4950 7250
+F 0 "H104" H 4950 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 5128 7141 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4950 6700 60  0001 C CNN
+F 3 "" H 4950 7050 60  0001 C CNN
+	1    4950 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H103
+U 1 1 5BD5CD8E
+P 4600 7250
+F 0 "H103" H 4600 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 4778 7141 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4600 6700 60  0001 C CNN
+F 3 "" H 4600 7050 60  0001 C CNN
+	1    4600 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H102
+U 1 1 5BD5CDD1
+P 4250 7250
+F 0 "H102" H 4250 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 4428 7141 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4250 6700 60  0001 C CNN
+F 3 "" H 4250 7050 60  0001 C CNN
+	1    4250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H101
+U 1 1 5BD5CE2D
+P 3900 7250
+F 0 "H101" H 3900 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 3400 6900 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 3900 6700 60  0001 C CNN
+F 3 "" H 3900 7050 60  0001 C CNN
+	1    3900 7250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3900 7500
+NoConn ~ 4250 7500
+NoConn ~ 4600 7500
+NoConn ~ 4950 7500
 $EndSCHEMATC

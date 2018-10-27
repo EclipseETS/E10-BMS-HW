@@ -265,24 +265,6 @@ Wire Wire Line
 	3900 4300 3900 4200
 Connection ~ 3900 4200
 $Comp
-L Diodes:150080VS75000 D302
-U 1 1 58F8E86A
-P 5000 4800
-F 0 "D302" V 4900 5000 60  0000 C CNN
-F 1 "150080VS75000" H 5000 4600 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 5010 3720 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 5010 3620 60  0001 C CNN
-F 4 "Digikey" H 5010 4220 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 5010 4120 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 5010 4020 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 5010 3920 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 5010 3820 60  0001 C CNN "Description"
-F 9 "GREEN" V 5000 5025 60  0000 C CNN "Color"
-F 10 "2V" H 5000 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    5000 4800
-	0    -1   1    0   
-$EndComp
-$Comp
 L Power_Port:DGND #PWR0306
 U 1 1 58F8E9CC
 P 5000 5100
@@ -320,24 +302,6 @@ F 11 "1/8W" H 7500 4160 50  0001 C CNN "Puissance (Watts)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diodes:150080VS75000 D303
-U 1 1 58F8EC30
-P 7500 4800
-F 0 "D303" V 7400 5000 60  0000 C CNN
-F 1 "150080VS75000" H 7500 4600 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 7510 3720 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 7510 3620 60  0001 C CNN
-F 4 "Digikey" H 7510 4220 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 7510 4120 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 7510 4020 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 7510 3920 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 7510 3820 60  0001 C CNN "Description"
-F 9 "GREEN" V 7500 5025 60  0000 C CNN "Color"
-F 10 "2V" H 7500 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    7500 4800
-	0    -1   1    0   
-$EndComp
-$Comp
 L Power_Port:DGND #PWR0311
 U 1 1 58F8EC42
 P 7500 5100
@@ -355,24 +319,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 3600 7500 4100
 Connection ~ 7500 3600
-$Comp
-L Diodes:150080VS75000 D301
-U 1 1 58F8E204
-P 3200 4800
-F 0 "D301" V 3100 5000 60  0000 C CNN
-F 1 "150080VS75000" H 3200 4600 60  0001 C CNN
-F 2 "Diodes:LED_0805_GREEN" H 3210 3720 60  0001 C CNN
-F 3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" H 3210 3620 60  0001 C CNN
-F 4 "Digikey" H 3210 4220 60  0001 C CNN "Supplier"
-F 5 "732-4986-1-ND" H 3210 4120 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 3210 4020 60  0001 C CNN "Manufacturer"
-F 7 "150080VS75000" H 3210 3920 60  0001 C CNN "Manufacturer Part Number"
-F 8 "LED GREEN CLEAR 0805 SMD" H 3210 3820 60  0001 C CNN "Description"
-F 9 "GREEN" V 3200 5025 60  0000 C CNN "Color"
-F 10 "2V" H 3200 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
-	1    3200 4800
-	0    -1   1    0   
-$EndComp
 $Comp
 L Power_Port:DGND #PWR0303
 U 1 1 58F8E20A
@@ -690,10 +636,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 3700 2100 3700
 $Comp
-L PMIC:OKI-78SR-5_1.5-W36H-C U?
+L PMIC:OKI-78SR-5_1.5-W36H-C U301
 U 1 1 5BD0EA6F
 P 4200 3700
-F 0 "U?" H 4200 3987 60  0000 C CNN
+F 0 "U301" H 4200 3987 60  0000 C CNN
 F 1 "OKI-78SR-5_1.5-W36H-C" H 4200 3881 60  0000 C CNN
 F 2 "Assembly:OKI-78SR_Horizontal" H 4200 1575 60  0001 C CNN
 F 3 "http://power.murata.com/data/power/oki-78sr.pdf" H 4200 1475 60  0001 C CNN
@@ -708,5 +654,59 @@ F 11 "5V" H 4190 2615 50  0001 C CNN "Voltage - Output (Min/Fixed)"
 F 12 "1.5A" H 4205 2400 50  0001 C CNN "Current - Output"
 	1    4200 3700
 	1    0    0    -1  
+$EndComp
+$Comp
+L Diodes:150080BS75000 D301
+U 1 1 5BDFDA3F
+P 3200 4800
+F 0 "D301" V 3097 4883 60  0000 L CNN
+F 1 "150080BS75000" V 3203 4883 60  0000 L CNN
+F 2 "Diodes:LED_0805_BLUE" H 3210 3720 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 3210 3620 60  0001 C CNN
+F 4 "Digikey" H 3210 4220 60  0001 C CNN "Supplier"
+F 5 "732-4982-1-ND" H 3210 4120 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 3210 4020 60  0001 C CNN "Manufacturer"
+F 7 "150080BS75000" H 3210 3920 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED BLUE CLEAR 0805 SMD" H 3210 3820 60  0001 C CNN "Description"
+F 9 "BLUE" H 3200 4500 60  0001 C CNN "Color"
+F 10 "3.2V" H 3200 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    3200 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:150080BS75000 D302
+U 1 1 5BDFDBAF
+P 5000 4800
+F 0 "D302" V 4897 4883 60  0000 L CNN
+F 1 "150080BS75000" V 5003 4883 60  0000 L CNN
+F 2 "Diodes:LED_0805_BLUE" H 5010 3720 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 5010 3620 60  0001 C CNN
+F 4 "Digikey" H 5010 4220 60  0001 C CNN "Supplier"
+F 5 "732-4982-1-ND" H 5010 4120 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 5010 4020 60  0001 C CNN "Manufacturer"
+F 7 "150080BS75000" H 5010 3920 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED BLUE CLEAR 0805 SMD" H 5010 3820 60  0001 C CNN "Description"
+F 9 "BLUE" H 5000 4500 60  0001 C CNN "Color"
+F 10 "3.2V" H 5000 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    5000 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:150080BS75000 D303
+U 1 1 5BDFDCEA
+P 7500 4800
+F 0 "D303" V 7397 4883 60  0000 L CNN
+F 1 "150080BS75000" V 7503 4883 60  0000 L CNN
+F 2 "Diodes:LED_0805_BLUE" H 7510 3720 60  0001 C CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150080BS75000.pdf" H 7510 3620 60  0001 C CNN
+F 4 "Digikey" H 7510 4220 60  0001 C CNN "Supplier"
+F 5 "732-4982-1-ND" H 7510 4120 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 7510 4020 60  0001 C CNN "Manufacturer"
+F 7 "150080BS75000" H 7510 3920 60  0001 C CNN "Manufacturer Part Number"
+F 8 "LED BLUE CLEAR 0805 SMD" H 7510 3820 60  0001 C CNN "Description"
+F 9 "BLUE" H 7500 4500 60  0001 C CNN "Color"
+F 10 "3.2V" H 7500 4400 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
+	1    7500 4800
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
