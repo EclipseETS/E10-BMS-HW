@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 50)
-    (tracks 1390)
+    (drawings 51)
+    (tracks 1389)
     (zones 0)
     (modules 216)
     (nets 176)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.2032)
     (user_trace_width 0.127)
     (user_trace_width 0.18)
     (user_trace_width 0.2032)
@@ -6466,6 +6466,9 @@
     )
   )
 
+  (gr_text "MASTER V1 E10.1\nPIERRE-OLIVIER MEILLEUR\n2018" (at 185.547 120.978184) (layer F.SilkS)
+    (effects (font (size 0.9 0.9) (thickness 0.2032)) (justify right))
+  )
   (gr_text "PC MPPT" (at 123.317 78.433184) (layer F.SilkS) (tstamp 5BD78B41)
     (effects (font (size 0.9 0.9) (thickness 0.2032)))
   )
@@ -6621,7 +6624,7 @@
   (via (at 184.912 65.098184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 174.752 65.098184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 220.472 90.498184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
-  (via (at 220.472 100.658184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 220.472 103.198184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 220.472 110.818184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 220.472 120.978184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 179.832 44.778184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
@@ -6647,10 +6650,9 @@
   (via (at 167.132 131.138184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 195.072 128.598184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 187.452 128.598184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
-  (via (at 182.372 120.978184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 182.372 126.058184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 177.292 123.518184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
-  (via (at 172.212 120.978184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 172.212 123.518184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 169.672 115.898184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 162.052 110.818184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 167.132 115.898184) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
