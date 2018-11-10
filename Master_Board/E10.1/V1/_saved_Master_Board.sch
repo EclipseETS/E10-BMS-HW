@@ -1,0 +1,583 @@
+EESchema Schematic File Version 4
+LIBS:Master_Board-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 10
+Title "BMS_MasterBoard-Root"
+Date "2017-06-25"
+Rev "V2"
+Comp "Eclipse Solar Car"
+Comment1 "Julien G. Bourassa"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 9000 1300 1300 5200
+U 58F25814
+F0 "STM32F446" 60
+F1 "STM32F446.sch" 60
+F2 "PA4" O L 9000 1800 60 
+F3 "PA0" O L 9000 1400 60 
+F4 "PA1" O L 9000 1500 60 
+F5 "VBat" I L 9000 6400 60 
+F6 "PC0" O L 9000 6000 60 
+F7 "PC1" O L 9000 5900 60 
+F8 "PC2" O L 9000 5800 60 
+F9 "PC3" I L 9000 5700 60 
+F10 "PC4" O L 9000 5600 60 
+F11 "PC5" O L 9000 5500 60 
+F12 "PB0" I L 9000 4400 60 
+F13 "PB1" I L 9000 4300 60 
+F14 "PB2" I L 9000 4200 60 
+F15 "PB10" I L 9000 3500 60 
+F16 "PB12" I L 9000 3400 60 
+F17 "PB13" O L 9000 3300 60 
+F18 "PB14" O L 9000 3200 60 
+F19 "PB15" O L 9000 2400 60 
+F20 "PC6" O L 9000 5400 60 
+F21 "PC7" O L 9000 5300 60 
+F22 "PC8" I L 9000 5200 60 
+F23 "PC9" I L 9000 5100 60 
+F24 "PA8" I L 9000 2200 60 
+F25 "PA11" I L 9000 2500 60 
+F26 "PA12" O L 9000 2600 60 
+F27 "PA15" I L 9000 5000 60 
+F28 "PC10" I L 9000 4900 60 
+F29 "PC11" I L 9000 4800 60 
+F30 "PC12" I L 9000 4700 60 
+F31 "PD2" I L 9000 4600 60 
+F32 "PB4" O L 9000 4100 60 
+F33 "PB5" I L 9000 4000 60 
+F34 "PB6" I L 9000 3900 60 
+F35 "PB7" I L 9000 3800 60 
+F36 "BOOT0" I L 9000 6300 60 
+F37 "PB8" O L 9000 3700 60 
+F38 "PB9" O L 9000 3600 60 
+F39 "PA5" O L 9000 1900 60 
+F40 "PA6" I L 9000 2000 60 
+F41 "PA7" O L 9000 2100 60 
+F42 "NRST" I L 9000 6100 60 
+F43 "USART1_RX" I L 9000 2900 60 
+F44 "USART1_TX" O L 9000 3000 60 
+$EndSheet
+$Sheet
+S 9000 700  1250 350 
+U 58F590C0
+F0 "Power Supply" 60
+F1 "Power Supply.sch" 60
+$EndSheet
+$Sheet
+S 6100 1450 1100 300 
+U 58F7D3A7
+F0 "CAN1" 60
+F1 "CAN1.sch" 60
+F2 "TXD" I R 7200 1650 60 
+F3 "RXD" O R 7200 1550 60 
+$EndSheet
+Text Label 8700 1400 0    60   ~ 0
+PA0
+Text Label 8700 1500 0    60   ~ 0
+PA1
+Text Label 8700 1800 0    60   ~ 0
+PA4
+Text Label 8700 1900 0    60   ~ 0
+PA5
+Text Label 8700 2000 0    60   ~ 0
+PA6
+Text Label 8700 2100 0    60   ~ 0
+PA7
+Text Label 8700 2200 0    60   ~ 0
+PA8
+Text Label 8700 2500 0    60   ~ 0
+PA11
+Text Label 8700 2600 0    60   ~ 0
+PA12
+Text Label 8700 5000 0    60   ~ 0
+PA15
+Text Label 8700 2400 0    60   ~ 0
+PB15
+Text Label 8700 3200 0    60   ~ 0
+PB14
+Text Label 8700 3300 0    60   ~ 0
+PB13
+Text Label 8700 3400 0    60   ~ 0
+PB12
+Text Label 8700 3500 0    60   ~ 0
+PB10
+Text Label 8700 3600 0    60   ~ 0
+PB9
+Text Label 8700 3700 0    60   ~ 0
+PB8
+Text Label 8700 3800 0    60   ~ 0
+PB7
+Text Label 8700 3900 0    60   ~ 0
+PB6
+Text Label 8700 4000 0    60   ~ 0
+PB5
+Text Label 8700 4100 0    60   ~ 0
+PB4
+Text Label 8700 4200 0    60   ~ 0
+PB2
+Text Label 8700 4300 0    60   ~ 0
+PB1
+Text Label 8700 4400 0    60   ~ 0
+PB0
+Text Label 8700 4700 0    60   ~ 0
+PC12
+Text Label 8700 4800 0    60   ~ 0
+PC11
+Text Label 8700 4900 0    60   ~ 0
+PC10
+Text Label 8700 5100 0    60   ~ 0
+PC9
+Text Label 8700 5200 0    60   ~ 0
+PC8
+Text Label 8700 5300 0    60   ~ 0
+PC7
+Text Label 8700 5400 0    60   ~ 0
+PC6
+Text Label 8700 5500 0    60   ~ 0
+PC5
+Text Label 8700 5600 0    60   ~ 0
+PC4
+Text Label 8700 5700 0    60   ~ 0
+PC3
+Text Label 8700 5800 0    60   ~ 0
+PC2
+Text Label 8700 5900 0    60   ~ 0
+PC1
+Text Label 8700 6000 0    60   ~ 0
+PC0
+Text Label 8700 4600 0    60   ~ 0
+PD2
+Text Label 8700 6300 0    60   ~ 0
+BOOT0
+Text Label 8700 6400 0    60   ~ 0
+VBat
+Text Label 8700 6100 0    60   ~ 0
+NRST
+$Sheet
+S 6100 2000 1100 300 
+U 593E754B
+F0 "CAN2" 60
+F1 "CAN2.sch" 60
+F2 "CAN2_H" B L 6100 2100 60 
+F3 "CAN2_L" B L 6100 2200 60 
+F4 "TXD" I R 7200 2100 60 
+F5 "RXD" O R 7200 2200 60 
+$EndSheet
+Text Label 5600 2100 0    60   ~ 0
+CAN2_H
+Text Label 5600 2200 0    60   ~ 0
+CAN2_L
+$Sheet
+S 6100 4500 1650 800 
+U 59412458
+F0 "ContactorControl" 60
+F1 "ContactorControl.sch" 60
+F2 "HighSide" I R 7750 4600 60 
+F3 "MainP-LowSide" I R 7750 4700 60 
+F4 "MainN-LowSide" I R 7750 4800 60 
+F5 "MPPT-LowSide" I R 7750 4900 60 
+F6 "Kill_Switch_State" O R 7750 5100 60 
+F7 "12V_Mush" O L 6100 5200 60 
+F8 "Spare-Contactor" I R 7750 5000 60 
+$EndSheet
+NoConn ~ 8700 3800
+NoConn ~ 8700 3900
+NoConn ~ 8700 2200
+NoConn ~ 8700 5200
+NoConn ~ 8700 5300
+NoConn ~ 8700 6300
+Text Label 8700 2900 2    60   ~ 0
+RS232_RX
+Text Label 8700 3000 2    60   ~ 0
+RS232_TX
+$Sheet
+S 5850 3450 1650 700 
+U 59829650
+F0 "Precharge" 60
+F1 "Precharge.sch" 60
+F2 "PC_MAIN" I R 7500 3850 60 
+F3 "PC_MPPT" I R 7500 3650 60 
+F4 "12V_Contactor" I L 5850 3550 60 
+F5 "HV_PC_HIGHSIDE+" I L 5850 3700 60 
+F6 "HV_PC_HIGHSIDE-" O L 5850 3800 60 
+F7 "HV_PC_MPPT+" I L 5850 3950 60 
+F8 "HV_PC_MPPT-" O L 5850 4050 60 
+$EndSheet
+Text Label 7550 1650 2    60   ~ 0
+PB9
+Text Label 7550 1550 2    60   ~ 0
+PB8
+Text Label 7550 2100 2    60   ~ 0
+PB13
+$Sheet
+S 6700 5600 600  650 
+U 5981A81E
+F0 "Fan Control" 60
+F1 "Fan Control.sch" 60
+F2 "GPIO1_EN" I R 7300 5750 60 
+F3 "GPIO2_EN" I R 7300 5850 60 
+F4 "GPIO3_EN" I R 7300 5950 60 
+F5 "GPIO4_EN" I R 7300 6050 60 
+$EndSheet
+Text Label 7850 3650 2    60   ~ 0
+PB2
+Text Label 7850 3850 2    60   ~ 0
+PB10
+Text Label 7850 2700 2    60   ~ 0
+PA4
+Text Label 7850 2850 2    60   ~ 0
+PA5
+Text Label 7850 3000 2    60   ~ 0
+PA6
+NoConn ~ 8700 5600
+NoConn ~ 8700 5500
+NoConn ~ 8700 4100
+$Sheet
+S 5850 2550 1650 700 
+U 5982995E
+F0 "Voltage Sense" 60
+F1 "VoltageSense.sch" 60
+F2 "VSENSE_BP" O R 7500 2700 60 
+F3 "VSENSE_EN" I R 7500 2850 60 
+F4 "VSENSE_MPPT" O R 7500 3000 60 
+F5 "STATE_RELAY_NEG" O R 7500 3150 60 
+F6 "HV_MPPT+" I L 5850 2650 60 
+F7 "HV_LOWSIDE+" O L 5850 3150 60 
+F8 "HV_HIGHSIDE-" I L 5850 2900 60 
+$EndSheet
+Text Label 7600 5750 2    60   ~ 0
+PB0
+Text Label 7600 5850 2    60   ~ 0
+PB1
+Text Label 7600 5950 2    60   ~ 0
+PC6
+NoConn ~ 8700 4400
+NoConn ~ 8700 4300
+Wire Wire Line
+	8700 3600 9000 3600
+Wire Wire Line
+	8700 5300 9000 5300
+Wire Wire Line
+	8700 5200 9000 5200
+Wire Wire Line
+	8700 2100 9000 2100
+Wire Wire Line
+	8700 2000 9000 2000
+Wire Wire Line
+	8700 1900 9000 1900
+Wire Wire Line
+	8700 1800 9000 1800
+Wire Wire Line
+	8700 2200 9000 2200
+Wire Wire Line
+	8700 4100 9000 4100
+Wire Wire Line
+	8700 4000 9000 4000
+Wire Wire Line
+	8700 3900 9000 3900
+Wire Wire Line
+	8700 3800 9000 3800
+Wire Wire Line
+	8700 3700 9000 3700
+Wire Wire Line
+	6100 2200 5600 2200
+Wire Wire Line
+	6100 2100 5600 2100
+Wire Wire Line
+	9000 2400 8700 2400
+Wire Wire Line
+	9000 3200 8700 3200
+Wire Wire Line
+	8700 6400 9000 6400
+Wire Wire Line
+	8700 6300 9000 6300
+Wire Wire Line
+	8700 6100 9000 6100
+Wire Wire Line
+	8700 6000 9000 6000
+Wire Wire Line
+	8700 5900 9000 5900
+Wire Wire Line
+	8700 5800 9000 5800
+Wire Wire Line
+	8700 5700 9000 5700
+Wire Wire Line
+	8700 5400 9000 5400
+Wire Wire Line
+	8700 4200 9000 4200
+Wire Wire Line
+	8700 3500 9000 3500
+Wire Wire Line
+	9000 2900 8700 2900
+Wire Wire Line
+	9000 3000 8700 3000
+Wire Wire Line
+	7200 2100 7550 2100
+Wire Wire Line
+	8700 3300 9000 3300
+Wire Wire Line
+	9000 3400 8700 3400
+Wire Wire Line
+	8700 2500 9000 2500
+Wire Wire Line
+	8700 2600 9000 2600
+Wire Wire Line
+	7200 1550 7550 1550
+Wire Wire Line
+	7200 1650 7550 1650
+Wire Wire Line
+	7550 2200 7200 2200
+Wire Wire Line
+	7500 3650 7850 3650
+Wire Wire Line
+	7500 3850 7850 3850
+Wire Wire Line
+	8700 5600 9000 5600
+Wire Wire Line
+	8700 5500 9000 5500
+Wire Wire Line
+	8700 4400 9000 4400
+Wire Wire Line
+	8700 4300 9000 4300
+Wire Wire Line
+	7500 2700 7850 2700
+Wire Wire Line
+	7500 2850 7850 2850
+Wire Wire Line
+	7500 3000 7850 3000
+Wire Wire Line
+	7300 5750 7600 5750
+Wire Wire Line
+	7300 5850 7600 5850
+Wire Wire Line
+	7300 5950 7600 5950
+Wire Wire Line
+	5450 5200 6100 5200
+Wire Wire Line
+	8700 1400 9000 1400
+Wire Wire Line
+	9000 1500 8700 1500
+NoConn ~ 8700 1400
+NoConn ~ 8700 1500
+$Sheet
+S 6100 700  1100 450 
+U 5BB689DC
+F0 "USB" 60
+F1 "USB.sch" 60
+F2 "Data+" I R 7200 850 60 
+F3 "Data-" I R 7200 1000 60 
+$EndSheet
+Wire Wire Line
+	7200 850  7450 850 
+Wire Wire Line
+	7200 1000 7450 1000
+Text Label 5450 5200 0    60   ~ 0
+12V_Mush
+Wire Wire Line
+	7750 4600 9000 4600
+Wire Wire Line
+	7750 4700 9000 4700
+Wire Wire Line
+	7750 4800 9000 4800
+Wire Wire Line
+	7750 4900 9000 4900
+Wire Wire Line
+	7750 5100 9000 5100
+Text Label 7550 2200 2    60   ~ 0
+PB5
+Text Label 7450 850  0    60   ~ 0
+PA12
+Text Label 7450 1000 0    60   ~ 0
+PA11
+Wire Wire Line
+	7500 3150 7850 3150
+Text Label 7850 3150 2    60   ~ 0
+PA7
+$Comp
+L Connectors:649002227222 J101
+U 1 1 5BC01BA2
+P 1200 6350
+F 0 "J101" H 1256 6687 60  0000 C CNN
+F 1 "649002227222" H 1256 6581 60  0000 C CNN
+F 2 "Connectors:649002227222" H 1200 5450 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1200 5350 60  0001 C CNN
+F 4 "Digikey" H 1200 5950 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 1200 5850 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1200 5750 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 1200 5650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1200 5550 60  0001 C CNN "Description"
+	1    1200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:649002227222 J102
+U 1 1 5BC04ECC
+P 1200 6850
+F 0 "J102" H 1256 7187 60  0000 C CNN
+F 1 "649002227222" H 1256 7081 60  0000 C CNN
+F 2 "Connectors:649002227222" H 1200 5950 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1200 5850 60  0001 C CNN
+F 4 "Digikey" H 1200 6450 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 1200 6350 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1200 6250 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 1200 6150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1200 6050 60  0001 C CNN "Description"
+	1    1200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:649002227222 J103
+U 1 1 5BC0813D
+P 1200 7400
+F 0 "J103" H 1256 7737 60  0000 C CNN
+F 1 "649002227222" H 1256 7631 60  0000 C CNN
+F 2 "Connectors:649002227222" H 1200 6500 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 1200 6400 60  0001 C CNN
+F 4 "Digikey" H 1200 7000 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 1200 6900 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 1200 6800 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 1200 6700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 1200 6600 60  0001 C CNN "Description"
+	1    1200 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 6250 1800 6250
+Wire Wire Line
+	1400 6750 1800 6750
+Wire Wire Line
+	1400 7300 1800 7300
+Wire Wire Line
+	1400 6350 1800 6350
+Wire Wire Line
+	1400 6850 1800 6850
+Wire Wire Line
+	1400 7400 1800 7400
+Text Label 1800 6250 0    60   ~ 0
+HV_Low_Side+
+Text Label 1800 6350 0    60   ~ 0
+HV_Low_Side-
+Text Label 1800 6750 0    60   ~ 0
+HV_Mppt+
+Text Label 1800 6850 0    60   ~ 0
+HV_Mppt-
+Text Label 1800 7300 0    60   ~ 0
+HV_High_Side+
+Text Label 1800 7400 0    60   ~ 0
+HV_High_Side-
+Wire Notes Line
+	2600 5900 2600 7550
+Wire Notes Line
+	2600 7550 850  7550
+Wire Notes Line
+	850  7550 850  5900
+Wire Notes Line
+	850  5900 2600 5900
+Text Notes 750  5850 0    120  ~ 24
+High Voltage Connector
+Wire Wire Line
+	5150 3550 5850 3550
+Text Label 5150 3550 2    60   ~ 0
+12V_Mush
+Wire Wire Line
+	7300 6050 7600 6050
+Text Label 7600 6050 2    60   ~ 0
+PC7
+Wire Wire Line
+	5850 3700 5150 3700
+Wire Wire Line
+	5850 3800 5150 3800
+Wire Wire Line
+	5850 3950 5150 3950
+Wire Wire Line
+	5850 4050 5150 4050
+Text Label 5150 3950 2    60   ~ 0
+HV_Mppt+
+Text Label 5150 4050 2    60   ~ 0
+HV_Mppt-
+Text Label 5150 3700 2    60   ~ 0
+HV_High_Side+
+Text Label 5150 3800 2    60   ~ 0
+HV_High_Side-
+Wire Wire Line
+	5850 3150 5400 3150
+Wire Wire Line
+	5850 2900 5400 2900
+Wire Wire Line
+	5850 2650 5400 2650
+Text Label 5400 2900 2    60   ~ 0
+HV_High_Side-
+Text Label 5400 3150 2    60   ~ 0
+HV_Low_Side+
+Text Label 5400 2650 2    60   ~ 0
+HV_Mppt-
+$Comp
+L Power_Port:AGND #PWR0101
+U 1 1 5BD535E7
+P 1800 6500
+F 0 "#PWR0101" H 1800 6330 50  0001 C CNN
+F 1 "AGND" H 1800 6400 50  0000 C CNN
+F 2 "" H 1800 6600 60  0000 C CNN
+F 3 "" H 1780 6410 60  0000 C CNN
+	1    1800 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6400 1800 6350
+Wire Wire Line
+	7750 5000 9000 5000
+$Comp
+L Mechanicals:Mounting-Hole-M3 H104
+U 1 1 5BD5CAFE
+P 4950 7250
+F 0 "H104" H 4950 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 5128 7141 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4950 6700 60  0001 C CNN
+F 3 "" H 4950 7050 60  0001 C CNN
+	1    4950 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H103
+U 1 1 5BD5CD8E
+P 4600 7250
+F 0 "H103" H 4600 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 4778 7141 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4600 6700 60  0001 C CNN
+F 3 "" H 4600 7050 60  0001 C CNN
+	1    4600 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H102
+U 1 1 5BD5CDD1
+P 4250 7250
+F 0 "H102" H 4250 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 4428 7141 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 4250 6700 60  0001 C CNN
+F 3 "" H 4250 7050 60  0001 C CNN
+	1    4250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanicals:Mounting-Hole-M3 H101
+U 1 1 5BD5CE2D
+P 3900 7250
+F 0 "H101" H 3900 7450 60  0000 L CNN
+F 1 "Mounting-Hole-M3" H 3400 6900 60  0001 L CNN
+F 2 "Connectors:Mounting_Hole_3mm" H 3900 6700 60  0001 C CNN
+F 3 "" H 3900 7050 60  0001 C CNN
+	1    3900 7250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3900 7500
+NoConn ~ 4250 7500
+NoConn ~ 4600 7500
+NoConn ~ 4950 7500
+$EndSCHEMATC

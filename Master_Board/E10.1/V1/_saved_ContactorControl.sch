@@ -500,7 +500,7 @@ F 11 "1/8W" H 1650 5460 50  0001 C CNN "Puissance (Watts)"
 	1    1650 5600
 	1    0    0    -1  
 $EndComp
-Text Notes 5400 350  0    60   ~ 0
+Text Notes 5200 600  0    60   ~ 0
 Note: Short female connector's pin 2 & 4 for interlock status.
 Wire Wire Line
 	2950 3500 2850 3500
@@ -509,17 +509,17 @@ Wire Wire Line
 $Comp
 L Connectors:649002227222 J605
 U 1 1 5A88C78F
-P 7900 1650
-F 0 "J605" H 7900 1950 60  0000 C CNN
-F 1 "649002227222" H 7900 1850 60  0000 C CNN
-F 2 "Connectors:649002227222" H 7900 750 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 7900 650 60  0001 C CNN
-F 4 "Digikey" H 7900 1250 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 7900 1150 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 7900 1050 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 7900 950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 7900 850 60  0001 C CNN "Description"
-	1    7900 1650
+P 7600 1650
+F 0 "J605" H 7600 1950 60  0000 C CNN
+F 1 "649002227222" H 7600 1850 60  0000 C CNN
+F 2 "Connectors:649002227222" H 7600 750 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 7600 650 60  0001 C CNN
+F 4 "Digikey" H 7600 1250 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 7600 1150 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 7600 1050 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 7600 950 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 7600 850 60  0001 C CNN "Description"
+	1    7600 1650
 	1    0    0    1   
 $EndComp
 $Comp
@@ -768,7 +768,7 @@ Wire Wire Line
 	10100 2250 10350 2250
 Wire Wire Line
 	8800 1750 9450 1750
-Text Notes 8500 600  0    60   ~ 0
+Text Notes 7200 1250 0    60   ~ 0
 Mush Connector
 Text HLabel 9450 1750 2    60   Output ~ 0
 12V_Mush
@@ -792,8 +792,6 @@ F 12 "Fuse Holder" H 8550 650 60  0001 C CNN "Fuse Holder"
 	1    8550 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 1750 8350 1750
 Wire Wire Line
 	8750 1750 8800 1750
 Connection ~ 8800 1750
@@ -1207,18 +1205,57 @@ F 10 "3.2V" H 6650 6300 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Power_Port:12V #PWR?
+L Power_Port:12V #PWR0105
 U 1 1 5BE8B672
-P 8150 1550
-F 0 "#PWR?" H 8150 1400 50  0001 C CNN
-F 1 "12V" H 8150 1724 50  0000 C CNN
-F 2 "" H 8150 1550 60  0000 C CNN
-F 3 "" H 8150 1550 60  0000 C CNN
-	1    8150 1550
+P 7850 1550
+F 0 "#PWR0105" H 7850 1400 50  0001 C CNN
+F 1 "12V" H 7850 1724 50  0000 C CNN
+F 2 "" H 7850 1550 60  0000 C CNN
+F 3 "" H 7850 1550 60  0000 C CNN
+	1    7850 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 1650 8150 1650
+	7800 1650 7850 1650
 Wire Wire Line
-	8150 1650 8150 1550
+	7850 1650 7850 1550
+$Comp
+L Resistors:0hms_0.5W R?
+U 1 1 5BE98E64
+P 8050 1500
+F 0 "R?" V 7950 1600 60  0000 L CNN
+F 1 "0hms_0.5W" H 8050 1200 50  0001 C CNN
+F 2 "Resistors:R0805" H 8050 600 30  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p54.pdf" H 8050 550 30  0001 C CNN
+F 4 "Digikey" H 8050 1100 60  0001 C CNN "Supplier"
+F 5 "36-5106CT-ND" H 8050 1000 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 8050 900 60  0001 C CNN "Manufacturer"
+F 7 "5106" H 8050 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 8050 700 60  0001 C CNN "Description"
+F 9 "0" V 8050 1600 50  0000 L CNN "Resistance (Ohms)"
+F 10 "0" H 8460 1420 50  0001 C CNN "Tolerance (%)"
+F 11 "1/2W" V 8150 1550 50  0000 L CNN "Puissance (Watts)"
+	1    8050 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 1750 8050 1750
+Wire Wire Line
+	8050 1750 8050 1700
+Connection ~ 8050 1750
+Wire Wire Line
+	8050 1750 8350 1750
+Wire Wire Line
+	8050 1300 8050 1250
+$Comp
+L Power_Port:12V #PWR0106
+U 1 1 5BEA7298
+P 8050 1250
+F 0 "#PWR0106" H 8050 1100 50  0001 C CNN
+F 1 "12V" H 8050 1424 50  0000 C CNN
+F 2 "" H 8050 1250 60  0000 C CNN
+F 3 "" H 8050 1250 60  0000 C CNN
+	1    8050 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
