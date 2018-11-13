@@ -509,17 +509,17 @@ Wire Wire Line
 $Comp
 L Connectors:649002227222 J605
 U 1 1 5A88C78F
-P 7900 1650
-F 0 "J605" H 7900 1950 60  0000 C CNN
-F 1 "649002227222" H 7900 1850 60  0000 C CNN
-F 2 "Connectors:649002227222" H 7900 750 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 7900 650 60  0001 C CNN
-F 4 "Digikey" H 7900 1250 60  0001 C CNN "Supplier"
-F 5 "732-1937-ND" H 7900 1150 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 7900 1050 60  0001 C CNN "Manufacturer"
-F 7 "649002227222" H 7900 950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 7900 850 60  0001 C CNN "Description"
-	1    7900 1650
+P 7750 1650
+F 0 "J605" H 7750 1950 60  0000 C CNN
+F 1 "649002227222" H 7750 1850 60  0000 C CNN
+F 2 "Connectors:649002227222" H 7750 750 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649016227222.pdf" H 7750 650 60  0001 C CNN
+F 4 "Digikey" H 7750 1250 60  0001 C CNN "Supplier"
+F 5 "732-1937-ND" H 7750 1150 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 7750 1050 60  0001 C CNN "Manufacturer"
+F 7 "649002227222" H 7750 950 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 7750 850 60  0001 C CNN "Description"
+	1    7750 1650
 	1    0    0    1   
 $EndComp
 $Comp
@@ -792,8 +792,6 @@ F 12 "Fuse Holder" H 8550 650 60  0001 C CNN "Fuse Holder"
 	1    8550 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 1750 8350 1750
 Wire Wire Line
 	8750 1750 8800 1750
 Connection ~ 8800 1750
@@ -1206,19 +1204,58 @@ F 10 "3.2V" H 6650 6300 60  0001 C CNN "Voltage - Forward (Vf) (Typ)"
 	1    6650 6700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	7950 1650 8000 1650
+Wire Wire Line
+	8000 1650 8000 1550
 $Comp
-L Power_Port:12V #PWR?
-U 1 1 5BE8B672
-P 8150 1550
-F 0 "#PWR?" H 8150 1400 50  0001 C CNN
-F 1 "12V" H 8150 1724 50  0000 C CNN
-F 2 "" H 8150 1550 60  0000 C CNN
-F 3 "" H 8150 1550 60  0000 C CNN
-	1    8150 1550
+L Power_Port:CAN_PWR #PWR0105
+U 1 1 5BEBE98C
+P 8000 1550
+F 0 "#PWR0105" H 8000 1400 50  0001 C CNN
+F 1 "CAN_PWR" H 8000 1724 50  0000 C CNN
+F 2 "" H 8000 1550 60  0000 C CNN
+F 3 "" H 8000 1550 60  0000 C CNN
+	1    8000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Port:CAN_PWR #PWR0106
+U 1 1 5BEBF9AF
+P 8250 1250
+F 0 "#PWR0106" H 8250 1100 50  0001 C CNN
+F 1 "CAN_PWR" H 8250 1424 50  0000 C CNN
+F 2 "" H 8250 1250 60  0000 C CNN
+F 3 "" H 8250 1250 60  0000 C CNN
+	1    8250 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 1650 8150 1650
+	7950 1750 8250 1750
+$Comp
+L Resistors:0hms_0.5W R617
+U 1 1 5BECD846
+P 8250 1500
+F 0 "R617" V 8205 1558 60  0000 L CNN
+F 1 "0hms_0.5W" H 8250 1200 50  0001 C CNN
+F 2 "Resistors:R0805" H 8250 600 30  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p54.pdf" H 8250 550 30  0001 C CNN
+F 4 "Digikey" H 8250 1100 60  0001 C CNN "Supplier"
+F 5 "36-5106CT-ND" H 8250 1000 60  0001 C CNN "Supplier Part Number"
+F 6 "Keystone Electronics" H 8250 900 60  0001 C CNN "Manufacturer"
+F 7 "5106" H 8250 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 8250 700 60  0001 C CNN "Description"
+F 9 "0" V 8303 1558 50  0000 L CNN "Resistance (Ohms)"
+F 10 "0" H 8660 1420 50  0001 C CNN "Tolerance (%)"
+F 11 "1/2W" H 8250 1360 50  0001 C CNN "Puissance (Watts)"
+	1    8250 1500
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	8150 1650 8150 1550
+	8250 1300 8250 1250
+Wire Wire Line
+	8250 1700 8250 1750
+Connection ~ 8250 1750
+Wire Wire Line
+	8250 1750 8350 1750
 $EndSCHEMATC

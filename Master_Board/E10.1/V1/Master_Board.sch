@@ -164,15 +164,9 @@ S 6100 2000 1100 300
 U 593E754B
 F0 "CAN2" 60
 F1 "CAN2.sch" 60
-F2 "CAN2_H" B L 6100 2100 60 
-F3 "CAN2_L" B L 6100 2200 60 
-F4 "TXD" I R 7200 2100 60 
-F5 "RXD" O R 7200 2200 60 
+F2 "TXD" I R 7200 2100 60 
+F3 "RXD" O R 7200 2200 60 
 $EndSheet
-Text Label 5600 2100 0    60   ~ 0
-CAN2_H
-Text Label 5600 2200 0    60   ~ 0
-CAN2_L
 $Sheet
 S 6100 4500 1650 800 
 U 59412458
@@ -286,10 +280,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 3700 9000 3700
 Wire Wire Line
-	6100 2200 5600 2200
-Wire Wire Line
-	6100 2100 5600 2100
-Wire Wire Line
 	9000 2400 8700 2400
 Wire Wire Line
 	9000 3200 8700 3200
@@ -359,124 +349,6 @@ Wire Wire Line
 	7300 5950 7600 5950
 Wire Wire Line
 	5450 5200 6100 5200
-$Comp
-L Connectors:649006227222 J104
-U 1 1 5BA73856
-P 1750 1500
-F 0 "J104" H 1750 1937 60  0000 C CNN
-F 1 "649006227222" H 1700 1850 60  0000 C CNN
-F 2 "Connectors:649006227222" H 1750 600 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" H 1750 500 60  0001 C CNN
-F 4 "Digikey" H 1750 1100 60  0001 C CNN "Supplier"
-F 5 "732-1939-ND" H 1750 1000 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 1750 900 60  0001 C CNN "Manufacturer"
-F 7 "649006227222" H 1750 800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 6P" H 1750 700 60  0001 C CNN "Description"
-	1    1750 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 1500 1250 1500
-Text Label 1250 1500 2    60   ~ 0
-CAN2_L
-Wire Wire Line
-	1550 1400 1250 1400
-Wire Wire Line
-	1550 1300 1250 1300
-Wire Wire Line
-	1950 1300 2100 1300
-Wire Wire Line
-	1950 1500 2250 1500
-Text Label 1250 1400 2    60   ~ 0
-CAN2_H
-$Comp
-L Power_Port:DGND #PWR0103
-U 1 1 5BA85747
-P 2250 1750
-F 0 "#PWR0103" H 2250 1580 50  0001 C CNN
-F 1 "DGND" H 2250 1650 50  0000 C CNN
-F 2 "" H 2250 1850 60  0000 C CNN
-F 3 "" H 2230 1660 60  0000 C CNN
-	1    2250 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 1650 2250 1500
-Text Label 2550 1400 2    60   ~ 0
-Shield2
-Wire Wire Line
-	2550 1400 2550 1500
-Wire Wire Line
-	1950 1400 2550 1400
-$Comp
-L Resistors:RC0805JR-070RL R101
-U 1 1 5BA8F541
-P 2550 1700
-F 0 "R101" V 2505 1758 60  0000 L CNN
-F 1 "RC0805JR-070RL" H 2550 1400 50  0001 C CNN
-F 2 "Resistors:R0805" H 2550 800 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2550 750 30  0001 C CNN
-F 4 "Digikey" H 2550 1300 60  0001 C CNN "Supplier"
-F 5 "311-0.0ARCT-ND" H 2550 1200 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 2550 1100 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-070RL" H 2550 1000 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 2550 900 60  0001 C CNN "Description"
-F 9 "0" V 2603 1758 50  0000 L CNN "Resistance (Ohms)"
-F 10 "0" H 2960 1620 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 2550 1560 50  0001 C CNN "Puissance (Watts)"
-	1    2550 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Power_Port:DGND #PWR0104
-U 1 1 5BA8F5F1
-P 2550 2100
-F 0 "#PWR0104" H 2550 1930 50  0001 C CNN
-F 1 "DGND" H 2550 2000 50  0000 C CNN
-F 2 "" H 2550 2200 60  0000 C CNN
-F 3 "" H 2530 2010 60  0000 C CNN
-	1    2550 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 1900 2550 2000
-Text Label 1250 1300 2    60   ~ 0
-Shield2
-$Comp
-L Power_Port:CAN_PWR #PWR?
-U 1 1 5BA9C650
-P 2250 1100
-AR Path="/58F590C0/5BA9C650" Ref="#PWR?"  Part="1" 
-AR Path="/5BA9C650" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 2250 950 50  0001 C CNN
-F 1 "CAN_PWR" H 2240 1240 50  0000 C CNN
-F 2 "" H 2250 1100 60  0000 C CNN
-F 3 "" H 2250 1100 60  0000 C CNN
-	1    2250 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 1100 2250 1300
-$Comp
-L Power_Port:PWR_FLAG #FLG?
-U 1 1 5BAAA8ED
-P 2100 1250
-AR Path="/58F590C0/5BAAA8ED" Ref="#FLG?"  Part="1" 
-AR Path="/5BAAA8ED" Ref="#FLG0101"  Part="1" 
-F 0 "#FLG0101" H 2100 1150 60  0001 C CNN
-F 1 "PWR_FLAG" H 2100 1450 30  0000 C CNN
-F 2 "" H 2100 1250 60  0000 C CNN
-F 3 "" H 2100 1250 60  0000 C CNN
-	1    2100 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 1250 2100 1300
-Connection ~ 2100 1300
-Wire Wire Line
-	2100 1300 2250 1300
-Text Notes 1350 850  0    120  ~ 24
-Can Car
 Wire Wire Line
 	8700 1400 9000 1400
 Wire Wire Line

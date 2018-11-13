@@ -437,7 +437,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 4000 5350 4000
 Wire Wire Line
-	4800 4200 6050 4200
+	4800 4200 5850 4200
 Wire Wire Line
 	4200 4200 4800 4200
 Wire Wire Line
@@ -449,9 +449,141 @@ Wire Wire Line
 Wire Wire Line
 	6050 4200 6450 4200
 Wire Wire Line
-	5350 4000 6450 4000
+	5350 4000 5750 4000
 Wire Wire Line
 	6450 4000 6700 4000
 Wire Wire Line
 	6450 4200 6700 4200
+$Comp
+L Connectors:649006227222 J?
+U 1 1 5BEAF000
+P 6250 2300
+AR Path="/5BEAF000" Ref="J?"  Part="1" 
+AR Path="/593E754B/5BEAF000" Ref="J501"  Part="1" 
+F 0 "J501" H 6250 2737 60  0000 C CNN
+F 1 "649006227222" H 6200 2650 60  0000 C CNN
+F 2 "Connectors:649006227222" H 6250 1400 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" H 6250 1300 60  0001 C CNN
+F 4 "Digikey" H 6250 1900 60  0001 C CNN "Supplier"
+F 5 "732-1939-ND" H 6250 1800 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 6250 1700 60  0001 C CNN "Manufacturer"
+F 7 "649006227222" H 6250 1600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE DUAL ANGLE W/MNT 6P" H 6250 1500 60  0001 C CNN "Description"
+	1    6250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2300 5850 2300
+Wire Wire Line
+	6050 2200 5750 2200
+Wire Wire Line
+	6050 2100 5750 2100
+Wire Wire Line
+	6450 2100 6600 2100
+Wire Wire Line
+	6450 2300 6750 2300
+$Comp
+L Power_Port:DGND #PWR?
+U 1 1 5BEAF00E
+P 6750 2550
+AR Path="/5BEAF00E" Ref="#PWR?"  Part="1" 
+AR Path="/593E754B/5BEAF00E" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 6750 2380 50  0001 C CNN
+F 1 "DGND" H 6750 2450 50  0000 C CNN
+F 2 "" H 6750 2650 60  0000 C CNN
+F 3 "" H 6730 2460 60  0000 C CNN
+	1    6750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2450 6750 2300
+Text Label 7050 2200 2    60   ~ 0
+Shield2
+Wire Wire Line
+	7050 2200 7050 2300
+Wire Wire Line
+	6450 2200 7050 2200
+$Comp
+L Resistors:RC0805JR-070RL R?
+U 1 1 5BEAF020
+P 7050 2500
+AR Path="/5BEAF020" Ref="R?"  Part="1" 
+AR Path="/593E754B/5BEAF020" Ref="R503"  Part="1" 
+F 0 "R503" V 7005 2558 60  0000 L CNN
+F 1 "RC0805JR-070RL" H 7050 2200 50  0001 C CNN
+F 2 "Resistors:R0805" H 7050 1600 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7050 1550 30  0001 C CNN
+F 4 "Digikey" H 7050 2100 60  0001 C CNN "Supplier"
+F 5 "311-0.0ARCT-ND" H 7050 2000 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 7050 1900 60  0001 C CNN "Manufacturer"
+F 7 "RC0805JR-070RL" H 7050 1800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 7050 1700 60  0001 C CNN "Description"
+F 9 "0" V 7103 2558 50  0000 L CNN "Resistance (Ohms)"
+F 10 "0" H 7460 2420 50  0001 C CNN "Tolerance (%)"
+F 11 "1/8W" H 7050 2360 50  0001 C CNN "Puissance (Watts)"
+	1    7050 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR?
+U 1 1 5BEAF027
+P 7050 2900
+AR Path="/5BEAF027" Ref="#PWR?"  Part="1" 
+AR Path="/593E754B/5BEAF027" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 7050 2730 50  0001 C CNN
+F 1 "DGND" H 7050 2800 50  0000 C CNN
+F 2 "" H 7050 3000 60  0000 C CNN
+F 3 "" H 7030 2810 60  0000 C CNN
+	1    7050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2700 7050 2800
+Text Label 5750 2100 2    60   ~ 0
+Shield2
+$Comp
+L Power_Port:CAN_PWR #PWR?
+U 1 1 5BEAF02F
+P 6750 1900
+AR Path="/58F590C0/5BEAF02F" Ref="#PWR?"  Part="1" 
+AR Path="/5BEAF02F" Ref="#PWR?"  Part="1" 
+AR Path="/593E754B/5BEAF02F" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 6750 1750 50  0001 C CNN
+F 1 "CAN_PWR" H 6740 2040 50  0000 C CNN
+F 2 "" H 6750 1900 60  0000 C CNN
+F 3 "" H 6750 1900 60  0000 C CNN
+	1    6750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1900 6750 2100
+$Comp
+L Power_Port:PWR_FLAG #FLG?
+U 1 1 5BEAF036
+P 6600 2050
+AR Path="/58F590C0/5BEAF036" Ref="#FLG?"  Part="1" 
+AR Path="/5BEAF036" Ref="#FLG?"  Part="1" 
+AR Path="/593E754B/5BEAF036" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG0101" H 6600 1950 60  0001 C CNN
+F 1 "PWR_FLAG" H 6600 2250 30  0000 C CNN
+F 2 "" H 6600 2050 60  0000 C CNN
+F 3 "" H 6600 2050 60  0000 C CNN
+	1    6600 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2050 6600 2100
+Connection ~ 6600 2100
+Wire Wire Line
+	6600 2100 6750 2100
+Wire Wire Line
+	5850 4200 5850 2300
+Connection ~ 5850 4200
+Wire Wire Line
+	5850 4200 6050 4200
+Connection ~ 5750 4000
+Wire Wire Line
+	5750 4000 6450 4000
+Wire Wire Line
+	5750 2200 5750 4000
 $EndSCHEMATC
