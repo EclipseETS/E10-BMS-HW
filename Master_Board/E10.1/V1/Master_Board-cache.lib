@@ -711,6 +711,26 @@ X VDD 4 300 50 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Diodes:B240AQ-13-F
+#
+DEF Diodes:B240AQ-13-F D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "Diodes:B240AQ-13-F" -50 -150 60 H V C CNN
+F2 "Diodes:DO-214AC_SMA" 0 -1020 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds13004.pdf" 0 -1120 60 H I C CNN
+F4 "Digikey" 0 -520 60 H I C CNN "Supplier"
+F5 "B240AQ-13-FDICT-ND" 0 -620 60 H I C CNN "Supplier Part Number"
+F6 "Diode Incorporated" 0 -720 60 H I C CNN "Manufacturer"
+F7 "B240AQ-13-F" 0 -820 60 H I C CNN "Manufacturer Part Number"
+F8 "DIODE SCHOTTKY 40V 2A SMA" 0 -920 60 H I C CNN "Description"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Diodes:D1213A-02SOL-7
 #
 DEF Diodes:D1213A-02SOL-7 D 0 0 Y N 1 F N

@@ -182,7 +182,6 @@ F8 "Spare-Contactor" I R 7750 5000 60
 $EndSheet
 NoConn ~ 8700 3800
 NoConn ~ 8700 3900
-NoConn ~ 8700 2200
 NoConn ~ 8700 5200
 NoConn ~ 8700 5300
 NoConn ~ 8700 6300
@@ -362,6 +361,7 @@ F0 "USB" 60
 F1 "USB.sch" 60
 F2 "Data+" I R 7200 850 60 
 F3 "Data-" I R 7200 1000 60 
+F4 "USB_DETECT" O L 6100 1000 60 
 $EndSheet
 Wire Wire Line
 	7200 850  7450 850 
@@ -570,4 +570,8 @@ NoConn ~ 3900 7500
 NoConn ~ 4250 7500
 NoConn ~ 4600 7500
 NoConn ~ 4950 7500
+Wire Wire Line
+	6100 1000 5850 1000
+Text Label 5850 1000 0    60   ~ 0
+PA8
 $EndSCHEMATC

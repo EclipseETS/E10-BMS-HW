@@ -777,10 +777,6 @@ F 8 "Pin Male Single Row Pin Header Strip" H 800 6190 60  0001 C CNN "Descriptio
 	1    800  7000
 	1    0    0    -1  
 $EndComp
-Text Label 7000 3200 0    60   ~ 0
-CAN1_TX
-Text Label 7000 3300 0    60   ~ 0
-CAN1_RX
 $Comp
 L Switches:PTS645SM43SMTR92 SW202
 U 1 1 58FAAF13
