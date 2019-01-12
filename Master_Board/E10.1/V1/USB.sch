@@ -33,22 +33,6 @@ F 3 "" H 4280 3460 60  0000 C CNN
 	1    4300 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connectors:61400416121 J1001
-U 1 1 5BB76F3B
-P 4000 3000
-F 0 "J1001" H 3850 3450 60  0000 C CNN
-F 1 "61400416121" H 3850 3350 60  0000 C CNN
-F 2 "Connectors:61400416121" H 4000 2100 60  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/Communication%20Conn%20WR-COM.pdf" H 4000 2000 60  0001 C CNN
-F 4 "Digikey" H 4000 2600 60  0001 C CNN "Supplier"
-F 5 "732-2108-ND" H 4000 2500 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 4000 2400 60  0001 C CNN "Manufacturer"
-F 7 "61400416121" H 4000 2300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CONN COM TYPE B USB HORZ 4POS" H 4000 2200 60  0001 C CNN "Description"
-	1    4000 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 3100 4300 3100
 Wire Wire Line
@@ -378,4 +362,20 @@ F 3 "" H 4380 6110 60  0000 C CNN
 $EndComp
 Text HLabel 5000 5500 2    60   Output ~ 0
 USB_DETECT
+$Comp
+L Connectors:61400413321 J1001
+U 1 1 5C40BE5F
+P 4000 3000
+F 0 "J1001" H 4000 3437 60  0000 C CNN
+F 1 "61400413321" H 4000 3331 60  0000 C CNN
+F 2 "Connectors:61400413321" H 4000 2100 60  0001 C CNN
+F 3 "https://katalog.we-online.com/em/datasheet/61400413321.pdf" H 4000 2000 60  0001 C CNN
+F 4 "Digikey" H 4000 2600 60  0001 C CNN "Supplier"
+F 5 "732-2734-ND" H 4000 2500 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 4000 2400 60  0001 C CNN "Manufacturer"
+F 7 "61400413321" H 4000 2300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CONN COM TYPE B USB HORZ 4POS" H 4000 2200 60  0001 C CNN "Description"
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

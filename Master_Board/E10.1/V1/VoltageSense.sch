@@ -580,7 +580,7 @@ Wire Wire Line
 	7500 5550 7600 5550
 Connection ~ 6700 4450
 Wire Wire Line
-	7300 4500 7300 4600
+	7300 4500 7300 4550
 Wire Wire Line
 	7300 5000 7300 5150
 Wire Wire Line
@@ -657,7 +657,7 @@ Wire Wire Line
 Connection ~ 4300 1500
 Connection ~ 6700 1300
 Wire Wire Line
-	7300 1350 7300 1450
+	7300 1350 7300 1400
 Wire Wire Line
 	7300 1850 7300 2000
 Wire Wire Line
@@ -1452,4 +1452,78 @@ Text HLabel 2200 6100 0    60   Output ~ 0
 HV_LOWSIDE+
 Wire Wire Line
 	2200 6100 3800 6100
+$Comp
+L Capacitors:885012207098 C?
+U 1 1 5C3B0325
+P 7950 1400
+F 0 "C?" H 7900 1648 60  0000 C CNN
+F 1 "885012207098" H 7900 1050 60  0001 C CNN
+F 2 "Capacitors:C0805" H 7900 450 60  0001 C CNN
+F 3 "D" H 7900 350 60  0001 C CNN
+F 4 "Digikey" H 7900 950 60  0001 C CNN "Supplier"
+F 5 "732-8080-1-ND" H 7900 850 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 7900 750 60  0001 C CNN "Manufacturer"
+F 7 "885012207098" H 7900 650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0805" H 7900 550 60  0001 C CNN "Description"
+F 9 "100nF" H 7900 1550 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±10%" H 8160 1280 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 7900 1210 50  0001 C CNN "Voltage Rated (Volt)"
+	1    7950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:885012207098 C?
+U 1 1 5C3C9B58
+P 7900 4550
+F 0 "C?" H 7850 4798 60  0000 C CNN
+F 1 "885012207098" H 7850 4200 60  0001 C CNN
+F 2 "Capacitors:C0805" H 7850 3600 60  0001 C CNN
+F 3 "D" H 7850 3500 60  0001 C CNN
+F 4 "Digikey" H 7850 4100 60  0001 C CNN "Supplier"
+F 5 "732-8080-1-ND" H 7850 4000 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 7850 3900 60  0001 C CNN "Manufacturer"
+F 7 "885012207098" H 7850 3800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0805" H 7850 3700 60  0001 C CNN "Description"
+F 9 "100nF" H 7850 4700 50  0000 C CNN "Capacitance (Farad)"
+F 10 "±10%" H 8110 4430 50  0001 C CNN "Tolerance (%)"
+F 11 "50V" H 7850 4360 50  0001 C CNN "Voltage Rated (Volt)"
+	1    7900 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4550 7300 4550
+Connection ~ 7300 4550
+Wire Wire Line
+	7300 4550 7300 4600
+Wire Wire Line
+	7750 1400 7300 1400
+Connection ~ 7300 1400
+Wire Wire Line
+	7300 1400 7300 1450
+$Comp
+L Power_Port:DGND #PWR?
+U 1 1 5C3E330F
+P 8200 1500
+F 0 "#PWR?" H 8200 1330 50  0001 C CNN
+F 1 "DGND" H 8350 1450 50  0000 C CNN
+F 2 "" H 8200 1600 60  0000 C CNN
+F 3 "" H 8180 1410 60  0000 C CNN
+	1    8200 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1400 8050 1400
+$Comp
+L Power_Port:DGND #PWR?
+U 1 1 5C3F4D71
+P 8150 4650
+F 0 "#PWR?" H 8150 4480 50  0001 C CNN
+F 1 "DGND" H 8300 4600 50  0000 C CNN
+F 2 "" H 8150 4750 60  0000 C CNN
+F 3 "" H 8130 4560 60  0000 C CNN
+	1    8150 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4550 8000 4550
 $EndSCHEMATC
