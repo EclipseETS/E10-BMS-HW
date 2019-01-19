@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Slave-cache
 EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -6,8 +7,8 @@ encoding utf-8
 Sheet 7 36
 Title "Isolated BMS Slave Front End"
 Date ""
-Rev "0"
-Comp ""
+Rev "1.2"
+Comp "Eclipse Solar Car"
 Comment1 "Christian Daigneault-St-Arnaud"
 Comment2 ""
 Comment3 ""
