@@ -1,5 +1,28 @@
-EESchema Schematic File Version 4
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:ADC
+LIBS:Amplifiers
+LIBS:Battery
+LIBS:Capacitors
+LIBS:Comparators
+LIBS:Connectors
+LIBS:Crystals
+LIBS:DAC
+LIBS:Diodes
+LIBS:Fuses
+LIBS:Inductors
+LIBS:Interface
+LIBS:Isolators
+LIBS:STMicroelectronics
+LIBS:PMIC
+LIBS:Power_Port
+LIBS:Relays
+LIBS:Resistors
+LIBS:Sensors
+LIBS:Switches
+LIBS:Transformers
+LIBS:Transistors
+LIBS:Slave-cache
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,7 +37,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PMIC:AP3015KTR-G1 U601
+L AP3015KTR-G1 U601
 U 1 1 591B2FEB
 P 4900 2900
 AR Path="/5938E2BF/591CDE38/591B2FEB" Ref="U601"  Part="1" 
@@ -52,7 +75,7 @@ F 20 "No" H 4900 1095 50  0001 C CNN "Synchronous Rectifier"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMIC:AP2202K-ADJTRG1 U602
+L AP2202K-ADJTRG1 U602
 U 1 1 591B30B0
 P 4500 5000
 AR Path="/5938E2BF/591CDE38/591B30B0" Ref="U602"  Part="1" 
@@ -85,7 +108,7 @@ F 15 "-" H 4490 4005 50  0001 C CNN "Current - Limit (Min)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012107014 C601
+L 885012107014 C601
 U 1 1 591BCA3D
 P 3900 2100
 AR Path="/5938E2BF/591CDE38/591BCA3D" Ref="C601"  Part="1" 
@@ -114,7 +137,7 @@ F 11 "16V" H 3850 1910 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diodes:NSR0530HT1G D601
+L NSR0530HT1G D601
 U 1 1 591BD4B8
 P 5700 1800
 AR Path="/5938E2BF/591CDE38/591BD4B8" Ref="D601"  Part="1" 
@@ -140,7 +163,7 @@ F 8 "DIODE SCHOTTKY 30V 500MA SOD323" H 5680 900 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012107014 C602
+L 885012107014 C602
 U 1 1 591BE5E6
 P 6300 2400
 AR Path="/5938E2BF/591CDE38/591BE5E6" Ref="C602"  Part="1" 
@@ -169,7 +192,7 @@ F 11 "16V" H 6250 2210 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitors:885012107014 C605
+L 885012107014 C605
 U 1 1 591BED58
 P 3500 5100
 AR Path="/5938E2BF/591CDE38/591BED58" Ref="C605"  Part="1" 
@@ -198,7 +221,7 @@ F 11 "16V" H 3450 4910 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitors:885012107014 C604
+L 885012107014 C604
 U 1 1 591BF617
 P 6200 5000
 AR Path="/5938E2BF/591CDE38/591BF617" Ref="C604"  Part="1" 
@@ -227,7 +250,7 @@ F 11 "16V" H 6150 4810 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitors:885012107014 C603
+L 885012107014 C603
 U 1 1 591BFD48
 P 6800 2400
 AR Path="/5938E2BF/591CDE38/591BFD48" Ref="C603"  Part="1" 
@@ -256,7 +279,7 @@ F 11 "16V" H 6750 2210 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistors:RC0805JR-071ML R601
+L RC0805JR-071ML R601
 U 1 1 591C2F0F
 P 5900 2600
 AR Path="/5938E2BF/591CDE38/591C2F0F" Ref="R601"  Part="1" 
@@ -285,7 +308,7 @@ F 11 "1/8W" H 5900 2460 50  0001 C CNN "Puissance (Watts)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistors:RC0805FR-07324KL R602
+L RC0805FR-07324KL R602
 U 1 1 591C3C0D
 P 5900 3200
 AR Path="/5938E2BF/591CDE38/591C3C0D" Ref="R602"  Part="1" 
@@ -406,7 +429,7 @@ Vin
 Wire Wire Line
 	4600 2900 3600 2900
 $Comp
-L Resistors:RC0805JR-074K7L R603
+L RC0805JR-074K7L R603
 U 1 1 5938E158
 P 5200 5100
 AR Path="/5938E2BF/591CDE38/5938E158" Ref="R603"  Part="1" 
@@ -471,7 +494,7 @@ GND
 Wire Wire Line
 	3600 2900 3600 1800
 $Comp
-L Resistors:RC0805FR-0712K1L R604
+L RC0805FR-0712K1L R604
 U 1 1 593DE9E8
 P 5200 5800
 AR Path="/5938E2BF/591CDE38/593DE9E8" Ref="R604"  Part="1" 
@@ -500,7 +523,7 @@ F 11 "1/8W" H 5200 5660 50  0001 C CNN "Puissance (Watts)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Inductors:MLZ2012N101LT000 L601
+L MLZ2012N101LT000 L601
 U 1 1 593D0CFC
 P 4900 1800
 AR Path="/5938E2BF/591CDE38/593D0CFC" Ref="L601"  Part="1" 

@@ -1,5 +1,28 @@
-EESchema Schematic File Version 4
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:ADC
+LIBS:Amplifiers
+LIBS:Battery
+LIBS:Capacitors
+LIBS:Comparators
+LIBS:Connectors
+LIBS:Crystals
+LIBS:DAC
+LIBS:Diodes
+LIBS:Fuses
+LIBS:Inductors
+LIBS:Interface
+LIBS:Isolators
+LIBS:STMicroelectronics
+LIBS:PMIC
+LIBS:Power_Port
+LIBS:Relays
+LIBS:Resistors
+LIBS:Sensors
+LIBS:Switches
+LIBS:Transformers
+LIBS:Transistors
+LIBS:Slave-cache
+EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -14,7 +37,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Capacitors:885012207098 C702
+L 885012207098 C702
 U 1 1 591B6F4E
 P 5400 3300
 AR Path="/5938E2BF/591D0796/591B6F4E" Ref="C702"  Part="1" 
@@ -43,7 +66,7 @@ F 11 "50V" H 5350 3110 50  0001 C CNN "Voltage Rated (Volt)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012107015 C701
+L 885012107015 C701
 U 1 1 591B6FC1
 P 5400 2900
 AR Path="/5938E2BF/591D0796/591B6FC1" Ref="C701"  Part="1" 
@@ -72,7 +95,7 @@ F 11 "25V" H 5350 2710 50  0001 C CNN "Voltage Rated (Volt)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors:RC0805JR-07100RL R701
+L RC0805JR-07100RL R701
 U 1 1 591BAB3B
 P 4100 4000
 AR Path="/5938E2BF/591D0796/591BAB3B" Ref="R701"  Part="1" 
@@ -101,7 +124,7 @@ F 11 "1/8W" H 4100 3860 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012207047 C703
+L 885012207047 C703
 U 1 1 591BB052
 P 4500 4200
 AR Path="/5938E2BF/591D0796/591BB052" Ref="C703"  Part="1" 
@@ -158,7 +181,7 @@ Wire Wire Line
 Text HLabel 3700 4000 0    60   Input ~ 0
 VCell
 $Comp
-L ADC:ADC121S021CIMF_NOPB U701
+L ADC121S021CIMF/NOPB U701
 U 1 1 591D3EBF
 P 5500 4000
 AR Path="/5938E2BF/591D0796/591D3EBF" Ref="U701"  Part="1" 
