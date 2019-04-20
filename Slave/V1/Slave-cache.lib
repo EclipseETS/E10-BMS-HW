@@ -438,18 +438,18 @@ X TP 1 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Crystals_ABLS-8.000MHZ-D-T
+# Crystals_7A-8.000MAHJ-T
 #
-DEF Crystals_ABLS-8.000MHZ-D-T XTAL 0 0 N N 1 F N
+DEF Crystals_7A-8.000MAHJ-T XTAL 0 0 N N 1 F N
 F0 "XTAL" 0 200 60 H V C CNN
-F1 "Crystals_ABLS-8.000MHZ-D-T" 0 -200 60 H V C CNN
-F2 "Crystals:HC49_US" 0 -900 60 H I C CNN
-F3 "http://www.abracon.com/Resonators/abls.pdf" 0 -1000 60 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "535-13445-2-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Abracon LLC" 0 -600 60 H I C CNN "Manufacturer"
-F7 "ABLS-8.000MHZ-D-T" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "CRYSTAL 8.0000MHZ 18PF SMD" 0 -800 60 H I C CNN "Description"
+F1 "Crystals_7A-8.000MAHJ-T" 0 -200 39 H V C CNN
+F2 "Crystals:TXC_7A_Series" 0 -800 60 H I C CNN
+F3 "http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7A_28.pdf" 50 -900 60 H I C CNN
+F4 "Digikey" 0 -300 60 H I C CNN "Supplier"
+F5 "887-2634-1-ND" 0 -400 60 H I C CNN "Supplier Part Number"
+F6 "TXC CORPORATION" 0 -500 60 H I C CNN "Manufacturer"
+F7 "ABLS-8.000MHZ-D-T" 0 -600 60 H I C CNN "Manufacturer Part Number"
+F8 "CRYSTAL 8.000MHZ 18PF SMT" 0 -700 60 H I C CNN "Description"
 DRAW
 S -40 120 40 -120 1 1 10 f
 P 2 1 1 0 -100 0 -70 0 N
@@ -940,15 +940,15 @@ X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PMIC_OKI-78SR-5_1.5-W36-C
+# PMIC_OKI-78SR-5_1.5-W36H-C
 #
-DEF PMIC_OKI-78SR-5_1.5-W36-C U 0 0 Y N 1 F N
+DEF PMIC_OKI-78SR-5_1.5-W36H-C U 0 0 Y N 1 F N
 F0 "U" 0 150 60 H V C CNN
-F1 "PMIC_OKI-78SR-5_1.5-W36-C" 0 -400 60 H V C CNN
-F2 "Assembly:OKI-78SR_Vertical" 0 -2125 60 H I C CNN
+F1 "PMIC_OKI-78SR-5_1.5-W36H-C" 0 -400 60 H V C CNN
+F2 "Assembly:OKI-78SR_Horizontal" 0 -2125 60 H I C CNN
 F3 "http://power.murata.com/data/power/oki-78sr.pdf" 0 -2225 60 H I C CNN
 F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
-F5 "811-2196-5-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
+F5 "811-2692-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
 F6 "Murata Power Solutions Inc." 0 -1825 60 H I C CNN "Manufacturer"
 F7 "OKI-78SR-5/1.5-W36H-C" 0 -1925 60 H I C CNN "Manufacturer Part Number"
 F8 "DC/DC CONVERTER 5V 8W" 0 -2025 60 H I C CNN "Description"
@@ -1203,6 +1203,30 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0805JR-07100RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 100 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0805JR-0710KL
+#
+DEF ~Resistors_RC0805JR-0710KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0805JR-0710KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-10KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805JR-0710KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "10k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
