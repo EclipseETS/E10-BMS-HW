@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -40,7 +40,7 @@ F 5 "732-8080-1-ND" H 5750 4200 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 5750 4100 60  0001 C CNN "Manufacturer"
 F 7 "885012207098" H 5750 4000 60  0001 C CNN "Manufacturer Part Number"
 F 8 "CAP CER 0.1UF 50V X7R 0805" H 5750 3900 60  0001 C CNN "Description"
-F 9 "100nF" V 5750 4500 50  0000 C CNN "Capacitance (Farad)"
+F 9 "100nF" V 5750 4550 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 6010 4630 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 5750 4560 50  0001 C CNN "Voltage Rated (Volt)"
 	1    5800 4750
@@ -285,7 +285,7 @@ F 5 "732-8080-1-ND" H 5750 1050 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 5750 950 60  0001 C CNN "Manufacturer"
 F 7 "885012207098" H 5750 850 60  0001 C CNN "Manufacturer Part Number"
 F 8 "CAP CER 0.1UF 50V X7R 0805" H 5750 750 60  0001 C CNN "Description"
-F 9 "100nF" V 5750 1350 50  0000 C CNN "Capacitance (Farad)"
+F 9 "100nF" V 5750 1400 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 6010 1480 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 5750 1410 50  0001 C CNN "Voltage Rated (Volt)"
 	1    5800 1600
@@ -560,13 +560,13 @@ Connection ~ 2650 4500
 Wire Wire Line
 	2650 3850 2650 4000
 Wire Wire Line
-	5650 4450 6200 4450
+	5650 4450 6150 4450
 Wire Wire Line
 	6600 4450 6700 4450
 Wire Wire Line
 	7000 4450 7000 4700
 Wire Wire Line
-	5650 5150 6200 5150
+	5650 5150 5950 5150
 Wire Wire Line
 	6600 5150 6700 5150
 Wire Wire Line
@@ -641,13 +641,13 @@ Connection ~ 2650 1350
 Wire Wire Line
 	2650 700  2650 850 
 Wire Wire Line
-	5650 1300 6200 1300
+	5650 1300 6150 1300
 Wire Wire Line
 	6600 1300 6700 1300
 Wire Wire Line
 	7000 1300 7000 1550
 Wire Wire Line
-	5650 2000 6200 2000
+	5650 2000 5950 2000
 Wire Wire Line
 	6600 2000 6700 2000
 Wire Wire Line
@@ -1526,4 +1526,82 @@ F 3 "" H 8130 4560 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8150 4550 8000 4550
+$Comp
+L Diodes:D1213A-02SOL-7 D904
+U 1 1 5CD40D41
+P 6050 2350
+F 0 "D904" V 6300 2400 60  0000 L CNN
+F 1 "D1213A-02SOL-7" V 6400 2400 60  0000 L CNN
+F 2 "IC:SOT-23-3" H 6050 1330 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf" H 6050 1230 60  0001 C CNN
+F 4 "Digikey" H 6050 1830 60  0001 C CNN "Supplier"
+F 5 "D1213A-02SOL-7DICT-ND" H 6050 1730 60  0001 C CNN "Supplier Part Number"
+F 6 "Diodes Incorporated" H 6050 1630 60  0001 C CNN "Manufacturer"
+F 7 "D1213A-02SOL-7" H 6050 1530 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TVS DIODE 3.3VWM 10VC SOT23" H 6050 1430 60  0001 C CNN "Description"
+	1    6050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 2050 6150 1300
+Connection ~ 6150 1300
+Wire Wire Line
+	6150 1300 6200 1300
+Wire Wire Line
+	5950 2050 5950 2000
+Connection ~ 5950 2000
+Wire Wire Line
+	5950 2000 6200 2000
+$Comp
+L Power_Port:DGND #PWR0111
+U 1 1 5CD5B24C
+P 6050 2800
+F 0 "#PWR0111" H 6050 2630 50  0001 C CNN
+F 1 "DGND" H 6050 2700 50  0000 C CNN
+F 2 "" H 6050 2900 60  0000 C CNN
+F 3 "" H 6030 2710 60  0000 C CNN
+	1    6050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2700 6050 2650
+$Comp
+L Diodes:D1213A-02SOL-7 D905
+U 1 1 5CD7A6E2
+P 6050 5500
+F 0 "D905" V 6200 5650 60  0000 L CNN
+F 1 "D1213A-02SOL-7" V 6300 5600 60  0000 L CNN
+F 2 "IC:SOT-23-3" H 6050 4480 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf" H 6050 4380 60  0001 C CNN
+F 4 "Digikey" H 6050 4980 60  0001 C CNN "Supplier"
+F 5 "D1213A-02SOL-7DICT-ND" H 6050 4880 60  0001 C CNN "Supplier Part Number"
+F 6 "Diodes Incorporated" H 6050 4780 60  0001 C CNN "Manufacturer"
+F 7 "D1213A-02SOL-7" H 6050 4680 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TVS DIODE 3.3VWM 10VC SOT23" H 6050 4580 60  0001 C CNN "Description"
+	1    6050 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Port:DGND #PWR0112
+U 1 1 5CD7A6E8
+P 6050 5950
+F 0 "#PWR0112" H 6050 5780 50  0001 C CNN
+F 1 "DGND" H 6050 5850 50  0000 C CNN
+F 2 "" H 6050 6050 60  0000 C CNN
+F 3 "" H 6030 5860 60  0000 C CNN
+	1    6050 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5850 6050 5800
+Wire Wire Line
+	6150 5200 6150 4450
+Connection ~ 6150 4450
+Wire Wire Line
+	6150 4450 6200 4450
+Wire Wire Line
+	5950 5200 5950 5150
+Connection ~ 5950 5150
+Wire Wire Line
+	5950 5150 6200 5150
 $EndSCHEMATC

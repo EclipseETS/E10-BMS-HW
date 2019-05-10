@@ -28,7 +28,7 @@ ENDDEF
 #
 # Capacitors_860020472006
 #
-DEF ~Capacitors_860020472006 C 0 0 N N 1 F N
+DEF Capacitors_860020472006 C 0 0 N N 1 F N
 F0 "C" 35 145 60 H V C CNN
 F1 "Capacitors_860020472006" -50 -490 60 H I C CNN
 F2 "Capacitors:Radial-Can-5_11_2" -50 -1100 60 H I C CNN
@@ -56,7 +56,7 @@ ENDDEF
 #
 # Capacitors_885012007027
 #
-DEF ~Capacitors_885012007027 C 0 0 N N 1 F N
+DEF Capacitors_885012007027 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012007027" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -82,7 +82,7 @@ ENDDEF
 #
 # Capacitors_885012007053
 #
-DEF ~Capacitors_885012007053 C 0 0 N N 1 F N
+DEF Capacitors_885012007053 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012007053" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -108,7 +108,7 @@ ENDDEF
 #
 # Capacitors_885012107005
 #
-DEF ~Capacitors_885012107005 C 0 0 N N 1 F N
+DEF Capacitors_885012107005 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012107005" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -134,7 +134,7 @@ ENDDEF
 #
 # Capacitors_885012107014
 #
-DEF ~Capacitors_885012107014 C 0 0 N N 1 F N
+DEF Capacitors_885012107014 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012107014" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -160,7 +160,7 @@ ENDDEF
 #
 # Capacitors_885012107015
 #
-DEF ~Capacitors_885012107015 C 0 0 N N 1 F N
+DEF Capacitors_885012107015 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012107015" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -186,7 +186,7 @@ ENDDEF
 #
 # Capacitors_885012107018
 #
-DEF ~Capacitors_885012107018 C 0 0 N N 1 F N
+DEF Capacitors_885012107018 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012107018" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -212,7 +212,7 @@ ENDDEF
 #
 # Capacitors_885012207075
 #
-DEF ~Capacitors_885012207075 C 0 0 N N 1 F N
+DEF Capacitors_885012207075 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012207075" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -245,7 +245,7 @@ ENDDEF
 #
 # Capacitors_885012207080
 #
-DEF ~Capacitors_885012207080 C 0 0 N N 1 F N
+DEF Capacitors_885012207080 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012207080" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -271,7 +271,7 @@ ENDDEF
 #
 # Capacitors_885012207092
 #
-DEF ~Capacitors_885012207092 C 0 0 N N 1 F N
+DEF Capacitors_885012207092 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012207092" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -297,7 +297,7 @@ ENDDEF
 #
 # Capacitors_885012207098
 #
-DEF ~Capacitors_885012207098 C 0 0 N N 1 F N
+DEF Capacitors_885012207098 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
 F1 "Capacitors_885012207098" -50 -350 60 H I C CNN
 F2 "Capacitors:C0805" -50 -950 60 H I C CNN
@@ -429,7 +429,7 @@ ENDDEF
 #
 # Connectors_Header_Male_Pin_2.54mm_1X2_,_Unshrouded
 #
-DEF ~Connectors_Header_Male_Pin_2.54mm_1X2_,_Unshrouded J 0 0 Y N 1 F N
+DEF Connectors_Header_Male_Pin_2.54mm_1X2_,_Unshrouded J 0 0 Y N 1 F N
 F0 "J" -50 200 60 H V C CNN
 F1 "Connectors_Header_Male_Pin_2.54mm_1X2_,_Unshrouded" 0 -320 50 H I C CNN
 F2 "Connectors:Headers_2.54mm_1X2" 0 -910 30 H I C CNN
@@ -448,7 +448,7 @@ ENDDEF
 #
 # Connectors_Header_Male_Pin_2.54mm_1X3_,_Unshrouded
 #
-DEF ~Connectors_Header_Male_Pin_2.54mm_1X3_,_Unshrouded J 0 0 Y N 1 F N
+DEF Connectors_Header_Male_Pin_2.54mm_1X3_,_Unshrouded J 0 0 Y N 1 F N
 F0 "J" -50 300 60 H V C CNN
 F1 "Connectors_Header_Male_Pin_2.54mm_1X3_,_Unshrouded" 0 -320 50 H I C CNN
 F2 "Connectors:Headers_2.54mm_1X3" 0 -910 30 H I C CNN
@@ -468,7 +468,7 @@ ENDDEF
 #
 # Connectors_Header_Male_Pin_2.54mm_1X6_,_Unshrouded
 #
-DEF ~Connectors_Header_Male_Pin_2.54mm_1X6_,_Unshrouded J 0 0 Y N 1 F N
+DEF Connectors_Header_Male_Pin_2.54mm_1X6_,_Unshrouded J 0 0 Y N 1 F N
 F0 "J" -50 600 60 H V C CNN
 F1 "Connectors_Header_Male_Pin_2.54mm_1X6_,_Unshrouded" 0 -320 50 H I C CNN
 F2 "Connectors:Headers_2.54mm_1X6" 0 -910 30 H I C CNN
@@ -491,7 +491,7 @@ ENDDEF
 #
 # Connectors_Test_Point_THM
 #
-DEF ~Connectors_Test_Point_THM TP 0 0 N N 1 F N
+DEF Connectors_Test_Point_THM TP 0 0 N N 1 F N
 F0 "TP" 0 100 60 H V C CNN
 F1 "Connectors_Test_Point_THM" 0 -300 60 H I C CNN
 F2 "Connectors:Keystone_5001" 0 -900 60 H I C CNN
@@ -818,7 +818,7 @@ ENDDEF
 #
 # Filter_742792605
 #
-DEF ~Filter_742792605 FB 0 0 N N 1 F N
+DEF Filter_742792605 FB 0 0 N N 1 F N
 F0 "FB" 0 150 60 H V C CNN
 F1 "Filter_742792605" 0 -350 60 H I C CNN
 F2 "Filter:FB0603" 0 -950 60 H I C CNN
@@ -841,7 +841,7 @@ ENDDEF
 #
 # Filter_744230900
 #
-DEF ~Filter_744230900 FL 0 0 N N 1 F N
+DEF Filter_744230900 FL 0 0 N N 1 F N
 F0 "FL" 0 150 60 H V C CNN
 F1 "Filter_744230900" 0 -350 60 H I C CNN
 F2 "Filter:744230900" 0 -950 60 H I C CNN
@@ -869,7 +869,7 @@ ENDDEF
 #
 # Fuses_39505000440
 #
-DEF ~Fuses_39505000440 F 0 0 N N 1 F N
+DEF Fuses_39505000440 F 0 0 N N 1 F N
 F0 "F" 0 110 60 H V C CNN
 F1 "Fuses_39505000440" 0 -300 50 H I C CNN
 F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
@@ -895,7 +895,7 @@ ENDDEF
 #
 # Fuses_39511000440
 #
-DEF ~Fuses_39511000440 F 0 0 N N 1 F N
+DEF Fuses_39511000440 F 0 0 N N 1 F N
 F0 "F" 0 110 60 H V C CNN
 F1 "Fuses_39511000440" 0 -300 50 H I C CNN
 F2 "Fuses:TE5_395" 0 -900 30 H I C CNN
@@ -926,7 +926,7 @@ ENDDEF
 #
 # Inductors_744052471
 #
-DEF ~Inductors_744052471 L 0 0 N N 1 F N
+DEF Inductors_744052471 L 0 0 N N 1 F N
 F0 "L" 0 100 60 H V C CNN
 F1 "Inductors_744052471" 0 -350 60 H I C CNN
 F2 "Inductors:WE-TPC-SMD" 0 -950 60 H I C CNN
@@ -1279,11 +1279,11 @@ ENDDEF
 #
 # Resistors_0hms_0.5W
 #
-DEF ~Resistors_0hms_0.5W R 0 0 N N 1 F N
+DEF Resistors_0hms_0.5W R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_0hms_0.5W" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "https://www.keyelco.com/userAssets/file/M65p54.pdf" 0 -950 30 H I C CNN
+F2 "Resistors:R2512" 0 -900 30 H I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 0 -950 30 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
 F5 "36-5106CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
 F6 "Keystone Electronics" 0 -600 60 H I C CNN "Manufacturer"
@@ -1292,6 +1292,14 @@ F8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" 0 -800 60 H I C CNN "Description"
 F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "0" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/2W" 0 -140 50 H I C CNN "Puissance (Watts)"
+F12 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F13 "A121124CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F14 "TE Connectivity Passive Product" 0 -600 60 H I C CNN "Manufacturer"
+F15 "352210RJT" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F16 "10 Ohms ±5% 3W Chip Resistor 2512 (6432 Metric)  Thick Film" 0 -800 60 H I C CNN "Description"
+F17 "10" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F18 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F19 "3W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N
 S 150 0 120 0 0 1 0 N
@@ -1303,7 +1311,7 @@ ENDDEF
 #
 # Resistors_RC0805FR-071K1L
 #
-DEF ~Resistors_RC0805FR-071K1L R 0 0 N N 1 F N
+DEF Resistors_RC0805FR-071K1L R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805FR-071K1L" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1327,7 +1335,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-070RL
 #
-DEF ~Resistors_RC0805JR-070RL R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-070RL R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-070RL" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1351,7 +1359,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-07100RL
 #
-DEF ~Resistors_RC0805JR-07100RL R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-07100RL R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-07100RL" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1375,7 +1383,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-0710KL
 #
-DEF ~Resistors_RC0805JR-0710KL R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-0710KL R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-0710KL" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1399,7 +1407,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-0715KL
 #
-DEF ~Resistors_RC0805JR-0715KL R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-0715KL R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-0715KL" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1423,7 +1431,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-071KL
 #
-DEF ~Resistors_RC0805JR-071KL R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-071KL R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-071KL" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1447,7 +1455,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-071ML
 #
-DEF ~Resistors_RC0805JR-071ML R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-071ML R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-071ML" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1471,7 +1479,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-07470RL
 #
-DEF ~Resistors_RC0805JR-07470RL R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-07470RL R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-07470RL" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1495,7 +1503,7 @@ ENDDEF
 #
 # Resistors_RC0805JR-074K7L
 #
-DEF ~Resistors_RC0805JR-074K7L R 0 0 N N 1 F N
+DEF Resistors_RC0805JR-074K7L R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC0805JR-074K7L" 0 -300 50 H I C CNN
 F2 "Resistors:R0805" 0 -900 30 H I C CNN
@@ -1519,7 +1527,7 @@ ENDDEF
 #
 # Resistors_RC1206JR-07120RL
 #
-DEF ~Resistors_RC1206JR-07120RL R 0 0 N N 1 F N
+DEF Resistors_RC1206JR-07120RL R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_RC1206JR-07120RL" 0 -300 50 H I C CNN
 F2 "Resistors:R1206" 0 -900 30 H I C CNN
@@ -1543,7 +1551,7 @@ ENDDEF
 #
 # Resistors_TR50JBC100R
 #
-DEF ~Resistors_TR50JBC100R R 0 0 N N 1 F N
+DEF Resistors_TR50JBC100R R 0 0 N N 1 F N
 F0 "R" 0 80 60 H V C CNN
 F1 "Resistors_TR50JBC100R" 0 -300 50 H I C CNN
 F2 "Resistors:TR50" 0 -900 30 H I C CNN
@@ -1674,7 +1682,7 @@ ENDDEF
 #
 # Switches_PTS645SM43SMTR92
 #
-DEF ~Switches_PTS645SM43SMTR92 SW? 0 0 Y N 1 F N
+DEF Switches_PTS645SM43SMTR92 SW? 0 0 Y N 1 F N
 F0 "SW?" 0 150 60 H V C CNN
 F1 "Switches_PTS645SM43SMTR92" 0 -250 60 H I C CNN
 F2 "Switches:PTS645_6X6X4_SMD" 0 -850 60 H I C CNN
