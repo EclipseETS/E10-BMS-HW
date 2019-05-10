@@ -210,8 +210,8 @@ Wire Notes Line
 	4900 4900 4300 4900
 Text Notes 4200 4875 0    60   ~ 0
 BUS TERMINATION
-Text Notes 4100 5400 0    60   ~ 0
-Solder only if needed
+Text Notes 3850 5450 0    60   ~ 0
+To solder in E10.1 race package
 Text Notes 7700 2700 0    60   ~ 0
 TVS and Capacitor need to be routed \nas close as possible to the connector
 NoConn ~ 3800 3800

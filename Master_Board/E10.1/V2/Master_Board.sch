@@ -6,10 +6,10 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 10
 Title "BMS_MasterBoard-Root"
-Date "2017-06-25"
+Date "2019-05-10"
 Rev "V2"
 Comp "Eclipse Solar Car"
-Comment1 "Julien G. Bourassa"
+Comment1 "Pierre-Olivier Meilleur"
 Comment2 ""
 Comment3 ""
 Comment4 ""

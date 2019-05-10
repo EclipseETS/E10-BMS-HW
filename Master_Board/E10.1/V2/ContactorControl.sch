@@ -766,7 +766,7 @@ Wire Wire Line
 	10100 2250 10350 2250
 Wire Wire Line
 	8800 1750 9450 1750
-Text Notes 8500 600  0    60   ~ 0
+Text Notes 8850 1000 0    60   ~ 0
 Mush Connector
 Text HLabel 9450 1750 2    60   Output ~ 0
 12V_Mush
@@ -774,7 +774,7 @@ $Comp
 L Fuses:39511000440 F601
 U 1 1 5BC655F0
 P 8550 1750
-F 0 "F601" H 8550 1981 60  0000 C CNN
+F 0 "F601" H 8550 1650 60  0000 C CNN
 F 1 "39511000440" H 8550 1450 50  0001 C CNN
 F 2 "Fuses:TE5_395" H 8550 850 30  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 8550 800 30  0001 C CNN
@@ -783,7 +783,7 @@ F 5 "WK0009-ND" H 8550 450 60  0001 C CNN "Supplier Part Number"
 F 6 "Littelfuse Inc." H 8550 300 60  0001 C CNN "Manufacturer"
 F 7 "56200001009" H 8550 150 60  0001 C CNN "Manufacturer Part Number"
 F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 8550 0   60  0001 C CNN "Description"
-F 9 "1A" H 8550 1883 50  0000 C CNN "Current Rating (A)"
+F 9 "1A" H 8550 1550 50  0000 C CNN "Current Rating (A)"
 F 10 "-" H 8450 1550 50  0001 C CNN "Voltage Rating - DC"
 F 11 "125V" H 8650 1550 60  0001 C CNN "Voltage Rating - AC"
 F 12 "Fuse Holder" H 8550 650 60  0001 C CNN "Fuse Holder"
@@ -1266,4 +1266,6 @@ Wire Wire Line
 	4100 6850 4100 6700
 Wire Wire Line
 	4100 6700 4000 6700
+Text Notes 8300 1400 0    39   ~ 0
+Install if mush is not \nconnect to master board
 $EndSCHEMATC
