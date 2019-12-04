@@ -1,0 +1,157 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0hms_0.5W-Resistors
+#
+DEF 0hms_0.5W-Resistors R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "0hms_0.5W-Resistors" 0 -300 50 H I C CNN
+F2 "Resistors:R0805" 0 -900 30 H I C CNN
+F3 "https://www.keyelco.com/userAssets/file/M65p54.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "36-5106CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Keystone Electronics" 0 -600 60 H I C CNN "Manufacturer"
+F7 "5106" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/2W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 150080RS75000-RESCUE-Master_Board
+#
+DEF 150080RS75000-RESCUE-Master_Board D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080RS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_RED" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4984-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080RS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED RED CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "RED" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 150080VS75000-RESCUE-Master_Board
+#
+DEF 150080VS75000-RESCUE-Master_Board D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080VS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_GREEN" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4986-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080VS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED GREEN CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "GREEN" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 150080YS75000-RESCUE-Master_Board
+#
+DEF 150080YS75000-RESCUE-Master_Board D 0 0 N N 1 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "150080YS75000-RESCUE-Master_Board" 0 -200 60 H V C CNN
+F2 "Diodes:LED_0805_YELLOW" 10 -1080 60 H I C CNN
+F3 "http://katalog.we-online.de/led/datasheet/150080YS75000.pdf" 10 -1180 60 H I C CNN
+F4 "Digikey" 10 -580 60 H I C CNN "Supplier"
+F5 "732-4987-1-ND" 10 -680 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." 10 -780 60 H I C CNN "Manufacturer"
+F7 "150080YS75000" 10 -880 60 H I C CNN "Manufacturer Part Number"
+F8 "LED YELLOW CLEAR 0805 SMD" 10 -980 60 H I C CNN "Description"
+F9 "YELLOW" 0 -300 60 H I C CNN "Color"
+F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
+DRAW
+P 2 0 1 15 0 -50 0 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
+P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 2 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CPC1117NTR-Isolators
+#
+DEF CPC1117NTR-Isolators U 0 20 Y Y 1 F N
+F0 "U" 0 250 60 H V C CNN
+F1 "CPC1117NTR-Isolators" 0 -300 60 H V C CNN
+F2 "IC:4-SOP" 0 -900 60 H I C CNN
+F3 "http://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "CLA268CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "IXYS Integrated Circuits Division" 0 -600 60 H I C CNN "Manufacturer"
+F7 "CPC1117NTR" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RELAY OPTOMOS 150MA 4-SOP NC" 0 -800 60 H I C CNN "Description"
+DRAW
+S -200 200 200 -150 0 1 0 f
+X A+ 1 -400 100 200 R 50 50 1 1 P
+X C- 2 -400 -50 200 R 50 50 1 1 P
+X DC- 3 400 -50 200 L 50 50 1 1 P
+X DC+ 4 400 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LTV-816S-RESCUE-Master_Board
+#
+DEF LTV-816S-RESCUE-Master_Board U 0 0 N N 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "LTV-816S-RESCUE-Master_Board" 0 -200 60 H V C CNN
+F2 "IC:4-SMD" 0 -900 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf" 0 -1000 60 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "160-1361-5-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Lite-On Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "LTV-816S" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "OPTOISOLATR 5KV TRANSISTOR 4-SMD" 0 -800 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -100 -100 -100 0 N
+P 2 0 1 0 -100 200 -100 100 N
+P 2 0 1 15 -50 0 -150 0 N
+P 2 0 1 0 56 35 13 23 N
+P 2 0 1 0 57 84 14 72 N
+P 2 0 1 0 100 153 100 -27 N
+P 2 0 1 0 200 -100 200 -40 N
+P 2 0 1 0 200 -37 100 23 N
+P 2 0 1 0 200 163 100 103 N
+P 3 0 1 0 13 24 13 44 -27 34 N
+P 3 0 1 0 14 73 14 93 -26 83 N
+P 3 0 1 0 200 200 200 185 200 165 N
+P 4 0 1 10 -150 100 -50 100 -100 0 -150 100 f
+P 4 0 1 0 55 45 62 24 82 43 54 47 F
+P 4 0 1 0 56 94 63 73 83 92 55 96 F
+P 4 0 1 0 200 -37 179 1 157 -35 200 -37 F
+X Anode 1 -200 200 100 R 50 50 1 1 I
+X Cathode 2 -200 -100 100 R 50 50 1 1 I
+X E 3 300 -100 100 L 50 50 1 1 I
+X C 4 300 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
