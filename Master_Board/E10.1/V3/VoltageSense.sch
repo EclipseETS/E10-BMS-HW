@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1268,7 +1268,7 @@ Connection ~ 5600 3700
 Wire Wire Line
 	5600 3700 5450 3700
 $Comp
-L Isolators:CPC1117NTR U904
+L Master_Board-rescue:CPC1117NTR-Isolators U904
 U 1 1 5BC70C9E
 P 4900 6200
 F 0 "U904" H 4900 6587 60  0000 C CNN

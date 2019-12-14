@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -544,19 +544,19 @@ Shield2
 $Comp
 L Power_Port:CAN_PWR #PWR?
 U 1 1 5BEAF02F
-P 6750 1900
+P 7850 1900
 AR Path="/58F590C0/5BEAF02F" Ref="#PWR?"  Part="1" 
 AR Path="/5BEAF02F" Ref="#PWR?"  Part="1" 
 AR Path="/593E754B/5BEAF02F" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 6750 1750 50  0001 C CNN
-F 1 "CAN_PWR" H 6740 2040 50  0000 C CNN
-F 2 "" H 6750 1900 60  0000 C CNN
-F 3 "" H 6750 1900 60  0000 C CNN
-	1    6750 1900
+F 0 "#PWR0104" H 7850 1750 50  0001 C CNN
+F 1 "CAN_PWR" H 7840 2040 50  0000 C CNN
+F 2 "" H 7850 1900 60  0000 C CNN
+F 3 "" H 7850 1900 60  0000 C CNN
+	1    7850 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 1900 6750 2100
+	7850 1900 7850 2100
 $Comp
 L Power_Port:PWR_FLAG #FLG?
 U 1 1 5BEAF036
@@ -573,9 +573,8 @@ F 3 "" H 6600 2050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6600 2050 6600 2100
-Connection ~ 6600 2100
 Wire Wire Line
-	6600 2100 6750 2100
+	7700 2100 7850 2100
 Wire Wire Line
 	5850 4200 5850 2300
 Connection ~ 5850 4200
@@ -586,4 +585,30 @@ Wire Wire Line
 	5750 4000 6450 4000
 Wire Wire Line
 	5750 2200 5750 4000
+$Comp
+L Fuses:39511000440 F?
+U 1 1 5DEEE35D
+P 7500 2100
+AR Path="/58F590C0/5DEEE35D" Ref="F?"  Part="1" 
+AR Path="/5981A81E/5DEEE35D" Ref="F?"  Part="1" 
+AR Path="/593E754B/5DEEE35D" Ref="F501"  Part="1" 
+F 0 "F501" H 7500 2210 50  0000 C CNN
+F 1 "39511000440" H 7500 1800 50  0001 C CNN
+F 2 "Fuses:TE5_395" H 7500 1200 30  0001 C CNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 7500 1150 30  0001 C CNN
+F 4 "Digikey" H 7500 900 60  0001 C CNN "Supplier"
+F 5 "WK0009-ND" H 7500 800 60  0001 C CNN "Supplier Part Number"
+F 6 "Littelfuse Inc." H 7500 650 60  0001 C CNN "Manufacturer"
+F 7 "56200001009" H 7500 500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "FUSE HOLDER RADIAL 250V 6.3A PCB" H 7500 350 60  0001 C CNN "Description"
+F 9 "2A" H 7500 2000 50  0000 C CNN "Current Rating (A)"
+F 10 "-" H 7400 1900 50  0001 C CNN "Voltage Rating - DC"
+F 11 "125V" H 7600 1900 60  0001 C CNN "Voltage Rating - AC"
+F 12 "Fuse Holder" H 7500 1000 60  0001 C CNN "Fuse Holder"
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2100 6600 2100
+Connection ~ 6600 2100
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -523,7 +523,7 @@ F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 7750 850 60  0001 C CNN "Description"
 	1    0    0    1   
 $EndComp
 $Comp
-L Isolators:CPC1117NTR U606
+L Master_Board-rescue:CPC1117NTR-Isolators U606
 U 1 1 5A88CE19
 P 9200 2350
 F 0 "U606" H 9200 2600 60  0000 C CNN
@@ -794,7 +794,7 @@ Wire Wire Line
 	8750 1750 8800 1750
 Connection ~ 8800 1750
 $Comp
-L Isolators:TLP3543A(TP1,F U601
+L Master_Board-rescue:TLP3543A(TP1,F-Isolators U601
 U 1 1 5BC34945
 P 3450 1100
 F 0 "U601" H 3475 1487 60  0000 C CNN
@@ -814,7 +814,7 @@ Wire Wire Line
 Connection ~ 4750 1250
 NoConn ~ 2950 1300
 $Comp
-L Isolators:TLP3543A(TP1,F U602
+L Master_Board-rescue:TLP3543A(TP1,F-Isolators U602
 U 1 1 5BC8294A
 P 3450 2400
 F 0 "U602" H 3475 2787 60  0000 C CNN
@@ -830,7 +830,7 @@ F 8 "SSR RELAY SPST-NO 5A 0-30V" H 3450 1500 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolators:TLP3543A(TP1,F U603
+L Master_Board-rescue:TLP3543A(TP1,F-Isolators U603
 U 1 1 5BC863FC
 P 3450 3600
 F 0 "U603" H 3475 3987 60  0000 C CNN
@@ -846,7 +846,7 @@ F 8 "SSR RELAY SPST-NO 5A 0-30V" H 3450 2700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolators:TLP3543A(TP1,F U604
+L Master_Board-rescue:TLP3543A(TP1,F-Isolators U604
 U 1 1 5BC89EB4
 P 3450 5150
 F 0 "U604" H 3475 5537 60  0000 C CNN
@@ -1048,7 +1048,7 @@ $EndComp
 Wire Wire Line
 	5450 6300 5650 6300
 $Comp
-L Isolators:TLP3543A(TP1,F U605
+L Master_Board-rescue:TLP3543A(TP1,F-Isolators U605
 U 1 1 5BD4B22C
 P 3450 6650
 F 0 "U605" H 3475 7037 60  0000 C CNN

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Master_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -523,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 5000 9000 5000
 $Comp
-L Mechanicals:Mounting-Hole-M3 H104
+L Master_Board-rescue:Mounting-Hole-M3-Mechanicals H104
 U 1 1 5BD5CAFE
 P 4950 7250
 F 0 "H104" H 4950 7450 60  0000 L CNN
@@ -534,7 +534,7 @@ F 3 "" H 4950 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanicals:Mounting-Hole-M3 H103
+L Master_Board-rescue:Mounting-Hole-M3-Mechanicals H103
 U 1 1 5BD5CD8E
 P 4600 7250
 F 0 "H103" H 4600 7450 60  0000 L CNN
@@ -545,7 +545,7 @@ F 3 "" H 4600 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanicals:Mounting-Hole-M3 H102
+L Master_Board-rescue:Mounting-Hole-M3-Mechanicals H102
 U 1 1 5BD5CDD1
 P 4250 7250
 F 0 "H102" H 4250 7450 60  0000 L CNN
@@ -556,7 +556,7 @@ F 3 "" H 4250 7050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanicals:Mounting-Hole-M3 H101
+L Master_Board-rescue:Mounting-Hole-M3-Mechanicals H101
 U 1 1 5BD5CE2D
 P 3900 7250
 F 0 "H101" H 3900 7450 60  0000 L CNN
